@@ -19,3 +19,5 @@ python3 operating-revisions/revision-4/tools/m0-lifecycle/test_permanent_profile
 ```
 
 Python 3 with `cryptography` is required. No private key is needed. `last_full_verification_at` identifies the most recent all-role check; `observed_at` identifies the more frequent node/status observation.
+
+[Revision 4 verification](revision-4/recovery-verification.json) records thirteen focused tests, an exact height-17 restart preserving 73 state files and ten prior WAL prefixes, and the normally scheduled heartbeat to height 18. All 24 roles passed verification at 10:59:43 UTC with zero automatic restarts. The encrypted height-17 recovery verified 540 files on the owner's Mac. These are agent technical checks across one owner's hosts, not independent security review or an uptime guarantee.

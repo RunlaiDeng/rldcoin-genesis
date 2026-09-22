@@ -1,0 +1,31 @@
+{
+  "result": "PASS_REVISION4_RESTART_AND_SCHEDULED_HEARTBEAT",
+  "verification_kind": "AGENT_TECHNICAL_CHECK",
+  "independent_review": false,
+  "manifest_sha256": "874066fe96d12bfa42cc316f5387cc8f4df649f794b43e2ee724b8029b0abf33",
+  "restart_height": 17,
+  "state_files_unchanged": 73,
+  "preserved_wal_prefixes": 10,
+  "scheduled_status": {
+    "control_group_count": 1,
+    "heartbeat_interval_seconds": 600,
+    "height": 18,
+    "last_full_verification_at": "2026-09-22T10:59:43.212833+00:00",
+    "manifest_sha256": "874066fe96d12bfa42cc316f5387cc8f4df649f794b43e2ee724b8029b0abf33",
+    "observed_at": "2026-09-22T10:59:43.418124+00:00",
+    "operations_revision": 4,
+    "profile": "P1_REMOTE_ZERO_VALUE_V1",
+    "reward_issuance_enabled": false,
+    "software_key_expires_at": "2026-10-07T16:00:00Z",
+    "state": "RUNNING",
+    "state_root": "f8a825e8667e6c686ea30bf6913a89a440f726abeb17066d0fb5421cbb2b25d5",
+    "value_cap": "VALUE_CAP_0",
+    "zone_id": "zone-77bc978af4837a1e7971"
+  },
+  "automatic_restarts": 0,
+  "existing_host_services_unchanged": true,
+  "operator_program_sha256": "ba4f90518e9d0d0433f03bfa9ae65029d3088686ad1322f004ff988ed60bec34",
+  "focused_tests_passed": 13,
+  "encrypted_recovery_files_verified": 540,
+  "completed_at": "2026-09-22T10:59:46.914381+00:00"
+}
