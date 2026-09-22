@@ -1,0 +1,20 @@
+{
+  "result": "PASS_TWO_HOST_SIGNERLESS_OBSERVER_SYNC_PEER_REPLACEMENT_AND_RESTART",
+  "manifest_sha256": "874066fe96d12bfa42cc316f5387cc8f4df649f794b43e2ee724b8029b0abf33",
+  "source_commit": "445e27be00992f1898d6c64f66d091c4bfeb2cfa",
+  "from_height": 0,
+  "to_height": 2,
+  "state_root": "41a3274142a0c6082c9c7370bbece6106c3eddedb1c8cc1c1746bdee16463e55",
+  "original_founder_or_validator_keys_used": false,
+  "own_witnesses": 3,
+  "own_publishers": 3,
+  "transport": "pinned-host SSH publickey authenticated loopback forwards",
+  "same_controller": true,
+  "independent_operator": false,
+  "permanent_ceremony_executed": false,
+  "value_cap": 0,
+  "wal_sha256": {
+    "observer.admission.wal": "59be23cfc76bda40dd6f34ddf7d4ebbfea9e58bb3078b2f76a4aeeb96df63e45",
+    "observer.wal": "b73efe9605ae18d765057ce15bae50526e5e2d2c374476d6918c6c859b3c24ee"
+  }
+}

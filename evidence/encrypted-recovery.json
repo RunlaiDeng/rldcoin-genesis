@@ -1,0 +1,23 @@
+{
+  "result": "PASS_CURRENT_GENESIS_ENCRYPTED_NETWORK_DENIED_RECOVERY",
+  "manifest_sha256": "874066fe96d12bfa42cc316f5387cc8f4df649f794b43e2ee724b8029b0abf33",
+  "archive_sha256": "41a642791e2432052ff97d2e3cfead7008980729ac5e300f98958d1cc2cd4103",
+  "inventory_sha256": "9c4a0ec043399895adfc60ee1703e9040acb343dfa805b3053271033d62cdb74",
+  "restored_files": 535,
+  "source_files": 417,
+  "exact_inventory_verified": true,
+  "genesis_signature_verified": true,
+  "network_denial_errno": [
+    1,
+    1,
+    1
+  ],
+  "source_manifest_sha256": "49fdd963a483ce725dd480f3be616b620dadbc7cb63111e89cad6be041e5657b",
+  "private_identity_sent_to_server": false,
+  "independent_human_witness": false,
+  "physical_offline_custody": false,
+  "completed_at": "2026-09-22T06:51:44.694280+00:00",
+  "temporary_plaintext_removed": true,
+  "script_sha256": "59e18a1dd040d48a93e9309c01e6c1fd8ee7d40097231a57e1a701965105da77",
+  "unsandboxed_positive_control": true
+}

@@ -1,0 +1,9 @@
+{
+  "result": "PASS_SAME_IDENTITY_ALL_ROLE_RESTORE",
+  "height": 2,
+  "state_root": "41a3274142a0c6082c9c7370bbece6106c3eddedb1c8cc1c1746bdee16463e55",
+  "manifest_sha256": "874066fe96d12bfa42cc316f5387cc8f4df649f794b43e2ee724b8029b0abf33",
+  "all_roles_verified": 24,
+  "concurrent_original_signers": false,
+  "same_controller": true
+}

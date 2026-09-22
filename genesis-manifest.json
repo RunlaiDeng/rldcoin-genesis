@@ -1,0 +1,90 @@
+{
+  "declaration": {
+    "format_version": "RLD-M0-GENESIS-MANIFEST-V3",
+    "network_phase": "M0_NETWORK_BIRTH",
+    "descriptor": {
+      "zone_id": "zone-77bc978af4837a1e7971",
+      "display_name": "Rldcoin-Earth",
+      "genesis_root": "09057f6812dab53a5b99acedc5566e95206a6a532aee3f8ccf80d8ecdabc5fd9",
+      "identity_version": 2,
+      "identity_hash_suite": "SHA-256",
+      "network_domain": "rldcoin:mainnet:v1",
+      "anchor_supply": "100000000000000000000000000000000000",
+      "genesis_validator_keys": [
+        "6da4544d46a4d46507885f32b6c66c914736bac952d27230b5024aaca55f459c",
+        "70f3c31a9e157002c1dce81aeb22cfd454d018edd8c53142c49000a7d704da8a",
+        "1e33bbc41e72b80498b41b6384ad6f7080db0f901b534b85d6bc93c5ef6ac41e",
+        "e048863058d4c3baef1f864973a1293396ab92b4cb00f60503f1047a437b7926"
+      ],
+      "genesis_notary_keys": [
+        "bca30a8b5cad54150cbbcfb960e0d6703028f5481528f7088cf7bf5434a2983e",
+        "2402ec9672b5e42f66a1363d3a28f7b1cff7a55f23e79162eac14e12530ec818",
+        "469277138f3b2979c477430f83e8b4935dc2f5a855e3baa00c0fe9ba42c6c895",
+        "c123b42c64a063df6a1fc87d2bfe77a4879addddc1c33ddefcd39e12cb192b5b"
+      ],
+      "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+      "validator_keys": [
+        "6da4544d46a4d46507885f32b6c66c914736bac952d27230b5024aaca55f459c",
+        "70f3c31a9e157002c1dce81aeb22cfd454d018edd8c53142c49000a7d704da8a",
+        "1e33bbc41e72b80498b41b6384ad6f7080db0f901b534b85d6bc93c5ef6ac41e",
+        "e048863058d4c3baef1f864973a1293396ab92b4cb00f60503f1047a437b7926"
+      ],
+      "notary_keys": [
+        "bca30a8b5cad54150cbbcfb960e0d6703028f5481528f7088cf7bf5434a2983e",
+        "2402ec9672b5e42f66a1363d3a28f7b1cff7a55f23e79162eac14e12530ec818",
+        "469277138f3b2979c477430f83e8b4935dc2f5a855e3baa00c0fe9ba42c6c895",
+        "c123b42c64a063df6a1fc87d2bfe77a4879addddc1c33ddefcd39e12cb192b5b"
+      ],
+      "protocol_era": 1,
+      "crypto_era": 1,
+      "testnet": false
+    },
+    "genesis_state_root": "37325242b485e9f4ee67ea6594bc0259d72883498bcd2bf55d76f1a9453533bf",
+    "founder_public_key": "4c22114039163ce60c540212cc8266a38c1a7a4a92ca52f8b68a0e1f7933da66",
+    "control_group_id": "runlai-deng-founder",
+    "admission_genesis": {
+      "context": {
+        "network_domain": "rldcoin:mainnet:v1",
+        "zone_id": "zone-77bc978af4837a1e7971",
+        "currency_genesis": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "protocol_era": 1,
+        "crypto_era": 1
+      },
+      "config": {
+        "minimum_target": "00000000000000000000000000000000ffffffffffffffffffffffffffffffff",
+        "maximum_target": "000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba3",
+        "genesis_target": "000000044b82fa09b5a52cb98b405447c4a98187eebb22f008d5d64f9c394ae8",
+        "confirmation_work_floor": "0000000000000000000000000000000000000000000000000000000773594000",
+        "contribution_epoch_mapping": {
+          "ledger_height_origin": 0,
+          "contribution_epoch_origin": 0,
+          "ledger_blocks_per_contribution_epoch": 64
+        }
+      },
+      "benchmark_report_sha256": "9fb7b0dc1700ce285c5e4e89338ce4f0c4fbdf8c9ddf43e88c81261ee574b93d",
+      "genesis_header": "a81377b23335968b330a0e50f6a804685c34f035b0c538fe71db02c9286258cf"
+    },
+    "upgrade_constitution": {
+      "format_version": "RLD-M0-UPGRADE-CONSTITUTION-V1",
+      "fixed_supply_runlai": "100000000000000000000000000000000000",
+      "runlai_per_rld": "1000000000000000000000000",
+      "bootstrap_upgrade_value_cap": "VALUE_CAP_0",
+      "founder_special_slot_ceiling": [
+        1000,
+        1000,
+        750,
+        500,
+        250,
+        0
+      ],
+      "minimum_activation_delay_epochs": 2,
+      "current_committee_finality_required": true,
+      "preserve_existing_obligations": true,
+      "replace_genesis_allowed": false,
+      "restore_founder_weight_allowed": false,
+      "value_activation_requires_m5_and_safety_case": true
+    }
+  },
+  "manifest_sha256": "874066fe96d12bfa42cc316f5387cc8f4df649f794b43e2ee724b8029b0abf33",
+  "founder_signature": "0521c8a70fe8026099967f9eccc85bf99193fefff7dfa58b6a03072d614b706d41214d318c741cd8773c985b7d95303301227b006b1f7db42b0e1b7a6f254401"
+}

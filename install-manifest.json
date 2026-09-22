@@ -1,0 +1,68 @@
+{
+  "format": "RLD-M0-INSTALLED-ARTIFACTS-V2",
+  "version": 2,
+  "release_profile": "release",
+  "cargo_locked": true,
+  "value_cap": "VALUE_CAP_0",
+  "permanent_genesis_ceremony_executed": false,
+  "source": {
+    "git_commit": "445e27be00992f1898d6c64f66d091c4bfeb2cfa",
+    "git_tree": "CLEAN",
+    "cargo_lock_sha256": "14979a506ca15e2c44c49a7331f50eb02e0510d8e6e8604945f99ff9c754f1ef",
+    "rust_toolchain_sha256": "495c69d1db93f25f53e3d0d2d40d812313366cc368de317871c2ace6c6ffafa4",
+    "snapshot_format": "RLD-SOURCE-SNAPSHOT-V1",
+    "snapshot_path": "source",
+    "snapshot_manifest_sha256": "49fdd963a483ce725dd480f3be616b620dadbc7cb63111e89cad6be041e5657b",
+    "snapshot_tree_sha256": "a6e12bffa48e705a3336661429176cadaebdf84e54672e82d213b17d4f6463e2"
+  },
+  "build": {
+    "rustc_verbose": "rustc 1.98.0 (88d9e12ae 2026-08-18)\nbinary: rustc\ncommit-hash: 88d9e12ae178fab0fb5cc050a94da85685d449ea\ncommit-date: 2026-08-18\nhost: x86_64-unknown-linux-gnu\nrelease: 1.98.0\nLLVM version: 22.1.8",
+    "cargo_version": "cargo 1.98.0 (797e8a9bc 2026-08-05)",
+    "target_triple": "x86_64-unknown-linux-gnu",
+    "source": "RETAINED_SOURCE_SNAPSHOT",
+    "hermetic": false,
+    "independently_reproduced": false
+  },
+  "artifacts": [
+    {
+      "name": "rldd",
+      "package": "rld-node",
+      "version": "0.2.0",
+      "relative_path": "bin/rldd",
+      "sha256": "68fd4cb8c6c4397afd7462682ff0e292ad04faeccdaa0f668daceb6ed5277da8",
+      "size_bytes": 37869584
+    },
+    {
+      "name": "rld",
+      "package": "rld-cli",
+      "version": "0.2.0",
+      "relative_path": "bin/rld",
+      "sha256": "26e05db62d28ce34a35e2c2bff6e109e785d451774ef075de904ef2e02285bcf",
+      "size_bytes": 7535240
+    },
+    {
+      "name": "rld-genesis",
+      "package": "rld-cli",
+      "version": "0.2.0",
+      "relative_path": "bin/rld-genesis",
+      "sha256": "7885cfbcf425311b3764d1fdf78711496f7443d159e5a47a6d8da06bb36bfaec",
+      "size_bytes": 10905392
+    },
+    {
+      "name": "rld-signer",
+      "package": "rld-signer",
+      "version": "0.2.0",
+      "relative_path": "bin/rld-signer",
+      "sha256": "0d2d27aaaa0995a947dc07db33759ba3b78920cc230e7b9c9b88f5dea137792f",
+      "size_bytes": 23346760
+    },
+    {
+      "name": "rld-witness",
+      "package": "rld-witness",
+      "version": "0.2.0",
+      "relative_path": "bin/rld-witness",
+      "sha256": "570dbae3a9d0119a3e2d3dc3f87c5748a05a210d731828fb931c38e353765d9c",
+      "size_bytes": 29445792
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "format": "RLD-P1-AGENT-PARAMETER-REVIEW-V1",
+  "reviewed_at": "2026-09-22T06:08:29.621448+00:00",
+  "result": "CHANGES_REQUIRED_FOR_PERMANENT_PARAMETERS",
+  "review_scope": "TECHNICAL_SELF_REVIEW_NOT_INDEPENDENT_EXTERNAL_REVIEW",
+  "reviewer": "Codex, same implementation session/controller",
+  "benchmark_tool_source_commit": "748407a842264fe368a4b26616ee1b60e2ddf25a",
+  "parameter_source_commit": "7d8f1222eac3936f8c8db0b8c5e0e2485f92672b",
+  "qualified_runtime_source_unchanged": "445e27be00992f1898d6c64f66d091c4bfeb2cfa",
+  "implementation_source_commitment": "3db24b97784715d9e970dbb7371036527a918cd416363e79bed2c1e4f9bb24bb",
+  "parameter_file_sha256": "4360d3c11f7e61d8da07390d2601672096879821cc97e087c5d7b7a8d35a9d9e",
+  "arithmetic": {
+    "result": "PASS",
+    "genesis_header_work": "20735187",
+    "easiest_header_work": "5183797",
+    "hardest_header_work": "340282366920938463463374607431768211455",
+    "confirmation_work_floor": "663525984",
+    "genesis_confirmation_headers": 32,
+    "easiest_confirmation_headers": 128,
+    "confirmation_header_limit": 512,
+    "u128_header_count_u256_work_bound_fits": true
+  },
+  "measured_rates": {
+    "mac": {
+      "baseline_reencode": 433108.4014301877,
+      "cached_preimage": 849972.3387127019,
+      "cached_prefix": 5704335.72297464,
+      "prefix_speedup_over_same_run_baseline": 13.17068822525281,
+      "old_draft_expected_header_seconds_at_cached_rate": 3.6349871408317496,
+      "old_draft_32_header_work_seconds_estimate": 116.31958850661599
+    },
+    "linux": {
+      "baseline_reencode": 946827.113413936,
+      "cached_preimage": 3382059.624595102,
+      "cached_prefix": 12116113.366983334,
+      "prefix_speedup_over_same_run_baseline": 12.796542468346471,
+      "old_draft_expected_header_seconds_at_cached_rate": 1.7113728117222662,
+      "old_draft_32_header_work_seconds_estimate": 54.76392997511252
+    }
+  },
+  "raw_report_sha256": {
+    "mac": "a86dd1502ddc03383728aa34ce707d30f781a87a714f3186711a15e6e3975c29",
+    "linux": "c7f3ffe962c16311bd260833c0d1eeb993970f9f0a948b2c31149c898a834e8b"
+  },
+  "findings": [
+    {
+      "id": "P1-REVIEW-01",
+      "disposition": "CHANGES_REQUIRED",
+      "finding": "Repeated canonical encoding and hashing is not the cost of a participant that caches the fixed SHA-256 prefix. Measured valid optimized work is faster on both owned hosts. The old 60-second reference calculation cannot serve as an adversarial cost budget.",
+      "required_resolution": "Declare and measure the optimized reference workload, then justify immutable targets and confirmation floor against an explicit attacker/concentration/resource budget. Do not only multiply the old numbers by this observed speedup."
+    },
+    {
+      "id": "P1-REVIEW-02",
+      "disposition": "EVIDENCE_REQUIRED",
+      "finding": "Target ordering, U256 work arithmetic, 32/128 confirmation counts and the 512-header count bound pass. Those arithmetic checks do not prove network availability, GPU/ASIC cost, reorganization probability, flood capacity or independent ownership.",
+      "required_resolution": "Retain deployment-specific analysis and independent review of those assumptions. The delayed retarget follows four completed contribution-Epoch counts, not wall-clock 60-second block timing."
+    }
+  ],
+  "production_qualified": false,
+  "independent_review_complete": false,
+  "permanent_genesis_authorized": false,
+  "parameters_modified": false,
+  "p1_complete": false,
+  "value_cap": "VALUE_CAP_0",
+  "code_hashes": {
+    "tools/admission-benchmark/src/bin/compare-cached-work.rs": "492543dfea3e44fdd45dc79bba67aa48fec383d374a9e14a690013d31eac16f6",
+    "tools/admission-benchmark/Cargo.toml": "81a463433b227063ffd31bb8dbcdd9ce18855370f18c32f2784f774df83fea6e",
+    "tools/admission-benchmark/Cargo.lock": "4d9cf5c6c08f75ed91a66b19225ae6e4b65df053e0feec7ad18b4fecca6fa74e",
+    "crates/rld-core/src/admission.rs": "1d7284e7b361ac629f67ab44d8a08738e2110758b3720fb85bf0804649806b80",
+    "data/p1-evidence/2026-09-22/delegated-review/review_parameters.py": "f575a8f4c17b0487dfebf976384f818ff59f577d0979d429125c9bfb2b6a8d06"
+  },
+  "timing_limits": [
+    "Expected seconds are arithmetic projections from hash rates, not timed mining or transfer latency.",
+    "Single thread, shared hosts, rotating mode order; no maximal optimization or specialized hardware claim.",
+    "The cumulative-work floor and minimum successor count do not establish an economic attack cost by themselves."
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "benchmark_tool_commit": "748407a842264fe368a4b26616ee1b60e2ddf25a",
+  "confirmation_heads_at_easiest": 128,
+  "confirmation_heads_at_genesis": 32,
+  "confirmation_work_floor": "32000000000",
+  "currency_issuance": "Existing verified service remuneration from fixed protocol reserves; disabled in initial heartbeat profile.",
+  "easiest_header_work": "250000000",
+  "format": "RLD-REMOTE-M0-ADMISSION-REVIEW-V1",
+  "genesis_header_work": "1000000000",
+  "genesis_premine_runlai": "0",
+  "implementation_source_commitment": "3db24b97784715d9e970dbb7371036527a918cd416363e79bed2c1e4f9bb24bb",
+  "independent_review_complete": false,
+  "maximum_confirmation_heads": 512,
+  "measured_rates": {
+    "linux": {
+      "baseline_reencode": 946827.113413936,
+      "cached_prefix": 12116113.366983334,
+      "cached_preimage": 3382059.624595102,
+      "old_draft_32_header_work_seconds_estimate": 54.76392997511252,
+      "old_draft_expected_header_seconds_at_cached_rate": 1.7113728117222662,
+      "prefix_speedup_over_same_run_baseline": 12.796542468346471
+    },
+    "mac": {
+      "baseline_reencode": 433108.4014301877,
+      "cached_prefix": 5704335.72297464,
+      "cached_preimage": 849972.3387127019,
+      "old_draft_32_header_work_seconds_estimate": 116.31958850661599,
+      "old_draft_expected_header_seconds_at_cached_rate": 3.6349871408317496,
+      "prefix_speedup_over_same_run_baseline": 13.17068822525281
+    }
+  },
+  "owner_reward_goal_is_reserved_allocation": false,
+  "owner_reward_goal_runlai": "5000000000000000000000000000000000",
+  "parameters": {
+    "confirmation_work_floor": "0000000000000000000000000000000000000000000000000000000773594000",
+    "contribution_epoch_origin": "0",
+    "genesis_target": "000000044b82fa09b5a52cb98b405447c4a98187eebb22f008d5d64f9c394ae8",
+    "ledger_blocks_per_contribution_epoch": "64",
+    "ledger_height_origin": "0",
+    "maximum_target": "000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba3",
+    "minimum_target": "00000000000000000000000000000000ffffffffffffffffffffffffffffffff"
+  },
+  "production_qualified": false,
+  "qualification_boundary": "Only permanent zero-value heartbeat identity with public observation. Not open mining, service-reward activation, committee admission, economic attack resistance or value activation.",
+  "qualified_profile": "P1_REMOTE_ZERO_VALUE_V1",
+  "raw_measurements_sha256": {
+    "cached-work-linux.json": "c7f3ffe962c16311bd260833c0d1eeb993970f9f0a948b2c31149c898a834e8b",
+    "cached-work-mac.json": "a86dd1502ddc03383728aa34ce707d30f781a87a714f3186711a15e6e3975c29",
+    "parameter-review.json": "dd775ccf99e7e55ee0df842fac888edc7bc26a026104bc1d224fe18139ef0220"
+  },
+  "remote_genesis_profile_qualified": true,
+  "reviewer": "Codex technical review authorized by owner on 2026-09-22",
+  "runtime_source_commit": "445e27be00992f1898d6c64f66d091c4bfeb2cfa",
+  "selection_rationale": "Fixed operating point of one billion hashes exceeds the faster observed optimized single-thread 60-second budget (727 million) with approximately 37.6 percent headroom. This is rate calibration, not an attacker cost guarantee. Easiest target requires 250 million hashes. At least 32 successors and 32 billion cumulative credited work are required; at the easiest target 128 successors fit the 512-header bound.",
+  "threat_analysis": {
+    "denial_of_service": "All public mutation endpoints, including admission submission, are disabled at the HTTPS edge. Only bounded read/status/sync endpoints are exposed with rate limits. Local role endpoints remain inside the single owner trust domain. Node parsing/storage/proof bounds remain unchanged.",
+    "hypothetical_100x_faster_linux_seconds": 0.8253471800000001,
+    "irreversible_target_bounds": "The signed target range remains immutable; any later open-reward activation needs independent review and must operate inside these bounds or use a lawful protocol upgrade, never replace the genesis.",
+    "owner_compromise": "Same controller can compromise online host and local backups. No independence, hardware monotonicity or offline custody is asserted.",
+    "reference_seconds": {
+      "linux": 82.534718,
+      "mac": 175.30525
+    },
+    "retarget": "Median of four completed contribution Epoch counts, factor-four step limit, activation delayed two Epochs; no wall-clock finality guarantee.",
+    "specialized_hardware_bound_established": false,
+    "work_implies_payment_finality": false,
+    "work_implies_validator_weight": false,
+    "work_issues_currency": false
+  }
+}
