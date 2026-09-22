@@ -1,0 +1,25 @@
+[Unit]
+Description=Rldcoin permanent Earth genesis (zero-value heartbeat)
+After=network-online.target
+Wants=network-online.target
+# Each retry still validates the signed identity and fixed key expiry.
+# A transient failure must not permanently exhaust a short start-rate window.
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+User=galaxy
+Group=galaxy
+UMask=0077
+Environment=RUST_LOG=warn
+ExecStart=/usr/bin/python3 /opt/rldcoin-operations/permanent-m0.py run --root /home/galaxy/rldcoin-m0/permanent-earth --pin 874066fe96d12bfa42cc316f5387cc8f4df649f794b43e2ee724b8029b0abf33 --public-status /var/lib/rldcoin-public/status.json --port-base 48000
+Restart=on-failure
+RestartSec=60
+TimeoutStopSec=300
+KillMode=mixed
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=full
+
+[Install]
+WantedBy=multi-user.target

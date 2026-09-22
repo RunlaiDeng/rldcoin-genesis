@@ -63,4 +63,4 @@ This verification checks the signed scope and artifact bindings. It does not sta
 
 ## Current operating revision
 
-The original declaration is unchanged. [Signed operating revisions](operating-revisions/README.md) slow heartbeat production to ten minutes and increase bounded peer/witness waiting times after an observed quorum timeout at height 6. Core executables, quorum, original vote locks, supply and the fixed key expiry are unchanged. Use the revised operator verifier for the current deployment. Status observations refresh every 30 seconds, independently of the heartbeat cadence.
+The original declaration is unchanged. [Signed operating revision 4](operating-revisions/README.md) retains the ten-minute heartbeat cadence, corrects request deadlines, and recovers an interrupted heartbeat through its exact existing vote lock and verified checkpoint synchronization. Core executables, quorum, original history, supply and the fixed key expiry are unchanged. Use the revised operator verifier for the current deployment. Status observations refresh every 30 seconds, independently of the heartbeat cadence. Rewards remain disabled.
