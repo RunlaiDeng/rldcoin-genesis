@@ -1,0 +1,16 @@
+{
+  "result": "PASS_SAME_HISTORY_RECOVERY_AFTER_QUORUM_TIMEOUT",
+  "from_height": 5,
+  "to_height": 8,
+  "state_root": "5cfa2a157eca668a7a5f59ae31c5aabbf7050527482b656c4171ea60d90bff64",
+  "operations_revision": 2,
+  "heartbeat_interval_seconds": 600,
+  "consensus_timeout_ms": 30000,
+  "witness_timeout_ms": 10000,
+  "witness_poll_interval_ms": 1000,
+  "original_vote_locks_preserved": true,
+  "same_note_hash_and_parent_retried": true,
+  "all_roles_verified": 24,
+  "value_cap": "VALUE_CAP_0",
+  "observed_at": "2026-09-22T07:24:16.427748+00:00"
+}

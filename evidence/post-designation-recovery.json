@@ -1,0 +1,26 @@
+{
+  "result": "PASS_POST_DESIGNATION_COMPOSITE_ENCRYPTED_RECOVERY",
+  "manifest_sha256": "874066fe96d12bfa42cc316f5387cc8f4df649f794b43e2ee724b8029b0abf33",
+  "base_archive_sha256": "41a642791e2432052ff97d2e3cfead7008980729ac5e300f98958d1cc2cd4103",
+  "state_archive_sha256": "04c0b52c2e93894beab7be4d4cbd07ab0634728c2c7f23aba7bcd7d71930a251",
+  "recovery_height": 8,
+  "permanent_and_operating_signatures_exact": true,
+  "inventory_sha256": "838966e29e3a6c4a1308628ce63a812f0b1027e71aee19815df6ad5e14445419",
+  "restored_files": 538,
+  "source_files": 417,
+  "exact_inventory_verified": true,
+  "genesis_signature_verified": true,
+  "network_denial_errno": [
+    1,
+    1,
+    1
+  ],
+  "source_manifest_sha256": "49fdd963a483ce725dd480f3be616b620dadbc7cb63111e89cad6be041e5657b",
+  "private_identity_sent_to_server": false,
+  "independent_human_witness": false,
+  "physical_offline_custody": false,
+  "completed_at": "2026-09-22T07:26:55.074193+00:00",
+  "temporary_plaintext_removed": true,
+  "script_sha256": "3ed30bcdd1dbb1385575df882881a0bd1b77e57e609b0fee83446f30e888e5cb",
+  "unsandboxed_positive_control": true
+}

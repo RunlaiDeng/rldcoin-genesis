@@ -1,0 +1,6 @@
+{
+  "git_commit": "9672a557cd719fd6bf0755273bb2c439e1dd78ee",
+  "operator_program_sha256": "fcd1fcad4b9f03d77b54f3228890674a8c82e73e26e341984c4b35ca1c3f4a0c",
+  "core_executables_changed": false,
+  "scope": "operating cadence and bounded waiting/polling configuration only"
+}

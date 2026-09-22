@@ -1,0 +1,9 @@
+{
+  "result": "PASS_IDENTICAL_ENCRYPTED_BACKUP_ON_BOTH_HOSTS",
+  "local_and_remote_sha256": "41a642791e2432052ff97d2e3cfead7008980729ac5e300f98958d1cc2cd4103",
+  "size_bytes": 108460929,
+  "decryption_identity_sent_to_server": false,
+  "same_owner_controls_both_hosts": true,
+  "height8_state_archive_sha256": "04c0b52c2e93894beab7be4d4cbd07ab0634728c2c7f23aba7bcd7d71930a251",
+  "height8_state_bytes": 673990
+}
