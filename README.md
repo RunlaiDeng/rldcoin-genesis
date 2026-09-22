@@ -9,7 +9,7 @@ This repository publishes the permanent Earth genesis and its verification mater
 - Profile: `P1_REMOTE_ZERO_VALUE_V1`
 - Fixed supply: **100,000,000,000 RLD** (`10^35 runlai`; `1 RLD = 10^24 runlai`).
 - Initial reserves: startup services 1%, continuity services 9%, demand matching 90%; spendable balance **0**.
-- Software-key exception expires **2026-10-07 16:00 UTC**, with automatic signing shutdown and no automatic renewal.
+- Current signing authorization: **no fixed expiry, until revoked** under signed operating revision 5. The original dated exception remains in the historical designation.
 - [Live identity and status](https://forum.rldcoin.com/genesis/) · [Release downloads](https://github.com/RunlaiDeng/rldcoin-genesis/releases/tag/earth-genesis-20260922)
 
 ## Participation and rewards
@@ -37,7 +37,7 @@ Use the checksum file shipped with the same release when verifying its downloade
 4. `permanent-genesis.json` is a separate founder-signed designation. Its domain is the UTF-8 bytes `RLD-PERMANENT-GENESIS-DESIGNATION-V1` followed by a zero byte. It signs the `statement` as sorted, compact, ASCII JSON followed by a newline using Ed25519. The founder public key comes from the verified genesis. The designation binds the runtime/source manifests, admission report, operator program and actual recovery/observer receipts.
 5. The runtime source archive contains the retained `source` directory. Verify it with its `tools/source-evidence/source_snapshot.py verify --snapshot source --manifest-sha256 49fdd963a483ce725dd480f3be616b620dadbc7cb63111e89cad6be041e5657b`. Installation metadata deliberately retains its historical candidate flag; the later permanent designation does not rewrite that record.
 
-The operators' expiry program requires Python 3 and the `cryptography` library. Linux deployment used Python's system cryptography 41.0.7. Source/build manifests disclose toolchain and reproducibility limits. The SPDX inventory covers Cargo dependencies, not a whole-host vulnerability audit.
+The operating authorization verifier requires Python 3 and the `cryptography` library. Linux deployment used Python's system cryptography 41.0.7. Source/build manifests disclose toolchain and reproducibility limits. The SPDX inventory covers Cargo dependencies, not a whole-host vulnerability audit.
 
 ## Observation and scope
 
@@ -65,4 +65,6 @@ This verification checks the signed scope and artifact bindings. It does not sta
 
 ## Current operating revision
 
-The original declaration is unchanged. [Signed operating revision 4](operating-revisions/README.md) retains the ten-minute heartbeat cadence, corrects request deadlines, and recovers an interrupted heartbeat through its exact existing vote lock and verified checkpoint synchronization. Core executables, quorum, original history, supply and the fixed key expiry are unchanged. Use the revised operator verifier for the current deployment. Status observations refresh every 30 seconds, independently of the heartbeat cadence. Rewards remain disabled.
+The original declaration is unchanged. [Signed operating revision 5](operating-revisions/README.md) supersedes the original calendar stop date with a continuing, owner-revocable software-key authorization. It retains revision 4's exact vote-lock recovery, checkpoint synchronization, ten-minute heartbeats and 30-second public observations. All 24 roles remain supervised; changed authorization or a revocation marker stops signing. Current status explicitly reports `UNTIL_REVOKED` and a null expiry. There is no reward activation, supply change or claim of perpetual cryptographic security.
+
+The existing verifier still has local history and resource ceilings. Continuing authorization does not remove those bounds or promise indefinite uptime. See [revision 5 evidence and limits](operating-revisions/revision-5/README.md).

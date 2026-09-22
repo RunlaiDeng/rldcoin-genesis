@@ -1,0 +1,14 @@
+{
+  "result": "PASS_ENCRYPTED_HEIGHT20_RESTORE_HASHES",
+  "verified_files": 114,
+  "backup_sha256": "d17010136bde11990f11fa7103682e02d8d0a2bde70d0c6ede0a76335dabcbc5",
+  "metadata": {
+    "height": 20,
+    "state_root": "0849ecd3cbed1bd59562a9b5c51d4ac85c0f66327e8665e07dc32fc4bf5a1b37",
+    "manifest_sha256": "874066fe96d12bfa42cc316f5387cc8f4df649f794b43e2ee724b8029b0abf33",
+    "operations_revision": 5,
+    "base_archive": "earth-height2-20260922.tar.gz.age",
+    "state_files": 73
+  },
+  "private_material_printed": false
+}
