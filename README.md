@@ -12,9 +12,11 @@ This repository publishes the permanent Earth genesis and its verification mater
 - Software-key exception expires **2026-10-07 16:00 UTC**, with automatic signing shutdown and no automatic renewal.
 - [Live identity and status](https://forum.rldcoin.com/genesis/) · [Release downloads](https://github.com/RunlaiDeng/rldcoin-genesis/releases/tag/earth-genesis-20260922)
 
-## Issuance
+## Participation and rewards
 
-The existing mechanism rewards verified protocol services from fixed reserves. Admission computation does not itself issue coins or give validator weight. The founder intends to earn at least 5 billion RLD through those rules before promotion; that target is not a reserved allocation, protocol guarantee, or achieved balance. Reward activation remains subject to later protocol and security requirements.
+Rldcoin is being built for community participation. Contributors can inspect the source and genesis records, report issues, improve documentation, and help develop and verify the protocol. Join the [community forum](https://forum.rldcoin.com/) to discuss the work and its next milestones.
+
+The protocol design pays for verified services from fixed reserves under shared rules, with no personal genesis allocation or reserved founder share. Admission work regulates access; service verification determines rewards, and verified contribution determines validation eligibility. These are separate mechanisms. Service rewards are not yet enabled on the permanent Earth network; activation requires the contribution and security milestones described in the published plan.
 
 ## Verify the record
 
