@@ -22,6 +22,8 @@ The protocol design pays for verified services from fixed reserves under shared 
 
 Download the release assets. The repository and HTTPS site retain the small records, while the release also provides the complete runtime source and Linux executables.
 
+Use the checksum file shipped with the same release when verifying its downloaded archives. The repository's current `SHA256SUMS` also covers updated documentation and operating revisions; the original release checksum list is retained as `SHA256SUMS.genesis-release-20260922`. Published genesis release assets have not been replaced.
+
 1. Check the assets against `SHA256SUMS` (use `sha256sum -c SHA256SUMS`, or `shasum -a 256 -c SHA256SUMS` on macOS). The checksums establish file integrity; obtain the expected genesis pin through an independently trusted channel.
 2. Extract the Linux archive on Linux. Verify the founder-signed genesis using `bin/rld-genesis verify --manifest genesis-manifest.json`. Confirm the exact manifest pin above. The raw file SHA-256, `33e0669d4b411baae9e25a72167a20e8a9124aac96e26168449735c3364d659e`, differs from this canonical manifest pin.
 3. Verify the external RFC 3161 timestamp:
