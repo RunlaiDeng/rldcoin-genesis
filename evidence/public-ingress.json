@@ -1,0 +1,25 @@
+{
+  "result": "PASS_PUBLIC_HTTPS_IDENTITY_READ_ONLY_INGRESS",
+  "observed_at": "2026-09-22T06:56:26.893835+00:00",
+  "height": 3,
+  "state_root": "b518764ce221a16bef3c4c2309acdac6afffe9f34ceb33cb4a2c370fe159a6fa",
+  "manifest_sha256": "874066fe96d12bfa42cc316f5387cc8f4df649f794b43e2ee724b8029b0abf33",
+  "supply_valid": true,
+  "spendable_runlai": "0",
+  "value_cap": "VALUE_CAP_0",
+  "checks": {
+    "genesis-manifest.json": "33e0669d4b411baae9e25a72167a20e8a9124aac96e26168449735c3364d659e",
+    "permanent-genesis.json": "dc7ae29e695ca4c503693e2bec6fd27e1f26b8e9288d1932b5b35b0daf89d9f7",
+    "admission-benchmark-report.json": "9fb7b0dc1700ce285c5e4e89338ce4f0c4fbdf8c9ddf43e88c81261ee574b93d",
+    "SHA256SUMS": "49fd34a1aa52c945bb69428a1fd966d2a4f977095d3b49dfa10d7c41e9ac33cd",
+    "/v1/consensus/status": "HTTPS_GET_200",
+    "/v1/consensus/commits": "HTTPS_GET_200",
+    "/v1/admission/inventory": "HTTPS_GET_200",
+    "POST /v1/status": 403,
+    "POST /v1/consensus/commits": 403,
+    "POST /v1/network/heartbeats": 404,
+    "POST /v1/testnet/bootstrap-reward": 404,
+    "POST /v1/m0/upgrade/coordinate": 404,
+    "anonymous_github_genesis": "EXACT_MATCH"
+  }
+}

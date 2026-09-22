@@ -1,0 +1,22 @@
+{
+  "result": "PASS_PERSISTENT_SERVICE_RESTART_WITH_EXACT_WALS",
+  "observed_at": "2026-09-22T06:57:38.923426+00:00",
+  "manifest_sha256": "874066fe96d12bfa42cc316f5387cc8f4df649f794b43e2ee724b8029b0abf33",
+  "height": 3,
+  "state_root": "b518764ce221a16bef3c4c2309acdac6afffe9f34ceb33cb4a2c370fe159a6fa",
+  "exact_wal_files": 10,
+  "state_files_unchanged": 73,
+  "state_files_before": 73,
+  "services": {
+    "bbb-bridge-relay": "active",
+    "bbb-buy-notifier": "active",
+    "bbbfi-pool-analytics": "active",
+    "mongod": "active",
+    "nginx": "active",
+    "pm2-galaxy": "active",
+    "pm2-root": "active",
+    "redis-server": "active",
+    "rldcoin-forum": "active",
+    "rldcoin-earth": "active"
+  }
+}
