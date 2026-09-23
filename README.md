@@ -57,6 +57,6 @@ Mining has no scheduled signing-expiry stop. The owner can stop the node, and or
 
 Use the **named release source archive** for the full Rust protocol tree. GitHub’s automatic archive of this publication repository contains records rather than the full implementation. Download the checksum file from the same release as your assets; independently obtain the expected network/adoption pins through a trusted channel.
 
-Public endpoints at `https://forum.rldcoin.com` include `GET /v1/pow/status`, `GET /v1/pow/balance/{public_key}` and bounded `POST /v1/pow/sync`, `/blocks`, `/transactions`, and `/template`. No signing or administrative interface is public. The former M0 API is retired; its complete certified history is a release artifact. Telemetry is not an independent cryptographic verifier.
+Public endpoints at `https://api.rldcoin.com` include `GET /v1/pow/status`, `GET /v1/pow/balance/{public_key}` and bounded `POST /v1/pow/sync`, `/blocks`, `/transactions`, and `/template`. The community forum does not host the API. No signing or administrative interface is public. The former M0 API is retired; its complete certified history is a release artifact. Telemetry is not an independent cryptographic verifier.
 
 No real wallet private key, operator signing secret, decryption identity or private recovery archive is published. The protocol source is Apache-2.0 licensed.

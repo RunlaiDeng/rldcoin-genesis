@@ -20,11 +20,11 @@ Download the named assets from [earth-pow-v0.3.0](https://github.com/RunlaiDeng/
 
 - `rldpow-linux-x86_64-v0.3.0.tar.gz` — Linux x86-64 executable.
 - `rldpow-macos-arm64-v0.3.0.tar.gz` — macOS Apple Silicon executable.
-- `rldcoin-pow-network-v1.tar.gz` — original genesis, complete legacy history, signed adoption, rule specification and public evidence.
+- `rldcoin-pow-network-v1-api-rldcoin-com.tar.gz` — original genesis, complete legacy history, signed adoption, rule specification, public evidence and the current peer endpoint. The earlier network archive remains available as a historical release artifact, but its guide names the retired forum API.
 - `rldcoin-pow-source-v0.3.0.tar.gz` — exact retained source used for the build.
-- `SHA256SUMS` — byte checksums of these assets.
+- `SHA256SUMS` — byte checksums of the original release assets. `SHA256SUMS.api-rldcoin-com` checks the updated network archive.
 
-Verify the downloaded assets using `sha256sum -c SHA256SUMS` on Linux or `shasum -a 256 -c SHA256SUMS` on macOS. Missing assets will be reported if you download only one platform; the files you use must all match. The original genesis release remains separately available and has not been overwritten.
+Verify the executable and source archives using `sha256sum -c SHA256SUMS` on Linux or `shasum -a 256 -c SHA256SUMS` on macOS. Verify the updated network archive using the same command with `SHA256SUMS.api-rldcoin-com`. Missing assets will be reported if you download only one platform; the files you use must all match. The original genesis release remains separately available and has not been overwritten.
 
 To build from source with the pinned Rust 1.98 toolchain:
 
@@ -60,7 +60,7 @@ Extract your executable archive and the network archive into the same new workin
   --accept-adoption 16d2a4d3ba8dff33613a9127ffc7e540347d377066b367097b765e1472d01e02 \
   --data-dir ./earth-data \
   --listen 127.0.0.1:48200 \
-  --peer https://forum.rldcoin.com \
+  --peer https://api.rldcoin.com \
   --mine-to YOUR_64_HEX_RECEIVING_PUBLIC_KEY
 ```
 

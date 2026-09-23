@@ -52,7 +52,7 @@ Wallet secret and backup decryption identity stay on the Mac. Public records con
 
 - [Release and platform executables](https://github.com/RunlaiDeng/rldcoin-genesis/releases/tag/earth-pow-v0.3.0).
 - [Public records and node guide](https://github.com/RunlaiDeng/rldcoin-genesis/tree/main/pow-v1).
-- [Live raw status](https://forum.rldcoin.com/v1/pow/status); [website](https://rldcoin.com/network).
+- [Live raw status](https://api.rldcoin.com/v1/pow/status); [website](https://rldcoin.com/network).
 
 Nginx exposes bounded status/balance reads and sync/block/transaction/template submissions. It exposes no signing or administrative interface. Old M0 routes are retired with HTTP 410; complete certified history is retained in the release. Public telemetry reports actual recent hashing, storage health and capacity, and is not a cryptographic verifier.
 
