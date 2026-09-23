@@ -49,6 +49,8 @@ Both hosts belong to the same owner. These checks are not independent operator r
 
 Earth supports automatic mining and a signed local transaction API. A consumer wallet remains in development. PoW confirmation is probabilistic; valid greater-work reorganizations can remove earlier rewards and transfers.
 
+The transaction API may quickly accept a valid transfer as **pending** (`confirmed: false`). A first on-chain confirmation depends on the next selected block: ten minutes is the target interval, not a guaranteed payment time. The 100-block maturity rule applies to newly mined rewards, not every transfer. A separate, prefunded noncustodial payment layer is planned for seconds-scale local payments, but is not implemented or available to users today. See the [roadmap](pow-v1/ROADMAP.md) for the target.
+
 Cross-region transfers are disabled. Their qualification must address source locking, authenticated checkpoints, unique imports, delayed receipts, deep source reorganizations, disconnected delivery, and shared supply budgets. A new region cannot duplicate the 100-billion-RLD reserve. Communication delay cannot be eliminated by consensus.
 
 Mining has no scheduled signing-expiry stop. The owner can stop the node, and ordinary machine failures still require recovery. The initial implementation retains a 100,000-block local index limit, including forks; a qualified retention upgrade is required before that limit is reached.
