@@ -1,0 +1,10 @@
+{
+  "result": "PASS_TERMINAL_M0_ENCRYPTED_BACKUP",
+  "archive": "earth-m0-terminal-before-pow-20260922.tar.gz.age",
+  "sha256": "1677cdeeb15ffa407c9bf82733a4138a7284a1f03866a2229a7dfefd4a0c2065",
+  "verified_files": 115,
+  "legacy_height": 25,
+  "legacy_state_root": "057df31874f4713b5fed2c5dd4be784bc455e45f94bfc33199111c5e07d48721",
+  "plaintext_written_to_mac_disk": false,
+  "decryption_identity_uploaded": false
+}

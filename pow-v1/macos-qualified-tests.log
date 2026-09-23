@@ -1,0 +1,44 @@
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.16s
+     Running unittests src/lib.rs (target/debug/deps/rld_pow-33c1315ad06fb2c5)
+
+running 14 tests
+test tests::emission_is_exact_capped_and_not_a_genesis_allocation ... ok
+test tests::wide_retarget_does_not_wrap_and_enforces_bounds ... ok
+test tests::independent_python_vectors_match_wide_heights_work_hashes_and_emission ... ok
+test tests::actual_work_credits_miner_and_rejects_tampering_atomically ... ok
+test tests::template_clock_handles_future_median_without_relaxing_validation ... ok
+test tests::wrong_network_and_noncanonical_input_are_rejected ... ok
+test tests::heavier_fork_replaces_orphan_rewards_instead_of_adding_them ... ok
+test tests::failed_disk_publication_never_exposes_reward_and_requires_replay ... ok
+test tests::rule_adoption_requires_pinned_history_all_validators_and_zero_allocation ... ok
+test tests::durable_restart_replays_reward_and_exclusive_owner ... ok
+test tests::incomplete_temp_is_unpublished_but_corrupt_committed_block_halts_recovery ... ok
+test tests::equal_work_tip_choice_survives_restart ... ok
+test tests::maturity_signatures_double_spend_and_fee_conservation ... ok
+test tests::valid_shorter_harder_branch_wins_and_reorg_recomputes_emission ... ok
+
+test result: ok. 14 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 3.45s
+
+     Running unittests src/main.rs (target/debug/deps/rldpow-458f5ddcc4717c74)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/runtime.rs (target/debug/deps/runtime-dedcb1c988b56b3b)
+
+running 5 tests
+test actual_auto_mining_crash_replay_and_peer_balance_agree ... ok
+test peer_sync_crosses_multiple_pages_on_a_competing_heavier_branch ... ok
+test joining_miner_automatically_announces_rewards_to_seed ... ok
+test signed_transfer_passes_real_http_mining_and_remote_verification ... ok
+test fork_announcement_continues_until_remote_adopts_greater_work ... ok
+
+test result: ok. 5 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 20.21s
+
+   Doc-tests rld_pow
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+

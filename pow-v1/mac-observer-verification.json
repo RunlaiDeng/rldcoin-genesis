@@ -1,0 +1,27 @@
+{
+  "result": "PASS_MAC_NATIVE_FULL_HISTORY_AND_REWARD_REPLAY",
+  "selected_ledger": {
+    "adoption_id": "16d2a4d3ba8dff33613a9127ffc7e540347d377066b367097b765e1472d01e02",
+    "chain_id": "dab6756c593608078a7d1f8cbdc8af7f447ffad6c506f6299262a26511ee586a",
+    "height": "96",
+    "tip": "000000023eb6258303d0bee84a158de83ed928ab69c59d003672abfb5d3a6081",
+    "chainwork": "0000000000000000000000000000000000000000000000000000001edba33488",
+    "state_root": "cde26c6a06869c940b49bb134241c3717ed6c25419d46e3493b12c3b6d52d0c2",
+    "emitted_runlai": "17750000000000000000000000000000",
+    "unissued_runlai": "99982250000000000000000000000000000"
+  },
+  "balance": {
+    "confirmation_model": "PROBABILISTIC_POW",
+    "height": "96",
+    "immature_runlai": "17750000000000000000000000000000",
+    "mature_runlai": "0",
+    "owner": "9ad964496324ede5cc5710e4697730841841a7e8beac453c9e62737f55194c16",
+    "tip": "000000023eb6258303d0bee84a158de83ed928ab69c59d003672abfb5d3a6081",
+    "zone_id": "zone-77bc978af4837a1e7971"
+  },
+  "validated_pow_blocks": 71,
+  "validation_origin": "original pinned genesis + complete 25 certified M0 commits + every selected PoW block",
+  "independent_implementation": false,
+  "same_controller_separate_host": true,
+  "observed_at_unix": 1790131964
+}

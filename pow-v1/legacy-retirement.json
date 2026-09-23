@@ -1,0 +1,8 @@
+{
+  "result": "PASS_LEGACY_RETIRED_WITH_UNCHANGED_STATE",
+  "legacy_height": 25,
+  "legacy_state_root": "057df31874f4713b5fed2c5dd4be784bc455e45f94bfc33199111c5e07d48721",
+  "state_files_unchanged": 73,
+  "legacy_history_sha256": "1570c5fe119c097034d49a188062c69c9450d55b4f6ba645f66e60d72d34a7f5",
+  "retired_at": "2026-09-22T12:31:21.158550+00:00"
+}

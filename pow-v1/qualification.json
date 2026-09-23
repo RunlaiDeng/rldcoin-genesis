@@ -1,0 +1,23 @@
+{
+  "format": "RLD-POW-V1-QUALIFICATION",
+  "source_commit": "5fed7ef",
+  "source_manifest_sha256": "79f1bcdb2827377a98bed7808396b01ab4b453e91b68b09f16cf35dd2debca48",
+  "source_tree_sha256": "659f0de2670f0a42bf3df1a79a13f28af04ad84e8ecfadaafcd031622379ffad",
+  "linux_binary_sha256": "9238004ea5f8a91b622e0c3f456f198f623714981f2503c8509d65f7c7ec866d",
+  "macos_binary_sha256": "61b9876af8038c8627d493a0330d070592519855ca4ba815981b36f9b245454c",
+  "unit_tests_per_platform": 14,
+  "real_process_tests_per_platform": 5,
+  "platforms": [
+    "Linux x86-64",
+    "macOS arm64"
+  ],
+  "rust": "1.98.0",
+  "hermetic_build": false,
+  "independently_reproduced_build": false,
+  "external_operator_review": false,
+  "cross_region_transfers_enabled": false,
+  "live_mainnet_mature_payment_test": false,
+  "production_restart_report": "restart-verification.json",
+  "separate_host_replay_report": "mac-observer-verification.json",
+  "live_operator_or_wallet_private_keys_published": false
+}

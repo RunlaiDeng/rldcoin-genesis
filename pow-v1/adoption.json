@@ -1,0 +1,37 @@
+{
+  "statement": {
+    "format": "RLD-REGIONAL-POW-RULE-ADOPTION-V1",
+    "manifest_pin": "874066fe96d12bfa42cc316f5387cc8f4df649f794b43e2ee724b8029b0abf33",
+    "network_domain": "rldcoin:mainnet:v1",
+    "zone_id": "zone-77bc978af4837a1e7971",
+    "currency_genesis": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+    "legacy_height": "25",
+    "legacy_state_root": "057df31874f4713b5fed2c5dd4be784bc455e45f94bfc33199111c5e07d48721",
+    "legacy_history_sha256": "1570c5fe119c097034d49a188062c69c9450d55b4f6ba645f66e60d72d34a7f5",
+    "rules_sha256": "518fb82b5ff4411fea981b9cb0e768574a1e7b0322af0f0665d583cfa06e105a",
+    "implementation_source_sha256": "13b7022e782da541c6f81dcf3b2bee6c0a2729c5aa2ea044aef2ae498f971b0b",
+    "started_at": 1790097101,
+    "initial_target": "000000024d057e308112575a85859078c98bba7adb6631fa6388627d2fed7c55",
+    "old_service_reserves_reassigned": "100000000000000000000000000000000000",
+    "personal_allocation": "0",
+    "incompatible_with_m0_constitution": true
+  },
+  "approvals": [
+    {
+      "public_key": "1e33bbc41e72b80498b41b6384ad6f7080db0f901b534b85d6bc93c5ef6ac41e",
+      "signature": "95b95671f9668f322660cb65289e4b5335b5bc82040ce897e9eb8f58ff4fcb70011178dff162d79bac756dbe933dd1d5e0ae8e1d045ddf2f13505f9b5215f302"
+    },
+    {
+      "public_key": "6da4544d46a4d46507885f32b6c66c914736bac952d27230b5024aaca55f459c",
+      "signature": "cd3f88366c268d554c51f68c32014fff158cbc01c87df4102e75005a03569fb6bec806b9fb4b7f8e124b3813ab78e80fc98ad738965e29df897571a8a092210f"
+    },
+    {
+      "public_key": "70f3c31a9e157002c1dce81aeb22cfd454d018edd8c53142c49000a7d704da8a",
+      "signature": "10a338741edea2381790a0eb0234435223ea52fd1245dbd4e70a7a7b28d04d134b29039c0f077dd0613f7a07b285ce60c03dfc29f6e0141a4b7554d06a298e03"
+    },
+    {
+      "public_key": "e048863058d4c3baef1f864973a1293396ab92b4cb00f60503f1047a437b7926",
+      "signature": "0e01203ea37f45506e22e73c16ad9d589ca192b7ad19eec62489132332303163132a39c64ca074659d6e80e1b12c6a7afdd13e73481c7c96dad111f008e2610d"
+    }
+  ]
+}

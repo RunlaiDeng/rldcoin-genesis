@@ -1,0 +1,98 @@
+   Compiling syn v2.0.119
+   Compiling syn v3.0.4
+   Compiling zerovec-derive v0.11.6
+   Compiling synstructure v0.13.2
+   Compiling displaydoc v0.2.7
+   Compiling tracing-core v0.1.36
+   Compiling zerofrom-derive v0.1.7
+   Compiling zerofrom v0.1.8
+   Compiling yoke-derive v0.8.2
+   Compiling serde_derive v1.0.216
+   Compiling yoke v0.8.3
+   Compiling zerovec v0.11.8
+   Compiling tinystr v0.8.4
+   Compiling tokio-macros v2.4.0
+   Compiling tokio v1.42.0
+   Compiling serde v1.0.216
+   Compiling icu_locale_core v2.3.0
+   Compiling potential_utf v0.1.6
+   Compiling zerotrie v0.2.5
+   Compiling log v0.4.34
+   Compiling icu_collections v2.3.0
+   Compiling tracing v0.1.41
+   Compiling icu_provider v2.3.1
+   Compiling slab v0.4.12
+   Compiling futures-task v0.3.34
+   Compiling futures-util v0.3.34
+   Compiling hyper v1.11.1
+   Compiling icu_normalizer v2.3.0
+   Compiling icu_properties v2.3.0
+   Compiling serde_json v1.0.134
+   Compiling hyper-util v0.1.20
+   Compiling idna_adapter v1.2.1
+   Compiling curve25519-dalek-derive v0.1.1
+   Compiling idna v1.1.0
+   Compiling curve25519-dalek v4.1.3
+   Compiling tokio-rustls v0.26.4
+   Compiling rld-core v0.2.0 (/home/galaxy/rldcoin-pow/qualified-v1/source/tree/crates/rld-core)
+   Compiling serde_urlencoded v0.7.1
+   Compiling thiserror-impl v2.0.9
+   Compiling clap_derive v4.5.18
+   Compiling thiserror v2.0.9
+   Compiling ed25519-dalek v2.1.1
+   Compiling hyper-rustls v0.27.9
+   Compiling url v2.5.8
+   Compiling axum-core v0.5.6
+   Compiling tower v0.5.3
+   Compiling uuid v1.11.0
+   Compiling serde_path_to_error v0.1.17
+   Compiling axum-macros v0.5.1
+   Compiling reqwest v0.12.9
+   Compiling axum v0.8.1
+   Compiling clap v4.5.23
+   Compiling rld-pow v0.3.0 (/home/galaxy/rldcoin-pow/qualified-v1/source/tree/crates/rld-pow)
+    Finished `release` profile [optimized] target(s) in 7m 26s
+     Running unittests src/lib.rs (/home/galaxy/rldcoin-m0/build-target/release/deps/rld_pow-5fa6faf8961be1a6)
+
+running 14 tests
+test tests::actual_work_credits_miner_and_rejects_tampering_atomically ... ok
+test tests::emission_is_exact_capped_and_not_a_genesis_allocation ... ok
+test tests::durable_restart_replays_reward_and_exclusive_owner ... ok
+test tests::equal_work_tip_choice_survives_restart ... ok
+test tests::heavier_fork_replaces_orphan_rewards_instead_of_adding_them ... ok
+test tests::failed_disk_publication_never_exposes_reward_and_requires_replay ... ok
+test tests::independent_python_vectors_match_wide_heights_work_hashes_and_emission ... ok
+test tests::incomplete_temp_is_unpublished_but_corrupt_committed_block_halts_recovery ... ok
+test tests::rule_adoption_requires_pinned_history_all_validators_and_zero_allocation ... ok
+test tests::template_clock_handles_future_median_without_relaxing_validation ... ok
+test tests::maturity_signatures_double_spend_and_fee_conservation ... ok
+test tests::wide_retarget_does_not_wrap_and_enforces_bounds ... ok
+test tests::wrong_network_and_noncanonical_input_are_rejected ... ok
+test tests::valid_shorter_harder_branch_wins_and_reorg_recomputes_emission ... ok
+
+test result: ok. 14 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.39s
+
+     Running unittests src/main.rs (/home/galaxy/rldcoin-m0/build-target/release/deps/rldpow-7fb6ba42b45de78f)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/runtime.rs (/home/galaxy/rldcoin-m0/build-target/release/deps/runtime-1f2d8c7e1066fd19)
+
+running 5 tests
+test actual_auto_mining_crash_replay_and_peer_balance_agree ... ok
+test joining_miner_automatically_announces_rewards_to_seed ... ok
+test peer_sync_crosses_multiple_pages_on_a_competing_heavier_branch ... ok
+test signed_transfer_passes_real_http_mining_and_remote_verification ... ok
+test fork_announcement_continues_until_remote_adopts_greater_work ... ok
+
+test result: ok. 5 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 15.78s
+
+   Doc-tests rld_pow
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+    Finished `release` profile [optimized] target(s) in 0.74s

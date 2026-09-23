@@ -1,0 +1,23 @@
+{
+  "result": "PASS_EXPLICIT_RULE_ADOPTION_READY",
+  "adoption_id": "16d2a4d3ba8dff33613a9127ffc7e540347d377066b367097b765e1472d01e02",
+  "chain_id": "dab6756c593608078a7d1f8cbdc8af7f447ffad6c506f6299262a26511ee586a",
+  "legacy_height": "25",
+  "binary_sha256": "9238004ea5f8a91b622e0c3f456f198f623714981f2503c8509d65f7c7ec866d",
+  "initial_difficulty": {
+    "benchmark": {
+      "elapsed_millis": "15001",
+      "hashes": "46670000",
+      "hashes_per_second": "3111125",
+      "result": "HASH_BENCHMARK_ONLY_NO_REWARDS"
+    },
+    "target_block_seconds": 600,
+    "initial_target": "000000024d057e308112575a85859078c98bba7adb6631fa6388627d2fed7c55",
+    "formula": "floor(2^256 / (measured_hashes_per_second * 600)) - 1, capped at 2^248 - 1",
+    "personal_difficulty_exception": false,
+    "measurement_scope": "one mining thread after all old admission workers stopped"
+  },
+  "same_controller_validator_signatures": 4,
+  "independent_review": false,
+  "wallet_private_key_on_server": false
+}

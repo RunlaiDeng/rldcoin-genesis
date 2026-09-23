@@ -1,0 +1,2177 @@
+[
+  {
+    "proposal": {
+      "command": {
+        "payload": {
+          "crypto_era": 1,
+          "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+          "heartbeat_id": "m0-heartbeat-0-5f892f1f9bbb104c",
+          "note_hash": "5f892f1f9bbb104c7fb1e4df4ac87c860374519de8d0c991b3d5573fa7d48f97",
+          "parent_height": 0,
+          "protocol_era": 1,
+          "zone_id": "zone-77bc978af4837a1e7971"
+        },
+        "type": "NETWORK_HEARTBEAT"
+      },
+      "command_hash": "89b72996838e4fdb78ea71dcd88c8476949f4087ab17da25e49b6e7665918bf3",
+      "crypto_era": 1,
+      "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+      "expected_height": 1,
+      "expected_state_root": "9d5dbd78100b43fbbbe3eea20c81baa0684b76b4708ee31b7f09350b87c0e279",
+      "parent_height": 0,
+      "parent_state_root": "37325242b485e9f4ee67ea6594bc0259d72883498bcd2bf55d76f1a9453533bf",
+      "proposal_id": "proposal-501c3f9c5bb380f99c07a889d1c0fca1",
+      "proposer_public_key": "1e33bbc41e72b80498b41b6384ad6f7080db0f901b534b85d6bc93c5ef6ac41e",
+      "protocol_era": 1,
+      "round": 0,
+      "signature": "ed656035322239e477eb08064af8ad143dd0f5ee6fcd55877cd89a1a38b91d62767358245729691af7f3b3bc3aec12f4063657c6e94ba6a854c9970b734c780c",
+      "zone_id": "zone-77bc978af4837a1e7971"
+    },
+    "votes": [
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "9d5dbd78100b43fbbbe3eea20c81baa0684b76b4708ee31b7f09350b87c0e279",
+        "parent_height": 0,
+        "parent_state_root": "37325242b485e9f4ee67ea6594bc0259d72883498bcd2bf55d76f1a9453533bf",
+        "proposal_hash": "022c30ae9e9f0e51ce0005a6fec1eabe5cb1893afa0026fcbfb086185f51a050",
+        "proposal_id": "proposal-501c3f9c5bb380f99c07a889d1c0fca1",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "410474e99a00d32a3c097c665e1ba6a66c59e490952a1a543d5811035bf1352b309617a888780a6fa4eae756f1097233ad2ebeb49e96241ace9a1e3b20450b0c",
+        "voter_public_key": "1e33bbc41e72b80498b41b6384ad6f7080db0f901b534b85d6bc93c5ef6ac41e",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      },
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "9d5dbd78100b43fbbbe3eea20c81baa0684b76b4708ee31b7f09350b87c0e279",
+        "parent_height": 0,
+        "parent_state_root": "37325242b485e9f4ee67ea6594bc0259d72883498bcd2bf55d76f1a9453533bf",
+        "proposal_hash": "022c30ae9e9f0e51ce0005a6fec1eabe5cb1893afa0026fcbfb086185f51a050",
+        "proposal_id": "proposal-501c3f9c5bb380f99c07a889d1c0fca1",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "3757e5a6859aaa87c641964f6cc407432869e4f65a699c42624b149aaf0cdbaabf7e349b53b6562eb782f332507aba9e20e68f4aa9956987f1e4810b0f8e450a",
+        "voter_public_key": "6da4544d46a4d46507885f32b6c66c914736bac952d27230b5024aaca55f459c",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      },
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "9d5dbd78100b43fbbbe3eea20c81baa0684b76b4708ee31b7f09350b87c0e279",
+        "parent_height": 0,
+        "parent_state_root": "37325242b485e9f4ee67ea6594bc0259d72883498bcd2bf55d76f1a9453533bf",
+        "proposal_hash": "022c30ae9e9f0e51ce0005a6fec1eabe5cb1893afa0026fcbfb086185f51a050",
+        "proposal_id": "proposal-501c3f9c5bb380f99c07a889d1c0fca1",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "4db3930452a3948fc4c79d483adfdbaf44d7dbd6942a1cb434b60d69140807069cafe535d3d147a6976c063485140e93f8956ce36987e18cdef071996da9d804",
+        "voter_public_key": "70f3c31a9e157002c1dce81aeb22cfd454d018edd8c53142c49000a7d704da8a",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      },
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "9d5dbd78100b43fbbbe3eea20c81baa0684b76b4708ee31b7f09350b87c0e279",
+        "parent_height": 0,
+        "parent_state_root": "37325242b485e9f4ee67ea6594bc0259d72883498bcd2bf55d76f1a9453533bf",
+        "proposal_hash": "022c30ae9e9f0e51ce0005a6fec1eabe5cb1893afa0026fcbfb086185f51a050",
+        "proposal_id": "proposal-501c3f9c5bb380f99c07a889d1c0fca1",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "c047656b6baae24775898f5fa83ab2a49202c4e9e09ec13bc55111a5b59dcd4db23a8581f159888a6273171ba90f84e7c1be22e2db79124e20095ae966cc760c",
+        "voter_public_key": "e048863058d4c3baef1f864973a1293396ab92b4cb00f60503f1047a437b7926",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      }
+    ]
+  },
+  {
+    "proposal": {
+      "command": {
+        "payload": {
+          "crypto_era": 1,
+          "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+          "heartbeat_id": "m0-heartbeat-1-5f892f1f9bbb104c",
+          "note_hash": "5f892f1f9bbb104c7fb1e4df4ac87c860374519de8d0c991b3d5573fa7d48f97",
+          "parent_height": 1,
+          "protocol_era": 1,
+          "zone_id": "zone-77bc978af4837a1e7971"
+        },
+        "type": "NETWORK_HEARTBEAT"
+      },
+      "command_hash": "ea8337904d5a8c98ab29be910e4a6b9070638b0a7db3f9ce314d7660a6277409",
+      "crypto_era": 1,
+      "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+      "expected_height": 2,
+      "expected_state_root": "41a3274142a0c6082c9c7370bbece6106c3eddedb1c8cc1c1746bdee16463e55",
+      "parent_height": 1,
+      "parent_state_root": "9d5dbd78100b43fbbbe3eea20c81baa0684b76b4708ee31b7f09350b87c0e279",
+      "proposal_id": "proposal-737c890385704caf1bc21c5cc29ae39c",
+      "proposer_public_key": "6da4544d46a4d46507885f32b6c66c914736bac952d27230b5024aaca55f459c",
+      "protocol_era": 1,
+      "round": 0,
+      "signature": "d3d3f8304c0f1c292e22dcc6c521dd872f5ee0f811e3af76120800be83b09d35e1d8b7b96258ea5bc31a69908e16944a4252931b82e2bd8e867cd3b03aaa0702",
+      "zone_id": "zone-77bc978af4837a1e7971"
+    },
+    "votes": [
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "41a3274142a0c6082c9c7370bbece6106c3eddedb1c8cc1c1746bdee16463e55",
+        "parent_height": 1,
+        "parent_state_root": "9d5dbd78100b43fbbbe3eea20c81baa0684b76b4708ee31b7f09350b87c0e279",
+        "proposal_hash": "ff08586f403da52359ba420049500489aea67c82034b46cc1758a66a17ad8a4d",
+        "proposal_id": "proposal-737c890385704caf1bc21c5cc29ae39c",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "ff3cda12d40054d16deec3399c921a67934e24100f89432af56072dc3ec48e5f56f0350be26f11a9d1a991ae061ae44b02ea566bef3dfac22662803f53bc3b0f",
+        "voter_public_key": "1e33bbc41e72b80498b41b6384ad6f7080db0f901b534b85d6bc93c5ef6ac41e",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      },
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "41a3274142a0c6082c9c7370bbece6106c3eddedb1c8cc1c1746bdee16463e55",
+        "parent_height": 1,
+        "parent_state_root": "9d5dbd78100b43fbbbe3eea20c81baa0684b76b4708ee31b7f09350b87c0e279",
+        "proposal_hash": "ff08586f403da52359ba420049500489aea67c82034b46cc1758a66a17ad8a4d",
+        "proposal_id": "proposal-737c890385704caf1bc21c5cc29ae39c",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "f96397a5b35dd51be779d1213e2e38a02458d3c465533d68561b62d27b91fa9563b3298ea30e82437fe444a497e3787fd09f10329257901bdeec0bd3ca02350a",
+        "voter_public_key": "6da4544d46a4d46507885f32b6c66c914736bac952d27230b5024aaca55f459c",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      },
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "41a3274142a0c6082c9c7370bbece6106c3eddedb1c8cc1c1746bdee16463e55",
+        "parent_height": 1,
+        "parent_state_root": "9d5dbd78100b43fbbbe3eea20c81baa0684b76b4708ee31b7f09350b87c0e279",
+        "proposal_hash": "ff08586f403da52359ba420049500489aea67c82034b46cc1758a66a17ad8a4d",
+        "proposal_id": "proposal-737c890385704caf1bc21c5cc29ae39c",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "6c62f41922922c50cc194337f854ba628bdbb9c96a1c95a25f45e27d41af2a5eea8b70e21d377e66a871d33e39f8a6049e4ada06a9e140257af71e40b98a7c04",
+        "voter_public_key": "70f3c31a9e157002c1dce81aeb22cfd454d018edd8c53142c49000a7d704da8a",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      },
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "41a3274142a0c6082c9c7370bbece6106c3eddedb1c8cc1c1746bdee16463e55",
+        "parent_height": 1,
+        "parent_state_root": "9d5dbd78100b43fbbbe3eea20c81baa0684b76b4708ee31b7f09350b87c0e279",
+        "proposal_hash": "ff08586f403da52359ba420049500489aea67c82034b46cc1758a66a17ad8a4d",
+        "proposal_id": "proposal-737c890385704caf1bc21c5cc29ae39c",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "ed0315422688fafcb2c0b0c0824fb11db9ffab6ea93e7da0ede41a2c9ece30486b985b141c09b41209c4d7711e458f6d842fff7b9c4ceb78064b0f0dfd5e7704",
+        "voter_public_key": "e048863058d4c3baef1f864973a1293396ab92b4cb00f60503f1047a437b7926",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      }
+    ]
+  },
+  {
+    "proposal": {
+      "command": {
+        "payload": {
+          "crypto_era": 1,
+          "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+          "heartbeat_id": "m0-heartbeat-2-5f892f1f9bbb104c",
+          "note_hash": "5f892f1f9bbb104c7fb1e4df4ac87c860374519de8d0c991b3d5573fa7d48f97",
+          "parent_height": 2,
+          "protocol_era": 1,
+          "zone_id": "zone-77bc978af4837a1e7971"
+        },
+        "type": "NETWORK_HEARTBEAT"
+      },
+      "command_hash": "43f9b40a076c21880ec93860de2d7dd05fa669cd8c4e9a066b1c680de07059ac",
+      "crypto_era": 1,
+      "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+      "expected_height": 3,
+      "expected_state_root": "b518764ce221a16bef3c4c2309acdac6afffe9f34ceb33cb4a2c370fe159a6fa",
+      "parent_height": 2,
+      "parent_state_root": "41a3274142a0c6082c9c7370bbece6106c3eddedb1c8cc1c1746bdee16463e55",
+      "proposal_id": "proposal-34a0be1e8cd539ef4ccffd6738e1c6e0",
+      "proposer_public_key": "70f3c31a9e157002c1dce81aeb22cfd454d018edd8c53142c49000a7d704da8a",
+      "protocol_era": 1,
+      "round": 0,
+      "signature": "38517d9e0421f9707a475edf1dc3b1bd54575d21327fae9034b1bbbf50aa7dfe9c319b53ff9aa91d2a5405bada49f2574e3e2787395a79cfd7f66b3b5f243c0b",
+      "zone_id": "zone-77bc978af4837a1e7971"
+    },
+    "votes": [
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "b518764ce221a16bef3c4c2309acdac6afffe9f34ceb33cb4a2c370fe159a6fa",
+        "parent_height": 2,
+        "parent_state_root": "41a3274142a0c6082c9c7370bbece6106c3eddedb1c8cc1c1746bdee16463e55",
+        "proposal_hash": "40e508d2143d41d67ef55201cff1812f4ea03a98dfcef5fbdca7ec659a316628",
+        "proposal_id": "proposal-34a0be1e8cd539ef4ccffd6738e1c6e0",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "05e8119102f6dfe812c3c4e47290d1288d5922d5225611ac7d17fe334c3363d7fd981a516e1d34ee4023626adb8beafdbdc90aa3bfbbcee31c9de3939c851808",
+        "voter_public_key": "1e33bbc41e72b80498b41b6384ad6f7080db0f901b534b85d6bc93c5ef6ac41e",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      },
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "b518764ce221a16bef3c4c2309acdac6afffe9f34ceb33cb4a2c370fe159a6fa",
+        "parent_height": 2,
+        "parent_state_root": "41a3274142a0c6082c9c7370bbece6106c3eddedb1c8cc1c1746bdee16463e55",
+        "proposal_hash": "40e508d2143d41d67ef55201cff1812f4ea03a98dfcef5fbdca7ec659a316628",
+        "proposal_id": "proposal-34a0be1e8cd539ef4ccffd6738e1c6e0",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "3884d105237c1f5fe6644a06db527a1b9f923abf6d9255c2ee7a9fd1cdb228710f6efc4f058516a29f5477fa5989e848d7e4733e78724120c748691006d4d406",
+        "voter_public_key": "6da4544d46a4d46507885f32b6c66c914736bac952d27230b5024aaca55f459c",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      },
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "b518764ce221a16bef3c4c2309acdac6afffe9f34ceb33cb4a2c370fe159a6fa",
+        "parent_height": 2,
+        "parent_state_root": "41a3274142a0c6082c9c7370bbece6106c3eddedb1c8cc1c1746bdee16463e55",
+        "proposal_hash": "40e508d2143d41d67ef55201cff1812f4ea03a98dfcef5fbdca7ec659a316628",
+        "proposal_id": "proposal-34a0be1e8cd539ef4ccffd6738e1c6e0",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "88b36167b52b3c51483d45236478ff5f777fa396cbe60cbbed4db21bb6924836f92c6f2abdfbed2220ba51162544752bd74479420396070e18b93839c0f8a708",
+        "voter_public_key": "70f3c31a9e157002c1dce81aeb22cfd454d018edd8c53142c49000a7d704da8a",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      },
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "b518764ce221a16bef3c4c2309acdac6afffe9f34ceb33cb4a2c370fe159a6fa",
+        "parent_height": 2,
+        "parent_state_root": "41a3274142a0c6082c9c7370bbece6106c3eddedb1c8cc1c1746bdee16463e55",
+        "proposal_hash": "40e508d2143d41d67ef55201cff1812f4ea03a98dfcef5fbdca7ec659a316628",
+        "proposal_id": "proposal-34a0be1e8cd539ef4ccffd6738e1c6e0",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "211cb133efd67e2a59ae87039032ddb680917f55fd57eabcf55e1d10f4eeabac255a035cda77e53e676a9771469346c1d658f8cac057e3412af8e152c5637204",
+        "voter_public_key": "e048863058d4c3baef1f864973a1293396ab92b4cb00f60503f1047a437b7926",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      }
+    ]
+  },
+  {
+    "proposal": {
+      "command": {
+        "payload": {
+          "crypto_era": 1,
+          "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+          "heartbeat_id": "m0-heartbeat-3-5f892f1f9bbb104c",
+          "note_hash": "5f892f1f9bbb104c7fb1e4df4ac87c860374519de8d0c991b3d5573fa7d48f97",
+          "parent_height": 3,
+          "protocol_era": 1,
+          "zone_id": "zone-77bc978af4837a1e7971"
+        },
+        "type": "NETWORK_HEARTBEAT"
+      },
+      "command_hash": "d4939defbba2629c0e59a88b0cc0cf6867d7211c87d9342be15c8cdbf9f00db1",
+      "crypto_era": 1,
+      "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+      "expected_height": 4,
+      "expected_state_root": "2a4358e71f1364896f8d9f145cbc277121ac08a95ef029456c7dfbe1a96cdda9",
+      "parent_height": 3,
+      "parent_state_root": "b518764ce221a16bef3c4c2309acdac6afffe9f34ceb33cb4a2c370fe159a6fa",
+      "proposal_id": "proposal-47411025978d99f259bfdfd741f5e569",
+      "proposer_public_key": "e048863058d4c3baef1f864973a1293396ab92b4cb00f60503f1047a437b7926",
+      "protocol_era": 1,
+      "round": 0,
+      "signature": "8d9c8968f68b5e21efd541b9dfdf2da9bef6f277b2735a0060072519f87f933c6cd7d8409413959fb7937bd752dca3e1e7ca61b810b3ff445c69221189c35601",
+      "zone_id": "zone-77bc978af4837a1e7971"
+    },
+    "votes": [
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "2a4358e71f1364896f8d9f145cbc277121ac08a95ef029456c7dfbe1a96cdda9",
+        "parent_height": 3,
+        "parent_state_root": "b518764ce221a16bef3c4c2309acdac6afffe9f34ceb33cb4a2c370fe159a6fa",
+        "proposal_hash": "11a0ee3a203118c85972fdfdb9b54459e8477dc36ce1d07e8d032b4ddbe6974c",
+        "proposal_id": "proposal-47411025978d99f259bfdfd741f5e569",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "1dd28905e6dba08d7ef0ddcbc48248d7eacdd7d0aa536e7644eb43f927246561886bd1c83af15173de228e430a312160bbf094a59085a716e887efd65dee8203",
+        "voter_public_key": "1e33bbc41e72b80498b41b6384ad6f7080db0f901b534b85d6bc93c5ef6ac41e",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      },
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "2a4358e71f1364896f8d9f145cbc277121ac08a95ef029456c7dfbe1a96cdda9",
+        "parent_height": 3,
+        "parent_state_root": "b518764ce221a16bef3c4c2309acdac6afffe9f34ceb33cb4a2c370fe159a6fa",
+        "proposal_hash": "11a0ee3a203118c85972fdfdb9b54459e8477dc36ce1d07e8d032b4ddbe6974c",
+        "proposal_id": "proposal-47411025978d99f259bfdfd741f5e569",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "f4b0ee1ad5a0880e79eb69e82f2891cb8a1af71346100121df8aa6888ba7513a5f05a86c6a20137ea50309fac6bbbb38bca1acce14da326fb1998453e2a77a01",
+        "voter_public_key": "6da4544d46a4d46507885f32b6c66c914736bac952d27230b5024aaca55f459c",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      },
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "2a4358e71f1364896f8d9f145cbc277121ac08a95ef029456c7dfbe1a96cdda9",
+        "parent_height": 3,
+        "parent_state_root": "b518764ce221a16bef3c4c2309acdac6afffe9f34ceb33cb4a2c370fe159a6fa",
+        "proposal_hash": "11a0ee3a203118c85972fdfdb9b54459e8477dc36ce1d07e8d032b4ddbe6974c",
+        "proposal_id": "proposal-47411025978d99f259bfdfd741f5e569",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "763bb51d1b3bf4855236da6f4fb806ad410951bfb2c5baedac970313a27462451baf22a69f567f28c376adf883a510ead62c1901594b1c529c3e98aec98a0e09",
+        "voter_public_key": "70f3c31a9e157002c1dce81aeb22cfd454d018edd8c53142c49000a7d704da8a",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      },
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "2a4358e71f1364896f8d9f145cbc277121ac08a95ef029456c7dfbe1a96cdda9",
+        "parent_height": 3,
+        "parent_state_root": "b518764ce221a16bef3c4c2309acdac6afffe9f34ceb33cb4a2c370fe159a6fa",
+        "proposal_hash": "11a0ee3a203118c85972fdfdb9b54459e8477dc36ce1d07e8d032b4ddbe6974c",
+        "proposal_id": "proposal-47411025978d99f259bfdfd741f5e569",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "c2dd2a5e30582fad66544c8a448b259de6dbd3d50191b8bcf65fee2f0b386500cd4740a04755577e3f283d94f1835fc221c091c11c4b2ce63eb9cf53ab2a0206",
+        "voter_public_key": "e048863058d4c3baef1f864973a1293396ab92b4cb00f60503f1047a437b7926",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      }
+    ]
+  },
+  {
+    "proposal": {
+      "command": {
+        "payload": {
+          "crypto_era": 1,
+          "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+          "heartbeat_id": "m0-heartbeat-4-5f892f1f9bbb104c",
+          "note_hash": "5f892f1f9bbb104c7fb1e4df4ac87c860374519de8d0c991b3d5573fa7d48f97",
+          "parent_height": 4,
+          "protocol_era": 1,
+          "zone_id": "zone-77bc978af4837a1e7971"
+        },
+        "type": "NETWORK_HEARTBEAT"
+      },
+      "command_hash": "9b51e0b963e50d965b4b49c98fca44f461a0fcb5e02ca1de5393862459a87631",
+      "crypto_era": 1,
+      "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+      "expected_height": 5,
+      "expected_state_root": "4ecd98b323c74d419a52ca89075c9cedab1534b76fc2bc3ca608322af251fa7d",
+      "parent_height": 4,
+      "parent_state_root": "2a4358e71f1364896f8d9f145cbc277121ac08a95ef029456c7dfbe1a96cdda9",
+      "proposal_id": "proposal-cd16dd8afc3d4f5bb0e300eb0a57a513",
+      "proposer_public_key": "1e33bbc41e72b80498b41b6384ad6f7080db0f901b534b85d6bc93c5ef6ac41e",
+      "protocol_era": 1,
+      "round": 0,
+      "signature": "8e1cf412d273a8361b04f21d12466a51ffb3aae0efb216ad49d144532fdf3ddf6aa08a63e86128ecc0ac63c690af3e934b0750a9611d767019e70870c2dcbd09",
+      "zone_id": "zone-77bc978af4837a1e7971"
+    },
+    "votes": [
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "4ecd98b323c74d419a52ca89075c9cedab1534b76fc2bc3ca608322af251fa7d",
+        "parent_height": 4,
+        "parent_state_root": "2a4358e71f1364896f8d9f145cbc277121ac08a95ef029456c7dfbe1a96cdda9",
+        "proposal_hash": "96c4d503dcaf79d37dca424580589ee969d90fdfa4fa9082b3c5357d668c5255",
+        "proposal_id": "proposal-cd16dd8afc3d4f5bb0e300eb0a57a513",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "35977f84edc4dc16d4054a0563dafb2e3dc538f9fa28e5b9beefdaeef089581c50ca09368eb10fb3cb05ef3ac03214cedd154fa5f8088b551a26c08b20679d08",
+        "voter_public_key": "1e33bbc41e72b80498b41b6384ad6f7080db0f901b534b85d6bc93c5ef6ac41e",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      },
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "4ecd98b323c74d419a52ca89075c9cedab1534b76fc2bc3ca608322af251fa7d",
+        "parent_height": 4,
+        "parent_state_root": "2a4358e71f1364896f8d9f145cbc277121ac08a95ef029456c7dfbe1a96cdda9",
+        "proposal_hash": "96c4d503dcaf79d37dca424580589ee969d90fdfa4fa9082b3c5357d668c5255",
+        "proposal_id": "proposal-cd16dd8afc3d4f5bb0e300eb0a57a513",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "49029961eebfde271730b9e71aa6ef9cb3700f9ab5ab77b2279edcc007f78f5ccd6e302014cd6c51c44047a52ed5505f4e8d198c1f65598135dc84825b711d05",
+        "voter_public_key": "6da4544d46a4d46507885f32b6c66c914736bac952d27230b5024aaca55f459c",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      },
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "4ecd98b323c74d419a52ca89075c9cedab1534b76fc2bc3ca608322af251fa7d",
+        "parent_height": 4,
+        "parent_state_root": "2a4358e71f1364896f8d9f145cbc277121ac08a95ef029456c7dfbe1a96cdda9",
+        "proposal_hash": "96c4d503dcaf79d37dca424580589ee969d90fdfa4fa9082b3c5357d668c5255",
+        "proposal_id": "proposal-cd16dd8afc3d4f5bb0e300eb0a57a513",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "48f0a1a3cea39cdbf3d6a66d3d7c331841309aa3b76b43c0d7d9569cdb8edad9553f4ab89644b373bab84801de8567980447607d803613c97ecf30ad820ba50d",
+        "voter_public_key": "70f3c31a9e157002c1dce81aeb22cfd454d018edd8c53142c49000a7d704da8a",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      },
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "4ecd98b323c74d419a52ca89075c9cedab1534b76fc2bc3ca608322af251fa7d",
+        "parent_height": 4,
+        "parent_state_root": "2a4358e71f1364896f8d9f145cbc277121ac08a95ef029456c7dfbe1a96cdda9",
+        "proposal_hash": "96c4d503dcaf79d37dca424580589ee969d90fdfa4fa9082b3c5357d668c5255",
+        "proposal_id": "proposal-cd16dd8afc3d4f5bb0e300eb0a57a513",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "4c640cfa26301c19c87adccb22405f7253ad12c4565fe0423e4f541352d72b15bb984cdbf1cb7daa530525c841f58e7bcc28f6da0681728157b89aa72d05920e",
+        "voter_public_key": "e048863058d4c3baef1f864973a1293396ab92b4cb00f60503f1047a437b7926",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      }
+    ]
+  },
+  {
+    "proposal": {
+      "command": {
+        "payload": {
+          "crypto_era": 1,
+          "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+          "heartbeat_id": "m0-heartbeat-5-5f892f1f9bbb104c",
+          "note_hash": "5f892f1f9bbb104c7fb1e4df4ac87c860374519de8d0c991b3d5573fa7d48f97",
+          "parent_height": 5,
+          "protocol_era": 1,
+          "zone_id": "zone-77bc978af4837a1e7971"
+        },
+        "type": "NETWORK_HEARTBEAT"
+      },
+      "command_hash": "d04d8d7f09d70f11a9170fcc89e276ec7d834ae38a6f594543eb24a22bc65eda",
+      "crypto_era": 1,
+      "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+      "expected_height": 6,
+      "expected_state_root": "03cdd780d1cae4af759ff97bdb675ae8cd7ab68f732e660031e8b389a95bbc01",
+      "parent_height": 5,
+      "parent_state_root": "4ecd98b323c74d419a52ca89075c9cedab1534b76fc2bc3ca608322af251fa7d",
+      "proposal_id": "proposal-d5175bfbdc1cc0ea3a6ce3539fbb9016",
+      "proposer_public_key": "6da4544d46a4d46507885f32b6c66c914736bac952d27230b5024aaca55f459c",
+      "protocol_era": 1,
+      "round": 0,
+      "signature": "92cc1c0be54024976606c8d8aed4ec0e232c2080fc4e6b3c23c74111da2589d9975884509838960535adc2ca99d46524553a9298c3b33a6d73992bce7c002506",
+      "zone_id": "zone-77bc978af4837a1e7971"
+    },
+    "votes": [
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "03cdd780d1cae4af759ff97bdb675ae8cd7ab68f732e660031e8b389a95bbc01",
+        "parent_height": 5,
+        "parent_state_root": "4ecd98b323c74d419a52ca89075c9cedab1534b76fc2bc3ca608322af251fa7d",
+        "proposal_hash": "cc4b385e5e2db1d3cab928c677fc9b84c780a346e9ee47e47d709bde4d76a96f",
+        "proposal_id": "proposal-d5175bfbdc1cc0ea3a6ce3539fbb9016",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "3cd6d2c5fb678212870cc57035834c4ebf4cbcdfaafd3be0af2cbb3e78a2c0d59c5fdfbb83666eb9c78b706cb48f1906b858dd9f5006af7d1c2e9a2b44c8c307",
+        "voter_public_key": "1e33bbc41e72b80498b41b6384ad6f7080db0f901b534b85d6bc93c5ef6ac41e",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      },
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "03cdd780d1cae4af759ff97bdb675ae8cd7ab68f732e660031e8b389a95bbc01",
+        "parent_height": 5,
+        "parent_state_root": "4ecd98b323c74d419a52ca89075c9cedab1534b76fc2bc3ca608322af251fa7d",
+        "proposal_hash": "cc4b385e5e2db1d3cab928c677fc9b84c780a346e9ee47e47d709bde4d76a96f",
+        "proposal_id": "proposal-d5175bfbdc1cc0ea3a6ce3539fbb9016",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "8b19199b117b371c812079a13e82dfa8327869296058c2041c4c57ee6c339a18d0aa5361ae7207051eb94d388131415fee13d4334f4a1a30fef8ac01a41b4201",
+        "voter_public_key": "6da4544d46a4d46507885f32b6c66c914736bac952d27230b5024aaca55f459c",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      },
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "03cdd780d1cae4af759ff97bdb675ae8cd7ab68f732e660031e8b389a95bbc01",
+        "parent_height": 5,
+        "parent_state_root": "4ecd98b323c74d419a52ca89075c9cedab1534b76fc2bc3ca608322af251fa7d",
+        "proposal_hash": "cc4b385e5e2db1d3cab928c677fc9b84c780a346e9ee47e47d709bde4d76a96f",
+        "proposal_id": "proposal-d5175bfbdc1cc0ea3a6ce3539fbb9016",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "31a8b1a6c1e44fb93d7536cc55bf790cc17c30c6aa945b5cc77d5b5a33a23fe85845bb1163127d246665a1987c7605007f17f32c0ddc29392aff959434d11c0d",
+        "voter_public_key": "70f3c31a9e157002c1dce81aeb22cfd454d018edd8c53142c49000a7d704da8a",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      },
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "03cdd780d1cae4af759ff97bdb675ae8cd7ab68f732e660031e8b389a95bbc01",
+        "parent_height": 5,
+        "parent_state_root": "4ecd98b323c74d419a52ca89075c9cedab1534b76fc2bc3ca608322af251fa7d",
+        "proposal_hash": "cc4b385e5e2db1d3cab928c677fc9b84c780a346e9ee47e47d709bde4d76a96f",
+        "proposal_id": "proposal-d5175bfbdc1cc0ea3a6ce3539fbb9016",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "ac0d1a320cc16fe45b24b4b69beb2b51f6e9d0f1c26d928a558541a23626add768ecd5bd6354628c2468cb89114b22b1bf613b62ea042c9c207620adabf5c20b",
+        "voter_public_key": "e048863058d4c3baef1f864973a1293396ab92b4cb00f60503f1047a437b7926",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      }
+    ]
+  },
+  {
+    "proposal": {
+      "command": {
+        "payload": {
+          "crypto_era": 1,
+          "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+          "heartbeat_id": "m0-heartbeat-6-5f892f1f9bbb104c",
+          "note_hash": "5f892f1f9bbb104c7fb1e4df4ac87c860374519de8d0c991b3d5573fa7d48f97",
+          "parent_height": 6,
+          "protocol_era": 1,
+          "zone_id": "zone-77bc978af4837a1e7971"
+        },
+        "type": "NETWORK_HEARTBEAT"
+      },
+      "command_hash": "0efaaae4318ef66c9f4da3c08b7e8187fd66df37492a4418de8ae67f0e66f6c6",
+      "crypto_era": 1,
+      "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+      "expected_height": 7,
+      "expected_state_root": "3f27a84e4bb9d3ace8a138da63bcf8c34f7cc5a215f612d7e23a02a0b68c4260",
+      "parent_height": 6,
+      "parent_state_root": "03cdd780d1cae4af759ff97bdb675ae8cd7ab68f732e660031e8b389a95bbc01",
+      "proposal_id": "proposal-892b75a2003b0be0ee5bf2212301acc2",
+      "proposer_public_key": "70f3c31a9e157002c1dce81aeb22cfd454d018edd8c53142c49000a7d704da8a",
+      "protocol_era": 1,
+      "round": 0,
+      "signature": "9f1babe146228fd7b7726afdc52eacafc41ca119202c3c2d34ba57be0b3ed1da9da5b799ba8cab65f5e55cf4f1722fc25dcdb5280f1f1dc5fa0e761a233ee704",
+      "zone_id": "zone-77bc978af4837a1e7971"
+    },
+    "votes": [
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "3f27a84e4bb9d3ace8a138da63bcf8c34f7cc5a215f612d7e23a02a0b68c4260",
+        "parent_height": 6,
+        "parent_state_root": "03cdd780d1cae4af759ff97bdb675ae8cd7ab68f732e660031e8b389a95bbc01",
+        "proposal_hash": "80f9df341262c73f50446232b9d27339181dd243f2870801cf6a2edc0c4ed0fe",
+        "proposal_id": "proposal-892b75a2003b0be0ee5bf2212301acc2",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "a820226beb67c7a8a6b15b1c6599e6b847aeb07e23b9d6288d85cb94ee0dab46f2398d07b02713c375ed0a766d04643f3068695e2c93206cf61071b3821ac306",
+        "voter_public_key": "1e33bbc41e72b80498b41b6384ad6f7080db0f901b534b85d6bc93c5ef6ac41e",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      },
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "3f27a84e4bb9d3ace8a138da63bcf8c34f7cc5a215f612d7e23a02a0b68c4260",
+        "parent_height": 6,
+        "parent_state_root": "03cdd780d1cae4af759ff97bdb675ae8cd7ab68f732e660031e8b389a95bbc01",
+        "proposal_hash": "80f9df341262c73f50446232b9d27339181dd243f2870801cf6a2edc0c4ed0fe",
+        "proposal_id": "proposal-892b75a2003b0be0ee5bf2212301acc2",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "ef9840ffed00805b4449d54519cf86a2476dd0d65808bf775165367b883d62812ac4bad8dc24578c8d667044fd2c3dbb0a91525e07868a8c5b14d37f89a0e607",
+        "voter_public_key": "6da4544d46a4d46507885f32b6c66c914736bac952d27230b5024aaca55f459c",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      },
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "3f27a84e4bb9d3ace8a138da63bcf8c34f7cc5a215f612d7e23a02a0b68c4260",
+        "parent_height": 6,
+        "parent_state_root": "03cdd780d1cae4af759ff97bdb675ae8cd7ab68f732e660031e8b389a95bbc01",
+        "proposal_hash": "80f9df341262c73f50446232b9d27339181dd243f2870801cf6a2edc0c4ed0fe",
+        "proposal_id": "proposal-892b75a2003b0be0ee5bf2212301acc2",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "a5ff0e44015ed206c4efaff82b41ae8a09512addf1dac53b69817a412ec56ca9d8823dc0deb0f88e86c2aca878a54d1ebc7e7f580b0405be81d2969daf37380d",
+        "voter_public_key": "70f3c31a9e157002c1dce81aeb22cfd454d018edd8c53142c49000a7d704da8a",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      },
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "3f27a84e4bb9d3ace8a138da63bcf8c34f7cc5a215f612d7e23a02a0b68c4260",
+        "parent_height": 6,
+        "parent_state_root": "03cdd780d1cae4af759ff97bdb675ae8cd7ab68f732e660031e8b389a95bbc01",
+        "proposal_hash": "80f9df341262c73f50446232b9d27339181dd243f2870801cf6a2edc0c4ed0fe",
+        "proposal_id": "proposal-892b75a2003b0be0ee5bf2212301acc2",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "7e9fcfa19e280a167c4db856362ed6b70ed18d3f0ff69db09a2d9a51832966448c8e93a7007045cc86b1aad6d31883836cb4439183d3ae3b5d9c12a01b1dcd06",
+        "voter_public_key": "e048863058d4c3baef1f864973a1293396ab92b4cb00f60503f1047a437b7926",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      }
+    ]
+  },
+  {
+    "proposal": {
+      "command": {
+        "payload": {
+          "crypto_era": 1,
+          "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+          "heartbeat_id": "m0-heartbeat-7-5f892f1f9bbb104c",
+          "note_hash": "5f892f1f9bbb104c7fb1e4df4ac87c860374519de8d0c991b3d5573fa7d48f97",
+          "parent_height": 7,
+          "protocol_era": 1,
+          "zone_id": "zone-77bc978af4837a1e7971"
+        },
+        "type": "NETWORK_HEARTBEAT"
+      },
+      "command_hash": "2b3f91a70498339bd0f446965658ade84940231405c3de36182db94c48bddd3d",
+      "crypto_era": 1,
+      "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+      "expected_height": 8,
+      "expected_state_root": "5cfa2a157eca668a7a5f59ae31c5aabbf7050527482b656c4171ea60d90bff64",
+      "parent_height": 7,
+      "parent_state_root": "3f27a84e4bb9d3ace8a138da63bcf8c34f7cc5a215f612d7e23a02a0b68c4260",
+      "proposal_id": "proposal-2c0de0cc41a5fe69fc716618ea5d7e17",
+      "proposer_public_key": "e048863058d4c3baef1f864973a1293396ab92b4cb00f60503f1047a437b7926",
+      "protocol_era": 1,
+      "round": 0,
+      "signature": "daa66ab0c093f1efd6427016cde04b2dac5ac3ca538acd45bd5c62e56cddbf9a9e8c762aa038da53e4265f116d233b971d1e6d9a6f6ef620790933e78b01ae00",
+      "zone_id": "zone-77bc978af4837a1e7971"
+    },
+    "votes": [
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "5cfa2a157eca668a7a5f59ae31c5aabbf7050527482b656c4171ea60d90bff64",
+        "parent_height": 7,
+        "parent_state_root": "3f27a84e4bb9d3ace8a138da63bcf8c34f7cc5a215f612d7e23a02a0b68c4260",
+        "proposal_hash": "52268d3394c86fd392caa66c679ad79eda92ae3f1894841ce34cb4cdbcba56b5",
+        "proposal_id": "proposal-2c0de0cc41a5fe69fc716618ea5d7e17",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "fdb99b3b1edc51c32bb1b13be26e3df93c42e25f9a6f9c189aadb0eb728b925eff552a4dad70cd11975aa040211856c798128d08e9b8d3764b6b43915fa26102",
+        "voter_public_key": "1e33bbc41e72b80498b41b6384ad6f7080db0f901b534b85d6bc93c5ef6ac41e",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      },
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "5cfa2a157eca668a7a5f59ae31c5aabbf7050527482b656c4171ea60d90bff64",
+        "parent_height": 7,
+        "parent_state_root": "3f27a84e4bb9d3ace8a138da63bcf8c34f7cc5a215f612d7e23a02a0b68c4260",
+        "proposal_hash": "52268d3394c86fd392caa66c679ad79eda92ae3f1894841ce34cb4cdbcba56b5",
+        "proposal_id": "proposal-2c0de0cc41a5fe69fc716618ea5d7e17",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "0539fffbf1d04419aef855546ce5db83fb2654493f77c7802d842d5df2b78ead9f3b4b511087f6b91353eb26c3af0316e8cdbcfc1642e55a8b49cbb68c8fc809",
+        "voter_public_key": "6da4544d46a4d46507885f32b6c66c914736bac952d27230b5024aaca55f459c",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      },
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "5cfa2a157eca668a7a5f59ae31c5aabbf7050527482b656c4171ea60d90bff64",
+        "parent_height": 7,
+        "parent_state_root": "3f27a84e4bb9d3ace8a138da63bcf8c34f7cc5a215f612d7e23a02a0b68c4260",
+        "proposal_hash": "52268d3394c86fd392caa66c679ad79eda92ae3f1894841ce34cb4cdbcba56b5",
+        "proposal_id": "proposal-2c0de0cc41a5fe69fc716618ea5d7e17",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "7b328508dd9de1db3386dc786ac1e00491ae9858211871abc7324dc9d809edacd3319d31d2776462a72ed46deb03e310f77dc12ba3c8070d353119c3bdd3cf0f",
+        "voter_public_key": "70f3c31a9e157002c1dce81aeb22cfd454d018edd8c53142c49000a7d704da8a",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      },
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "5cfa2a157eca668a7a5f59ae31c5aabbf7050527482b656c4171ea60d90bff64",
+        "parent_height": 7,
+        "parent_state_root": "3f27a84e4bb9d3ace8a138da63bcf8c34f7cc5a215f612d7e23a02a0b68c4260",
+        "proposal_hash": "52268d3394c86fd392caa66c679ad79eda92ae3f1894841ce34cb4cdbcba56b5",
+        "proposal_id": "proposal-2c0de0cc41a5fe69fc716618ea5d7e17",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "9e91f0c2c7c81c2efe2a5b7a17230360af72353f83007a4cfed1483c23b133cc21810fe2b5f5a3e20e8231a62629b4a8ce2154c5739259590b324b363b6c7709",
+        "voter_public_key": "e048863058d4c3baef1f864973a1293396ab92b4cb00f60503f1047a437b7926",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      }
+    ]
+  },
+  {
+    "proposal": {
+      "command": {
+        "payload": {
+          "crypto_era": 1,
+          "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+          "heartbeat_id": "m0-heartbeat-8-5f892f1f9bbb104c",
+          "note_hash": "5f892f1f9bbb104c7fb1e4df4ac87c860374519de8d0c991b3d5573fa7d48f97",
+          "parent_height": 8,
+          "protocol_era": 1,
+          "zone_id": "zone-77bc978af4837a1e7971"
+        },
+        "type": "NETWORK_HEARTBEAT"
+      },
+      "command_hash": "000a9a3eb10d92df43a5dc776f52d528dc020f62f4cbe7f9ef257fb49b633929",
+      "crypto_era": 1,
+      "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+      "expected_height": 9,
+      "expected_state_root": "53f6891d343bd9b90989622aeefefa491b03797a86aa3a20dba8abfd85188134",
+      "parent_height": 8,
+      "parent_state_root": "5cfa2a157eca668a7a5f59ae31c5aabbf7050527482b656c4171ea60d90bff64",
+      "proposal_id": "proposal-0787350d3bfcfe616a731c0c8d056d19",
+      "proposer_public_key": "1e33bbc41e72b80498b41b6384ad6f7080db0f901b534b85d6bc93c5ef6ac41e",
+      "protocol_era": 1,
+      "round": 0,
+      "signature": "298a651155d71028ea18b5b3b30812cd514c5059dd01cfbb61053131e343e9b7294420ce5b0fc4fe7b4900adfc59036ceb434481856debe5887c66f4c7374408",
+      "zone_id": "zone-77bc978af4837a1e7971"
+    },
+    "votes": [
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "53f6891d343bd9b90989622aeefefa491b03797a86aa3a20dba8abfd85188134",
+        "parent_height": 8,
+        "parent_state_root": "5cfa2a157eca668a7a5f59ae31c5aabbf7050527482b656c4171ea60d90bff64",
+        "proposal_hash": "5855e89b6b724afa9a594b321348547254da7ff34f7f3fcad2af700c34c11b3a",
+        "proposal_id": "proposal-0787350d3bfcfe616a731c0c8d056d19",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "8df628b1385364da13d10120f04e930b760220eb950f3237d36bacc2f626d2787aaee167dbd763a430fd380317ae45eaf0d6763a5f9ee0ae3020af393d7f3e0f",
+        "voter_public_key": "1e33bbc41e72b80498b41b6384ad6f7080db0f901b534b85d6bc93c5ef6ac41e",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      },
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "53f6891d343bd9b90989622aeefefa491b03797a86aa3a20dba8abfd85188134",
+        "parent_height": 8,
+        "parent_state_root": "5cfa2a157eca668a7a5f59ae31c5aabbf7050527482b656c4171ea60d90bff64",
+        "proposal_hash": "5855e89b6b724afa9a594b321348547254da7ff34f7f3fcad2af700c34c11b3a",
+        "proposal_id": "proposal-0787350d3bfcfe616a731c0c8d056d19",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "7517d06a744b95cadc56ba983078fdab136c1520d0a56e6e908bcf2fd6422a7e93d882de05207b7a07afffc5937c32e11cc05b6c4255414b77b6f923725ba306",
+        "voter_public_key": "6da4544d46a4d46507885f32b6c66c914736bac952d27230b5024aaca55f459c",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      },
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "53f6891d343bd9b90989622aeefefa491b03797a86aa3a20dba8abfd85188134",
+        "parent_height": 8,
+        "parent_state_root": "5cfa2a157eca668a7a5f59ae31c5aabbf7050527482b656c4171ea60d90bff64",
+        "proposal_hash": "5855e89b6b724afa9a594b321348547254da7ff34f7f3fcad2af700c34c11b3a",
+        "proposal_id": "proposal-0787350d3bfcfe616a731c0c8d056d19",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "0fe8826de440fc54664971ab3fceeada63119f7b6979b25a6d4c2e3605be674e74625485c3b7bdefba06ca5509d603da691f2f5e5af3e8b98eb81fcc8a363506",
+        "voter_public_key": "70f3c31a9e157002c1dce81aeb22cfd454d018edd8c53142c49000a7d704da8a",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      },
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "53f6891d343bd9b90989622aeefefa491b03797a86aa3a20dba8abfd85188134",
+        "parent_height": 8,
+        "parent_state_root": "5cfa2a157eca668a7a5f59ae31c5aabbf7050527482b656c4171ea60d90bff64",
+        "proposal_hash": "5855e89b6b724afa9a594b321348547254da7ff34f7f3fcad2af700c34c11b3a",
+        "proposal_id": "proposal-0787350d3bfcfe616a731c0c8d056d19",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "d03f7c7550aa976143592ed312b55e4fb2c56d1d1cbf2a8036dff172d9aa3e06920d562fb3b0d24a9efe8b0e4e116c5ae7712495f932864ca86a7040e20a8905",
+        "voter_public_key": "e048863058d4c3baef1f864973a1293396ab92b4cb00f60503f1047a437b7926",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      }
+    ]
+  },
+  {
+    "proposal": {
+      "command": {
+        "payload": {
+          "crypto_era": 1,
+          "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+          "heartbeat_id": "m0-heartbeat-9-5f892f1f9bbb104c",
+          "note_hash": "5f892f1f9bbb104c7fb1e4df4ac87c860374519de8d0c991b3d5573fa7d48f97",
+          "parent_height": 9,
+          "protocol_era": 1,
+          "zone_id": "zone-77bc978af4837a1e7971"
+        },
+        "type": "NETWORK_HEARTBEAT"
+      },
+      "command_hash": "8393efe543c5965c018e4ff212aeb734c941e0adabdbe8a3550c686f34f18580",
+      "crypto_era": 1,
+      "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+      "expected_height": 10,
+      "expected_state_root": "96b4d116a34eea4d76dacc38ba65828c2bddfdf987715b7b4732e1b4e9c014c1",
+      "parent_height": 9,
+      "parent_state_root": "53f6891d343bd9b90989622aeefefa491b03797a86aa3a20dba8abfd85188134",
+      "proposal_id": "proposal-b796cd68d2ba5538752d97e405159ce7",
+      "proposer_public_key": "6da4544d46a4d46507885f32b6c66c914736bac952d27230b5024aaca55f459c",
+      "protocol_era": 1,
+      "round": 0,
+      "signature": "f10cdf48254764857e4991c65313599631ac0213691a0a3e88e9b42910bcc13301ddaf13deaf1d5630749454d16f7cd6c206969a38da9de8661995d1caff7607",
+      "zone_id": "zone-77bc978af4837a1e7971"
+    },
+    "votes": [
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "96b4d116a34eea4d76dacc38ba65828c2bddfdf987715b7b4732e1b4e9c014c1",
+        "parent_height": 9,
+        "parent_state_root": "53f6891d343bd9b90989622aeefefa491b03797a86aa3a20dba8abfd85188134",
+        "proposal_hash": "f4b48aa935217ef5fd9e19095fce95e6c468bb12e2ad3ce598b34602556fe76d",
+        "proposal_id": "proposal-b796cd68d2ba5538752d97e405159ce7",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "4b5f168bad05916a7c0ca360bb865b590828904afc92279dd6fb679cc62d8fed60ce5f4eafdf9ff7d5f995ba811f675ec0c8cddb0bb3e15047e3611588e37e03",
+        "voter_public_key": "1e33bbc41e72b80498b41b6384ad6f7080db0f901b534b85d6bc93c5ef6ac41e",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      },
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "96b4d116a34eea4d76dacc38ba65828c2bddfdf987715b7b4732e1b4e9c014c1",
+        "parent_height": 9,
+        "parent_state_root": "53f6891d343bd9b90989622aeefefa491b03797a86aa3a20dba8abfd85188134",
+        "proposal_hash": "f4b48aa935217ef5fd9e19095fce95e6c468bb12e2ad3ce598b34602556fe76d",
+        "proposal_id": "proposal-b796cd68d2ba5538752d97e405159ce7",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "8f59a34bf724d31b3c006a1c8009cb070b861d56d15717ad77f06f149893536df4d7a7d93b28d071b3b826b5d55e800df2dda08136f46504bb9441246acf230c",
+        "voter_public_key": "6da4544d46a4d46507885f32b6c66c914736bac952d27230b5024aaca55f459c",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      },
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "96b4d116a34eea4d76dacc38ba65828c2bddfdf987715b7b4732e1b4e9c014c1",
+        "parent_height": 9,
+        "parent_state_root": "53f6891d343bd9b90989622aeefefa491b03797a86aa3a20dba8abfd85188134",
+        "proposal_hash": "f4b48aa935217ef5fd9e19095fce95e6c468bb12e2ad3ce598b34602556fe76d",
+        "proposal_id": "proposal-b796cd68d2ba5538752d97e405159ce7",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "87cc4f50f2338fc621caf5ddb5ca7e73a0a58286a8801bb55fe6e1f2031c159b32bbe3a75c6d7b0b44054dd233107c68cbc07ddd0bbe74bf6b7fba00dc22e507",
+        "voter_public_key": "70f3c31a9e157002c1dce81aeb22cfd454d018edd8c53142c49000a7d704da8a",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      },
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "96b4d116a34eea4d76dacc38ba65828c2bddfdf987715b7b4732e1b4e9c014c1",
+        "parent_height": 9,
+        "parent_state_root": "53f6891d343bd9b90989622aeefefa491b03797a86aa3a20dba8abfd85188134",
+        "proposal_hash": "f4b48aa935217ef5fd9e19095fce95e6c468bb12e2ad3ce598b34602556fe76d",
+        "proposal_id": "proposal-b796cd68d2ba5538752d97e405159ce7",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "63aa15dfed657ce7424b770d85299b4c081ce0cc36ff6768bc972ea4b86cb0bc71715b0c7d505ea41d8aa3f7dfd3184beb52acdf1da2586958c687ae7040590d",
+        "voter_public_key": "e048863058d4c3baef1f864973a1293396ab92b4cb00f60503f1047a437b7926",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      }
+    ]
+  },
+  {
+    "proposal": {
+      "command": {
+        "payload": {
+          "crypto_era": 1,
+          "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+          "heartbeat_id": "m0-heartbeat-10-5f892f1f9bbb104c",
+          "note_hash": "5f892f1f9bbb104c7fb1e4df4ac87c860374519de8d0c991b3d5573fa7d48f97",
+          "parent_height": 10,
+          "protocol_era": 1,
+          "zone_id": "zone-77bc978af4837a1e7971"
+        },
+        "type": "NETWORK_HEARTBEAT"
+      },
+      "command_hash": "3bb03b26dcb36fb4ed5244eef30f56103d611b175ec11e52833ff3d14a7c8983",
+      "crypto_era": 1,
+      "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+      "expected_height": 11,
+      "expected_state_root": "8c23cb283e562a7ec90e75e114deed3ffc9e91e18fef794c0d51a4e14e0f7342",
+      "parent_height": 10,
+      "parent_state_root": "96b4d116a34eea4d76dacc38ba65828c2bddfdf987715b7b4732e1b4e9c014c1",
+      "proposal_id": "proposal-e0f30756a0515e96d3e305fb13fa6e5d",
+      "proposer_public_key": "70f3c31a9e157002c1dce81aeb22cfd454d018edd8c53142c49000a7d704da8a",
+      "protocol_era": 1,
+      "round": 0,
+      "signature": "87b21da779a024c1c55320333c7ba63b3e26e39f6b4a690cbd7ab52d7f5a887486dc9a1a4520f8e01650ff1d82b56c58df7cf5a1590dec0c279dd6213a62e808",
+      "zone_id": "zone-77bc978af4837a1e7971"
+    },
+    "votes": [
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "8c23cb283e562a7ec90e75e114deed3ffc9e91e18fef794c0d51a4e14e0f7342",
+        "parent_height": 10,
+        "parent_state_root": "96b4d116a34eea4d76dacc38ba65828c2bddfdf987715b7b4732e1b4e9c014c1",
+        "proposal_hash": "07769ea6e1e9720d93f42d6e0e05d260533a0caecc8ff7284f8f6b8d78de084d",
+        "proposal_id": "proposal-e0f30756a0515e96d3e305fb13fa6e5d",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "2dd21c0a7059d4c674cb4b43596258d0fc68ec7c20845c2ccbfdff14d4cc38780f18a06cb9b90cbfc1dbb5feb190d26d9b8b7bf8e46761bd996b361d08927e0f",
+        "voter_public_key": "1e33bbc41e72b80498b41b6384ad6f7080db0f901b534b85d6bc93c5ef6ac41e",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      },
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "8c23cb283e562a7ec90e75e114deed3ffc9e91e18fef794c0d51a4e14e0f7342",
+        "parent_height": 10,
+        "parent_state_root": "96b4d116a34eea4d76dacc38ba65828c2bddfdf987715b7b4732e1b4e9c014c1",
+        "proposal_hash": "07769ea6e1e9720d93f42d6e0e05d260533a0caecc8ff7284f8f6b8d78de084d",
+        "proposal_id": "proposal-e0f30756a0515e96d3e305fb13fa6e5d",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "1043909f75eb3d09ec9882860eff99070627d57df3726461d0d461b18bdd22118e21932f2169617798253f1b44ed0f4a141374d7bf3e2c997c3f5ee32196bf00",
+        "voter_public_key": "6da4544d46a4d46507885f32b6c66c914736bac952d27230b5024aaca55f459c",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      },
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "8c23cb283e562a7ec90e75e114deed3ffc9e91e18fef794c0d51a4e14e0f7342",
+        "parent_height": 10,
+        "parent_state_root": "96b4d116a34eea4d76dacc38ba65828c2bddfdf987715b7b4732e1b4e9c014c1",
+        "proposal_hash": "07769ea6e1e9720d93f42d6e0e05d260533a0caecc8ff7284f8f6b8d78de084d",
+        "proposal_id": "proposal-e0f30756a0515e96d3e305fb13fa6e5d",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "717b79ea9735d32ce2600d9c2250d1761bc425b59627eb501476ef433db60d28457887919ae62fd132b0529a3f29944ec4f3b0f8a4763fced4b73cb71f278c01",
+        "voter_public_key": "70f3c31a9e157002c1dce81aeb22cfd454d018edd8c53142c49000a7d704da8a",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      },
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "8c23cb283e562a7ec90e75e114deed3ffc9e91e18fef794c0d51a4e14e0f7342",
+        "parent_height": 10,
+        "parent_state_root": "96b4d116a34eea4d76dacc38ba65828c2bddfdf987715b7b4732e1b4e9c014c1",
+        "proposal_hash": "07769ea6e1e9720d93f42d6e0e05d260533a0caecc8ff7284f8f6b8d78de084d",
+        "proposal_id": "proposal-e0f30756a0515e96d3e305fb13fa6e5d",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "864dbe672f7955ea2a9269b0c971cf9b1a5eae3f5943c09b4a44e668b45ecf93869ca6ac319ab4a157dbe0939ce4718423af48ae1add4d17d6143ad960a49501",
+        "voter_public_key": "e048863058d4c3baef1f864973a1293396ab92b4cb00f60503f1047a437b7926",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      }
+    ]
+  },
+  {
+    "proposal": {
+      "command": {
+        "payload": {
+          "crypto_era": 1,
+          "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+          "heartbeat_id": "m0-heartbeat-11-5f892f1f9bbb104c",
+          "note_hash": "5f892f1f9bbb104c7fb1e4df4ac87c860374519de8d0c991b3d5573fa7d48f97",
+          "parent_height": 11,
+          "protocol_era": 1,
+          "zone_id": "zone-77bc978af4837a1e7971"
+        },
+        "type": "NETWORK_HEARTBEAT"
+      },
+      "command_hash": "37b7993f77f4dd59a2ae476f7629ba26f6e94629e11f09b5d2d761025c1dbe74",
+      "crypto_era": 1,
+      "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+      "expected_height": 12,
+      "expected_state_root": "2d874454519eaf8cb817e29e54f3a868175e0aa9f665d430e7f9fdf70832945b",
+      "parent_height": 11,
+      "parent_state_root": "8c23cb283e562a7ec90e75e114deed3ffc9e91e18fef794c0d51a4e14e0f7342",
+      "proposal_id": "proposal-e69a32079157f4544df55a33f9628f1f",
+      "proposer_public_key": "e048863058d4c3baef1f864973a1293396ab92b4cb00f60503f1047a437b7926",
+      "protocol_era": 1,
+      "round": 0,
+      "signature": "7e7f53681e080d9c680245713b2be712c2242156712f8ef8631a209fdd8dc7064cdd9eaf03407b05f57b6fcbb39177a5a3935fcd619dbd520f82d11d1038d90c",
+      "zone_id": "zone-77bc978af4837a1e7971"
+    },
+    "votes": [
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "2d874454519eaf8cb817e29e54f3a868175e0aa9f665d430e7f9fdf70832945b",
+        "parent_height": 11,
+        "parent_state_root": "8c23cb283e562a7ec90e75e114deed3ffc9e91e18fef794c0d51a4e14e0f7342",
+        "proposal_hash": "e722c91d77a1f411b5c99ce9d7efc632db58fd880b67f245cfa34dbc2212c4cb",
+        "proposal_id": "proposal-e69a32079157f4544df55a33f9628f1f",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "6aeaf4b9b95a5fb1b81c827349c4c28ab58c83137ea26af8eb80244871cd5cc846f64b3404a635a9e7d5dc291f44bc8452c477f8e427cd1f94cc1b117a3f850f",
+        "voter_public_key": "1e33bbc41e72b80498b41b6384ad6f7080db0f901b534b85d6bc93c5ef6ac41e",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      },
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "2d874454519eaf8cb817e29e54f3a868175e0aa9f665d430e7f9fdf70832945b",
+        "parent_height": 11,
+        "parent_state_root": "8c23cb283e562a7ec90e75e114deed3ffc9e91e18fef794c0d51a4e14e0f7342",
+        "proposal_hash": "e722c91d77a1f411b5c99ce9d7efc632db58fd880b67f245cfa34dbc2212c4cb",
+        "proposal_id": "proposal-e69a32079157f4544df55a33f9628f1f",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "ef7d2e3632e3a19199e3623eae6db4fbc7d2825012aade0789602eeedb856873cf8698a13fcd12c26680d84e3662f44534df967ee4043e58787383e410dcd80a",
+        "voter_public_key": "6da4544d46a4d46507885f32b6c66c914736bac952d27230b5024aaca55f459c",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      },
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "2d874454519eaf8cb817e29e54f3a868175e0aa9f665d430e7f9fdf70832945b",
+        "parent_height": 11,
+        "parent_state_root": "8c23cb283e562a7ec90e75e114deed3ffc9e91e18fef794c0d51a4e14e0f7342",
+        "proposal_hash": "e722c91d77a1f411b5c99ce9d7efc632db58fd880b67f245cfa34dbc2212c4cb",
+        "proposal_id": "proposal-e69a32079157f4544df55a33f9628f1f",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "c412765a6945271476fa80b418c333caf8fa43490d2b461d3d290f996802ced284279e8e4c0ffc9d795a63b7a57020fc4ef4905d98b1ccf125791e225e6ee406",
+        "voter_public_key": "70f3c31a9e157002c1dce81aeb22cfd454d018edd8c53142c49000a7d704da8a",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      },
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "2d874454519eaf8cb817e29e54f3a868175e0aa9f665d430e7f9fdf70832945b",
+        "parent_height": 11,
+        "parent_state_root": "8c23cb283e562a7ec90e75e114deed3ffc9e91e18fef794c0d51a4e14e0f7342",
+        "proposal_hash": "e722c91d77a1f411b5c99ce9d7efc632db58fd880b67f245cfa34dbc2212c4cb",
+        "proposal_id": "proposal-e69a32079157f4544df55a33f9628f1f",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "1cba3ff89de0307e788aac12f4e4a5e307d56d9b41baac92b3c6bbd4ab4b5cdc6a05f35f65a0944a8dd4286ea31e0e6357fb939a5d0ce68daf5d0a2e7b870a01",
+        "voter_public_key": "e048863058d4c3baef1f864973a1293396ab92b4cb00f60503f1047a437b7926",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      }
+    ]
+  },
+  {
+    "proposal": {
+      "command": {
+        "payload": {
+          "crypto_era": 1,
+          "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+          "heartbeat_id": "m0-heartbeat-12-5f892f1f9bbb104c",
+          "note_hash": "5f892f1f9bbb104c7fb1e4df4ac87c860374519de8d0c991b3d5573fa7d48f97",
+          "parent_height": 12,
+          "protocol_era": 1,
+          "zone_id": "zone-77bc978af4837a1e7971"
+        },
+        "type": "NETWORK_HEARTBEAT"
+      },
+      "command_hash": "60671edca494b4e6f959acd802164352c1acc4d44281c4a1af5d5338b80e3f9f",
+      "crypto_era": 1,
+      "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+      "expected_height": 13,
+      "expected_state_root": "a243c5047c70671c2648d774a6bac7cb885dfa087b2df6ef6b0956e311138788",
+      "parent_height": 12,
+      "parent_state_root": "2d874454519eaf8cb817e29e54f3a868175e0aa9f665d430e7f9fdf70832945b",
+      "proposal_id": "proposal-75d9051b084d79b84dbb1803c62f93d5",
+      "proposer_public_key": "1e33bbc41e72b80498b41b6384ad6f7080db0f901b534b85d6bc93c5ef6ac41e",
+      "protocol_era": 1,
+      "round": 0,
+      "signature": "5a6a14348ccb595400b8603f9c57919ff28aac5250e1667a709bb1b4374dd511d3418be0c143355b410624d394f555cfd2b6086f01f7e26ed4641b5a7b66660f",
+      "zone_id": "zone-77bc978af4837a1e7971"
+    },
+    "votes": [
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "a243c5047c70671c2648d774a6bac7cb885dfa087b2df6ef6b0956e311138788",
+        "parent_height": 12,
+        "parent_state_root": "2d874454519eaf8cb817e29e54f3a868175e0aa9f665d430e7f9fdf70832945b",
+        "proposal_hash": "92338aeead151ccd0b388e5f284022d7f21e4165fd62ff39c35405cb47715a44",
+        "proposal_id": "proposal-75d9051b084d79b84dbb1803c62f93d5",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "306d7d9dac2334b248c595bda48b7b53bae822fce68584eb34c99d88a34fa1614302d23a270f79197cd8a2f3294e297afdd925122f97b841d699efdb3c078300",
+        "voter_public_key": "1e33bbc41e72b80498b41b6384ad6f7080db0f901b534b85d6bc93c5ef6ac41e",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      },
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "a243c5047c70671c2648d774a6bac7cb885dfa087b2df6ef6b0956e311138788",
+        "parent_height": 12,
+        "parent_state_root": "2d874454519eaf8cb817e29e54f3a868175e0aa9f665d430e7f9fdf70832945b",
+        "proposal_hash": "92338aeead151ccd0b388e5f284022d7f21e4165fd62ff39c35405cb47715a44",
+        "proposal_id": "proposal-75d9051b084d79b84dbb1803c62f93d5",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "ad84207070282f2d530acb4d095ed77e2cf538ea0144a604f6944d6ae900c46b5d111bb0697408713f6669e941af4c965679aba37a08cfbff0515511f2ab500e",
+        "voter_public_key": "6da4544d46a4d46507885f32b6c66c914736bac952d27230b5024aaca55f459c",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      },
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "a243c5047c70671c2648d774a6bac7cb885dfa087b2df6ef6b0956e311138788",
+        "parent_height": 12,
+        "parent_state_root": "2d874454519eaf8cb817e29e54f3a868175e0aa9f665d430e7f9fdf70832945b",
+        "proposal_hash": "92338aeead151ccd0b388e5f284022d7f21e4165fd62ff39c35405cb47715a44",
+        "proposal_id": "proposal-75d9051b084d79b84dbb1803c62f93d5",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "a6792a5a3988f3e3263ef3be9229e42faa84e45ff7492e28b03c64cb416f2f931523c6a625b96c4aec44db153feeb33c28d74db658c2fb2335cf316ebc439d03",
+        "voter_public_key": "70f3c31a9e157002c1dce81aeb22cfd454d018edd8c53142c49000a7d704da8a",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      },
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "a243c5047c70671c2648d774a6bac7cb885dfa087b2df6ef6b0956e311138788",
+        "parent_height": 12,
+        "parent_state_root": "2d874454519eaf8cb817e29e54f3a868175e0aa9f665d430e7f9fdf70832945b",
+        "proposal_hash": "92338aeead151ccd0b388e5f284022d7f21e4165fd62ff39c35405cb47715a44",
+        "proposal_id": "proposal-75d9051b084d79b84dbb1803c62f93d5",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "0d62fd4f54b990769cce0d86f2c1f4ad36fff2f994ed9c5f0020b514e66196c85423947fb716e0bf91864215cb89bf9c966231eafb3c88abff3ff94b9b514702",
+        "voter_public_key": "e048863058d4c3baef1f864973a1293396ab92b4cb00f60503f1047a437b7926",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      }
+    ]
+  },
+  {
+    "proposal": {
+      "command": {
+        "payload": {
+          "crypto_era": 1,
+          "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+          "heartbeat_id": "m0-heartbeat-13-5f892f1f9bbb104c",
+          "note_hash": "5f892f1f9bbb104c7fb1e4df4ac87c860374519de8d0c991b3d5573fa7d48f97",
+          "parent_height": 13,
+          "protocol_era": 1,
+          "zone_id": "zone-77bc978af4837a1e7971"
+        },
+        "type": "NETWORK_HEARTBEAT"
+      },
+      "command_hash": "53c6904025e44d662a76fd2ea94a174f0d981f24dff40931f0467672a9a041ba",
+      "crypto_era": 1,
+      "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+      "expected_height": 14,
+      "expected_state_root": "48ed7723fe4fe0fc094dfe4861b3344e8269b6cf0bbebbcf1f92cb57dafec361",
+      "parent_height": 13,
+      "parent_state_root": "a243c5047c70671c2648d774a6bac7cb885dfa087b2df6ef6b0956e311138788",
+      "proposal_id": "proposal-85e25a220f6676761891f809a8db12b5",
+      "proposer_public_key": "6da4544d46a4d46507885f32b6c66c914736bac952d27230b5024aaca55f459c",
+      "protocol_era": 1,
+      "round": 0,
+      "signature": "379417abad199e88b291b324e3270b27d5bd7e701653cbee4db8d513b0aa0e344fe5c4bedfcd531596f04919c2b58ab6d438f6e094c20125baa3855dba665701",
+      "zone_id": "zone-77bc978af4837a1e7971"
+    },
+    "votes": [
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "48ed7723fe4fe0fc094dfe4861b3344e8269b6cf0bbebbcf1f92cb57dafec361",
+        "parent_height": 13,
+        "parent_state_root": "a243c5047c70671c2648d774a6bac7cb885dfa087b2df6ef6b0956e311138788",
+        "proposal_hash": "5ed207ebff640de1ccb9849887496fad70d613e7672f2b1f2e6f47938e8fe1f7",
+        "proposal_id": "proposal-85e25a220f6676761891f809a8db12b5",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "ab0242141cfc2f59a2bcfda938d006f033e9906345cd57cc50568fb0956602866cc005f1eb8be17950f63dd67a27fe8b095ab4603952676e69aad8c7c226900f",
+        "voter_public_key": "1e33bbc41e72b80498b41b6384ad6f7080db0f901b534b85d6bc93c5ef6ac41e",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      },
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "48ed7723fe4fe0fc094dfe4861b3344e8269b6cf0bbebbcf1f92cb57dafec361",
+        "parent_height": 13,
+        "parent_state_root": "a243c5047c70671c2648d774a6bac7cb885dfa087b2df6ef6b0956e311138788",
+        "proposal_hash": "5ed207ebff640de1ccb9849887496fad70d613e7672f2b1f2e6f47938e8fe1f7",
+        "proposal_id": "proposal-85e25a220f6676761891f809a8db12b5",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "03832a891f45ae2c8df32c3dea3be8d673f61c20afeef6ed2565a7bd9f0eb7808d1c4c09a6cd7e90bc46b868d0b3cba1ac3b580fab59f3f1752522727c348e0c",
+        "voter_public_key": "6da4544d46a4d46507885f32b6c66c914736bac952d27230b5024aaca55f459c",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      },
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "48ed7723fe4fe0fc094dfe4861b3344e8269b6cf0bbebbcf1f92cb57dafec361",
+        "parent_height": 13,
+        "parent_state_root": "a243c5047c70671c2648d774a6bac7cb885dfa087b2df6ef6b0956e311138788",
+        "proposal_hash": "5ed207ebff640de1ccb9849887496fad70d613e7672f2b1f2e6f47938e8fe1f7",
+        "proposal_id": "proposal-85e25a220f6676761891f809a8db12b5",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "f6e3931a27a8b3d7751c8859ad014ee1174c730660007f88f126e46dd0f171c1d5d13524aab85a960988a8641776bae39b76e9d5c6de3e5849b95de4c6ec2607",
+        "voter_public_key": "70f3c31a9e157002c1dce81aeb22cfd454d018edd8c53142c49000a7d704da8a",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      },
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "48ed7723fe4fe0fc094dfe4861b3344e8269b6cf0bbebbcf1f92cb57dafec361",
+        "parent_height": 13,
+        "parent_state_root": "a243c5047c70671c2648d774a6bac7cb885dfa087b2df6ef6b0956e311138788",
+        "proposal_hash": "5ed207ebff640de1ccb9849887496fad70d613e7672f2b1f2e6f47938e8fe1f7",
+        "proposal_id": "proposal-85e25a220f6676761891f809a8db12b5",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "f279948c561ff24a2dff6bd3cea3a42ce3e044ff7b6f0dc6893fa32225eeb04d17b9f3605cf613e828f55b23bec5eefcf9c5866c666b47ad7a5a60e33ab73e00",
+        "voter_public_key": "e048863058d4c3baef1f864973a1293396ab92b4cb00f60503f1047a437b7926",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      }
+    ]
+  },
+  {
+    "proposal": {
+      "command": {
+        "payload": {
+          "crypto_era": 1,
+          "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+          "heartbeat_id": "m0-heartbeat-14-5f892f1f9bbb104c",
+          "note_hash": "5f892f1f9bbb104c7fb1e4df4ac87c860374519de8d0c991b3d5573fa7d48f97",
+          "parent_height": 14,
+          "protocol_era": 1,
+          "zone_id": "zone-77bc978af4837a1e7971"
+        },
+        "type": "NETWORK_HEARTBEAT"
+      },
+      "command_hash": "13fb9e48b6484eb874ea93cdd53a405e0a3913cc193b202b6577656408ea8f06",
+      "crypto_era": 1,
+      "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+      "expected_height": 15,
+      "expected_state_root": "8ec46328598011201b246688bad4dc94f523214e8eb2b12e7553d1f4943c268e",
+      "parent_height": 14,
+      "parent_state_root": "48ed7723fe4fe0fc094dfe4861b3344e8269b6cf0bbebbcf1f92cb57dafec361",
+      "proposal_id": "proposal-cf04afbee200b66a2f2a753ab8fbf06f",
+      "proposer_public_key": "70f3c31a9e157002c1dce81aeb22cfd454d018edd8c53142c49000a7d704da8a",
+      "protocol_era": 1,
+      "round": 0,
+      "signature": "aa2cd01a9c1924552a37f6900653540bc50adb23ee646eb6a7c0f1c3f67f129cd1e626eed1ccfc8445c0bfdbf17331820479d013c5d98b060c5c960395a61007",
+      "zone_id": "zone-77bc978af4837a1e7971"
+    },
+    "votes": [
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "8ec46328598011201b246688bad4dc94f523214e8eb2b12e7553d1f4943c268e",
+        "parent_height": 14,
+        "parent_state_root": "48ed7723fe4fe0fc094dfe4861b3344e8269b6cf0bbebbcf1f92cb57dafec361",
+        "proposal_hash": "7d493460b434857d69d4db86710f2b217dc4d97699fd10cf019032ad186f2139",
+        "proposal_id": "proposal-cf04afbee200b66a2f2a753ab8fbf06f",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "4f84b2362cea2328eec2f0f7f797faddca25d90590a51ce91c9f7cb68f958333e6e6f51417d18cf5d4b18b0e0c1aa6777d285bb57b339fb99128e3c0ac001d0f",
+        "voter_public_key": "1e33bbc41e72b80498b41b6384ad6f7080db0f901b534b85d6bc93c5ef6ac41e",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      },
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "8ec46328598011201b246688bad4dc94f523214e8eb2b12e7553d1f4943c268e",
+        "parent_height": 14,
+        "parent_state_root": "48ed7723fe4fe0fc094dfe4861b3344e8269b6cf0bbebbcf1f92cb57dafec361",
+        "proposal_hash": "7d493460b434857d69d4db86710f2b217dc4d97699fd10cf019032ad186f2139",
+        "proposal_id": "proposal-cf04afbee200b66a2f2a753ab8fbf06f",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "8d7a93efe07e5a8fd5a85ec5ffd972e277cc009b4e10d4153cca83dc92d1416e513ccd7bf4fe4062189b19e6e892a63bbb4bfd6cf529e4194693c559a44fa507",
+        "voter_public_key": "6da4544d46a4d46507885f32b6c66c914736bac952d27230b5024aaca55f459c",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      },
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "8ec46328598011201b246688bad4dc94f523214e8eb2b12e7553d1f4943c268e",
+        "parent_height": 14,
+        "parent_state_root": "48ed7723fe4fe0fc094dfe4861b3344e8269b6cf0bbebbcf1f92cb57dafec361",
+        "proposal_hash": "7d493460b434857d69d4db86710f2b217dc4d97699fd10cf019032ad186f2139",
+        "proposal_id": "proposal-cf04afbee200b66a2f2a753ab8fbf06f",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "5af6ed57233b0a56db990b11a1ac9e285ad1ef8a9d5a396af7012551e7bc48c5127a97082b9837010c6c332f429c551a06a2979ff3fcf6556395d0bb22a03c08",
+        "voter_public_key": "70f3c31a9e157002c1dce81aeb22cfd454d018edd8c53142c49000a7d704da8a",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      },
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "8ec46328598011201b246688bad4dc94f523214e8eb2b12e7553d1f4943c268e",
+        "parent_height": 14,
+        "parent_state_root": "48ed7723fe4fe0fc094dfe4861b3344e8269b6cf0bbebbcf1f92cb57dafec361",
+        "proposal_hash": "7d493460b434857d69d4db86710f2b217dc4d97699fd10cf019032ad186f2139",
+        "proposal_id": "proposal-cf04afbee200b66a2f2a753ab8fbf06f",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "bca5a582363cde80f3fef0f9f52399665e4f1d8581aa37eea217dd843423d696b9bddd0dac4f03c6aa881023866938582f6fcad8c13354ea49f67c20ed6c980b",
+        "voter_public_key": "e048863058d4c3baef1f864973a1293396ab92b4cb00f60503f1047a437b7926",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      }
+    ]
+  },
+  {
+    "proposal": {
+      "command": {
+        "payload": {
+          "crypto_era": 1,
+          "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+          "heartbeat_id": "m0-heartbeat-15-5f892f1f9bbb104c",
+          "note_hash": "5f892f1f9bbb104c7fb1e4df4ac87c860374519de8d0c991b3d5573fa7d48f97",
+          "parent_height": 15,
+          "protocol_era": 1,
+          "zone_id": "zone-77bc978af4837a1e7971"
+        },
+        "type": "NETWORK_HEARTBEAT"
+      },
+      "command_hash": "1a0730ff8ee7600b119b38da93e02ce611dc58a8c1a94450e4bbf75a85ddd2c8",
+      "crypto_era": 1,
+      "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+      "expected_height": 16,
+      "expected_state_root": "2f7155531f8583cac5dae252ef75e86c422dd58d12a6b29b518b608ec805d8e2",
+      "parent_height": 15,
+      "parent_state_root": "8ec46328598011201b246688bad4dc94f523214e8eb2b12e7553d1f4943c268e",
+      "proposal_id": "proposal-a857b2752ac433928e4a86879ff7f9b5",
+      "proposer_public_key": "e048863058d4c3baef1f864973a1293396ab92b4cb00f60503f1047a437b7926",
+      "protocol_era": 1,
+      "round": 0,
+      "signature": "11fa7af89879be75da02fd478b8ac79a6d202faf82e99f22c160974dd67a19fe9f188ba68e11d7b92a03622e2b81a8415193b8842c7e6f95702c74eda47c2b05",
+      "zone_id": "zone-77bc978af4837a1e7971"
+    },
+    "votes": [
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "2f7155531f8583cac5dae252ef75e86c422dd58d12a6b29b518b608ec805d8e2",
+        "parent_height": 15,
+        "parent_state_root": "8ec46328598011201b246688bad4dc94f523214e8eb2b12e7553d1f4943c268e",
+        "proposal_hash": "d02ad055c759cbf57f4f8a8f50a3b2df1a8d36bf60f9e74fad682891768c1a0b",
+        "proposal_id": "proposal-a857b2752ac433928e4a86879ff7f9b5",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "83adc3d2add1c274a55814f0acd5e33bf6b1725bd2f39acd9655905b2a9842291a9688949f2c0c84025cba40700ab6aa765bd70798c9d4814867e447f2724502",
+        "voter_public_key": "1e33bbc41e72b80498b41b6384ad6f7080db0f901b534b85d6bc93c5ef6ac41e",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      },
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "2f7155531f8583cac5dae252ef75e86c422dd58d12a6b29b518b608ec805d8e2",
+        "parent_height": 15,
+        "parent_state_root": "8ec46328598011201b246688bad4dc94f523214e8eb2b12e7553d1f4943c268e",
+        "proposal_hash": "d02ad055c759cbf57f4f8a8f50a3b2df1a8d36bf60f9e74fad682891768c1a0b",
+        "proposal_id": "proposal-a857b2752ac433928e4a86879ff7f9b5",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "a366783314537a46776ce026ea18c9197b9e5b8da2b6c6b24d3b7ff7f4e436228ec6b5ad65d29ea2d9a22e053eaacff86166f3cd8857930324db646f8caa5b07",
+        "voter_public_key": "6da4544d46a4d46507885f32b6c66c914736bac952d27230b5024aaca55f459c",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      },
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "2f7155531f8583cac5dae252ef75e86c422dd58d12a6b29b518b608ec805d8e2",
+        "parent_height": 15,
+        "parent_state_root": "8ec46328598011201b246688bad4dc94f523214e8eb2b12e7553d1f4943c268e",
+        "proposal_hash": "d02ad055c759cbf57f4f8a8f50a3b2df1a8d36bf60f9e74fad682891768c1a0b",
+        "proposal_id": "proposal-a857b2752ac433928e4a86879ff7f9b5",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "4d8ef126592b706086b3f2edd4b0ea8206bb1bb7cc4a1d92d4bd526117dae32be0ae103952337e6d28997217e3ab226889aaf07f5bd9e021b2b881d0c1663109",
+        "voter_public_key": "70f3c31a9e157002c1dce81aeb22cfd454d018edd8c53142c49000a7d704da8a",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      },
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "2f7155531f8583cac5dae252ef75e86c422dd58d12a6b29b518b608ec805d8e2",
+        "parent_height": 15,
+        "parent_state_root": "8ec46328598011201b246688bad4dc94f523214e8eb2b12e7553d1f4943c268e",
+        "proposal_hash": "d02ad055c759cbf57f4f8a8f50a3b2df1a8d36bf60f9e74fad682891768c1a0b",
+        "proposal_id": "proposal-a857b2752ac433928e4a86879ff7f9b5",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "fde39155ff9b66198067054f6961117982f128d341fc9bc46b933d806341375547b18a75cc55f6ab01dae3d18bc08d51617597e8e9a0e13cf8b9fbd58c4e4a07",
+        "voter_public_key": "e048863058d4c3baef1f864973a1293396ab92b4cb00f60503f1047a437b7926",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      }
+    ]
+  },
+  {
+    "proposal": {
+      "command": {
+        "payload": {
+          "crypto_era": 1,
+          "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+          "heartbeat_id": "m0-heartbeat-16-5f892f1f9bbb104c",
+          "note_hash": "5f892f1f9bbb104c7fb1e4df4ac87c860374519de8d0c991b3d5573fa7d48f97",
+          "parent_height": 16,
+          "protocol_era": 1,
+          "zone_id": "zone-77bc978af4837a1e7971"
+        },
+        "type": "NETWORK_HEARTBEAT"
+      },
+      "command_hash": "406c4093c4cc84e6da98ce3ba4881bb1e1701f99f98b6e241856e48f08be3643",
+      "crypto_era": 1,
+      "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+      "expected_height": 17,
+      "expected_state_root": "93006f0c2e5b9f54d81383b0822cf8ec8842e81e5a974ad933e707d136250ccd",
+      "parent_height": 16,
+      "parent_state_root": "2f7155531f8583cac5dae252ef75e86c422dd58d12a6b29b518b608ec805d8e2",
+      "proposal_id": "proposal-55ff465e782d7e4b80bd1afe8cd9b4a7",
+      "proposer_public_key": "1e33bbc41e72b80498b41b6384ad6f7080db0f901b534b85d6bc93c5ef6ac41e",
+      "protocol_era": 1,
+      "round": 0,
+      "signature": "655ab337f0ed9170ca3b8dd15bb379970dc612384819c2ee5968a5645006568251c4b609f34e2f1059a0fdd5ee1a6692c9bd827c916bc62b95378b3d22c5a208",
+      "zone_id": "zone-77bc978af4837a1e7971"
+    },
+    "votes": [
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "93006f0c2e5b9f54d81383b0822cf8ec8842e81e5a974ad933e707d136250ccd",
+        "parent_height": 16,
+        "parent_state_root": "2f7155531f8583cac5dae252ef75e86c422dd58d12a6b29b518b608ec805d8e2",
+        "proposal_hash": "ae6eae2c6849a186afe4cae7f6c639d6314e822a1a693e29e5b552ee64cec9a8",
+        "proposal_id": "proposal-55ff465e782d7e4b80bd1afe8cd9b4a7",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "c62e4b0af9aa23e273e3c0289da16f06fba7ffbc8d5c7095069168689dcd06994ebf1be75777bd25d12b2eaaccf5719ba1be8d25993c5488db4e4f9f6771cc05",
+        "voter_public_key": "1e33bbc41e72b80498b41b6384ad6f7080db0f901b534b85d6bc93c5ef6ac41e",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      },
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "93006f0c2e5b9f54d81383b0822cf8ec8842e81e5a974ad933e707d136250ccd",
+        "parent_height": 16,
+        "parent_state_root": "2f7155531f8583cac5dae252ef75e86c422dd58d12a6b29b518b608ec805d8e2",
+        "proposal_hash": "ae6eae2c6849a186afe4cae7f6c639d6314e822a1a693e29e5b552ee64cec9a8",
+        "proposal_id": "proposal-55ff465e782d7e4b80bd1afe8cd9b4a7",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "d0b0b15e19781d27f6f92d2581d2720fca9d100ccbf48edb22e55ac0dc659690edc92c5ba42fee8e61e916555e3f4fae66df16ef7a2a1e7975b9674994cb0d0e",
+        "voter_public_key": "6da4544d46a4d46507885f32b6c66c914736bac952d27230b5024aaca55f459c",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      },
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "93006f0c2e5b9f54d81383b0822cf8ec8842e81e5a974ad933e707d136250ccd",
+        "parent_height": 16,
+        "parent_state_root": "2f7155531f8583cac5dae252ef75e86c422dd58d12a6b29b518b608ec805d8e2",
+        "proposal_hash": "ae6eae2c6849a186afe4cae7f6c639d6314e822a1a693e29e5b552ee64cec9a8",
+        "proposal_id": "proposal-55ff465e782d7e4b80bd1afe8cd9b4a7",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "bfef8c5770e238611946b492125cb063059ee46bdc3ce4bb6bc115be855e3e7d4d5d99d5f51acfe7098ff8d4aa2de6da0605de286ba69fb563fe21c07a05070a",
+        "voter_public_key": "70f3c31a9e157002c1dce81aeb22cfd454d018edd8c53142c49000a7d704da8a",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      },
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "93006f0c2e5b9f54d81383b0822cf8ec8842e81e5a974ad933e707d136250ccd",
+        "parent_height": 16,
+        "parent_state_root": "2f7155531f8583cac5dae252ef75e86c422dd58d12a6b29b518b608ec805d8e2",
+        "proposal_hash": "ae6eae2c6849a186afe4cae7f6c639d6314e822a1a693e29e5b552ee64cec9a8",
+        "proposal_id": "proposal-55ff465e782d7e4b80bd1afe8cd9b4a7",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "c5c91c2e87642fb28d19bc217565e8c8a918af04b44370dc050bb8371d24e4a417a9f7b439447c86c8316dd9c5a9dc2350c0adf17c29980ab553af07f32b9209",
+        "voter_public_key": "e048863058d4c3baef1f864973a1293396ab92b4cb00f60503f1047a437b7926",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      }
+    ]
+  },
+  {
+    "proposal": {
+      "command": {
+        "payload": {
+          "crypto_era": 1,
+          "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+          "heartbeat_id": "m0-heartbeat-17-5f892f1f9bbb104c",
+          "note_hash": "5f892f1f9bbb104c7fb1e4df4ac87c860374519de8d0c991b3d5573fa7d48f97",
+          "parent_height": 17,
+          "protocol_era": 1,
+          "zone_id": "zone-77bc978af4837a1e7971"
+        },
+        "type": "NETWORK_HEARTBEAT"
+      },
+      "command_hash": "87d384955d71f5a5e5f7e963a4388a8204c1985f8faeaa5f4849d65a494f2696",
+      "crypto_era": 1,
+      "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+      "expected_height": 18,
+      "expected_state_root": "f8a825e8667e6c686ea30bf6913a89a440f726abeb17066d0fb5421cbb2b25d5",
+      "parent_height": 17,
+      "parent_state_root": "93006f0c2e5b9f54d81383b0822cf8ec8842e81e5a974ad933e707d136250ccd",
+      "proposal_id": "proposal-3e3b7691b87efdb979cf7997c5c524f0",
+      "proposer_public_key": "6da4544d46a4d46507885f32b6c66c914736bac952d27230b5024aaca55f459c",
+      "protocol_era": 1,
+      "round": 0,
+      "signature": "f8e75ce4c71b72f675cf0f580f8d84cad9c8c1d55f366ff413dadea555b54be91169e4e9a28825e8293bc2b3324f18536bd55c4d25f12ec01b64342b45657305",
+      "zone_id": "zone-77bc978af4837a1e7971"
+    },
+    "votes": [
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "f8a825e8667e6c686ea30bf6913a89a440f726abeb17066d0fb5421cbb2b25d5",
+        "parent_height": 17,
+        "parent_state_root": "93006f0c2e5b9f54d81383b0822cf8ec8842e81e5a974ad933e707d136250ccd",
+        "proposal_hash": "976487b64605b1cc85422d299b7f999e022107e2f3b1e22ccbedf3e175353465",
+        "proposal_id": "proposal-3e3b7691b87efdb979cf7997c5c524f0",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "835dbcddc1026c81b0655d98b073a8f71518512af68cd7c8aad766dce32a2504f90b8b401c95972cbe75031cbe1bfbd2d0e10d66ca1214a18f7e32d6a1d6d80b",
+        "voter_public_key": "1e33bbc41e72b80498b41b6384ad6f7080db0f901b534b85d6bc93c5ef6ac41e",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      },
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "f8a825e8667e6c686ea30bf6913a89a440f726abeb17066d0fb5421cbb2b25d5",
+        "parent_height": 17,
+        "parent_state_root": "93006f0c2e5b9f54d81383b0822cf8ec8842e81e5a974ad933e707d136250ccd",
+        "proposal_hash": "976487b64605b1cc85422d299b7f999e022107e2f3b1e22ccbedf3e175353465",
+        "proposal_id": "proposal-3e3b7691b87efdb979cf7997c5c524f0",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "5de4602f04ee375ce971e619607587bc12277bfd52425318d6a569d40580ef37d8598acbe72d44049dd755b3e516a37cb89c568f362b839403ed127d2534e305",
+        "voter_public_key": "6da4544d46a4d46507885f32b6c66c914736bac952d27230b5024aaca55f459c",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      },
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "f8a825e8667e6c686ea30bf6913a89a440f726abeb17066d0fb5421cbb2b25d5",
+        "parent_height": 17,
+        "parent_state_root": "93006f0c2e5b9f54d81383b0822cf8ec8842e81e5a974ad933e707d136250ccd",
+        "proposal_hash": "976487b64605b1cc85422d299b7f999e022107e2f3b1e22ccbedf3e175353465",
+        "proposal_id": "proposal-3e3b7691b87efdb979cf7997c5c524f0",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "2e8d8e642f98cd26db970e7d3c8cf6e654f6d3d0c8e8ab249de1ea7cbb339811b1c1a641f69c5a7337d61b4f9e2c7db398658e8eca7c8b28249e5ce760c2930b",
+        "voter_public_key": "70f3c31a9e157002c1dce81aeb22cfd454d018edd8c53142c49000a7d704da8a",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      },
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "f8a825e8667e6c686ea30bf6913a89a440f726abeb17066d0fb5421cbb2b25d5",
+        "parent_height": 17,
+        "parent_state_root": "93006f0c2e5b9f54d81383b0822cf8ec8842e81e5a974ad933e707d136250ccd",
+        "proposal_hash": "976487b64605b1cc85422d299b7f999e022107e2f3b1e22ccbedf3e175353465",
+        "proposal_id": "proposal-3e3b7691b87efdb979cf7997c5c524f0",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "000db3cf913ccb69c5aedc1140321f0f179102052ed2c3967773135bbbd9120965d7445f7e212a3f767b619933451f96b195323a307e9c885e5617113a943c01",
+        "voter_public_key": "e048863058d4c3baef1f864973a1293396ab92b4cb00f60503f1047a437b7926",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      }
+    ]
+  },
+  {
+    "proposal": {
+      "command": {
+        "payload": {
+          "crypto_era": 1,
+          "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+          "heartbeat_id": "m0-heartbeat-18-5f892f1f9bbb104c",
+          "note_hash": "5f892f1f9bbb104c7fb1e4df4ac87c860374519de8d0c991b3d5573fa7d48f97",
+          "parent_height": 18,
+          "protocol_era": 1,
+          "zone_id": "zone-77bc978af4837a1e7971"
+        },
+        "type": "NETWORK_HEARTBEAT"
+      },
+      "command_hash": "158fd0e8431a12647835152b8250f5b5ab3b13d054c3fd935b2aaa85d6292f9f",
+      "crypto_era": 1,
+      "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+      "expected_height": 19,
+      "expected_state_root": "9099690f71eccbb311f9905986ba4d7d8f655332c8e7a54a59222b47c5f53370",
+      "parent_height": 18,
+      "parent_state_root": "f8a825e8667e6c686ea30bf6913a89a440f726abeb17066d0fb5421cbb2b25d5",
+      "proposal_id": "proposal-6188d3f7beb284ff3ef94539b50bc6c1",
+      "proposer_public_key": "70f3c31a9e157002c1dce81aeb22cfd454d018edd8c53142c49000a7d704da8a",
+      "protocol_era": 1,
+      "round": 0,
+      "signature": "3f50d26896030fbef2cd826aa20d7b906d29f84476033ba15fb861fd3c652b3a2f26cdc33485a5e80fc45cdc794f0d472071e5eab7aff94ef034a67cf9f4b70e",
+      "zone_id": "zone-77bc978af4837a1e7971"
+    },
+    "votes": [
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "9099690f71eccbb311f9905986ba4d7d8f655332c8e7a54a59222b47c5f53370",
+        "parent_height": 18,
+        "parent_state_root": "f8a825e8667e6c686ea30bf6913a89a440f726abeb17066d0fb5421cbb2b25d5",
+        "proposal_hash": "7664021917dd751a904f37e551f8053e31d2d189d3f4cf56087bb812ba984176",
+        "proposal_id": "proposal-6188d3f7beb284ff3ef94539b50bc6c1",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "e9fc33ef2f8bb9f8b5aedc5ccddc17b80050e8764007b6a0448dc2b508c008c681aad3ebd8fe2b45f7e4fe0fe5883488290a6d7e800c8ba08a479555c8d8e404",
+        "voter_public_key": "1e33bbc41e72b80498b41b6384ad6f7080db0f901b534b85d6bc93c5ef6ac41e",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      },
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "9099690f71eccbb311f9905986ba4d7d8f655332c8e7a54a59222b47c5f53370",
+        "parent_height": 18,
+        "parent_state_root": "f8a825e8667e6c686ea30bf6913a89a440f726abeb17066d0fb5421cbb2b25d5",
+        "proposal_hash": "7664021917dd751a904f37e551f8053e31d2d189d3f4cf56087bb812ba984176",
+        "proposal_id": "proposal-6188d3f7beb284ff3ef94539b50bc6c1",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "df426b526199f3c229c615eb7dc6925dd9657d65377bd790d1c644bf336117b3081edc79ea6d72a61770faf73e036788d1820bd4da0dedeff7ca5c9c5da01b05",
+        "voter_public_key": "6da4544d46a4d46507885f32b6c66c914736bac952d27230b5024aaca55f459c",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      },
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "9099690f71eccbb311f9905986ba4d7d8f655332c8e7a54a59222b47c5f53370",
+        "parent_height": 18,
+        "parent_state_root": "f8a825e8667e6c686ea30bf6913a89a440f726abeb17066d0fb5421cbb2b25d5",
+        "proposal_hash": "7664021917dd751a904f37e551f8053e31d2d189d3f4cf56087bb812ba984176",
+        "proposal_id": "proposal-6188d3f7beb284ff3ef94539b50bc6c1",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "530199ea0b6067d55bd3d44525dbfc3ce85565fed7921c1bf1360025494182dfb702f6172d2fe1b8d676732e9a70c1a530f717624c4f1cada951553913a95a02",
+        "voter_public_key": "70f3c31a9e157002c1dce81aeb22cfd454d018edd8c53142c49000a7d704da8a",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      },
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "9099690f71eccbb311f9905986ba4d7d8f655332c8e7a54a59222b47c5f53370",
+        "parent_height": 18,
+        "parent_state_root": "f8a825e8667e6c686ea30bf6913a89a440f726abeb17066d0fb5421cbb2b25d5",
+        "proposal_hash": "7664021917dd751a904f37e551f8053e31d2d189d3f4cf56087bb812ba984176",
+        "proposal_id": "proposal-6188d3f7beb284ff3ef94539b50bc6c1",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "58241862130ca8f368fe0220fae2523cec49921f5dcb2fb31eff51fdcc0d72d13d7ed66e0b6720197ef2226bd630fb7bd58f6c56daab74e896e7804053f87805",
+        "voter_public_key": "e048863058d4c3baef1f864973a1293396ab92b4cb00f60503f1047a437b7926",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      }
+    ]
+  },
+  {
+    "proposal": {
+      "command": {
+        "payload": {
+          "crypto_era": 1,
+          "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+          "heartbeat_id": "m0-heartbeat-19-5f892f1f9bbb104c",
+          "note_hash": "5f892f1f9bbb104c7fb1e4df4ac87c860374519de8d0c991b3d5573fa7d48f97",
+          "parent_height": 19,
+          "protocol_era": 1,
+          "zone_id": "zone-77bc978af4837a1e7971"
+        },
+        "type": "NETWORK_HEARTBEAT"
+      },
+      "command_hash": "8f0a62443ba69198a87c0ecb53b8d8a0824854a6fecb60152e31cdc96eb1194c",
+      "crypto_era": 1,
+      "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+      "expected_height": 20,
+      "expected_state_root": "0849ecd3cbed1bd59562a9b5c51d4ac85c0f66327e8665e07dc32fc4bf5a1b37",
+      "parent_height": 19,
+      "parent_state_root": "9099690f71eccbb311f9905986ba4d7d8f655332c8e7a54a59222b47c5f53370",
+      "proposal_id": "proposal-21a47c9fcf3f54fb416e5201f33b51a8",
+      "proposer_public_key": "e048863058d4c3baef1f864973a1293396ab92b4cb00f60503f1047a437b7926",
+      "protocol_era": 1,
+      "round": 0,
+      "signature": "b680157bfdcda8ce6d6d7c2f69d11175609a1ded0f88293514f0dfeb950a4dd74a0f2a22e3805c260f2de46147eac8edc3cfaa55ee7540fcd38c702ccb99e80f",
+      "zone_id": "zone-77bc978af4837a1e7971"
+    },
+    "votes": [
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "0849ecd3cbed1bd59562a9b5c51d4ac85c0f66327e8665e07dc32fc4bf5a1b37",
+        "parent_height": 19,
+        "parent_state_root": "9099690f71eccbb311f9905986ba4d7d8f655332c8e7a54a59222b47c5f53370",
+        "proposal_hash": "cfc4cd8421d3ca028892bbf58840fdd440595d44b4e72e39d2e5b9ff272362e2",
+        "proposal_id": "proposal-21a47c9fcf3f54fb416e5201f33b51a8",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "7d2927e977d0174ae8fc50c1a50687292b0bf9c5c60a5818f1f0bc678560ca522726187156155cde4b7e26d62fd08a481e803d29e0b4e2e44ab458436c1e3302",
+        "voter_public_key": "1e33bbc41e72b80498b41b6384ad6f7080db0f901b534b85d6bc93c5ef6ac41e",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      },
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "0849ecd3cbed1bd59562a9b5c51d4ac85c0f66327e8665e07dc32fc4bf5a1b37",
+        "parent_height": 19,
+        "parent_state_root": "9099690f71eccbb311f9905986ba4d7d8f655332c8e7a54a59222b47c5f53370",
+        "proposal_hash": "cfc4cd8421d3ca028892bbf58840fdd440595d44b4e72e39d2e5b9ff272362e2",
+        "proposal_id": "proposal-21a47c9fcf3f54fb416e5201f33b51a8",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "fd79b24664f991a4a486ca4192d0cb9e2b664a21b1fc37647b08520bb33fd16e42d3dde7caed094625ddc361e4e378243fedfa425c78b16faafe2a3a12a34b02",
+        "voter_public_key": "6da4544d46a4d46507885f32b6c66c914736bac952d27230b5024aaca55f459c",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      },
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "0849ecd3cbed1bd59562a9b5c51d4ac85c0f66327e8665e07dc32fc4bf5a1b37",
+        "parent_height": 19,
+        "parent_state_root": "9099690f71eccbb311f9905986ba4d7d8f655332c8e7a54a59222b47c5f53370",
+        "proposal_hash": "cfc4cd8421d3ca028892bbf58840fdd440595d44b4e72e39d2e5b9ff272362e2",
+        "proposal_id": "proposal-21a47c9fcf3f54fb416e5201f33b51a8",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "d876ac94ac98524a6965a2bfe9b543f279c6743f12b73c73675e80fc837f196bc0d28e102447d40f5668fa6bac92914b636a97c4b6a21c289c97c182980f7b04",
+        "voter_public_key": "70f3c31a9e157002c1dce81aeb22cfd454d018edd8c53142c49000a7d704da8a",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      },
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "0849ecd3cbed1bd59562a9b5c51d4ac85c0f66327e8665e07dc32fc4bf5a1b37",
+        "parent_height": 19,
+        "parent_state_root": "9099690f71eccbb311f9905986ba4d7d8f655332c8e7a54a59222b47c5f53370",
+        "proposal_hash": "cfc4cd8421d3ca028892bbf58840fdd440595d44b4e72e39d2e5b9ff272362e2",
+        "proposal_id": "proposal-21a47c9fcf3f54fb416e5201f33b51a8",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "bdf6309bee5889aa0c413d9c6ba5219a2b0e9b965b675b2c090260f4400deb4d69cb657bf3a0913a7f95f9a884092d3287e648a02a291cf50e924483ab74e70d",
+        "voter_public_key": "e048863058d4c3baef1f864973a1293396ab92b4cb00f60503f1047a437b7926",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      }
+    ]
+  },
+  {
+    "proposal": {
+      "command": {
+        "payload": {
+          "crypto_era": 1,
+          "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+          "heartbeat_id": "m0-heartbeat-20-5f892f1f9bbb104c",
+          "note_hash": "5f892f1f9bbb104c7fb1e4df4ac87c860374519de8d0c991b3d5573fa7d48f97",
+          "parent_height": 20,
+          "protocol_era": 1,
+          "zone_id": "zone-77bc978af4837a1e7971"
+        },
+        "type": "NETWORK_HEARTBEAT"
+      },
+      "command_hash": "12262b61b1caee9b90cdb2bd091fa5eb0701979f7de99ad10adad6254e5ad6c1",
+      "crypto_era": 1,
+      "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+      "expected_height": 21,
+      "expected_state_root": "d5de857c177e786689badd24fc7d0203bcdbc412485483518872f91ab29f6f31",
+      "parent_height": 20,
+      "parent_state_root": "0849ecd3cbed1bd59562a9b5c51d4ac85c0f66327e8665e07dc32fc4bf5a1b37",
+      "proposal_id": "proposal-bcaeb1e56bcc5c4f3889b546f4577a40",
+      "proposer_public_key": "1e33bbc41e72b80498b41b6384ad6f7080db0f901b534b85d6bc93c5ef6ac41e",
+      "protocol_era": 1,
+      "round": 0,
+      "signature": "a92192676401d35aed65ae238e0439448ec6ed7bac7ba7a0db1a4e037a2ec7548e2a9d478b97a01abc6f81f9cd2e9ea608cd849e20a52fa7bdac05a96391140b",
+      "zone_id": "zone-77bc978af4837a1e7971"
+    },
+    "votes": [
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "d5de857c177e786689badd24fc7d0203bcdbc412485483518872f91ab29f6f31",
+        "parent_height": 20,
+        "parent_state_root": "0849ecd3cbed1bd59562a9b5c51d4ac85c0f66327e8665e07dc32fc4bf5a1b37",
+        "proposal_hash": "cfa35cd83b5c353a99bd1fa73704a3821ba5d1d3c51bdf0a5008a53dc9165606",
+        "proposal_id": "proposal-bcaeb1e56bcc5c4f3889b546f4577a40",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "e8ead66bc341c62ab227d55fe8f9b71f04a7866288a5413c8822e2d6231240a121ea7aeddd5a26a1b33d50750389277e4067c1bd8caed30b845c96ce8ba18b0e",
+        "voter_public_key": "1e33bbc41e72b80498b41b6384ad6f7080db0f901b534b85d6bc93c5ef6ac41e",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      },
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "d5de857c177e786689badd24fc7d0203bcdbc412485483518872f91ab29f6f31",
+        "parent_height": 20,
+        "parent_state_root": "0849ecd3cbed1bd59562a9b5c51d4ac85c0f66327e8665e07dc32fc4bf5a1b37",
+        "proposal_hash": "cfa35cd83b5c353a99bd1fa73704a3821ba5d1d3c51bdf0a5008a53dc9165606",
+        "proposal_id": "proposal-bcaeb1e56bcc5c4f3889b546f4577a40",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "2e7859f2d0e2108b873f4bdc37dd211cb1558aa9bea02f1d652d604c067ddfad78ae13519bed70192554c60ed779436642a3622e0e381d876c856f2a9102d90b",
+        "voter_public_key": "6da4544d46a4d46507885f32b6c66c914736bac952d27230b5024aaca55f459c",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      },
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "d5de857c177e786689badd24fc7d0203bcdbc412485483518872f91ab29f6f31",
+        "parent_height": 20,
+        "parent_state_root": "0849ecd3cbed1bd59562a9b5c51d4ac85c0f66327e8665e07dc32fc4bf5a1b37",
+        "proposal_hash": "cfa35cd83b5c353a99bd1fa73704a3821ba5d1d3c51bdf0a5008a53dc9165606",
+        "proposal_id": "proposal-bcaeb1e56bcc5c4f3889b546f4577a40",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "1d5489db1c02d41884ebc4efbb040048e27d93b80ff28bf966835c0bc4bfb6a60c7ce2e4fe9ae5d4ceae5765ce05efc9cbd0c24602bea3465c27ff7d47158102",
+        "voter_public_key": "70f3c31a9e157002c1dce81aeb22cfd454d018edd8c53142c49000a7d704da8a",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      },
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "d5de857c177e786689badd24fc7d0203bcdbc412485483518872f91ab29f6f31",
+        "parent_height": 20,
+        "parent_state_root": "0849ecd3cbed1bd59562a9b5c51d4ac85c0f66327e8665e07dc32fc4bf5a1b37",
+        "proposal_hash": "cfa35cd83b5c353a99bd1fa73704a3821ba5d1d3c51bdf0a5008a53dc9165606",
+        "proposal_id": "proposal-bcaeb1e56bcc5c4f3889b546f4577a40",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "89621187ae150c5568334148356c415cc647d84a0bb27d3ad7bd9d0a3cc03e89a83430346cffacfbce2b824e636ecb88ef5cea10bee66c8e0d746c36b0c48b05",
+        "voter_public_key": "e048863058d4c3baef1f864973a1293396ab92b4cb00f60503f1047a437b7926",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      }
+    ]
+  },
+  {
+    "proposal": {
+      "command": {
+        "payload": {
+          "crypto_era": 1,
+          "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+          "heartbeat_id": "m0-heartbeat-21-5f892f1f9bbb104c",
+          "note_hash": "5f892f1f9bbb104c7fb1e4df4ac87c860374519de8d0c991b3d5573fa7d48f97",
+          "parent_height": 21,
+          "protocol_era": 1,
+          "zone_id": "zone-77bc978af4837a1e7971"
+        },
+        "type": "NETWORK_HEARTBEAT"
+      },
+      "command_hash": "525a03f86892cbf9c608e36aad6535eeb45044b9ac65501fed55d8e8c60ed74b",
+      "crypto_era": 1,
+      "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+      "expected_height": 22,
+      "expected_state_root": "965153ff79846b477b37186f1699497e888eda55770923a523d5b123458dd8b1",
+      "parent_height": 21,
+      "parent_state_root": "d5de857c177e786689badd24fc7d0203bcdbc412485483518872f91ab29f6f31",
+      "proposal_id": "proposal-9f4689a776ad59ef93eb5302ec2e96ee",
+      "proposer_public_key": "6da4544d46a4d46507885f32b6c66c914736bac952d27230b5024aaca55f459c",
+      "protocol_era": 1,
+      "round": 0,
+      "signature": "b7669ec693a2334b1fac0c5587bdfa72c5d782844d00734fbcb61ea45a39fffc34106bd0b566109607ae87cf7d13a6b68dafb728a2ead06d5b5b73a10575c30f",
+      "zone_id": "zone-77bc978af4837a1e7971"
+    },
+    "votes": [
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "965153ff79846b477b37186f1699497e888eda55770923a523d5b123458dd8b1",
+        "parent_height": 21,
+        "parent_state_root": "d5de857c177e786689badd24fc7d0203bcdbc412485483518872f91ab29f6f31",
+        "proposal_hash": "bc382e2fd7d56b06cb914e1b6e41a19bb9ff45b120a9e79440146240e29e9c96",
+        "proposal_id": "proposal-9f4689a776ad59ef93eb5302ec2e96ee",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "d66184eea8b7d0a602755d85deac0aba6ff0ecc12104e2f9e05f48c3e59b46adfe90271c9a62941bba5dc2631339a3783acbed8456b32f362a358bd525e65404",
+        "voter_public_key": "1e33bbc41e72b80498b41b6384ad6f7080db0f901b534b85d6bc93c5ef6ac41e",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      },
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "965153ff79846b477b37186f1699497e888eda55770923a523d5b123458dd8b1",
+        "parent_height": 21,
+        "parent_state_root": "d5de857c177e786689badd24fc7d0203bcdbc412485483518872f91ab29f6f31",
+        "proposal_hash": "bc382e2fd7d56b06cb914e1b6e41a19bb9ff45b120a9e79440146240e29e9c96",
+        "proposal_id": "proposal-9f4689a776ad59ef93eb5302ec2e96ee",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "7771f4e061825603a3ccaa5f44811fbe89cf657cc7398ff92b89631a45c16d38429e3e7122c4257a014c2852b6169c373189786a390741d5d278164ab481570c",
+        "voter_public_key": "6da4544d46a4d46507885f32b6c66c914736bac952d27230b5024aaca55f459c",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      },
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "965153ff79846b477b37186f1699497e888eda55770923a523d5b123458dd8b1",
+        "parent_height": 21,
+        "parent_state_root": "d5de857c177e786689badd24fc7d0203bcdbc412485483518872f91ab29f6f31",
+        "proposal_hash": "bc382e2fd7d56b06cb914e1b6e41a19bb9ff45b120a9e79440146240e29e9c96",
+        "proposal_id": "proposal-9f4689a776ad59ef93eb5302ec2e96ee",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "8467398f8a41e2504d687a50536a308827fdb5d3dfbf443bfb82e83553a845be01d00ef10cd00932b595812e8fbbd139ee8d567715f0496358363282ef337b0f",
+        "voter_public_key": "70f3c31a9e157002c1dce81aeb22cfd454d018edd8c53142c49000a7d704da8a",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      },
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "965153ff79846b477b37186f1699497e888eda55770923a523d5b123458dd8b1",
+        "parent_height": 21,
+        "parent_state_root": "d5de857c177e786689badd24fc7d0203bcdbc412485483518872f91ab29f6f31",
+        "proposal_hash": "bc382e2fd7d56b06cb914e1b6e41a19bb9ff45b120a9e79440146240e29e9c96",
+        "proposal_id": "proposal-9f4689a776ad59ef93eb5302ec2e96ee",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "0a100b3923f3d1ddfcb8da29a86de8bc84dc39c8dc4e41bd56e5b5bdc471f396b13112faa1e85cfda2fa32eef52b7eb18f463d7cfb8799acaf784f6f0794c807",
+        "voter_public_key": "e048863058d4c3baef1f864973a1293396ab92b4cb00f60503f1047a437b7926",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      }
+    ]
+  },
+  {
+    "proposal": {
+      "command": {
+        "payload": {
+          "crypto_era": 1,
+          "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+          "heartbeat_id": "m0-heartbeat-22-5f892f1f9bbb104c",
+          "note_hash": "5f892f1f9bbb104c7fb1e4df4ac87c860374519de8d0c991b3d5573fa7d48f97",
+          "parent_height": 22,
+          "protocol_era": 1,
+          "zone_id": "zone-77bc978af4837a1e7971"
+        },
+        "type": "NETWORK_HEARTBEAT"
+      },
+      "command_hash": "6caeab7502088fdedfc5d6c33f3162da06aa1f6be6099ca540ba445184025a6b",
+      "crypto_era": 1,
+      "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+      "expected_height": 23,
+      "expected_state_root": "0f19bc65c4959a587a5a180eb07772783d4abfa28889b029223b5c7ec7b5ccc4",
+      "parent_height": 22,
+      "parent_state_root": "965153ff79846b477b37186f1699497e888eda55770923a523d5b123458dd8b1",
+      "proposal_id": "proposal-1afffdb7afa92f384e38b89c15cf0cb4",
+      "proposer_public_key": "70f3c31a9e157002c1dce81aeb22cfd454d018edd8c53142c49000a7d704da8a",
+      "protocol_era": 1,
+      "round": 0,
+      "signature": "0be8520b28eae102c7fa791560d3781142489efe29b0d168a483e83ba30a83091e5ce39a079e9cc1a9375e0bc86060c1f347d38d2bf74074c63bb8e2fbe9920e",
+      "zone_id": "zone-77bc978af4837a1e7971"
+    },
+    "votes": [
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "0f19bc65c4959a587a5a180eb07772783d4abfa28889b029223b5c7ec7b5ccc4",
+        "parent_height": 22,
+        "parent_state_root": "965153ff79846b477b37186f1699497e888eda55770923a523d5b123458dd8b1",
+        "proposal_hash": "912c8d8d071a49631211025f88325d1b95b3662ddf93ce5cc70f35e74ab5a6c2",
+        "proposal_id": "proposal-1afffdb7afa92f384e38b89c15cf0cb4",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "e06d910e88bea8a35e77e091ec00ae2c4d84691e57e35843817508dc2f5e648179c56bd4403b6bec4f79ea294a117356465cd0f29c5f7969628e1948a521bb07",
+        "voter_public_key": "1e33bbc41e72b80498b41b6384ad6f7080db0f901b534b85d6bc93c5ef6ac41e",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      },
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "0f19bc65c4959a587a5a180eb07772783d4abfa28889b029223b5c7ec7b5ccc4",
+        "parent_height": 22,
+        "parent_state_root": "965153ff79846b477b37186f1699497e888eda55770923a523d5b123458dd8b1",
+        "proposal_hash": "912c8d8d071a49631211025f88325d1b95b3662ddf93ce5cc70f35e74ab5a6c2",
+        "proposal_id": "proposal-1afffdb7afa92f384e38b89c15cf0cb4",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "70c7a4cb816597a138fbd459cfe9540570af099af2d862f0acf613e80b1bd7d9785e1e25a4f0c0481389590d4069012edce626b40a893824939e93e46a051500",
+        "voter_public_key": "6da4544d46a4d46507885f32b6c66c914736bac952d27230b5024aaca55f459c",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      },
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "0f19bc65c4959a587a5a180eb07772783d4abfa28889b029223b5c7ec7b5ccc4",
+        "parent_height": 22,
+        "parent_state_root": "965153ff79846b477b37186f1699497e888eda55770923a523d5b123458dd8b1",
+        "proposal_hash": "912c8d8d071a49631211025f88325d1b95b3662ddf93ce5cc70f35e74ab5a6c2",
+        "proposal_id": "proposal-1afffdb7afa92f384e38b89c15cf0cb4",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "ad2ee976eada1bca71a926e94c2eb55da8729acf48447ac3d98bcbddcd2f358460dc9a33badce8f834fe07f23e32fe51cb3d55aedf939bfe689828ca5c5e4f0c",
+        "voter_public_key": "70f3c31a9e157002c1dce81aeb22cfd454d018edd8c53142c49000a7d704da8a",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      },
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "0f19bc65c4959a587a5a180eb07772783d4abfa28889b029223b5c7ec7b5ccc4",
+        "parent_height": 22,
+        "parent_state_root": "965153ff79846b477b37186f1699497e888eda55770923a523d5b123458dd8b1",
+        "proposal_hash": "912c8d8d071a49631211025f88325d1b95b3662ddf93ce5cc70f35e74ab5a6c2",
+        "proposal_id": "proposal-1afffdb7afa92f384e38b89c15cf0cb4",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "8874f69e1b124702f64c78c424e85198fcdeebc71c1e288a80b4d23cc306a17cfc0df77103494e84fb2e1452092d8975b21ad4f3cc00b1c74c9006fd19455e01",
+        "voter_public_key": "e048863058d4c3baef1f864973a1293396ab92b4cb00f60503f1047a437b7926",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      }
+    ]
+  },
+  {
+    "proposal": {
+      "command": {
+        "payload": {
+          "crypto_era": 1,
+          "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+          "heartbeat_id": "m0-heartbeat-23-5f892f1f9bbb104c",
+          "note_hash": "5f892f1f9bbb104c7fb1e4df4ac87c860374519de8d0c991b3d5573fa7d48f97",
+          "parent_height": 23,
+          "protocol_era": 1,
+          "zone_id": "zone-77bc978af4837a1e7971"
+        },
+        "type": "NETWORK_HEARTBEAT"
+      },
+      "command_hash": "c1eb8f9f1a48a6e514f6ae0cd787f906e773ba50bff49f6fadcdcd1d77544b01",
+      "crypto_era": 1,
+      "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+      "expected_height": 24,
+      "expected_state_root": "539f815a2314395dbdf26171b30c285d59a225a146c30d679bc5612a56242927",
+      "parent_height": 23,
+      "parent_state_root": "0f19bc65c4959a587a5a180eb07772783d4abfa28889b029223b5c7ec7b5ccc4",
+      "proposal_id": "proposal-dd2efa209cac3bf400a585c5cc4fc0bb",
+      "proposer_public_key": "e048863058d4c3baef1f864973a1293396ab92b4cb00f60503f1047a437b7926",
+      "protocol_era": 1,
+      "round": 0,
+      "signature": "11cd82c7c3a92d23beb48b6f57c51d236cccd95cde3fb44e7bf98eae6b6672a5d5431b31a3ee720698fafe516728eaa534be5bd28bf9ae3489e5f4916bcaf609",
+      "zone_id": "zone-77bc978af4837a1e7971"
+    },
+    "votes": [
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "539f815a2314395dbdf26171b30c285d59a225a146c30d679bc5612a56242927",
+        "parent_height": 23,
+        "parent_state_root": "0f19bc65c4959a587a5a180eb07772783d4abfa28889b029223b5c7ec7b5ccc4",
+        "proposal_hash": "11db1c1265d66224f1e1e34190b266328181b24ebd41fd6672a3a9e0d70e8876",
+        "proposal_id": "proposal-dd2efa209cac3bf400a585c5cc4fc0bb",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "493bb990bd9dc055681fb4299bb7f1dbdb32614470e7aacbfa18509074216f5d0d544b49564b6f295a000f789e84bfc5c21bea083ec02cbf339e0cd87a156306",
+        "voter_public_key": "1e33bbc41e72b80498b41b6384ad6f7080db0f901b534b85d6bc93c5ef6ac41e",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      },
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "539f815a2314395dbdf26171b30c285d59a225a146c30d679bc5612a56242927",
+        "parent_height": 23,
+        "parent_state_root": "0f19bc65c4959a587a5a180eb07772783d4abfa28889b029223b5c7ec7b5ccc4",
+        "proposal_hash": "11db1c1265d66224f1e1e34190b266328181b24ebd41fd6672a3a9e0d70e8876",
+        "proposal_id": "proposal-dd2efa209cac3bf400a585c5cc4fc0bb",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "a13fa28368a9e5b230106895ed370a46c1ea17601429fa3a62007a240aee7f47c6768fa501a9c80b2c20fc8734af244a4d8fd15a4560a56b07e7e7c4836f980f",
+        "voter_public_key": "6da4544d46a4d46507885f32b6c66c914736bac952d27230b5024aaca55f459c",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      },
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "539f815a2314395dbdf26171b30c285d59a225a146c30d679bc5612a56242927",
+        "parent_height": 23,
+        "parent_state_root": "0f19bc65c4959a587a5a180eb07772783d4abfa28889b029223b5c7ec7b5ccc4",
+        "proposal_hash": "11db1c1265d66224f1e1e34190b266328181b24ebd41fd6672a3a9e0d70e8876",
+        "proposal_id": "proposal-dd2efa209cac3bf400a585c5cc4fc0bb",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "7c3085f52279530ac1fa41575b90d49917aac1ea521b1049871ec43b40043d275949a8d143649058baf9308eefb5c437d2c6d777012a74460703c37efe9d5202",
+        "voter_public_key": "70f3c31a9e157002c1dce81aeb22cfd454d018edd8c53142c49000a7d704da8a",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      },
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "539f815a2314395dbdf26171b30c285d59a225a146c30d679bc5612a56242927",
+        "parent_height": 23,
+        "parent_state_root": "0f19bc65c4959a587a5a180eb07772783d4abfa28889b029223b5c7ec7b5ccc4",
+        "proposal_hash": "11db1c1265d66224f1e1e34190b266328181b24ebd41fd6672a3a9e0d70e8876",
+        "proposal_id": "proposal-dd2efa209cac3bf400a585c5cc4fc0bb",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "175c0f1229a30dff0bbb9633aa8190d5029c9da688fce3e3b2f648f5d78dff5f76a56495a03432329a8a77d305433f94dbdfe3c21ba30d677e63e389112cc50a",
+        "voter_public_key": "e048863058d4c3baef1f864973a1293396ab92b4cb00f60503f1047a437b7926",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      }
+    ]
+  },
+  {
+    "proposal": {
+      "command": {
+        "payload": {
+          "crypto_era": 1,
+          "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+          "heartbeat_id": "m0-heartbeat-24-5f892f1f9bbb104c",
+          "note_hash": "5f892f1f9bbb104c7fb1e4df4ac87c860374519de8d0c991b3d5573fa7d48f97",
+          "parent_height": 24,
+          "protocol_era": 1,
+          "zone_id": "zone-77bc978af4837a1e7971"
+        },
+        "type": "NETWORK_HEARTBEAT"
+      },
+      "command_hash": "a069aad1db064651a5ef1d9c4d044584f28afd2556a23f794c49f66664a42247",
+      "crypto_era": 1,
+      "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+      "expected_height": 25,
+      "expected_state_root": "057df31874f4713b5fed2c5dd4be784bc455e45f94bfc33199111c5e07d48721",
+      "parent_height": 24,
+      "parent_state_root": "539f815a2314395dbdf26171b30c285d59a225a146c30d679bc5612a56242927",
+      "proposal_id": "proposal-1c9ab5c131b5781cd46603454199e110",
+      "proposer_public_key": "1e33bbc41e72b80498b41b6384ad6f7080db0f901b534b85d6bc93c5ef6ac41e",
+      "protocol_era": 1,
+      "round": 0,
+      "signature": "2ae50e68aad3f11940d176aea2126c024a9a811c5dcd902441e4ed791c89a8b3818b7c478e6edc8ee179ea58cf6f944ca01d8afe150287396f89dd529731c701",
+      "zone_id": "zone-77bc978af4837a1e7971"
+    },
+    "votes": [
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "057df31874f4713b5fed2c5dd4be784bc455e45f94bfc33199111c5e07d48721",
+        "parent_height": 24,
+        "parent_state_root": "539f815a2314395dbdf26171b30c285d59a225a146c30d679bc5612a56242927",
+        "proposal_hash": "ffc05d05adc1ddabb270b726fc15ddf999b398773a305612eb9f7e5b7141d0a4",
+        "proposal_id": "proposal-1c9ab5c131b5781cd46603454199e110",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "b16b68abcb8b9c50b5eb6b821263c4b074994eaddec799ff944bc6fdc235d38aa164114b374512ddec10befe8e03f1e29e98419c13e652eb6290426b1b284a0b",
+        "voter_public_key": "1e33bbc41e72b80498b41b6384ad6f7080db0f901b534b85d6bc93c5ef6ac41e",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      },
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "057df31874f4713b5fed2c5dd4be784bc455e45f94bfc33199111c5e07d48721",
+        "parent_height": 24,
+        "parent_state_root": "539f815a2314395dbdf26171b30c285d59a225a146c30d679bc5612a56242927",
+        "proposal_hash": "ffc05d05adc1ddabb270b726fc15ddf999b398773a305612eb9f7e5b7141d0a4",
+        "proposal_id": "proposal-1c9ab5c131b5781cd46603454199e110",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "8abae9bba99933402898c6d057bed18c787dcfec60bfd4d34ae5ac4d7fc07b967a2a0421369b77ab60af018bdd68748f440f6f3dff4ae86afc0ba504a66e4508",
+        "voter_public_key": "6da4544d46a4d46507885f32b6c66c914736bac952d27230b5024aaca55f459c",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      },
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "057df31874f4713b5fed2c5dd4be784bc455e45f94bfc33199111c5e07d48721",
+        "parent_height": 24,
+        "parent_state_root": "539f815a2314395dbdf26171b30c285d59a225a146c30d679bc5612a56242927",
+        "proposal_hash": "ffc05d05adc1ddabb270b726fc15ddf999b398773a305612eb9f7e5b7141d0a4",
+        "proposal_id": "proposal-1c9ab5c131b5781cd46603454199e110",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "3b146ee3b2fa8d2f2a31f2f01850aaf8f21d61ff906d3fa261dd63ccf8dfc226662a11966db50e323ab4a28fe533b82f4336994fa4115a9fa0767b8c05024800",
+        "voter_public_key": "70f3c31a9e157002c1dce81aeb22cfd454d018edd8c53142c49000a7d704da8a",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      },
+      {
+        "crypto_era": 1,
+        "currency_genesis_root": "a1d281a5dbd2cc88375d352676df80ed0355e2f9220f26672e452c5512e0f282",
+        "expected_state_root": "057df31874f4713b5fed2c5dd4be784bc455e45f94bfc33199111c5e07d48721",
+        "parent_height": 24,
+        "parent_state_root": "539f815a2314395dbdf26171b30c285d59a225a146c30d679bc5612a56242927",
+        "proposal_hash": "ffc05d05adc1ddabb270b726fc15ddf999b398773a305612eb9f7e5b7141d0a4",
+        "proposal_id": "proposal-1c9ab5c131b5781cd46603454199e110",
+        "protocol_era": 1,
+        "round": 0,
+        "signature": "34c2581e59048689d898fac14d589f4175d18cf86e47c0fcd2fe6918af97cb628737caf60eda6e48788a2f8024d9f3e21d3eeee8d1aa2713713576ebdaf5080b",
+        "voter_public_key": "e048863058d4c3baef1f864973a1293396ab92b4cb00f60503f1047a437b7926",
+        "zone_id": "zone-77bc978af4837a1e7971"
+      }
+    ]
+  }
+]

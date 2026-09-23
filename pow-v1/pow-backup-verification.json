@@ -1,0 +1,11 @@
+{
+  "result": "PASS_POW_STATE_ENCRYPTED_BACKUP",
+  "archive": "earth-pow-height95-20260923.tar.gz.age",
+  "sha256": "05c4a2edca419368f7ea31c55539488f2d27613a9672b5bab36eda72b03693ef",
+  "verified_files": 84,
+  "height": "95",
+  "state_root": "58124f93ab1fcfc5df77392a1065b88cea2d93a31a7e607fcd5e8868d3b40d88",
+  "emitted_runlai": "17500000000000000000000000000000",
+  "plaintext_written_to_mac_disk": false,
+  "decryption_identity_uploaded": false
+}

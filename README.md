@@ -1,70 +1,62 @@
-# Rldcoin Earth Genesis
+# Rldcoin
 
-**A peer-to-peer transfer system for humanity's interstellar future.**
+**A peer-to-peer transfer system for humanity’s interstellar future.**
 
-This repository publishes the permanent Earth genesis and its verification materials. The initial network finalizes value-free heartbeats. It has one controlling owner, no personal genesis allocation, no active service rewards, and no enabled value transfers. It is the permanent mainnet identity, not a disposable development network.
+Rldcoin starts with a permanent Earth network and automatic proof-of-work mining. Its long-term design combines local payments within a region with asynchronous settlement between distant regions. Actual interstellar routes remain in development.
 
-- Manifest pin: `874066fe96d12bfa42cc316f5387cc8f4df649f794b43e2ee724b8029b0abf33`
-- Zone: `zone-77bc978af4837a1e7971`
-- Profile: `P1_REMOTE_ZERO_VALUE_V1`
-- Fixed supply: **100,000,000,000 RLD** (`10^35 runlai`; `1 RLD = 10^24 runlai`).
-- Initial reserves: startup services 1%, continuity services 9%, demand matching 90%; spendable balance **0**.
-- Current signing authorization: **no fixed expiry, until revoked** under signed operating revision 5. The original dated exception remains in the historical designation.
-- [Live identity and status](https://forum.rldcoin.com/genesis/) · [Release downloads](https://github.com/RunlaiDeng/rldcoin-genesis/releases/tag/earth-genesis-20260922)
+[Website](https://rldcoin.com) · [Network status](https://rldcoin.com/network) · [Run a node or mine](pow-v1/NODE-GUIDE.md) · [PoW release](https://github.com/RunlaiDeng/rldcoin-genesis/releases/tag/earth-pow-v0.3.0) · [Community](https://forum.rldcoin.com/)
 
-## Participation and rewards
+## Mine and participate
 
-Rldcoin is being built for community participation. Contributors can inspect the source and genesis records, report issues, improve documentation, and help develop and verify the protocol. Join the [community forum](https://forum.rldcoin.com/) to discuss the work and its next milestones.
+The `rldpow` node can mine automatically using only your receiving public key. It verifies every block, follows the valid branch with greatest accumulated work, and announces its blocks to configured peers. Your wallet secret stays in your custody.
 
-The protocol design pays for verified services from fixed reserves under shared rules, with no personal genesis allocation or reserved founder share. Admission work regulates access; service verification determines rewards, and verified contribution determines validation eligibility. These are separate mechanisms. Service rewards are not yet enabled on the permanent Earth network; activation requires the contribution and security milestones described in the published plan.
+- Fixed supply: **100,000,000,000 RLD**; one RLD is `10^24` runlai.
+- Personal allocation at genesis or PoW adoption: **zero**.
+- Initial block subsidy: **250,000 RLD**, plus included fees.
+- Target interval: **10 minutes**; actual discovery times vary.
+- Reward schedule: each **200,000-block era** distributes half the remaining unissued reserve, using exact integer accounting.
+- Reward maturity: a coinbase can be spent in a block at least **100 heights after its creation**.
 
-## Verify the record
+The launch operator and later participants use the same mining rules. There is no guaranteed share. Early mining before broader participation can concentrate ownership. The launch deployment is currently operated by one owner; wider hash-power distribution and independent review remain work ahead.
 
-Download the release assets. The repository and HTTPS site retain the small records, while the release also provides the complete runtime source and Linux executables.
+Follow the [node guide](pow-v1/NODE-GUIDE.md) to verify the release, connect to the public peer, and start a node. Source review, independent operation, documentation, wallet development, and regional-settlement research are welcome contributions.
 
-Use the checksum file shipped with the same release when verifying its downloaded archives. The repository's current `SHA256SUMS` also covers updated documentation and operating revisions; the original release checksum list is retained as `SHA256SUMS.genesis-release-20260922`. Published genesis release assets have not been replaced.
+## Permanent identity and explicit PoW adoption
 
-1. Check the assets against `SHA256SUMS` (use `sha256sum -c SHA256SUMS`, or `shasum -a 256 -c SHA256SUMS` on macOS). The checksums establish file integrity; obtain the expected genesis pin through an independently trusted channel.
-2. Extract the Linux archive on Linux. Verify the founder-signed genesis using `bin/rld-genesis verify --manifest genesis-manifest.json`. Confirm the exact manifest pin above. The raw file SHA-256, `33e0669d4b411baae9e25a72167a20e8a9124aac96e26168449735c3364d659e`, differs from this canonical manifest pin.
-3. Verify the external RFC 3161 timestamp:
+The original Earth genesis and its certified heartbeat history remain intact. PoW is an **explicitly incompatible consensus-rule adoption**, not a claim that the original limited M0 upgrade constitution already authorized mining rewards. All four predecessor validator keys signed the new statement; those keys belong to the same controller. Joining nodes explicitly choose and pin the new rules.
 
-   ```sh
-   openssl ts -verify -data genesis-manifest.json -in timestamp/genesis.tsr \
-     -CAfile timestamp/cacert.pem -untrusted timestamp/tsa.crt
-   ```
+The unused service reserves become one unissued PoW reserve. The adoption creates no personal balance and no duplicate supply. Old signing roles are retired at height 25. The first PoW block follows that retained checkpoint.
 
-   The response records **2026-09-22 06:38:53 UTC**, serial `0x084E40B0`. Verify the certificate fingerprints against [FreeTSA's published certificates](https://freetsa.org/index_en.php); a downloaded trust certificate is not automatically a trusted third party.
-4. `permanent-genesis.json` is a separate founder-signed designation. Its domain is the UTF-8 bytes `RLD-PERMANENT-GENESIS-DESIGNATION-V1` followed by a zero byte. It signs the `statement` as sorted, compact, ASCII JSON followed by a newline using Ed25519. The founder public key comes from the verified genesis. The designation binds the runtime/source manifests, admission report, operator program and actual recovery/observer receipts.
-5. The runtime source archive contains the retained `source` directory. Verify it with its `tools/source-evidence/source_snapshot.py verify --snapshot source --manifest-sha256 49fdd963a483ce725dd480f3be616b620dadbc7cb63111e89cad6be041e5657b`. Installation metadata deliberately retains its historical candidate flag; the later permanent designation does not rewrite that record.
+| Record | Commitment |
+|---|---|
+| Original manifest pin | `874066fe96d12bfa42cc316f5387cc8f4df649f794b43e2ee724b8029b0abf33` |
+| Zone | `zone-77bc978af4837a1e7971` |
+| PoW adoption | `16d2a4d3ba8dff33613a9127ffc7e540347d377066b367097b765e1472d01e02` |
+| Regional chain | `dab6756c593608078a7d1f8cbdc8af7f447ffad6c506f6299262a26511ee586a` |
+| Last legacy state | `057df31874f4713b5fed2c5dd4be784bc455e45f94bfc33199111c5e07d48721` |
 
-The operating authorization verifier requires Python 3 and the `cryptography` library. Linux deployment used Python's system cryptography 41.0.7. Source/build manifests disclose toolchain and reproducibility limits. The SPDX inventory covers Cargo dependencies, not a whole-host vulnerability audit.
+Read the [signed adoption](pow-v1/adoption.json), [complete legacy history](pow-v1/legacy-history.json), [rules](pow-v1/REGIONAL-POW-V1.md), and [qualification record](pow-v1/qualification.json). The original [genesis release](https://github.com/RunlaiDeng/rldcoin-genesis/releases/tag/earth-genesis-20260922), [permanent designation](permanent-genesis.json), external timestamp, and historical operating revisions are preserved without replacing their assets.
 
-## Observation and scope
+## What has been verified
 
-Bounded HTTPS GET endpoints at `https://forum.rldcoin.com` expose `/v1/status`, `/v1/consensus/status`, `/v1/consensus/commits`, and admission history data. Public write, signing and administrative endpoints are blocked. The permanent operator updates `/genesis/status.json`; an observation older than three minutes should be treated as stale.
+The current release passed 14 unit tests and five real-process/network tests on both Linux and macOS. They cover actual work, exact issuance, reward maturity, signed transfers, double-spend rejection, greater-work reorganizations, competing-branch synchronization, announcements, crash replay and durable storage.
 
-The receipts demonstrate same-identity recovery on the running host, encrypted recovery on the owner's Mac in a network-denied process, and a Mac observer's genesis-to-head synchronization, peer replacement and restart. Both machines and all roles belong to one controller. These are agent technical checks, not independent review, physical offline custody, independent operators, or completed interstellar transfer qualification.
+The [production restart check](pow-v1/restart-verification.json) retained height 95 and its 17,500,000 RLD of mined rewards. A [separate Mac verifier](pow-v1/mac-observer-verification.json) replayed the original genesis, all 25 certified legacy commits and 71 PoW blocks through height 96, confirming 17,750,000 RLD and supply conservation. These are timestamped observations; use live status for current values. Rewards in those observations were still immature.
 
-The master plan and remote operations archive describe the authorized P1 scope. Value activation, open rewards, external operators and interstellar route qualification remain later work. No private keys, recovery identity or encrypted private backup is included in this public release.
+Both hosts belong to the same owner. These checks are not independent operator review, an external security audit, or proof of deployed interstellar payments. The production observation does not claim a mature real-network transfer; signed transfers were exercised in disposable process fixtures.
 
-To verify the designation with the shipped operator program without using private keys:
+## Current scope and future regions
 
-```sh
-# From a directory containing the downloaded release assets:
-tar -xzf rldcoin-runtime-source-445e27b.tar.gz
-tar -xzf rldcoin-remote-operations.tar.gz
-mkdir -p proof-root/config proof-root/artifacts
-cp genesis-manifest.json admission-benchmark-report.json permanent-genesis.json proof-root/config/
-cp install-manifest.json proof-root/artifacts/
-cp -R source proof-root/artifacts/
-python3 deploy/permanent-m0.py verify --root proof-root \
-  --pin 874066fe96d12bfa42cc316f5387cc8f4df649f794b43e2ee724b8029b0abf33
-```
+Earth supports automatic mining and a signed local transaction API. A consumer wallet remains in development. PoW confirmation is probabilistic; valid greater-work reorganizations can remove earlier rewards and transfers.
 
-This verification checks the signed scope and artifact bindings. It does not start a node or grant operating authority. A historical signature remains verifiable after software-key expiry; that does not authorize continued signing.
+Cross-region transfers are disabled. Their qualification must address source locking, authenticated checkpoints, unique imports, delayed receipts, deep source reorganizations, disconnected delivery, and shared supply budgets. A new region cannot duplicate the 100-billion-RLD reserve. Communication delay cannot be eliminated by consensus.
 
-## Current operating revision
+Mining has no scheduled signing-expiry stop. The owner can stop the node, and ordinary machine failures still require recovery. The initial implementation retains a 100,000-block local index limit, including forks; a qualified retention upgrade is required before that limit is reached.
 
-The original declaration is unchanged. [Signed operating revision 5](operating-revisions/README.md) supersedes the original calendar stop date with a continuing, owner-revocable software-key authorization. It retains revision 4's exact vote-lock recovery, checkpoint synchronization, ten-minute heartbeats and 30-second public observations. All 24 roles remain supervised; changed authorization or a revocation marker stops signing. Current status explicitly reports `UNTIL_REVOKED` and a null expiry. There is no reward activation, supply change or claim of perpetual cryptographic security.
+## Downloads and integrity
 
-The existing verifier still has local history and resource ceilings. Continuing authorization does not remove those bounds or promise indefinite uptime. See [revision 5 evidence and limits](operating-revisions/revision-5/README.md).
+Use the **named release source archive** for the full Rust protocol tree. GitHub’s automatic archive of this publication repository contains records rather than the full implementation. Download the checksum file from the same release as your assets; independently obtain the expected network/adoption pins through a trusted channel.
+
+Public endpoints at `https://forum.rldcoin.com` include `GET /v1/pow/status`, `GET /v1/pow/balance/{public_key}` and bounded `POST /v1/pow/sync`, `/blocks`, `/transactions`, and `/template`. No signing or administrative interface is public. The former M0 API is retired; its complete certified history is a release artifact. Telemetry is not an independent cryptographic verifier.
+
+No real wallet private key, operator signing secret, decryption identity or private recovery archive is published. The protocol source is Apache-2.0 licensed.
