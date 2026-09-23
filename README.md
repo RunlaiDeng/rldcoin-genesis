@@ -1,8 +1,8 @@
 # Rldcoin
 
-**A peer-to-peer transfer system for humanity’s interstellar future.**
+**Rldcoin’s long-term goal is peer-to-peer payments between future human communities across star systems.**
 
-Rldcoin starts with a permanent Earth network and automatic proof-of-work mining. Its long-term design combines local payments within a region with asynchronous settlement between distant regions. Actual interstellar routes remain in development.
+Rldcoin starts with a permanent Earth network and automatic proof-of-work mining. The planned design combines local payments within a region with asynchronous settlement between distant regions. Actual interstellar payment routes are not deployed yet.
 
 [Website](https://rldcoin.com) · [Network status](https://rldcoin.com/network) · [Run a node or mine](pow-v1/NODE-GUIDE.md) · [PoW release](https://github.com/RunlaiDeng/rldcoin-genesis/releases/tag/earth-pow-v0.3.0) · [Community](https://forum.rldcoin.com/)
 
