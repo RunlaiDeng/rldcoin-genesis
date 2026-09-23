@@ -8,7 +8,7 @@ The product goal is peer-to-peer payments between future human communities acros
 | B PoW consensus and accounting | Released: authentic work, exact supply, maturity, signed local transfers, fees and greater-work reorganizations. |
 | C Node and automatic miner | Released: durable replay, bounded APIs, peer synchronization, automatic block announcements and actual hashing telemetry. |
 | D Explicit rule adoption and operation | Activated: original history replay, unanimous same-controller signatures, real mined rewards, restart and Mac revalidation. |
-| E Usable local payments | In progress: developer transfer API and process tests exist; consumer wallet, convenient offline signing, a production mature-value payment and a separately qualified seconds-scale local payment layer remain. |
+| E Usable local payments | In progress: a [1 RLD mature-value self-transfer](first-mature-payment-20260923.json) was included at height 127 and replayed on an owner-controlled Mac. Offline signing works in a local candidate tool. A complete consumer wallet and separately qualified seconds-scale local payment layer remain. |
 | F Asynchronous regional settlement | Future qualification: source locking, authenticated checkpoints, unique import, delayed receipts, deep reorganizations and disconnected delivery. |
 | G Open and lasting operation | Independent participants and audits, broader mining distribution, authenticated retention and upgrades, eventual real distant deployment. |
 

@@ -43,11 +43,11 @@ The current release passed 14 unit tests and five real-process/network tests on 
 
 The [production restart check](pow-v1/restart-verification.json) retained height 95 and its 17,500,000 RLD of mined rewards. A [separate Mac verifier](pow-v1/mac-observer-verification.json) replayed the original genesis, all 25 certified legacy commits and 71 PoW blocks through height 96, confirming 17,750,000 RLD and supply conservation. These are timestamped observations; use live status for current values. Rewards in those observations were still immature.
 
-Both hosts belong to the same owner. These checks are not independent operator review, an external security audit, or proof of deployed interstellar payments. The production observation does not claim a mature real-network transfer; signed transfers were exercised in disposable process fixtures.
+Both hosts belong to the same owner. These checks are not independent operator review, an external security audit, or proof of deployed interstellar payments. A later [1 RLD mature-value self-transfer](pow-v1/first-mature-payment-20260923.json) was included at Earth height 127; at height 128 the separate owner-controlled Mac observer and local wallet agreed on the receiver's 1 RLD balance and two probabilistic confirmations. This does not demonstrate seconds-scale payment or independent operation.
 
 ## Current scope and future regions
 
-Earth supports automatic mining and a signed local transaction API. A consumer wallet remains in development. PoW confirmation is probabilistic; valid greater-work reorganizations can remove earlier rewards and transfers.
+Earth supports automatic mining and a signed local transaction API. A local candidate wallet was used for the recorded self-transfer, but a consumer wallet remains in development. PoW confirmation is probabilistic; valid greater-work reorganizations can remove earlier rewards and transfers.
 
 The transaction API may quickly accept a valid transfer as **pending** (`confirmed: false`). A first on-chain confirmation depends on the next selected block: ten minutes is the target interval, not a guaranteed payment time. The 100-block maturity rule applies to newly mined rewards, not every transfer. A separate, prefunded noncustodial payment layer is planned for seconds-scale local payments, but is not implemented or available to users today. See the [roadmap](pow-v1/ROADMAP.md) for the target.
 

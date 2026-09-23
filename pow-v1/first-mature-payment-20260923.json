@@ -1,0 +1,41 @@
+{
+  "record_type": "EARTH_POW_V1_FIRST_MATURE_PAYMENT_OBSERVATION",
+  "chain_id": "dab6756c593608078a7d1f8cbdc8af7f447ffad6c506f6299262a26511ee586a",
+  "transaction_id": "b7ca11cb80a97a6dc18f9295aef760fa86531b7f1d8ef5b8ca85db2566f0126a",
+  "signed_file_sha256": "707951ad525533fd989337d92dccad33be623a141acdfd86ee0348122d52f1d5",
+  "included_height": "127",
+  "included_block_id": "0000000246ca9155ad8da46248e5fe2cffcafab6f29e6ab3ade75f048acf6837",
+  "included_state_root": "729648cfba811d909686f6285ef5deb86d9772749130b92cc590fed00d60a9fc",
+  "observed_height": "128",
+  "observed_tip": "000000019dcc1f489d1d39a65ed86439c1b40c9a33af1442d7d67bc487304503",
+  "confirmations_at_observation": "2",
+  "receiver_mature_before_runlai": "0",
+  "receiver_mature_after_runlai": "1000000000000000000000000",
+  "separate_owner_controlled_mac_observer_agreed": true,
+  "independent_operator_review": false,
+  "finality": "probabilistic; a stronger valid PoW branch can remove the payment",
+  "signed_transaction": {
+    "chain_id": "dab6756c593608078a7d1f8cbdc8af7f447ffad6c506f6299262a26511ee586a",
+    "owner": "9ad964496324ede5cc5710e4697730841841a7e8beac453c9e62737f55194c16",
+    "inputs": [
+      {
+        "transaction": "3b1f27e07356f09d30df4a479f2a343050e73af83a1083ffbb30b7a3dae67733",
+        "index": 0
+      }
+    ],
+    "outputs": [
+      {
+        "owner": "7a39873a660ac08825cb50fce34565552e7c4d6ff9da1311abaeaec6777b96a0",
+        "amount": "1000000000000000000000000"
+      },
+      {
+        "owner": "9ad964496324ede5cc5710e4697730841841a7e8beac453c9e62737f55194c16",
+        "amount": "249998999999999999999999999999"
+      }
+    ],
+    "fee": "1",
+    "valid_through_height": "270",
+    "signature": "e81aa9f32719e6827d720e4fa65b5cf89706485e500f9299883e89c9cbd8a5f35e404d6930d714a905c1a543d7de361d43a27f36327acdb169b58a3c7433430e"
+  },
+  "record_created_at_utc": "2026-09-23T06:48:05Z"
+}
