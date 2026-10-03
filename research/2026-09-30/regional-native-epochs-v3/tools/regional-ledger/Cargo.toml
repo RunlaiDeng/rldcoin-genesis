@@ -1,0 +1,23 @@
+[package]
+name = "rld-regional-ledger-candidate"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.98"
+license = "Apache-2.0"
+
+[workspace]
+
+[dependencies]
+rld-core = { path = "../../crates/rld-core" }
+serde = { version = "=1.0.216", features = ["derive"] }
+serde_json = "=1.0.134"
+sha2 = "=0.10.8"
+hex = "=0.4.3"
+clap = { version = "=4.5.23", features = ["derive"] }
+
+ed25519-dalek = "=2.1.1"
+zeroize = "=1.9.0"
+
+[build-dependencies]
+sha2 = "=0.10.8"
+hex = "=0.4.3"

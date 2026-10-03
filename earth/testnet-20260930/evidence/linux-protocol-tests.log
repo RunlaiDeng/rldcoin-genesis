@@ -1,0 +1,251 @@
+    Updating crates.io index
+ Downloading crates ...
+  Downloaded hmac v0.12.1
+  Downloaded anyhow v1.0.103
+  Downloaded fallible-iterator v0.3.0
+  Downloaded tokio-macros v2.7.2
+  Downloaded fallible-streaming-iterator v0.1.9
+  Downloaded thiserror-impl v2.0.21
+  Downloaded thiserror v2.0.21
+  Downloaded foldhash v0.2.0
+  Downloaded pkg-config v0.3.34
+  Downloaded hashlink v0.12.2
+  Downloaded bitflags v2.13.1
+  Downloaded rand v0.8.6
+  Downloaded hashbrown v0.17.1
+  Downloaded rusqlite v0.40.2
+  Downloaded reqwest v0.12.28
+  Downloaded tower-http v0.6.11
+  Downloaded vcpkg v0.2.15
+  Downloaded tokio v1.53.1
+  Downloaded libsqlite3-sys v0.38.2
+   Compiling unicode-ident v1.0.24
+   Compiling cfg-if v1.0.4
+   Compiling getrandom v0.2.17
+   Compiling proc-macro2 v1.0.107
+   Compiling rand_core v0.6.4
+   Compiling smallvec v1.16.0
+   Compiling quote v1.0.47
+   Compiling crypto-common v0.1.7
+   Compiling find-msvc-tools v0.1.11
+   Compiling syn v2.0.119
+   Compiling syn v3.0.4
+   Compiling synstructure v0.13.2
+   Compiling cc v1.4.4
+   Compiling zerofrom-derive v0.1.7
+   Compiling yoke-derive v0.8.2
+   Compiling zerofrom v0.1.8
+   Compiling zerovec-derive v0.11.6
+   Compiling yoke v0.8.3
+   Compiling serde_derive v1.0.216
+   Compiling zerovec v0.11.8
+   Compiling displaydoc v0.2.7
+   Compiling parking_lot_core v0.9.12
+   Compiling parking_lot v0.12.5
+   Compiling tinystr v0.8.4
+   Compiling tokio-macros v2.7.2
+   Compiling icu_locale_core v2.3.0
+   Compiling tokio v1.53.1
+   Compiling digest v0.10.7
+   Compiling serde v1.0.216
+   Compiling zerotrie v0.2.5
+   Compiling potential_utf v0.1.6
+   Compiling ring v0.17.14
+   Compiling tracing v0.1.41
+   Compiling icu_collections v2.3.0
+   Compiling icu_provider v2.3.1
+   Compiling zerocopy v0.8.56
+   Compiling icu_properties v2.3.0
+   Compiling icu_normalizer v2.3.0
+   Compiling sha2 v0.10.8
+   Compiling hyper v1.11.1
+   Compiling ppv-lite86 v0.2.21
+   Compiling serde_json v1.0.134
+   Compiling rustls v0.23.45
+   Compiling idna_adapter v1.2.1
+   Compiling rustls-webpki v0.103.15
+   Compiling curve25519-dalek-derive v0.1.1
+   Compiling thiserror v2.0.21
+   Compiling tinyvec_macros v0.1.1
+   Compiling ipnet v2.12.1
+   Compiling curve25519-dalek v4.1.3
+   Compiling hyper-util v0.1.20
+   Compiling tinyvec v1.12.0
+   Compiling idna v1.1.0
+   Compiling rld-core v0.2.0 (/home/galaxy/rldcoin-testnet-20260930/source/crates/rld-core)
+   Compiling rand_chacha v0.3.1
+   Compiling tower v0.5.3
+   Compiling thiserror-impl v2.0.21
+   Compiling anyhow v1.0.103
+   Compiling bitflags v2.13.1
+   Compiling cipher v0.4.4
+   Compiling ed25519-dalek v2.1.1
+   Compiling tokio-rustls v0.26.4
+   Compiling rand v0.8.6
+   Compiling url v2.5.8
+   Compiling unicode-normalization v0.1.24
+   Compiling serde_urlencoded v0.7.1
+   Compiling uuid v1.11.0
+   Compiling universal-hash v0.5.1
+   Compiling axum-core v0.5.6
+   Compiling poly1305 v0.8.0
+   Compiling clap_derive v4.5.18
+   Compiling password-hash v0.5.0
+   Compiling hyper-rustls v0.27.9
+   Compiling tower-http v0.6.11
+   Compiling chacha20 v0.9.1
+   Compiling serde_path_to_error v0.1.17
+   Compiling blake2 v0.10.6
+   Compiling axum-macros v0.5.1
+   Compiling aead v0.5.2
+   Compiling axum v0.8.1
+   Compiling rld-regional-rules v0.1.0 (/home/galaxy/rldcoin-testnet-20260930/source/crates/rld-regional-rules)
+   Compiling chacha20poly1305 v0.10.1
+   Compiling argon2 v0.5.3
+   Compiling reqwest v0.12.28
+   Compiling clap v4.5.23
+   Compiling vcpkg v0.2.15
+   Compiling pkg-config v0.3.34
+   Compiling libsqlite3-sys v0.38.2
+   Compiling foldhash v0.2.0
+   Compiling hashbrown v0.17.1
+   Compiling rld-pow v0.3.0 (/home/galaxy/rldcoin-testnet-20260930/source/crates/rld-pow)
+   Compiling hashlink v0.12.2
+   Compiling fallible-iterator v0.3.0
+   Compiling fallible-streaming-iterator v0.1.9
+   Compiling rusqlite v0.40.2
+   Compiling rld-fast-payments v0.1.0 (/home/galaxy/rldcoin-testnet-20260930/source/crates/rld-fast-payments)
+   Compiling rld-cross-region v0.1.0 (/home/galaxy/rldcoin-testnet-20260930/source/crates/rld-cross-region)
+   Compiling hmac v0.12.1
+   Compiling rld-value-successor v0.1.0 (/home/galaxy/rldcoin-testnet-20260930/source/crates/rld-value-successor)
+    Finished `release` profile [optimized] target(s) in 6m 29s
+     Running unittests src/lib.rs (/home/galaxy/rldcoin-wallet-preview-build-20260929/target/release/deps/rld_pow-bdb6cfb41aec2512)
+
+running 17 tests
+test tests::actual_work_credits_miner_and_rejects_tampering_atomically ... ok
+test tests::durable_restart_replays_reward_and_exclusive_owner ... ok
+test tests::emission_is_exact_capped_and_not_a_genesis_allocation ... ok
+test tests::equal_work_tip_choice_survives_restart ... ok
+test tests::failed_disk_publication_never_exposes_reward_and_requires_replay ... ok
+test tests::heavier_fork_replaces_orphan_rewards_instead_of_adding_them ... ok
+test tests::incomplete_temp_is_unpublished_but_corrupt_committed_block_halts_recovery ... ok
+test tests::independent_python_vectors_match_wide_heights_work_hashes_and_emission ... ok
+test tests::maturity_signatures_double_spend_and_fee_conservation ... ok
+test tests::replay_anchor_follows_best_branch_and_rejects_changed_context ... ok
+test tests::rule_adoption_requires_pinned_history_all_validators_and_zero_allocation ... ok
+test tests::streamed_state_root_matches_original_buffered_encoding ... ok
+test tests::template_clock_handles_future_median_without_relaxing_validation ... ok
+test tests::bounded_header_window_matches_full_history_across_two_retargets ... ok
+test tests::wide_retarget_does_not_wrap_and_enforces_bounds ... ok
+test tests::wrong_network_and_noncanonical_input_are_rejected ... ok
+test tests::valid_shorter_harder_branch_wins_and_reorg_recomputes_emission ... ok
+
+test result: ok. 17 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.46s
+
+     Running unittests src/lib.rs (/home/galaxy/rldcoin-wallet-preview-build-20260929/target/release/deps/rld_value_successor-cfcbf40b3e7020e6)
+
+running 71 tests
+test capacity_tests::active_history_crosses_halving_reorganizes_and_replays ... ignored, explicit retained active-history stress; needs a new RLD_CAPACITY_OUTPUT directory
+test adoption::tests::fresh_chain_successor_requires_exact_four_validator_signatures_and_cut ... ok
+test chain::storage::tests::checkpoint_requires_replayed_block_and_rejects_tampered_state ... ok
+test chain::storage::tests::failed_block_or_head_write_keeps_memory_unpublished_and_restart_replays_disk ... ok
+test chain::storage::tests::earth_finality_survives_restart_and_rejects_deep_source_fork ... ok
+test chain::storage::tests::restart_replays_mined_export_checkpoint_and_retains_lock_exclusivity ... ok
+test chain::storage::tests::submitted_candidate_command_survives_restart_and_returns_after_reorg ... ok
+test chain::storage::tests::wrong_anchor_invalid_block_and_tampered_disk_block_fail_closed ... ok
+test chain::tests::bounded_successor_history_matches_full_extension_across_retargets ... ok
+test chain::tests::candidate_escrow_observation_requires_confirmed_open_branch ... ok
+test chain::tests::close_and_challenge_require_action_bound_fee_spends ... ok
+test chain::tests::direct_empty_earth_genesis_mines_first_value_block_without_predecessor_reward ... ok
+test chain::tests::forged_state_root_or_invalid_command_cannot_advance_candidate_chain ... ok
+test chain::tests::mined_export_has_replayed_checkpoint_and_orphaned_branch_loses_authority ... ok
+test chain::tests::mining_batch_matches_full_header_hashing ... ok
+test chain::tests::ordinary_payment_can_fund_later_export_but_cannot_double_spend_in_one_block ... ok
+test chain::tests::retarget_continues_from_v1_history_without_a_difficulty_reset ... ok
+test destination::pow::tests::cold_destination_branch_rebuilds_import_spend_and_reorg_balances ... ok
+test destination::pow::tests::destination_authorization_binds_genesis_preview_and_signer ... ok
+test destination::pow::tests::destination_journal_accepts_command_33_and_rejects_replay_gap ... ok
+test destination::pow::tests::destination_journal_replays_legacy_prefix_before_new_files ... ok
+test destination::pow::tests::destination_mining_batch_matches_full_header_hashing ... ok
+test destination::pow::tests::destination_pow_import_transfer_forks_and_source_reorg_halt ... ok
+test destination::pow::tests::destination_pow_retargets_without_native_issuance ... ok
+test destination::pow::tests::destination_pow_store_replays_import_and_persists_source_halt ... ok
+test destination::pow::tests::destination_restart_restores_saved_equal_work_branch_and_its_assets ... ok
+test destination::pow::tests::destination_submitted_import_survives_restart_and_reorg ... ok
+test destination::pow::tests::earth_import_requires_signed_source_finality_covering_export ... ok
+test destination::pow::tests::import_receipt_requires_replayed_selected_branch_and_live_source_proof ... ok
+test destination::storage::tests::import_log_replays_once_and_persists_halt_after_source_reorganization ... ok
+test destination::tests::verified_bundle_imports_once_and_source_reorg_halts_simulated_destination ... ok
+test migration::tests::complete_archive_replays_retained_forks_and_durable_migrated_assets_finality_and_receipts ... ok
+test migration::tests::faster_finality_cannot_skip_the_remaining_legacy_export_wait ... ok
+test migration::tests::faster_source_preserves_remaining_old_maturity_and_rejects_old_signed_commands ... ok
+test migration::tests::inherited_destination_coin_requires_remaining_maturity_and_new_network_signature ... ok
+test migration::tests::migrated_stores_refuse_deleted_changed_or_cross_network_acceptance ... ok
+test migration::tests::migration_archive_rejects_missing_extra_changed_and_noncanonical_evidence ... ok
+test migration::tests::native_migration_preserves_both_ledgers_retirement_maturity_and_partial_issuance ... ok
+test migration::tests::old_active_channel_blocks_migration_without_shortening_its_original_contest ... ok
+test migration::tests::pending_old_export_uses_new_finality_and_cannot_remint_imported_assets ... ok
+test migration::tests::signatures_cannot_authorize_forged_native_assets_rules_or_missing_retained_forks ... ok
+test regional_tests::regional_channel_contest_finality_and_settlement_use_actual_node_execution ... ok
+test regional_tests::regional_destination_import_maturity_and_zero_issuance_execute_in_native_chain ... ok
+test chain::storage::tests::included_submission_history_can_exceed_old_128_command_limit ... ok
+test regional_tests::regional_source_executes_reward_maturity_retarget_and_checkpoint_rules ... ok
+test tests::channel_and_export_compete_for_the_same_mature_coin_in_both_orders ... ok
+test tests::channel_challenge_and_finalization_preserve_supply ... ok
+test tests::disjoint_channel_and_export_coexist_with_one_supply_commitment ... ok
+test tests::invalid_ordinary_transfer_is_failure_atomic ... ok
+test tests::invalid_public_keys_cannot_enter_the_unified_coin_set ... ok
+test tests::malformed_signature_immature_input_and_wrong_anchor_do_not_mutate_state ... ok
+test tests::ordinary_transfer_competes_with_channel_and_export_in_both_orders ... ok
+test tests::public_constructor_uses_the_replayed_pow_tip_and_rejects_no_block ... ok
+test tests::reserved_challenge_fee_cannot_be_spent_and_is_refunded_at_settlement ... ok
+test tests::unified_export_proof_rejects_record_path_and_claimed_root_changes ... ok
+test transition::tests::preview_pins_replayed_value_rules_source_and_exact_cut ... ok
+test transition::tests::signed_authorization_binds_exact_preview_and_explicit_signer ... ok
+test upgrade::tests::compatible_stores_preserve_original_genesis_history_and_require_authorization_on_reopen ... ok
+test upgrade::tests::upgrade_requires_original_trust_exact_source_identity_and_all_signatures ... ok
+test upgrade::tests::write_compatible_process_fixture ... ignored, writes public-only inputs for the separate node process qualification
+test validation_history::tests::actual_sqlite_full_stops_writes_without_acknowledging_entry ... ok
+test validation_history::tests::disk_cache_is_bounded_and_corruption_stops_all_views ... ok
+test validation_history::tests::index_is_rebuilt_and_cache_links_are_rejected ... ok
+test validation_history::tests::snapshot_and_prepared_overlay_are_isolated_until_promoted ... ok
+test wallet_guard::tests::interrupted_publication_recovers_only_by_replaying_same_offer ... ok
+test wallet_guard::tests::receipt_return_requires_durable_matching_watch_package_and_exact_retry ... ok
+test wallet_guard::tests::tampered_watch_package_fails_closed_on_reopen ... ok
+test wallet_payer::tests::saved_delivery_recovers_pending_receipt_and_missing_evidence_fails_closed ... ok
+test watchtower::storage::tests::separate_watchtower_store_keeps_latest_after_restart_and_merchant_rollback ... ok
+test watchtower::tests::only_newer_signed_state_with_valid_challenge_fee_is_submitted ... ok
+test regional_tests::regional_fast_source_requires_six_thousand_blocks_before_reward_spending ... ok
+
+test result: ok. 69 passed; 0 failed; 2 ignored; 0 measured; 0 filtered out; finished in 60.71s
+
+     Running tests/migrated_runtime.rs (/home/galaxy/rldcoin-wallet-preview-build-20260929/target/release/deps/migrated_runtime-fe55b115c1fa2441)
+
+running 2 tests
+test migrated_processes_reject_wrong_acceptance_missing_locks_and_public_listeners ... ok
+test signed_migrated_processes_sync_legacy_import_finality_receipt_and_native_restart ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 3.43s
+
+     Running tests/runtime.rs (/home/galaxy/rldcoin-wallet-preview-build-20260929/target/release/deps/runtime-4ed62081b1bc0bb2)
+
+running 16 tests
+test candidate_auto_miner_replays_after_restart ... ok
+test candidate_receiver_refuses_public_listener_and_remote_node_before_reading_keys ... ok
+test candidate_rejects_unpinned_or_corrupt_transition_authorization_before_value_store ... ok
+test candidate_value_clients_reject_wrong_transition_preview_before_opening_stores ... ok
+test destination_authorization_cli_and_process_gate_fail_closed ... ok
+test adopted_earth_source_and_destination_require_exact_signed_chain_and_cut ... ok
+test destination_import_process_returns_signed_ack_and_halts_on_source_reorg ... ok
+test pending_channel_commands_relay_both_ways_and_survive_restart ... ok
+test process_rejects_wrong_v1_release_pin_and_public_listener ... ok
+test regional_adopted_processes_finalize_import_return_and_restart_with_distinct_intervals ... ok
+test regional_signed_nodes_sync_replay_and_reject_unmined_block ... ok
+test destination_pow_processes_sync_import_receipt_and_halt_after_source_reorg ... ok
+test source_candidate_holds_v1_cut_lock_until_shutdown ... ok
+test transition_preview_cli_roundtrip_and_candidate_refuses_changed_acceptance ... ok
+test two_processes_sync_replay_and_reject_unmined_block ... ok
+test signed_channel_dispute_is_durably_mined_and_synced ... ok
+
+test result: ok. 16 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 33.24s
+

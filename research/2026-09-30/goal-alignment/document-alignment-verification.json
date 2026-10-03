@@ -1,0 +1,25 @@
+{
+  "result": "DOC_ALIGNED_IMPLEMENTATION_NOT_QUALIFIED",
+  "editorial_scope": "active documentation cleaned; signed records and archives retained",
+  "whitepaper_version": "1.10",
+  "requirements": [
+    "I1",
+    "I2",
+    "I3",
+    "I4",
+    "I5",
+    "I6",
+    "I7",
+    "I8",
+    "I9",
+    "I10",
+    "I11",
+    "I12"
+  ],
+  "matched_documents": 4,
+  "pdf_pages": 20,
+  "old_network_chronology_in_active_plan_or_paper": false,
+  "signed_artifacts_changed": false,
+  "pdf_sha256": "48ce705805e82ca59e917084c1dc61e25afb6adedf57f00d02c6f09c2fdfb88d",
+  "markdown_sha256": "475b9336607495909c721f8de27d66fdb31507de13e2ccc13390546a83e29457"
+}

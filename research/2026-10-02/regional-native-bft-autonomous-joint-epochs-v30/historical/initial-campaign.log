@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/LOCAL_WORKSPACE/tools/regional_bft_autonomous_epoch_campaign.py", line 132, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "/LOCAL_WORKSPACE/tools/regional_bft_autonomous_epoch_campaign.py", line 127, in main
+    c=Campaign(a.binary,a.root)
+  File "/LOCAL_WORKSPACE/tools/regional_bft_autonomous_epoch_campaign.py", line 42, in __init__
+    mesh.atomic(original['head_file'],dict(head,format=FORMAT))
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/LOCAL_WORKSPACE/tools/interstellar_mesh.py", line 104, in atomic
+    temporary = path.parent / ('.write-' + os.urandom(16).hex())
+                ^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'parent'

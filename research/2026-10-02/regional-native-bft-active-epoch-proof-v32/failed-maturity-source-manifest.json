@@ -1,0 +1,1373 @@
+{
+  "files": [
+    {
+      "path": "Cargo.lock",
+      "size_bytes": 53058,
+      "sha256": "c4621e1df4dd8006f6f43bd6f7a4360c41243a2d9d40cbccb0a6318342f3cd89"
+    },
+    {
+      "path": "Cargo.toml",
+      "size_bytes": 1170,
+      "sha256": "71db3c8fcbb22f44ead5444d7d8261f3105b7dd994a6b57bcff578eef32166b7"
+    },
+    {
+      "path": "LICENSE",
+      "size_bytes": 11308,
+      "sha256": "cf864ad8ef64dcd9b68e4ad698eb946c3a92375bb57f229dbfde63b723ad01c3"
+    },
+    {
+      "path": "crates/rld-cli/Cargo.toml",
+      "size_bytes": 407,
+      "sha256": "567de05970b596e82bfda79264184208acb43941d3cfd31cb4161f8259e8a8a1"
+    },
+    {
+      "path": "crates/rld-cli/src/bin/rld-genesis.rs",
+      "size_bytes": 12802,
+      "sha256": "5a371e6d1a88627e9f85325a32a9181a6aaf69bc8e9dc09081b0b4102c2eabe8"
+    },
+    {
+      "path": "crates/rld-cli/src/candidate_history.rs",
+      "size_bytes": 7306,
+      "sha256": "d2c51cc233f748e3f75dfb7d970232714f5dd1987bbeb4f2f1aa80e4576850ea"
+    },
+    {
+      "path": "crates/rld-cli/src/main.rs",
+      "size_bytes": 2241,
+      "sha256": "b0d0aaf3321512860743fa33a8c084c78c98f6967e77a5c33eda9c9f699016a6"
+    },
+    {
+      "path": "crates/rld-core/Cargo.toml",
+      "size_bytes": 590,
+      "sha256": "8941c301989b8e113a573f8147dfac79f70ca5c070a7fd812a0fc7cb28f15842"
+    },
+    {
+      "path": "crates/rld-core/build.rs",
+      "size_bytes": 1057,
+      "sha256": "f75280e3a42a7a8295e8e23200bccf8d58835c4d1b857ccf761af74891ed6602"
+    },
+    {
+      "path": "crates/rld-core/build_support/source_identity.rs",
+      "size_bytes": 4638,
+      "sha256": "542fbc676c81d645c4db2fdeef37016d87af5c8696ab354514bb81e4abfa7359"
+    },
+    {
+      "path": "crates/rld-core/src/admission.rs",
+      "size_bytes": 282328,
+      "sha256": "1d7284e7b361ac629f67ab44d8a08738e2110758b3720fb85bf0804649806b80"
+    },
+    {
+      "path": "crates/rld-core/src/admission/censorship_recovery_tests.rs",
+      "size_bytes": 10246,
+      "sha256": "4e83c989cd9aecf2beba089b6dc43edbb0dd0c7d5bf111cebcc2d0891c4293ed"
+    },
+    {
+      "path": "crates/rld-core/src/amount.rs",
+      "size_bytes": 4466,
+      "sha256": "b25632b4d88249914127cc8be1432188b50ab584ddbcd397e53a9bda9fb14840"
+    },
+    {
+      "path": "crates/rld-core/src/causal.rs",
+      "size_bytes": 7001,
+      "sha256": "e8071a47e170895901abc161b4d8b437a461faca6919f92a0887979e260d679f"
+    },
+    {
+      "path": "crates/rld-core/src/command_wire.rs",
+      "size_bytes": 106198,
+      "sha256": "97868d57922400469d35651e4809762c76c31f4cad64a54134a509d4ebe2010e"
+    },
+    {
+      "path": "crates/rld-core/src/consensus_epoch.rs",
+      "size_bytes": 37756,
+      "sha256": "0a6611cb3e30231be8dd3a9be5d12b1967d88894000ed773f98c6e3c5cb4810d"
+    },
+    {
+      "path": "crates/rld-core/src/crypto.rs",
+      "size_bytes": 6348,
+      "sha256": "3914969e84c6b3b1384198fd4bb591fbc62d6153ea9d39a5e74a5f4fab235aff"
+    },
+    {
+      "path": "crates/rld-core/src/genesis.rs",
+      "size_bytes": 36128,
+      "sha256": "acf74bcba705b235af7942def6370bf64194b05b4b2f95f76fdc15e9492eba2e"
+    },
+    {
+      "path": "crates/rld-core/src/genesis/upgrade_activation.rs",
+      "size_bytes": 4208,
+      "sha256": "a6b041b7e9d3fd7381d9d0449db156be74937bb2e7ca8f3fe64212553690b59e"
+    },
+    {
+      "path": "crates/rld-core/src/genesis/upgrade_compatibility.rs",
+      "size_bytes": 2709,
+      "sha256": "5a40056af2e5549cc69d3649bed385562d876a1f23f5c6d5d9f8f23d391d47b2"
+    },
+    {
+      "path": "crates/rld-core/src/genesis/upgrade_intent.rs",
+      "size_bytes": 16464,
+      "sha256": "2bbb8f0f64203e9117011404ec7e5c79ef5ffa8e1590b0f8406d41f1c97eeca6"
+    },
+    {
+      "path": "crates/rld-core/src/genesis/upgrade_migration.rs",
+      "size_bytes": 7060,
+      "sha256": "ab861084f3541f3fdbde729ba9fb4035417a1ad9eb246446c5205589fda00437"
+    },
+    {
+      "path": "crates/rld-core/src/genesis/upgrade_pending.rs",
+      "size_bytes": 4362,
+      "sha256": "93f4ff736b820d10ff3ceeaf292aa9e8d48066e6f0cd426ac4e9f4cac5316993"
+    },
+    {
+      "path": "crates/rld-core/src/genesis/upgrade_wire.rs",
+      "size_bytes": 22678,
+      "sha256": "6d648f62f91bc0ec9a4fc823580bd4b3645c99ecee9e2f9de42720d20e873905"
+    },
+    {
+      "path": "crates/rld-core/src/genesis/v3.rs",
+      "size_bytes": 34245,
+      "sha256": "7304258ddcd8240091af4090da1162390b3b3c0db8da2d4cab3e9fe6785ee4a6"
+    },
+    {
+      "path": "crates/rld-core/src/implementation_source.rs",
+      "size_bytes": 347,
+      "sha256": "56b2c1b660499b1276ada4ba465bbdd9a3f3c4c0aad1496388344c514936fc28"
+    },
+    {
+      "path": "crates/rld-core/src/ledger.rs",
+      "size_bytes": 986470,
+      "sha256": "7dd772ee19ba94e1de0cf9420d5c8625908dc945fc4a16a3d4e927002937bd19"
+    },
+    {
+      "path": "crates/rld-core/src/lib.rs",
+      "size_bytes": 1644,
+      "sha256": "9e1c17636235f1e593de06b00158a5e64dc6d63dbbaf02470baf580c0cc502a8"
+    },
+    {
+      "path": "crates/rld-core/src/m0_candidate_replay.rs",
+      "size_bytes": 26894,
+      "sha256": "3be9bf889b61dbeb6172ece201962fd335ac1251e9a4390f021097e38ce857a3"
+    },
+    {
+      "path": "crates/rld-core/src/m0_candidate_replay/inclusion.rs",
+      "size_bytes": 7085,
+      "sha256": "4e24323261bbd6a412b3ae5c114f3a9b05a7aca1a1555abd240c6992d6f028e8"
+    },
+    {
+      "path": "crates/rld-core/src/m0_candidate_replay/obligations.rs",
+      "size_bytes": 11080,
+      "sha256": "67e5e179c8ba986874eefd34609726894406dd4fbb4ad3f819456a41ae0a4f31"
+    },
+    {
+      "path": "crates/rld-core/src/m0_candidate_replay/observation.rs",
+      "size_bytes": 8278,
+      "sha256": "51db8c54952e3eb866d24783d6cd35d8b0e82307af5d8daa61b435e20d6a1711"
+    },
+    {
+      "path": "crates/rld-core/src/m0_candidate_replay/proposal_reference.rs",
+      "size_bytes": 4930,
+      "sha256": "215a1d771f677c8616b01c7bb4f5a12dec90b2e77214b2e5e5d8d1f5baa00f67"
+    },
+    {
+      "path": "crates/rld-core/src/m0_candidate_replay/reconciliation.rs",
+      "size_bytes": 8692,
+      "sha256": "d493d5b398914f254cdb92f862743acb25d44a483b5d506f96efb1e581ccb9ce"
+    },
+    {
+      "path": "crates/rld-core/src/m0_candidate_replay/source_frame.rs",
+      "size_bytes": 9957,
+      "sha256": "030914ffa9579617a1eddb6c598c41405f082952ca0f236a43e995ecc5fdc6a8"
+    },
+    {
+      "path": "crates/rld-core/src/m0_candidate_replay/tests.rs",
+      "size_bytes": 110101,
+      "sha256": "e1cef1abab1f1d9c72bae3d0d056d6c751bd65fa27044d0e738367cd984c93c7"
+    },
+    {
+      "path": "crates/rld-core/src/m0_candidate_replay/transcript.rs",
+      "size_bytes": 4503,
+      "sha256": "7ce109db79a189188f2590a58b2a33a4dccfb9de96605ed2a889bf73284ba452"
+    },
+    {
+      "path": "crates/rld-core/src/open_contribution_candidate.rs",
+      "size_bytes": 43055,
+      "sha256": "3c3f06c20788751122bdaf29cb6430879429afc0e047fe1fdf92633291d4f6fd"
+    },
+    {
+      "path": "crates/rld-core/src/stake_epoch.rs",
+      "size_bytes": 155580,
+      "sha256": "bc0a11a5b59069ed872037a8f5d4515add7ef1819412176969863b7261131ccd"
+    },
+    {
+      "path": "crates/rld-core/src/stake_evidence.rs",
+      "size_bytes": 28199,
+      "sha256": "9cbf6049d602b572f10142f071c3dc27a1778bf64eecfb82b7b32f0d54caf2d2"
+    },
+    {
+      "path": "crates/rld-core/src/stake_resource_accounting.rs",
+      "size_bytes": 245196,
+      "sha256": "33715881e582fb9bacd912b5bf157d677c8a9f64c31742cfab98c8bb9b32de54"
+    },
+    {
+      "path": "crates/rld-core/src/stake_resource_reservation_v2.rs",
+      "size_bytes": 120891,
+      "sha256": "b6fcea059dcfb81243597e2b5cab3a59ebda2e42421efbcc180b1fe51363060e"
+    },
+    {
+      "path": "crates/rld-core/src/stake_resource_wire.rs",
+      "size_bytes": 34143,
+      "sha256": "ab29393788b4efd79bfb6b3ffdb17ec5b0710dedd967ca3f568910c4e5bede90"
+    },
+    {
+      "path": "crates/rld-core/src/types.rs",
+      "size_bytes": 227184,
+      "sha256": "c530da05937a087930469d4fe45a728492e9ae2777e79985bf9362d59db2e26e"
+    },
+    {
+      "path": "crates/rld-core/src/view_change.rs",
+      "size_bytes": 20198,
+      "sha256": "a14a7c42b549377d506352cb2d6917dbbfb8939240285e632a46ff475fadda5f"
+    },
+    {
+      "path": "crates/rld-core/src/wire.rs",
+      "size_bytes": 95568,
+      "sha256": "4c941b74750423b80cae9ea46ed716403b753c7c5c94b32821ff030ef02c0709"
+    },
+    {
+      "path": "crates/rld-cross-region/Cargo.toml",
+      "size_bytes": 420,
+      "sha256": "3bc07714527d6af6f1c8cf5fb686753f0c30d1ccc1bcd6c7ee4177310a9121e6"
+    },
+    {
+      "path": "crates/rld-cross-region/src/lib.rs",
+      "size_bytes": 12337,
+      "sha256": "f59000ea0e53a04750a717665decb2b165148491893d1b670e174aaeb1824745"
+    },
+    {
+      "path": "crates/rld-cross-region/src/main.rs",
+      "size_bytes": 5967,
+      "sha256": "c14bac252409b823540de7c6c82c7b61b1f8ad7e1127ebf2a93ac07a1bac1e18"
+    },
+    {
+      "path": "crates/rld-cross-region/src/tests.rs",
+      "size_bytes": 7143,
+      "sha256": "f1b78092a3c5a4a1a8d063604c264efb806ff6f6e90cc6209b0ec597a3183bd3"
+    },
+    {
+      "path": "crates/rld-cross-region/src/value.rs",
+      "size_bytes": 25105,
+      "sha256": "5c04525071eb5cb338f34c873478a4be7a63807605bb46023a97907767608a0d"
+    },
+    {
+      "path": "crates/rld-cross-region/src/value/tests.rs",
+      "size_bytes": 14146,
+      "sha256": "423336620edc3f87031ae2a335dbbedc906d2616ae050378048f2db52ed578b6"
+    },
+    {
+      "path": "crates/rld-fast-payments/Cargo.toml",
+      "size_bytes": 315,
+      "sha256": "d14d3ad38e6a880b47ba358246750c5a73af1eed50b0cf0d54e31935d5973d9e"
+    },
+    {
+      "path": "crates/rld-fast-payments/src/lib.rs",
+      "size_bytes": 17846,
+      "sha256": "927e8c226b63f1b523754b27f0c1759f264f68aaf01bdc11c0c532347543820e"
+    },
+    {
+      "path": "crates/rld-fast-payments/src/successor.rs",
+      "size_bytes": 15580,
+      "sha256": "2f4e0802c2d5d9313ef42a22be4e9fe23aadf0a95015c94061d0228e242beb82"
+    },
+    {
+      "path": "crates/rld-fast-payments/src/successor/tests.rs",
+      "size_bytes": 9689,
+      "sha256": "ed5eb6226d21af209c721f34c70b2ed8f7c4c510ab7a58bd37c33be24af6ad3b"
+    },
+    {
+      "path": "crates/rld-fast-payments/src/tests.rs",
+      "size_bytes": 10166,
+      "sha256": "57a5a2e37adc683922fd7c51215c0200b6e7584cec8269134e8eb855ebb560e6"
+    },
+    {
+      "path": "crates/rld-fast-payments/src/wallet.rs",
+      "size_bytes": 10010,
+      "sha256": "085c43bd358bcfe688bfdb79fd96e250c9b0229236ca8897774b70def8ab2021"
+    },
+    {
+      "path": "crates/rld-fast-payments/src/wallet/payer.rs",
+      "size_bytes": 11419,
+      "sha256": "83f63ba4ebb52189d2c0839c1f4f73f605fcd2dac49f1511d496dcce38af0ca9"
+    },
+    {
+      "path": "crates/rld-fast-payments/src/wallet/payer/tests.rs",
+      "size_bytes": 4999,
+      "sha256": "fb092de985ee39732f36ab0799c83aa7bb507665d078b572a1fb6e43c0a9ecde"
+    },
+    {
+      "path": "crates/rld-fast-payments/src/wallet/tests.rs",
+      "size_bytes": 6266,
+      "sha256": "ead4639c17f13253102fbafc579e8238f8cb7e8e59cadac2818b111b841ff78f"
+    },
+    {
+      "path": "crates/rld-pow/Cargo.toml",
+      "size_bytes": 581,
+      "sha256": "796c308424b8379424c28e861bad7c3581861222df4b1916be4671887499ffa5"
+    },
+    {
+      "path": "crates/rld-pow/src/lib.rs",
+      "size_bytes": 28170,
+      "sha256": "bb6f5952ba106d8df7d75928020a65e6074f15ada3cef6c979a106cc07e879e3"
+    },
+    {
+      "path": "crates/rld-pow/src/main.rs",
+      "size_bytes": 6342,
+      "sha256": "7bbd6892b8cb637fd35bbfc3ad111bfb6e7ca4aadc7e8e17894573466b5fead8"
+    },
+    {
+      "path": "crates/rld-pow/src/storage.rs",
+      "size_bytes": 8041,
+      "sha256": "a4f18754f10fc97af2b33bdc143725c97beeb831b69facf3802c0296c6dbaec1"
+    },
+    {
+      "path": "crates/rld-pow/src/tests.rs",
+      "size_bytes": 20378,
+      "sha256": "0578c139631ed22013f6dd54a026b1f58c558a6edee46c27469c1a2bd82f2f72"
+    },
+    {
+      "path": "crates/rld-pow/src/transition.rs",
+      "size_bytes": 8024,
+      "sha256": "46ddaa03243a8d00492d6438032f07a48db7f6c5f640b5930bd6fd011fe523f8"
+    },
+    {
+      "path": "crates/rld-value-successor/Cargo.toml",
+      "size_bytes": 609,
+      "sha256": "d9487fb965b59b90e4f0480ed8781fc81db9a2e994597d8b13408d789c1f18c0"
+    },
+    {
+      "path": "crates/rld-value-successor/src/adoption.rs",
+      "size_bytes": 7336,
+      "sha256": "b4ec2e9e32c465d0090d27d5adb99ea74d1a058a56b0fa310cccb7d9890ff02d"
+    },
+    {
+      "path": "crates/rld-value-successor/src/bin/rld-earth-destination-authorization.rs",
+      "size_bytes": 4423,
+      "sha256": "36fa0aa9323ff22a99d192c47a826166d7aa2f7fdf57d5566c8237de8b54ffdc"
+    },
+    {
+      "path": "crates/rld-value-successor/src/bin/rld-earth-destination-node.rs",
+      "size_bytes": 36427,
+      "sha256": "b39e417ed64322ef7ae9d405010c7242494ac4e6e23496445bae28a0ac4ac4e8"
+    },
+    {
+      "path": "crates/rld-value-successor/src/bin/rld-earth-destination-node/offline_tests.rs",
+      "size_bytes": 18599,
+      "sha256": "42abce818db430f73afce0fa66b6bd4edc73eb5f45fb650b0b3634788223ae4f"
+    },
+    {
+      "path": "crates/rld-value-successor/src/bin/rld-earth-finality.rs",
+      "size_bytes": 8091,
+      "sha256": "5e404cdddf35e658f0caaf4695326b9764d32addb590c4d72c10ed6379a77a5f"
+    },
+    {
+      "path": "crates/rld-value-successor/src/bin/rld-earth-node.rs",
+      "size_bytes": 42198,
+      "sha256": "870fe4f1dd857b1a1e91f49e06227c8f78d762b9a9d9839b7ecd16d420491cbe"
+    },
+    {
+      "path": "crates/rld-value-successor/src/bin/rld-earth-value-adoption.rs",
+      "size_bytes": 9598,
+      "sha256": "c5ecbac373d15c038cba21914d322bf14e3dcb0f43f4d8668eaf65e09c944b46"
+    },
+    {
+      "path": "crates/rld-value-successor/src/bin/rld-earth-watchtower.rs",
+      "size_bytes": 15143,
+      "sha256": "10bc162e26bb87e1b12fd1429bef898d2849d94584bf87a5b6eb7f8145ebd3b8"
+    },
+    {
+      "path": "crates/rld-value-successor/src/candidate_client.rs",
+      "size_bytes": 11776,
+      "sha256": "6d69d9f4da6de45b3e7898d074241cd3d9939bc553e54cf2cb747da8c008c1ca"
+    },
+    {
+      "path": "crates/rld-value-successor/src/chain.rs",
+      "size_bytes": 35002,
+      "sha256": "76768acc30aeddc979ff728880f269220698476c9358ae0ef3a1a9ae96fb2ce0"
+    },
+    {
+      "path": "crates/rld-value-successor/src/chain/checkpoint.rs",
+      "size_bytes": 6448,
+      "sha256": "7d97569a581f977c337d58acb4158a5c3d585432b750032ad7faa3e4e3ae0460"
+    },
+    {
+      "path": "crates/rld-value-successor/src/chain/finality.rs",
+      "size_bytes": 3520,
+      "sha256": "d273f1f45794ce5e3dd000d9ba0ee313c889bf6aa499031283277f5db85fadf6"
+    },
+    {
+      "path": "crates/rld-value-successor/src/chain/storage.rs",
+      "size_bytes": 28334,
+      "sha256": "9345c8376be1ef45267b7e92add0b9c98b26e708740a2f3e8ee5263d9727b191"
+    },
+    {
+      "path": "crates/rld-value-successor/src/chain/storage/tests.rs",
+      "size_bytes": 27328,
+      "sha256": "54734f409c7e54dbc1c7bd986b76492906e866f7c4c80a58b47cb559c20dd18d"
+    },
+    {
+      "path": "crates/rld-value-successor/src/chain/tests.rs",
+      "size_bytes": 35986,
+      "sha256": "73465b31100af4483792eceeaee449bc88347d4e34256316e1a72190a40b5d62"
+    },
+    {
+      "path": "crates/rld-value-successor/src/destination.rs",
+      "size_bytes": 19931,
+      "sha256": "19b941ba596eb12f5d39ce58a197460c68c88b0ba7abd64516c63d2e4b29f508"
+    },
+    {
+      "path": "crates/rld-value-successor/src/destination/ack.rs",
+      "size_bytes": 5505,
+      "sha256": "615561f2bae744987e4e0fa29fc71de2a3d76ad39f45794b662bd3b688021f09"
+    },
+    {
+      "path": "crates/rld-value-successor/src/destination/pow.rs",
+      "size_bytes": 21869,
+      "sha256": "a4bb07011aa719d5429529dcff4a59baaf56c6ae47766dcea1e6728f5b41eb77"
+    },
+    {
+      "path": "crates/rld-value-successor/src/destination/pow/authorization.rs",
+      "size_bytes": 3506,
+      "sha256": "0b442b5c7033837c57a890d78ffbfc8f678402e419a686d5803cbd71117d4cfb"
+    },
+    {
+      "path": "crates/rld-value-successor/src/destination/pow/receipt.rs",
+      "size_bytes": 6979,
+      "sha256": "885e2e25916b89088bab5111e1e7f5baf1f730b0cec16b2b90cb4395db2ecbdf"
+    },
+    {
+      "path": "crates/rld-value-successor/src/destination/pow/storage.rs",
+      "size_bytes": 21094,
+      "sha256": "da65ae7f3e3e09b772ac77d4498a7e77062e3f0ebe590745ada90a5424b9186c"
+    },
+    {
+      "path": "crates/rld-value-successor/src/destination/pow/tests.rs",
+      "size_bytes": 40157,
+      "sha256": "032ae054565f05e31351b0eacea75ef6f9dee8e6916782327f60b97193c25c04"
+    },
+    {
+      "path": "crates/rld-value-successor/src/destination/storage.rs",
+      "size_bytes": 20450,
+      "sha256": "1ab07cef33c2e0857887867488877ada5fd9edd048d994bb8a388e3923066adb"
+    },
+    {
+      "path": "crates/rld-value-successor/src/destination/storage/tests.rs",
+      "size_bytes": 10946,
+      "sha256": "e8d3e0e5e5bb7387fe097b4a8c129b6994398ac4aac3e73c0f3897a04b8d4e90"
+    },
+    {
+      "path": "crates/rld-value-successor/src/destination/tests.rs",
+      "size_bytes": 10558,
+      "sha256": "50eebb5c5711ec8854954dc31177a22ffeb5987108f547b1efec2fb94f5a6c39"
+    },
+    {
+      "path": "crates/rld-value-successor/src/lib.rs",
+      "size_bytes": 33408,
+      "sha256": "1bfccd24bbdd4a9845dd6599fae37d736d57e868e8385cf215bc45d93a07cf0b"
+    },
+    {
+      "path": "crates/rld-value-successor/src/tests.rs",
+      "size_bytes": 17789,
+      "sha256": "c0c392b4b44805c660ef928d61035477b64a7936b60284b487a06729937e768a"
+    },
+    {
+      "path": "crates/rld-value-successor/src/transition.rs",
+      "size_bytes": 12295,
+      "sha256": "72b41d1efcae96b840fbf9d71a4052899476b1ff3b7469815d8446ddf940cb82"
+    },
+    {
+      "path": "crates/rld-value-successor/src/wallet_guard.rs",
+      "size_bytes": 10345,
+      "sha256": "cbf7fc8d32b8598455b5ee9ef9faa036ca85b559bec0a4507a8255d5f7ded7f3"
+    },
+    {
+      "path": "crates/rld-value-successor/src/wallet_guard/tests.rs",
+      "size_bytes": 7847,
+      "sha256": "0acd7058f3dde15f95115e0261fff18f72abdf233b77001210344e011df080cd"
+    },
+    {
+      "path": "crates/rld-value-successor/src/wallet_payer.rs",
+      "size_bytes": 16022,
+      "sha256": "cff9fd063f8c3ac89ecef5537e567df154ad9bd0f917f8e6c221592ee80cb22f"
+    },
+    {
+      "path": "crates/rld-value-successor/src/watchtower.rs",
+      "size_bytes": 16087,
+      "sha256": "92d46fa9a13aa4d0795db71529b1f60c1c052349e6f4c634e6ee0a6dc70969a0"
+    },
+    {
+      "path": "crates/rld-value-successor/src/watchtower/storage.rs",
+      "size_bytes": 6822,
+      "sha256": "5d47a11e6d0790c4bff47175e99916ac24ad310675a54b768961633ae51c7519"
+    },
+    {
+      "path": "crates/rld-value-successor/src/watchtower/storage/tests.rs",
+      "size_bytes": 3431,
+      "sha256": "a65d865153efea7f17c517c709ffa7e558ed94f7ea3094b141f1807ef2f2e2f7"
+    },
+    {
+      "path": "crates/rld-value-successor/tests/runtime.rs",
+      "size_bytes": 125467,
+      "sha256": "3d1669a17a2f04fc4c313685340f95db7a7ce4b482d4f89d947617c32a079f7a"
+    },
+    {
+      "path": "docs/PLAN_STATUS.md",
+      "size_bytes": 68938,
+      "sha256": "5861a7360b5da174716d81e18f7f438f21102fc6e5e2647038e1f4b86673d1ba"
+    },
+    {
+      "path": "docs/RLDCOIN_MASTER_PLAN.md",
+      "size_bytes": 18432,
+      "sha256": "89cd966e4b7661c1ecd1dc771e892c2f17806ec592d32f7c7392ccf2e24d78d7"
+    },
+    {
+      "path": "docs/operations/INTERSTELLAR_EVIDENCE_TRANSPORT.md",
+      "size_bytes": 7618,
+      "sha256": "d5b573144ab38622aaa18450c608b504a94cae2974bf8e45c42b6abbb588ac37"
+    },
+    {
+      "path": "docs/operations/INTERSTELLAR_NODE_MESH.md",
+      "size_bytes": 11327,
+      "sha256": "897f9f957d6f09d8160b1757e2c9a406194d495fb36d87d075dd2852a59bb835"
+    },
+    {
+      "path": "docs/research/INTERSTELLAR_NODE_MESH_REQUIREMENTS.md",
+      "size_bytes": 8189,
+      "sha256": "dbec00736b8d437ae3c56f3b903807c4713dea6ee24c9c5444e4ed73fd714199"
+    },
+    {
+      "path": "docs/research/REGIONAL_BFT_AUTONOMOUS_JOINT_EPOCH_CANDIDATE.md",
+      "size_bytes": 5031,
+      "sha256": "a0257debd02cb0ec9cae88f57835e451296d1fa1b9a47e777d92fa7b3b793b58"
+    },
+    {
+      "path": "docs/research/REGIONAL_BFT_JOINT_EPOCH_CANDIDATE.md",
+      "size_bytes": 5083,
+      "sha256": "6687792dc5fa010ab52bc97565e7b39f643578d636ebe354bdb0937b99082c8e"
+    },
+    {
+      "path": "docs/research/REGIONAL_FINALITY_INCIDENTS_V1.md",
+      "size_bytes": 5973,
+      "sha256": "b7b2ab44850057b3387325afd35c75cded37a2642136365ae70e95cfec0d6c6f"
+    },
+    {
+      "path": "docs/research/REGIONAL_HISTORY_RETENTION_V1.md",
+      "size_bytes": 39588,
+      "sha256": "4bbc171d3247aa240de07b04ba164cafe011e157686aeb6dc7f746028b4b7743"
+    },
+    {
+      "path": "docs/research/REGIONAL_LEDGER_CANDIDATE_V1.md",
+      "size_bytes": 28980,
+      "sha256": "1405865717d2e908b9d20041d98e9fde188da0f86941311c8dda570a87893f4f"
+    },
+    {
+      "path": "docs/research/REGIONAL_SIGNER_EPOCHS_V1.md",
+      "size_bytes": 16315,
+      "sha256": "3a6ded1e19f4faed32226c1299912da143205f8101d81c1a8c48ce3432d7e922"
+    },
+    {
+      "path": "docs/spec/EARTH-DESTINATION-AUTHORIZATION.md",
+      "size_bytes": 1415,
+      "sha256": "cda027911d5ffa68930c19e8f0ad44a36502c8609c7c22a3696600e687b684b9"
+    },
+    {
+      "path": "docs/spec/EARTH-GENESIS-POW.md",
+      "size_bytes": 1994,
+      "sha256": "1f3affa7e568f7c6363aeca01ad5b4d45cf5eff76b334253a70d8fac572c114a"
+    },
+    {
+      "path": "docs/spec/EARTH-SOURCE-FINALITY.md",
+      "size_bytes": 1810,
+      "sha256": "54a189cfa573119ea9af93a434689aad11ec3217eb610f27212f3655a2afcee7"
+    },
+    {
+      "path": "docs/spec/EARTH-TRANSITION-AUTHORIZATION.md",
+      "size_bytes": 1193,
+      "sha256": "e9c10a48feebe1a72721943f31523447d03be7a36fb998c68eda4a93b666b84e"
+    },
+    {
+      "path": "docs/spec/EARTH-VALUE-ADOPTION.md",
+      "size_bytes": 1323,
+      "sha256": "d683a982e13e69dbc1a8ea5338e6949c83adbc805e380d01914373a5fe174054"
+    },
+    {
+      "path": "docs/spec/EARTH-VALUE-RULES.md",
+      "size_bytes": 4710,
+      "sha256": "fbada2aadfc49c3b5857281a229eb111e18b608f44271a65bf3f2a376ef9d6a5"
+    },
+    {
+      "path": "docs/spec/README.md",
+      "size_bytes": 925,
+      "sha256": "1948120fea00e28be652f816137bb415562f8cd32745b44e3524338a36c0633a"
+    },
+    {
+      "path": "docs/spec/SAME-GENESIS-UPGRADE-CONTRACT.md",
+      "size_bytes": 98268,
+      "sha256": "dfc01d43a563b47c2ece9498fd7bdb27a6e0bd6ae77e131aa924caca7a07614f"
+    },
+    {
+      "path": "rust-toolchain.toml",
+      "size_bytes": 86,
+      "sha256": "495c69d1db93f25f53e3d0d2d40d812313366cc368de317871c2ace6c6ffafa4"
+    },
+    {
+      "path": "spec/archive/SLASH-EVIDENCE-ARCHIVE-V1.md",
+      "size_bytes": 6226,
+      "sha256": "ee71d06f93724e40ed211304f692e1fed961a23e7910b8a4d646267212a70826"
+    },
+    {
+      "path": "spec/consensus/CONSENSUS-EPOCH-CANDIDATE.md",
+      "size_bytes": 3895,
+      "sha256": "8789e68dea33de893bb81b04e723e52e02056b393bdf67e8fff9d2e01bf10f24"
+    },
+    {
+      "path": "spec/consensus/LEDGER-DERIVED-STAKE-EPOCH.md",
+      "size_bytes": 39947,
+      "sha256": "cdbbd45322fc6ca3f8705c8e049979e44cd628f5efa3e939e06f7abb47e60df0"
+    },
+    {
+      "path": "spec/wire/COMMANDS.md",
+      "size_bytes": 48540,
+      "sha256": "0055d34f4ad755bbd8717ef45b638bcd5a025550cccfd2b417ef00a524a54bac"
+    },
+    {
+      "path": "spec/wire/CONSENSUS-CERTIFICATES.md",
+      "size_bytes": 8339,
+      "sha256": "111908712ce3b763ba2ea808d7d71d7b6a7c1731690e72b42c88c375abaff2db"
+    },
+    {
+      "path": "spec/wire/CONSENSUS-ROUNDS.md",
+      "size_bytes": 11507,
+      "sha256": "8d84467e3638c2f96be50889b96787bafbe02d2b16c4ac9e19ca8b607c53c45e"
+    },
+    {
+      "path": "spec/wire/README.md",
+      "size_bytes": 15403,
+      "sha256": "b4bd1bda53736fe978c70bfffb6227122739e3aaa853ecb3adc1d21bd173cd4b"
+    },
+    {
+      "path": "spec/wire/RUST-DIFFERENCES.md",
+      "size_bytes": 9194,
+      "sha256": "af50aa2d63ba3aee8b020eaefe0a316bc473ad9295371e7befdcbeae67f236cc"
+    },
+    {
+      "path": "tools/interstellar-mesh-requirements.txt",
+      "size_bytes": 21,
+      "sha256": "4026896996503d662ae0d9b5db045d1d5ff511c681dbfc09f5d5a11ee06b28c5"
+    },
+    {
+      "path": "tools/interstellar_mesh.py",
+      "size_bytes": 44126,
+      "sha256": "b53407f24b48eea6164daf504c087a60ca33a11a851bee2fe1398f0957dab11b"
+    },
+    {
+      "path": "tools/interstellar_route_budget.py",
+      "size_bytes": 5160,
+      "sha256": "6ea2167eb92a400e1698044064fd4cb2afd93eae76a9f4d643b50d85b5b00732"
+    },
+    {
+      "path": "tools/interstellar_tcp.py",
+      "size_bytes": 22697,
+      "sha256": "9536e4858510fd0012dc863e5a94cfdb789e015a760c09535783096ae8d567a4"
+    },
+    {
+      "path": "tools/interstellar_transfer.py",
+      "size_bytes": 24741,
+      "sha256": "61eb840b616e0606c7d260027962b376a24fab10bc322f2ece62f1aa03ee2e2b"
+    },
+    {
+      "path": "tools/regional-ledger/Cargo.lock",
+      "size_bytes": 21629,
+      "sha256": "de8ce68ee2c30857c96e4c1b2f7ee1976becc26d28f029579f0060d62dee3bda"
+    },
+    {
+      "path": "tools/regional-ledger/Cargo.toml",
+      "size_bytes": 716,
+      "sha256": "bf7c4e60f0773a35da06bb5362f340661442c82d397109fd7bedce6916e5db5e"
+    },
+    {
+      "path": "tools/regional-ledger/README.md",
+      "size_bytes": 68113,
+      "sha256": "85b9542ccd1b090800d6f99a7e91794c2d7f18100f2b16436c434ac863c5c47a"
+    },
+    {
+      "path": "tools/regional-ledger/build.rs",
+      "size_bytes": 1322,
+      "sha256": "0dfa707932e52dd116add44b14d4837cdeb771972290d37981d65ee6e2115cfa"
+    },
+    {
+      "path": "tools/regional-ledger/src/bft.rs",
+      "size_bytes": 36205,
+      "sha256": "c275d8a0d9a4048c447e8a456278257c32785ef801b14a6d7dd52b3c893d3cf5"
+    },
+    {
+      "path": "tools/regional-ledger/src/bft_epoch.rs",
+      "size_bytes": 2782,
+      "sha256": "e6ca46a160307c32fda3f338bccb287301529e5de891d08b2feaa1f0e1cadb04"
+    },
+    {
+      "path": "tools/regional-ledger/src/bft_epoch_tests.rs",
+      "size_bytes": 12327,
+      "sha256": "142eada0eb8a1c5937bd6f11d4a96c74086381335dacfd15dbf59f3d352e888f"
+    },
+    {
+      "path": "tools/regional-ledger/src/bft_network.rs",
+      "size_bytes": 10556,
+      "sha256": "5d6b82f5e71996a1f9a147a3ecda9ef2da9e944e0ab375b885f69aee26542953"
+    },
+    {
+      "path": "tools/regional-ledger/src/bft_tests.rs",
+      "size_bytes": 31981,
+      "sha256": "632e56a9e98306a72b089621f6d6c38c909bce15ccd305b0b82ee18eb06fdee2"
+    },
+    {
+      "path": "tools/regional-ledger/src/bin/contact-fixture.rs",
+      "size_bytes": 6973,
+      "sha256": "c9bd8b7e3e61d00c5760cbf676c52f5b1a22e5052717b246bd01b62441715698"
+    },
+    {
+      "path": "tools/regional-ledger/src/bin/fixture-campaign.rs",
+      "size_bytes": 29563,
+      "sha256": "60fe422043e69a428a65cd88176229aa9a9648c4171958f5e4a5c7e7ca483cf0"
+    },
+    {
+      "path": "tools/regional-ledger/src/carriage.rs",
+      "size_bytes": 5670,
+      "sha256": "d4c8151d8dbadaf9735eddffec70c31d87e80751b1653d77357c0c1a663daa85"
+    },
+    {
+      "path": "tools/regional-ledger/src/carriage_tests.rs",
+      "size_bytes": 8796,
+      "sha256": "5a2f50494cce753a3b8956be8747b3ea97750f03c66733108400a3e84ece49d3"
+    },
+    {
+      "path": "tools/regional-ledger/src/conflict.rs",
+      "size_bytes": 8994,
+      "sha256": "b9d4363d7da174f60e193d8f78130466200fa55b9cbfd5f0317011605f49d5cb"
+    },
+    {
+      "path": "tools/regional-ledger/src/contact.rs",
+      "size_bytes": 16703,
+      "sha256": "ea5c55285f6b05d30602ed2e0a0729db95a0e4670faca9d853f92a6084140471"
+    },
+    {
+      "path": "tools/regional-ledger/src/contact_tests.rs",
+      "size_bytes": 11973,
+      "sha256": "d38771d91ab8b93930a5f2cd1f5c1747cb7cceaf9cc57d30b287096d16c1d13b"
+    },
+    {
+      "path": "tools/regional-ledger/src/epoch.rs",
+      "size_bytes": 13653,
+      "sha256": "f0ddfc82cb90f446abdaf8b3d4cd64a4734ad4083aa3861186300e19011048a8"
+    },
+    {
+      "path": "tools/regional-ledger/src/epoch_tests.rs",
+      "size_bytes": 15669,
+      "sha256": "f5053ffc302f123efff0f2d0d6d1185eb86540e5aa4050d7c38479a6c1b523dd"
+    },
+    {
+      "path": "tools/regional-ledger/src/execution.rs",
+      "size_bytes": 10558,
+      "sha256": "4db4e8946b8585412916290d4d2966f9585caf00a42133bc2da7a34e172e2ce0"
+    },
+    {
+      "path": "tools/regional-ledger/src/history.rs",
+      "size_bytes": 26382,
+      "sha256": "1601aa138bc248df5b6cbe2d201a94c86fe96e787a2d303c5760ad46577aaece"
+    },
+    {
+      "path": "tools/regional-ledger/src/history_archive.rs",
+      "size_bytes": 15469,
+      "sha256": "7b30c6bbdec8457190870719a3a02fb45a243acad1608c205e5b14cded5e9fc2"
+    },
+    {
+      "path": "tools/regional-ledger/src/history_archive_tests.rs",
+      "size_bytes": 18577,
+      "sha256": "15f0ee894488a716c50b1af849c5da6111d706821b3fc8889cd1df11e29d8148"
+    },
+    {
+      "path": "tools/regional-ledger/src/history_paged_tests.rs",
+      "size_bytes": 11617,
+      "sha256": "bcc5bd63d9c458a04ec4f7dfa2653c6d351b55ade38b25359ea1f475115baf81"
+    },
+    {
+      "path": "tools/regional-ledger/src/history_prefix_tests.rs",
+      "size_bytes": 8586,
+      "sha256": "9b768c22e834bed7c217f44a83a9c9945e7aa11f9a8898ddbc2c7468b04ae2c2"
+    },
+    {
+      "path": "tools/regional-ledger/src/history_tests.rs",
+      "size_bytes": 14293,
+      "sha256": "ea53c32f9e133d516b098754ac7bc6096a9339fc7ff63de133a9c41f18f8f395"
+    },
+    {
+      "path": "tools/regional-ledger/src/joint_epoch.rs",
+      "size_bytes": 12439,
+      "sha256": "f666feaa59b26bc59b4db08e39c15c58279374ea0155782494a19c26665ea2f3"
+    },
+    {
+      "path": "tools/regional-ledger/src/joint_epoch_tests.rs",
+      "size_bytes": 15247,
+      "sha256": "e4472f9d8de76446ad23f47ffa7f83578e88c07787b568f4312818f482c1b2aa"
+    },
+    {
+      "path": "tools/regional-ledger/src/joint_network_tests.rs",
+      "size_bytes": 5830,
+      "sha256": "a3fa1e232011656452501aa43ecf4c084fcb7a8cfba207b9fcf48863b2e8d553"
+    },
+    {
+      "path": "tools/regional-ledger/src/keystore.rs",
+      "size_bytes": 12195,
+      "sha256": "70186872ea2aea9125f1acf9a1df037389c541821c41e482e390f0074a471720"
+    },
+    {
+      "path": "tools/regional-ledger/src/keystore_tests.rs",
+      "size_bytes": 10447,
+      "sha256": "71b58f8a95d7a53f001cd9b2241316af9204849413283095bf1b21e6c63fc268"
+    },
+    {
+      "path": "tools/regional-ledger/src/lib.rs",
+      "size_bytes": 34323,
+      "sha256": "240ddf98267c86e4506bd30aac52727bf931b52b3b3d10319eb6e693757f705b"
+    },
+    {
+      "path": "tools/regional-ledger/src/main.rs",
+      "size_bytes": 46370,
+      "sha256": "0ebb624a0fb9a3d75265f6df81a6ebd96d1eb5c68401457011ea1059b79bff68"
+    },
+    {
+      "path": "tools/regional-ledger/src/native_prefix_tests.rs",
+      "size_bytes": 7732,
+      "sha256": "2149008a2583d20ca83264592159ee2e4f8a92825a1ec291338e2cf23688285b"
+    },
+    {
+      "path": "tools/regional-ledger/src/segmented.rs",
+      "size_bytes": 3815,
+      "sha256": "fe78cac4e147a91f163073ce00b5dc0022ea90eb23b88a400e21ec3509853700"
+    },
+    {
+      "path": "tools/regional-ledger/src/segmented_tests.rs",
+      "size_bytes": 9632,
+      "sha256": "50865f8933d174c2b1cf21a32c5fb5bbea681483cb21626ded0390f29a0f958b"
+    },
+    {
+      "path": "tools/regional-ledger/src/signer.rs",
+      "size_bytes": 21923,
+      "sha256": "c30b182cc4edebb70452c42f52366dc84994695c94bfa33b25fe5883a552be85"
+    },
+    {
+      "path": "tools/regional-ledger/src/state_index.rs",
+      "size_bytes": 9512,
+      "sha256": "eed4c0cdb466e843533a22780f35ae97fa2cd1feb029ef9307ae437c2e934704"
+    },
+    {
+      "path": "tools/regional-ledger/src/state_index_tests.rs",
+      "size_bytes": 7841,
+      "sha256": "f43fb19ddc9d46cb6bfd7fe8d0d16921b9dbbfad911dc2045bc20109ff84fa52"
+    },
+    {
+      "path": "tools/regional-ledger/src/state_proof.rs",
+      "size_bytes": 10864,
+      "sha256": "ec1d73d5c62fde54e0222abe468a8fa7bb8160b7a6ff24daaf0d38cfc604d5a4"
+    },
+    {
+      "path": "tools/regional-ledger/src/state_proof_tests.rs",
+      "size_bytes": 10736,
+      "sha256": "6c6d8c0bbec68fc68e4cb2e22628614062ebf81153e71205cf1db532fd701db5"
+    },
+    {
+      "path": "tools/regional-ledger/src/storage.rs",
+      "size_bytes": 37830,
+      "sha256": "3de7e2c03044a091a7241434511c03309fef11ff682b96f96cfd01264aa1e23d"
+    },
+    {
+      "path": "tools/regional-ledger/src/stream_replay.rs",
+      "size_bytes": 13330,
+      "sha256": "a3eec4ffcadd4bf60eb027dbb7de362711d237d4fd7aa60b30e3ce66e1d8363f"
+    },
+    {
+      "path": "tools/regional-ledger/src/stream_replay_tests.rs",
+      "size_bytes": 16283,
+      "sha256": "f8513c5dbb1bbf61247f42a877dcc2afba60e37a64bf19b99ce1c5ea6854534f"
+    },
+    {
+      "path": "tools/regional-ledger/src/tests.rs",
+      "size_bytes": 38122,
+      "sha256": "b02daa9e825e0affea06ae3873c7381089c9341ebc1ff8855ddd86eea2453b76"
+    },
+    {
+      "path": "tools/regional-ledger/src/wallet.rs",
+      "size_bytes": 22555,
+      "sha256": "9b9bc9446c0cc2fc2478d5571bf6a97e77631c29b0003743c1f1ca8a380dcb72"
+    },
+    {
+      "path": "tools/regional-ledger/src/wallet_agent.rs",
+      "size_bytes": 27099,
+      "sha256": "84e9066a296c70fcd060ba16eecaf4cea256484d2f0247c0e70ddae40903d942"
+    },
+    {
+      "path": "tools/regional-ledger/src/wallet_agent_tests.rs",
+      "size_bytes": 26775,
+      "sha256": "604740f589c7ad23f0b9256fd10662c7a42909c14ae7dd2b4e724834c76e2b94"
+    },
+    {
+      "path": "tools/regional-ledger/src/wallet_tests.rs",
+      "size_bytes": 10317,
+      "sha256": "b8771926fe8f7318a1635912838947c712aa2da38f02fb789df7634690018770"
+    },
+    {
+      "path": "tools/regional-wallet/app.css",
+      "size_bytes": 4859,
+      "sha256": "e51cd53d5115ca2d010d5816c53e817b0dabe4d1bdc9248baaba4e993025a1f4"
+    },
+    {
+      "path": "tools/regional-wallet/app.js",
+      "size_bytes": 20095,
+      "sha256": "4ea7fef675101e2d0c0a661cc9e09841cd8db58cb7322470129265552c31d272"
+    },
+    {
+      "path": "tools/regional-wallet/index.html",
+      "size_bytes": 8114,
+      "sha256": "da10f80eabb42c43f2c2c63c52c5c1c42e69081a28c7281652d9005ef44777ca"
+    },
+    {
+      "path": "tools/regional_bft_autonomous_epoch_campaign.py",
+      "size_bytes": 9734,
+      "sha256": "077ed4770b34bd7a4bf03897d001f5f7e27613ab4dfaf709aa774016c15b3cee"
+    },
+    {
+      "path": "tools/regional_bft_campaign.py",
+      "size_bytes": 15456,
+      "sha256": "0856d00dd713d363260097a6b2135a331367e0f435ae3acbbba04e21738d0be3"
+    },
+    {
+      "path": "tools/regional_bft_epoch_campaign.py",
+      "size_bytes": 8320,
+      "sha256": "1aeff9c75c6735a0fbb39afc587947f019b7079006798b2a9de9284ef23f875d"
+    },
+    {
+      "path": "tools/regional_bft_joint_cycle_campaign.py",
+      "size_bytes": 10193,
+      "sha256": "527d107922bc7c16d6fd8ab40c3a6c107401a3d882e2463da4fb8921b6a6f4fb"
+    },
+    {
+      "path": "tools/regional_bft_joint_epoch.py",
+      "size_bytes": 13048,
+      "sha256": "ffe0d97eaa37f7a088804c3e97b095efb50461209d3a60a7d7dce8abc7f2b752"
+    },
+    {
+      "path": "tools/regional_bft_joint_epoch_campaign.py",
+      "size_bytes": 9338,
+      "sha256": "92d384fb18210ea978bbc60a626fc5296b15ba0f0a90ed27bc44628b7f111d09"
+    },
+    {
+      "path": "tools/regional_bft_joint_fault_profile.py",
+      "size_bytes": 6518,
+      "sha256": "0d49b0d7f2b7441dbfe01778d9ec8748a6a0079353eae19f6d9cf62a3eb5da07"
+    },
+    {
+      "path": "tools/regional_bft_multiregion_campaign.py",
+      "size_bytes": 20019,
+      "sha256": "6c73cf1ed33c7d59b96614ce729be53126b0b889c6e3ac61815f579322eae81c"
+    },
+    {
+      "path": "tools/regional_bft_network_campaign.py",
+      "size_bytes": 12339,
+      "sha256": "7e7ccc48c4ee2d6d36423d68e3dcc6c3d58209ba7a5be97f187052387462e686"
+    },
+    {
+      "path": "tools/regional_bft_node.py",
+      "size_bytes": 25628,
+      "sha256": "f039397f36ad0bf06c1a71ae0495fa75c6f80405bf1417c2ed7ec76948f6b167"
+    },
+    {
+      "path": "tools/regional_bft_retention.py",
+      "size_bytes": 9865,
+      "sha256": "f45f0281dcedcb3774e04a9a8dbec5c5803b7fab710c9d66040b3af532dc0020"
+    },
+    {
+      "path": "tools/regional_bft_sustained_campaign.py",
+      "size_bytes": 41143,
+      "sha256": "6f9fa54eab32d65db1b91a843b2d959aa72a8fd9391181680a483086c06a74f5"
+    },
+    {
+      "path": "tools/regional_contact_campaign.py",
+      "size_bytes": 23451,
+      "sha256": "303a318457b88b502248ef9e45d0e64c384c34e12edb47b8879f1c2fea9c7453"
+    },
+    {
+      "path": "tools/regional_contact_node.py",
+      "size_bytes": 16064,
+      "sha256": "d3d7d7ca38da32aee93f2849cdd092a6219a55da6b054c3ae3cb8020377e7cf1"
+    },
+    {
+      "path": "tools/regional_wallet_app.py",
+      "size_bytes": 25328,
+      "sha256": "46eceaf1014f6104f09554eed07789ccf2a62b3b972150585dfeba1acc5661fd"
+    },
+    {
+      "path": "tools/test_interstellar_mesh.py",
+      "size_bytes": 37691,
+      "sha256": "dcb7992729722d1bb20b76e5b8c4485619d9a4c05db0aca7abf3ed504ae6fa1c"
+    },
+    {
+      "path": "tools/test_interstellar_route_budget.py",
+      "size_bytes": 3671,
+      "sha256": "d16a10a5aa9213803ff8fb104293b9787dacf219fb79c457c0f44eed6b6f7f7d"
+    },
+    {
+      "path": "tools/test_interstellar_tcp.py",
+      "size_bytes": 31760,
+      "sha256": "050d1c88a8f2b93d8b37d134aed1bef4281d5ee65daa278eef6498b9301ab05a"
+    },
+    {
+      "path": "tools/test_interstellar_transfer.py",
+      "size_bytes": 10342,
+      "sha256": "eec863f0afb3ba2e5eddb1ad05eab1a1fc4b19edec7ce199976bbd4b4b1ffc23"
+    },
+    {
+      "path": "tools/test_regional_bft.py",
+      "size_bytes": 2856,
+      "sha256": "cb6c8e93a40d5d9dd3690b05bd284ed0d332476541332d445adf32880ad3d46c"
+    },
+    {
+      "path": "tools/test_regional_bft_joint_epoch.py",
+      "size_bytes": 15392,
+      "sha256": "83bd44a6161478ac960b5d3ee8b7478129c8abbd41e8d20d0991d4426e17a4ee"
+    },
+    {
+      "path": "tools/test_regional_bft_joint_fault_profile.py",
+      "size_bytes": 7317,
+      "sha256": "7d396fe511c7fe0522308343f5ce0bc754ccc6e6f2a562d0648695635f321efe"
+    },
+    {
+      "path": "tools/test_regional_bft_node.py",
+      "size_bytes": 14186,
+      "sha256": "0e8733e06de9c8cfc7dfafa3f281bcb34818c652697b27d4db0c93832e4ff15d"
+    },
+    {
+      "path": "tools/test_regional_bft_retention.py",
+      "size_bytes": 13651,
+      "sha256": "239d4e15300f35ecbe5560bea03f0447bf3f4a7f30151a1c29e083913579ee04"
+    },
+    {
+      "path": "tools/test_regional_bft_sustained_campaign.py",
+      "size_bytes": 5720,
+      "sha256": "b6aff8a62885ca8fb902a8191b6856e1851e8a5486faebd09518654b20cea255"
+    },
+    {
+      "path": "tools/test_regional_contact_node.py",
+      "size_bytes": 13365,
+      "sha256": "544c67503a20b79242c81ac5b4472a67fd0f22c2afeb1aa911eef1108d1cf34a"
+    },
+    {
+      "path": "tools/test_regional_history.py",
+      "size_bytes": 4964,
+      "sha256": "d7d79d39178216ea68a6c79d56d436c988d9ec86c34e5a7e5b643b76cfa37d1c"
+    },
+    {
+      "path": "tools/test_regional_history_archive.py",
+      "size_bytes": 10070,
+      "sha256": "ae1c261c814ddbe2558af91fdcf1841b9e4166bb4b0c2bd318e0f95c0f93f430"
+    },
+    {
+      "path": "tools/test_regional_segmented_history.py",
+      "size_bytes": 7181,
+      "sha256": "cafc44fc58f5b8392a1d686e54ae4f3105b8acf560c0b6aa9ac7179f571348a9"
+    },
+    {
+      "path": "tools/test_regional_state_proof.py",
+      "size_bytes": 6645,
+      "sha256": "e9be47c6e337d86f21dbec95c26f404c6bc34c2d9131d41262372e57f9e98b58"
+    },
+    {
+      "path": "tools/test_regional_wallet.py",
+      "size_bytes": 15933,
+      "sha256": "d65e43039e8cf9c73b65e8850bc1bac15e752f57806a8cc575b1b7c47993e631"
+    },
+    {
+      "path": "tools/test_regional_wallet_app.py",
+      "size_bytes": 18950,
+      "sha256": "70e163ab5f765b364a4bf05c7547298e6436ed61a4ea4c6670e76ce79a9403a8"
+    },
+    {
+      "path": "tools/test_regional_wallet_custody.py",
+      "size_bytes": 10513,
+      "sha256": "c293d02bcb90ebc1dac7492e25c16b30aaa36fc00bf538dab7eeff4375f961aa"
+    },
+    {
+      "path": "tools/verify_regional_bft_cycle.py",
+      "size_bytes": 11884,
+      "sha256": "df089707b696fd5b595643fd7d8d958456507fbbb41e7670fa4d86ab2a1d33fd"
+    },
+    {
+      "path": "tools/verify_regional_bft_joint_cycle.py",
+      "size_bytes": 4914,
+      "sha256": "831e001d43383224d7fe1b0630d7a41bcf3cf9ac36e28a9d0c8250e65128d5f7"
+    },
+    {
+      "path": "tools/verify_regional_bft_joint_sustained.py",
+      "size_bytes": 196,
+      "sha256": "03f4d22582126cf1309e227ff0390f6852cb05f4af20e82b6e058e3dd9af1a44"
+    },
+    {
+      "path": "tools/verify_regional_bft_sustained.py",
+      "size_bytes": 13043,
+      "sha256": "bbf2d9e0fa32a87f11963f74862a90314ef2d20b999ba36d5e9cf690010c89c1"
+    },
+    {
+      "path": "tools/verify_regional_history_archive.py",
+      "size_bytes": 8414,
+      "sha256": "214f3691d36dd51c1213e1c9f265fa83d509aff51cf8dcf1e8d2b923e9f2da0d"
+    },
+    {
+      "path": "vectors/admission-checkpoint-proof-v1/vectors.json",
+      "size_bytes": 260684,
+      "sha256": "a63ebaa9b6287e6e7db2a3f719a4d6253b6fe84cf10212e8e6c5737684d49d05"
+    },
+    {
+      "path": "vectors/admission-checkpoint-proof-v1/vectors.json.sha256",
+      "size_bytes": 79,
+      "sha256": "b9bcb6a52ac5dafabf601162fe28988154b2c4b654370b83537ab0ae22f56628"
+    },
+    {
+      "path": "vectors/admission-ledger-control-v1/vectors.json",
+      "size_bytes": 9684,
+      "sha256": "34c9e37e5dd8c1f0ae21737b5dbf49403174d4de3fd442076fcbf545691f2844"
+    },
+    {
+      "path": "vectors/admission-ledger-control-v1/vectors.json.sha256",
+      "size_bytes": 79,
+      "sha256": "a3519afeec65e0c3bddf379b377f66dd5029c5b535ee8256806281cfb8ac7079"
+    },
+    {
+      "path": "vectors/admission-log-v1/vectors.json",
+      "size_bytes": 14285,
+      "sha256": "5c2c72dabf4e6f55017e1d262ba9b8c2548a05ce8f7d702918cb6f92b2ccd03c"
+    },
+    {
+      "path": "vectors/admission-log-v1/vectors.json.sha256",
+      "size_bytes": 79,
+      "sha256": "aea0a1db5e186d6bf4e1880887065184882b4eecde6704b60c56417040a21822"
+    },
+    {
+      "path": "vectors/earth-pow/vectors.json",
+      "size_bytes": 3404,
+      "sha256": "6a5f8e3808ec9ffc16eac99a35583691f7fa1ba5407b05cf093982716f362d7a"
+    },
+    {
+      "path": "vectors/m0-genesis-v3/README.md",
+      "size_bytes": 1299,
+      "sha256": "663bfe064a2ed0165a3ab61ec7d1fd5a1bb937c314701c5a54efd93602356799"
+    },
+    {
+      "path": "vectors/m0-genesis-v3/manifest.json",
+      "size_bytes": 4294,
+      "sha256": "f0c771fc041428f77ea4f2912465cc7ef1a2d349f3a6545109e12e9b7a263398"
+    },
+    {
+      "path": "vectors/m0-genesis-v3/manifest.json.sha256",
+      "size_bytes": 80,
+      "sha256": "233bbba64e014313f06919d9493c03cb245f8b254b58904f19cc28c05b26cd96"
+    },
+    {
+      "path": "vectors/m0-semantic-replay-v1/README.md",
+      "size_bytes": 2182,
+      "sha256": "fa8d3fc229d77dc124570529de61680ccf46b3ffff92f10766e438bc4d963c09"
+    },
+    {
+      "path": "vectors/m0-semantic-replay-v1/SHA256SUMS",
+      "size_bytes": 236,
+      "sha256": "1bf6b1010997fa43e30f602d48bdebda4303208ab12ce0cd49a610a7349d9b29"
+    },
+    {
+      "path": "vectors/m0-semantic-replay-v1/expected.json",
+      "size_bytes": 292,
+      "sha256": "e49652fe3e15dac68dc6fc982acda84eec6236478fa8f310f47d202d1f112dee"
+    },
+    {
+      "path": "vectors/m0-semantic-replay-v1/history.jsonl",
+      "size_bytes": 115460,
+      "sha256": "e5f0140df4901ad5c179839a638ae1fd6c574f5242f635f1f5e0af76617754ea"
+    },
+    {
+      "path": "vectors/open-contribution-v1/README.md",
+      "size_bytes": 1135,
+      "sha256": "ceb66c07eacc868cd744e8c9d09b29636268c49ec89805b6aac4fd4e9b6a2540"
+    },
+    {
+      "path": "vectors/open-contribution-v1/vectors.json",
+      "size_bytes": 110853,
+      "sha256": "2eac220d8a23d8f2b0b447c128f7d07a5e3cab2baf236f3f6aea0a18ef901bf5"
+    },
+    {
+      "path": "vectors/open-contribution-v1/vectors.json.sha256",
+      "size_bytes": 79,
+      "sha256": "6d15f4fddb16ff7655180615f45c3108b5bd8fd50b7261a14815e21b98e22b88"
+    },
+    {
+      "path": "vectors/resource-bound-unbond-redteam-v1/matrix.json",
+      "size_bytes": 14498,
+      "sha256": "97123aa6e62befb8f06d77326bee93da89c4575dd8ea270d745a60ed3d07b0cc"
+    },
+    {
+      "path": "vectors/resource-bound-unbond-redteam-v1/matrix.sha256",
+      "size_bytes": 78,
+      "sha256": "20b41018ce17b6bdaff8321bde0a53694e2da0b55b6d1ffd8c8b68a625e92eba"
+    },
+    {
+      "path": "vectors/slash-evidence-archive-v1/vectors.json",
+      "size_bytes": 324558,
+      "sha256": "8e3e04761248ae2b6c5819610947c552f64040207ec75e45b37700a9f649cd8b"
+    },
+    {
+      "path": "vectors/slash-evidence-archive-v1/vectors.json.sha256",
+      "size_bytes": 79,
+      "sha256": "8f18d9f8d3973a0b146d954821113496ac6b95c6476c6816cd83527cc32b0026"
+    },
+    {
+      "path": "vectors/stake-epoch-v1/snapshot-encoding.json",
+      "size_bytes": 7026,
+      "sha256": "407b8b746b6cf7a876343c5e0b4a764782d50e73ed3203f0d122d047d132e04a"
+    },
+    {
+      "path": "vectors/stake-epoch-v1/snapshot-encoding.json.sha256",
+      "size_bytes": 89,
+      "sha256": "7ede2da75c2957d3b9dd9ebaf046a0e30a7e9ca05e9f78fbb2c301df8931b1e0"
+    },
+    {
+      "path": "vectors/stake-resource-accounting-v1/vectors.json",
+      "size_bytes": 160073,
+      "sha256": "6af48a7a7373e6f6baab030e12effe5ffb2608de233c8790180967c8b89667ff"
+    },
+    {
+      "path": "vectors/stake-resource-accounting-v1/vectors.json.sha256",
+      "size_bytes": 79,
+      "sha256": "0230641fc02a8aa165c8d58ada2e0427dd5a3d2af74451ad09f07bce462531a8"
+    },
+    {
+      "path": "vectors/stake-slash-evidence-v1/vectors.json",
+      "size_bytes": 384954,
+      "sha256": "e7d430d50eade74c73ba023a4e5e0e24c4e4e471937dd593789f6fa8efb4b885"
+    },
+    {
+      "path": "vectors/stake-slash-evidence-v1/vectors.json.sha256",
+      "size_bytes": 79,
+      "sha256": "06740541da4650a9d3e2bd65899410d7d0f82dbafcbad42276e82b732baf3566"
+    },
+    {
+      "path": "vectors/upgrade-command-v1/vectors.json",
+      "size_bytes": 62339,
+      "sha256": "1fe81e3b562a200a4208d2d399114ae07e513d38555e6aca0ef7c334cca78324"
+    },
+    {
+      "path": "vectors/upgrade-history-v1/README.md",
+      "size_bytes": 2573,
+      "sha256": "653393258bd392f4916d1441be5dc69f35c4a6974c65689f5292d6485ca93882"
+    },
+    {
+      "path": "vectors/upgrade-history-v1/activation-1c944737/expected.json",
+      "size_bytes": 276,
+      "sha256": "15c7b993577363fb53147c83a260c48ab1f2048b1875b9e1921c8aefd6a4947c"
+    },
+    {
+      "path": "vectors/upgrade-history-v1/activation-1c944737/history.jsonl",
+      "size_bytes": 432996,
+      "sha256": "1dee1949d9a657d413bdff137ad3cf7d5e4c9d57cc64e6c2a3725cdaad5e99c9"
+    },
+    {
+      "path": "vectors/upgrade-history-v1/activation-1c944737/zone.json.anchor",
+      "size_bytes": 318,
+      "sha256": "02d3101da9d8f3aaa57ead1968625108b7373a64396228ed0ae1bca8fc1ae87e"
+    },
+    {
+      "path": "vectors/upgrade-history-v1/activation-1c944737/zone.json.checkpoint",
+      "size_bytes": 587027,
+      "sha256": "013bab4ca3558c0d37f1b331dff72d2ac606abf4be75b96ee4bafb15bcbea5d1"
+    },
+    {
+      "path": "vectors/upgrade-history-v1/activation-1c944737/zone.json.wal",
+      "size_bytes": 486984,
+      "sha256": "7397959f0935adcfa1e4a49b061ddeb94dc7469a54e5c2099742d13e6750e94e"
+    },
+    {
+      "path": "vectors/upgrade-history-v1/schedule-b8e145ea.jsonl",
+      "size_bytes": 4030,
+      "sha256": "e3eea4804fb75133fb45334b3d1417e7efcedbe5534a8274ecd407fb463a4488"
+    },
+    {
+      "path": "vectors/upgrade-intent-draft-v1/vectors.json",
+      "size_bytes": 34550,
+      "sha256": "3a03b44b79380aa7cdc5e37e5916091212d53017210d80696a7f47fbff588a56"
+    },
+    {
+      "path": "vectors/upgrade-migration-v1/vectors.json",
+      "size_bytes": 3055,
+      "sha256": "6e0391084d6c611d1bc35dddf8a64962a1a2bf35a8a48c336527041be1e3b977"
+    },
+    {
+      "path": "vectors/wire-v1/README.md",
+      "size_bytes": 2253,
+      "sha256": "ba8c5a1bc6e74a6858c4585bd250ef0a789bec531d764eb42c1963eb39b375d2"
+    },
+    {
+      "path": "vectors/wire-v1/commands.json",
+      "size_bytes": 586291,
+      "sha256": "6d8584f8aa9c9041bae06c61e299e9e19c7d31c914dd10efaeb74f7f01e648d5"
+    },
+    {
+      "path": "vectors/wire-v1/commands.json.sha256",
+      "size_bytes": 80,
+      "sha256": "5f4e8c6482d6de2f4a35da11c6e87796600b9abde9090e4de56085d14fc5c71f"
+    },
+    {
+      "path": "vectors/wire-v1/consensus-certificates.json",
+      "size_bytes": 487162,
+      "sha256": "2db39243c7e82dcd5e036fe37979bd97dfba2be98cf60a99a44499a244dce80c"
+    },
+    {
+      "path": "vectors/wire-v1/consensus-certificates.json.sha256",
+      "size_bytes": 94,
+      "sha256": "3456ae0868ef65cfe85114a1dfda27a6d42287518ed19692dc3a397f8d1933d8"
+    },
+    {
+      "path": "vectors/wire-v1/consensus-rounds.json",
+      "size_bytes": 109428,
+      "sha256": "64a783159f5fffa1995490e9e160a368e72f585f735d0343debcebda91daef48"
+    },
+    {
+      "path": "vectors/wire-v1/consensus-rounds.json.sha256",
+      "size_bytes": 88,
+      "sha256": "994d4dc5d00ecd6639cc9e0ff0b39fb31ad6716fa4a5ce7c210699651039748b"
+    },
+    {
+      "path": "vectors/wire-v1/stake-state-resource-v1.json",
+      "size_bytes": 124479,
+      "sha256": "0e8f32a191ca86d960fbae49f9d54bf0e42b074a5740fe37246525f927c40acb"
+    },
+    {
+      "path": "vectors/wire-v1/stake-state-resource-v1.json.sha256",
+      "size_bytes": 95,
+      "sha256": "fbb67b83b2965cb48d04d6c3b7d864d42ac9be687753ce51ee6e0f021bc863bf"
+    },
+    {
+      "path": "vectors/wire-v1/vectors.json",
+      "size_bytes": 53637,
+      "sha256": "6780f3f25728e14480493b9af15f72c8ea8652521975c24f3958c2a3bb609c33"
+    },
+    {
+      "path": "vectors/wire-v1/vectors.json.sha256",
+      "size_bytes": 79,
+      "sha256": "7e932562ab200eb9d3300fffbd20f1d8c8de519e1d45189b0fa4ba4d082b5fa8"
+    }
+  ],
+  "file_count": 273,
+  "source_set_sha256": "89558e0b61a4de3e877d91b256827b729eef1509ce025aef1e812294014fbb45",
+  "native_source_sha256": "76d423e94a230aa0c33df13f94611b116b6bd75e4699b33949a051f8c4c8965c",
+  "native_implementation": "dee623baa0d39c625a142fa04a6f792342a553cac7d30042997a624c962836e6"
+}

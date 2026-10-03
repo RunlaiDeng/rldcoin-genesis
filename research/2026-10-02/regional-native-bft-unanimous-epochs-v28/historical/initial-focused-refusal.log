@@ -1,0 +1,29 @@
+   Compiling rld-regional-ledger-candidate v0.1.0 (/LOCAL_WORKSPACE/tools/regional-ledger)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 4.43s
+     Running unittests src/lib.rs (tmp/default-relay-20260930/native-bft-epoch-target-20261002/debug/deps/rld_regional_ledger_candidate-90e75562266a8bf8)
+
+running 3 tests
+
+thread 'tests::regional_bft::epoch_activation::already_prepared_successor_refuses_fence_and_cannot_use_legacy_signer' (129512) panicked at src/bft_epoch_tests.rs:124:87:
+called `Result::unwrap()` on an `Err` value: "BFT-profile joint epoch signer activation is not implemented"
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+test tests::regional_bft::epoch_activation::already_prepared_successor_refuses_fence_and_cannot_use_legacy_signer ... FAILED
+
+thread 'tests::regional_bft::epoch_activation::missing_or_changed_approval_and_legacy_profile_cannot_activate_epoch' (129514) panicked at src/bft_epoch_tests.rs:33:90:
+called `Result::unwrap()` on an `Err` value: "BFT-profile joint epoch signer activation is not implemented"
+test tests::regional_bft::epoch_activation::missing_or_changed_approval_and_legacy_profile_cannot_activate_epoch ... FAILED
+
+thread 'tests::regional_bft::epoch_activation::complete_epoch_activation_preserves_native_value_and_restarts_both_journals' (129513) panicked at src/bft_epoch_tests.rs:33:90:
+called `Result::unwrap()` on an `Err` value: "BFT-profile joint epoch signer activation is not implemented"
+test tests::regional_bft::epoch_activation::complete_epoch_activation_preserves_native_value_and_restarts_both_journals ... FAILED
+
+failures:
+
+failures:
+    tests::regional_bft::epoch_activation::already_prepared_successor_refuses_fence_and_cannot_use_legacy_signer
+    tests::regional_bft::epoch_activation::complete_epoch_activation_preserves_native_value_and_restarts_both_journals
+    tests::regional_bft::epoch_activation::missing_or_changed_approval_and_legacy_profile_cannot_activate_epoch
+
+test result: FAILED. 0 passed; 3 failed; 0 ignored; 0 measured; 145 filtered out; finished in 2.43s
+
+error: test failed, to rerun pass `--lib`

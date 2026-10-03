@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/LOCAL_WORKSPACE/tools/regional_bft_autonomous_epoch_campaign.py", line 132, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "/LOCAL_WORKSPACE/tools/regional_bft_autonomous_epoch_campaign.py", line 129, in main
+    result=c.run();mesh.atomic(a.report,result);print(json.dumps(result))
+  File "/LOCAL_WORKSPACE/tools/regional_bft_autonomous_epoch_campaign.py", line 67, in run
+    mesh.require(not (self.root/'next-voter-0').exists(),'late new key created a backdated empty journal')
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/LOCAL_WORKSPACE/tools/interstellar_mesh.py", line 54, in require
+    raise ValueError(message)
+ValueError: late new key created a backdated empty journal

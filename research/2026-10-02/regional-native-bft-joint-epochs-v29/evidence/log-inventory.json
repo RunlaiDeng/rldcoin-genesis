@@ -1,0 +1,44 @@
+[
+  {
+    "path": "evidence/final-clippy.log",
+    "original_local_sha256": "b016622fd90055393a6fba00a2eb9678d5e66c4bf0b37060bcfeab5d43766899",
+    "public_sha256": "8c9dff94bcf9f94182cd5c0e0711bbc79421b6cebcd9c77e5977b2dbce915c39",
+    "status": "passed",
+    "sanitization": "workspace prefix redacted; trailing blank lines normalized"
+  },
+  {
+    "path": "evidence/final-checked-build.log",
+    "original_local_sha256": "da60ae7ce06e50eb29aedde8d3ba1730985dec67f61c109744c2211ec41d0a5d",
+    "public_sha256": "505b68e37fe12da454c3b6f4d03085928f5b4a0db2cb8be59f613bbd8211ef75",
+    "status": "passed",
+    "sanitization": "workspace prefix redacted; trailing blank lines normalized"
+  },
+  {
+    "path": "evidence/final-native-tests.log",
+    "original_local_sha256": "61893b27e0bba04c36bb6587e3cca1f7d93b02afe51d541bb6226b667a7803f1",
+    "public_sha256": "ccf02fd1be2568625fac793061845a7bf3998275798cd689b38ac60f58ffe11c",
+    "status": "passed",
+    "sanitization": "workspace prefix redacted; trailing blank lines normalized"
+  },
+  {
+    "path": "evidence/final-process-tests.log",
+    "original_local_sha256": "2b4c3eff305c51f4e10cb28a0d1c57573c14400bef136dc6e2633a0e5771a09b",
+    "public_sha256": "2b4c3eff305c51f4e10cb28a0d1c57573c14400bef136dc6e2633a0e5771a09b",
+    "status": "passed",
+    "sanitization": "workspace prefix redacted; trailing blank lines normalized"
+  },
+  {
+    "path": "evidence/final-epoch-cli-campaign.log",
+    "original_local_sha256": "8ddb1e72c98df32d2cb656b59cd44103d964651fb43419372ba762af5e1a9bd9",
+    "public_sha256": "8ddb1e72c98df32d2cb656b59cd44103d964651fb43419372ba762af5e1a9bd9",
+    "status": "passed",
+    "sanitization": "workspace prefix redacted; trailing blank lines normalized"
+  },
+  {
+    "path": "historical/focused-refusal.log",
+    "original_local_sha256": "83c2ecca2effa11f8b42c9e14913d9ebad959727c916ff84ceab22194c00e8c3",
+    "public_sha256": "98d12591942b627db86edf7bc8072190a955fe4cb15266474de2e8a47ba48dbe",
+    "status": "3 passed, 1 failed; not a complete pass",
+    "sanitization": "workspace prefix redacted; trailing blank lines normalized"
+  }
+]

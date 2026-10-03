@@ -1,0 +1,44 @@
+{"phase": "waiting: node startup earth-1"}
+{"phase": "verified: node startup earth-1"}
+{"phase": "waiting: node startup earth-2"}
+{"phase": "verified: node startup earth-2"}
+{"phase": "waiting: node startup earth-3"}
+{"phase": "verified: node startup earth-3"}
+{"phase": "waiting: node startup proxima-0"}
+{"phase": "verified: node startup proxima-0"}
+{"phase": "waiting: node startup proxima-1"}
+{"phase": "verified: node startup proxima-1"}
+{"phase": "waiting: node startup proxima-2"}
+{"phase": "verified: node startup proxima-2"}
+{"phase": "waiting: node startup proxima-3"}
+{"phase": "verified: node startup proxima-3"}
+{"phase": "waiting: node startup andromeda-0"}
+{"phase": "verified: node startup andromeda-0"}
+{"phase": "waiting: node startup andromeda-1"}
+{"phase": "verified: node startup andromeda-1"}
+{"phase": "waiting: node startup andromeda-2"}
+{"phase": "verified: node startup andromeda-2"}
+{"phase": "waiting: node startup andromeda-3"}
+{"phase": "verified: node startup andromeda-3"}
+{"phase": "waiting: three voters progress past offline parent-12 leader"}
+{"phase": "verified: three voters progress past offline parent-12 leader"}
+{"phase": "waiting: both isolated remote regions continue local certified progress"}
+{"phase": "verified: both isolated remote regions continue local certified progress"}
+{"phase": "waiting: node startup earth-0"}
+{"phase": "verified: node startup earth-0"}
+{"phase": "waiting: offline validator catches up through pinned TLS"}
+{"phase": "verified: offline validator catches up through pinned TLS"}
+{"phase": "waiting: retained new export imports uniquely and matures after contact restoration"}
+{"phase": "verified: retained new export imports uniquely and matures after contact restoration"}
+{"completed": false, "failure": "native rejected: regional candidate rejected: lock acquisition failed because the operation would block", "sealed_source_unchanged": true}
+Traceback (most recent call last):
+  File "/LOCAL_WORKSPACE/tmp/default-relay-20260930/native-bft-autonomous-epoch-joint-fault-reviewed-source-20261002/tools/regional_bft_sustained_campaign.py", line 605, in <module>
+    if __name__ == '__main__': main()
+                               ~~~~^^
+  File "/LOCAL_WORKSPACE/tmp/default-relay-20260930/native-bft-autonomous-epoch-joint-fault-reviewed-source-20261002/tools/regional_bft_sustained_campaign.py", line 602, in main
+    execute(args, joint=args.joint_cycle)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/LOCAL_WORKSPACE/tmp/default-relay-20260930/native-bft-autonomous-epoch-joint-fault-reviewed-source-20261002/tools/regional_bft_sustained_campaign.py", line 578, in execute
+    if failure is not None: raise ValueError(failure)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: native rejected: regional candidate rejected: lock acquisition failed because the operation would block

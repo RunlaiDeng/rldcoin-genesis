@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/LOCAL_WORKSPACE/tools/regional_bft_autonomous_epoch_campaign.py", line 132, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "/LOCAL_WORKSPACE/tools/regional_bft_autonomous_epoch_campaign.py", line 129, in main
+    result=c.run();mesh.atomic(a.report,result);print(json.dumps(result))
+  File "/LOCAL_WORKSPACE/tools/regional_bft_autonomous_epoch_campaign.py", line 60, in run
+    mesh.require(all(self.observation(n)['bft']['joint_active_slot']=='new' for n in (1,2,3)),
+                 ^^^
+  File "/LOCAL_WORKSPACE/tools/regional_bft_autonomous_epoch_campaign.py", line 60, in <genexpr>
+    mesh.require(all(self.observation(n)['bft']['joint_active_slot']=='new' for n in (1,2,3)),
+                     ~~~~~~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'bft'

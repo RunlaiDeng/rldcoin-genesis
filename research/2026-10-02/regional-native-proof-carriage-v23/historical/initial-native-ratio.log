@@ -1,0 +1,144 @@
+   Compiling rld-regional-ledger-candidate v0.1.0 (<WORKSPACE>/tools/regional-ledger)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 2.42s
+     Running unittests src/lib.rs (tmp/default-relay-20260930/native-carriage-workspace-target-20261002/debug/deps/rld_regional_ledger_candidate-90e75562266a8bf8)
+
+running 122 tests
+test history::tests::legacy_inline_journal_refuses_unchanged ... ok
+test history::tests::pinned_open_refuses_pending_incident_without_reconciling_it ... ok
+test history::tests::external_latest_head_refuses_a_valid_old_manifest_before_mutation ... ok
+test history::tests::missing_altered_wrong_size_and_symlink_pages_refuse_without_rewrite ... ok
+test history::tests::failed_manifest_publication_keeps_old_native_tip_and_unaccepted_page ... ok
+test history::tests::rehashed_page_with_wrong_height_or_store_scope_still_refuses ... ok
+test history::tests::prefixes::prior_storage_dialect_is_refused_unchanged_without_automatic_upgrade ... ok
+test history::tests::prefixes::exact_duplicate_certificates_are_retained_and_native_replay_decides_equivalence ... ok
+test tests::a_later_invalid_command_rolls_back_the_entire_block ... ok
+test history::tests::prefixes::missing_or_corrupt_prefix_objects_refuse_without_repair_or_pruning ... ok
+test history::tests::prefixes::rehashed_compressed_certificate_still_requires_native_signatures ... ok
+test history::tests::prefixes::prefixes_require_an_exact_earlier_listed_reference_and_never_adopt_orphans ... ok
+test tests::carriage::compressed_input_cannot_widen_native_count_block_or_expanded_byte_bounds ... ok
+test tests::carriage::missing_forward_wrong_domain_and_bad_ranges_never_supply_a_prefix ... ok
+test tests::carriage::self_consistent_carriage_and_duplicate_hashes_do_not_authorize_forged_certificates ... ok
+test history::tests::self_consistent_forged_certificate_is_not_authorized_by_storage_hashes ... ok
+test tests::conflict_proof_authenticates_ancestry_at_different_heights ... ok
+test tests::automatic_conflict_preservation_survives_restart_without_refund ... ok
+test history::tests::complete_old_pages_are_immutable_and_old_tail_residue_is_retained ... ok
+test tests::conflicting_finalization_is_preserved_before_rejection ... ok
+test history::tests::reordered_pages_wrong_domain_and_noncanonical_manifest_refuse ... ok
+test history::tests::prefixes::compressed_expansion_cannot_exceed_declared_logical_bytes ... ok
+test history::tests::default_native_pages_replay_real_owner_payment_and_complete_finality ... ok
+test tests::contacts::changed_payload_noncanonical_frame_and_transport_receipt_cannot_import ... ok
+{"all_cold_native_ledgers_equal":true,"all_expanded_bytes_equal":true,"block_and_snapshot_bounds_unchanged":true,"carried_evidence_bytes":135406,"fixture_only":true,"format":"RLD-NATIVE-CARRIAGE-PREFIX-SAMPLE-V1","full_evidence_bytes":1401017,"live_rld":false,"long_history_qualified":false,"native_implementation":"b1f706c7e963df18ab45600d6f94e88821ed1ef04688968770c8dadfd4a5eaa8","snapshots":64}
+test tests::carriage::sixty_four_carried_checkpoints_expand_exactly_and_cold_native_replay_matches ... ok
+test tests::contacts::authenticated_incidents_in_contacts_are_retained_and_prevent_new_credit ... ok
+test tests::currency_and_offline_admission_are_exact ... ok
+test tests::disk_refusal_keeps_previous_journal_and_requires_restart ... ok
+test tests::duplicate_inputs_bad_amounts_wrong_currency_and_expiry_reject ... ok
+test tests::contacts::incomplete_contact_dependencies_and_foreign_currency_leave_native_state_unchanged ... ok
+test tests::contacts::contact_index_corruption_cannot_turn_unverified_evidence_into_payment ... ok
+test tests::contacts::duplicate_carriage_of_the_same_export_never_mines_or_issues_twice ... ok
+test tests::contacts::wrong_native_destination_and_fake_export_are_rejected_atomically ... ok
+test tests::contacts::transport_evidence_is_pending_until_native_import_and_survives_restart ... ok
+test tests::contacts::export_carriage_stays_exact_after_unrelated_certified_growth_and_restart ... ok
+test tests::epochs::signer_corruption_and_write_failure_never_release_a_signature ... ok
+test tests::epochs::epoch_missing_consent_wrong_fence_or_number_is_atomic_and_sealed_signer_stays_sealed ... ok
+test tests::epochs::signer_persists_before_response_and_recovers_exact_retry_after_restart ... ok
+test tests::epochs::incompatible_joint_handoffs_are_authenticated_and_quarantined ... ok
+test tests::equivalent_signature_encoding_cannot_consume_more_incident_capacity ... ok
+test tests::epochs::old_era_certificate_beyond_joint_closing_is_retained_even_on_same_prefix ... ok
+test tests::epochs::stale_signer_backup_is_rejected_by_the_separately_retained_latest_head ... ok
+test tests::epochs::signer_refuses_forks_and_wrong_keys_and_uses_an_exclusive_lock ... ok
+test tests::epochs::joint_epoch_handoff_survives_restart_and_preserves_currency_and_balances ... ok
+test tests::history_archives::existing_target_and_caller_wallet_state_never_overwrite_or_merge ... ok
+test tests::history_archives::fully_rehashed_forged_finality_still_requires_complete_native_authority ... ok
+test tests::history_archives::authenticated_incidents_quarantine_and_import_tombstones_survive_restoration ... ok
+test tests::contacts::contact_capacity_and_byte_bounds_preserve_pending_value_evidence ... ok
+test tests::epochs::a_second_epoch_with_overlapping_validators_has_one_monotonic_offline_authority_chain ... ok
+test tests::immature_or_unfinalized_onward_exports_are_rejected ... ok
+test tests::history_archives::immutable_tail_orphans_and_damaged_incident_residue_are_carried_without_value_rights ... ok
+test tests::history_archives::interrupted_restore_keeps_marker_and_refuses_even_a_subsequently_complete_image ... ok
+test tests::history_archives::source_or_archive_lock_pending_guard_and_unpublished_archive_refuse ... ok
+test tests::history_archives::latest_external_head_refuses_old_valid_archive_and_wrong_native_authority_before_target_creation ... ok
+test tests::journal_lock_restart_tombstones_and_corruption ... ok
+test tests::invalid_existing_incident_cannot_masquerade_as_persisted_proof ... ok
+test tests::history_archives::archive_link_permissions_and_source_manifest_residue_are_not_repaired ... ok
+test tests::malformed_incident_never_freezes_or_changes_the_store ... ok
+test tests::history_archives::full_native_pages_finality_real_payment_and_private_scopes_restore_exactly ... ok
+test tests::native_prefix::exact_trust_set_is_required_before_reusing_a_verified_prefix ... ok
+test tests::native_prefix::failed_block_does_not_install_an_otherwise_valid_new_anchor ... ok
+test tests::native_prefix::imported_value_and_onward_debit_match_full_replay_and_forged_tails_refuse ... ok
+test tests::history_archives::missing_corrupt_extra_and_traversal_entries_refuse_without_creating_target ... ok
+test tests::pending_guard_requires_the_exact_proof_and_recovery_keeps_quarantine ... ok
+test history::tests::archive_capacity_accounts_orphans_and_refuses_before_manifest_mutation ... ok
+test tests::pinned_history_refuses_unindexed_authenticated_incident_before_mutation ... ok
+test tests::propagated_faults_freeze_transitive_imports_but_leave_unrelated_region_free ... ok
+test tests::quarantine_is_dependency_scoped_and_cannot_be_bypassed_by_spend ... ok
+{"all_ledger_fields_equal":true,"all_native_roots_equal":true,"cold_verification_seconds":0.358494625,"cold_verified_block_executions":64,"encoded_evidence_bytes":1301020,"fixture_only":true,"format":"RLD-NATIVE-PREFIX-REPLAY-SAMPLE-V1","genesis_oracle_block_executions":2080,"genesis_oracle_seconds":1.572548292,"live_rld":false,"long_term_history_qualified":false,"native_implementation":"b1f706c7e963df18ab45600d6f94e88821ed1ef04688968770c8dadfd4a5eaa8","snapshot_capacity_unchanged":true,"snapshots":64}
+test tests::native_prefix::cold_prefix_replay_matches_genesis_oracle_at_snapshot_capacity ... ok
+test tests::regional_bft::compromised_quorum_conflict_is_retained_and_quarantines_without_refund ... ok
+test tests::carriage::real_owner_export_compact_contact_imports_once_and_retains_spent_original_identity ... ok
+test tests::regional_bft::durable_qc_lock_sealed_round_old_backup_and_keyless_response_recovery ... ok
+test tests::regional_bft::native_persistence_failure_and_exact_interrupted_signer_commit ... ok
+test tests::regional_bft::quorums_refuse_minority_duplicate_wrong_phase_domain_round_and_signatures ... ok
+test tests::incident_capacity_failure_remains_closed_across_restart ... ok
+test tests::regional_bft::signed_submission_queues_without_debit_and_refuses_invalid_owner_amount ... ok
+test tests::regional_bft::two_phases_three_of_four_apply_one_atomic_native_block_and_exact_retry ... ok
+test tests::regional_bft::independently_verified_network_archive_catches_up_atomic_blocks_and_normalizes_quorum_variants ... ok
+test tests::regional_bft::typed_network_carriage_verifies_native_domain_parent_and_phase_without_mutation ... ok
+test tests::resource_bounds_reject_without_destroying_evidence ... ok
+test tests::signed_fork_below_finality_and_missing_checkpoint_dependency_fail ... ok
+test tests::simultaneous_competing_contacts_are_retained_without_accepting_a_branch ... ok
+test tests::regional_bft::uncertified_blocks_legacy_signature_substitution_and_certificate_variants ... ok
+test tests::source_certificate_forgery_fork_and_rollback_rejected ... ok
+test tests::symlinked_store_and_evidence_are_rejected ... ok
+test tests::split_merge_multiple_owners_and_fee_conserve ... ok
+test tests::regional_bft::wrong_highest_qc_changed_value_unbound_round_and_invalid_native_state_never_vote ... ok
+test tests::tampered_block_or_signature_never_changes_state ... ok
+test tests::three_region_onward_and_value_return_preserve_supply ... ok
+test tests::wallet_agents::changed_wallet_head_and_explicit_reserved_inputs_cannot_sign_again ... ok
+test tests::wallet_agents::group_fixed_expiry_rejects_past_overlong_and_mutated_proposals ... ok
+test tests::keystores::random_encrypted_keys_do_not_issue_value_and_reject_tampering_or_wrong_domain ... ok
+test tests::wallet_agents::group_consumed_peer_input_invalidates_intent_without_consuming_own_input ... ok
+test tests::keystores::backup_observed_native_history_prevents_ledger_rollback_and_wrong_region_restore ... ok
+test tests::keystores::private_files_refuse_links_permissions_and_interrupted_restore_keeps_evidence ... ok
+test tests::wallet_agents::group_full_review_rejects_faked_ownership_amounts_and_unbalanced_requests ... ok
+test tests::wallet_agents::group_fixed_proposal_preserves_intent_across_later_independent_reviews ... ok
+test tests::wallet_agents::only_native_expiry_frees_unincluded_inputs_not_receipt_or_wall_time ... ok
+test tests::wallet_agents::group_native_expiry_retains_partial_signatures_and_releases_only_own_inputs ... ok
+test tests::wallet_agents::group_independent_reservations_recover_and_complete_exact_authorization ... ok
+test tests::wallet_agents::pending_reservations_survive_restart_and_exact_response_loss_retry ... ok
+test tests::wallet_agents::inclusion_releases_only_reservation_and_never_refunds_export ... ok
+test tests::wallet_agents::retained_wallet_rejects_node_backup_after_later_authorized_signing ... ok
+test tests::wallet_agents::separately_retained_head_rejects_old_wallet_backup ... ok
+test tests::wallet_agents::wallet_lock_and_corruption_fail_closed_without_overwriting_retained_commands ... ok
+test tests::wallets::changed_review_intent_or_domain_never_returns_a_signature ... ok
+test tests::wallet_agents::write_failure_never_releases_signature_and_exact_interrupted_commit_recovers ... ok
+test tests::wallets::fresh_review_signs_real_payment_without_mutating_or_leaking_keys ... ok
+test tests::wallets::immature_foreign_or_unfinalized_inputs_are_not_signed ... ok
+test tests::wrong_destination_replay_and_incomplete_evidence_fail_atomically ... ok
+test tests::wallets::stale_draft_is_rejected_after_progress_and_restart ... ok
+test tests::wallets::recipient_checks_import_maturity_spent_output_and_exact_expectation ... ok
+test tests::wallets::wallet_keys_require_private_regular_files ... ok
+test tests::wallets::incident_knowledge_invalidates_review_and_quarantines_wallet_funds ... ok
+test tests::wallets::independently_verified_transport_input_does_not_claim_import_or_spendability ... ok
+test tests::zero_regional_issuance_and_no_time_or_receipt_refund ... ok
+test tests::regional_bft::every_three_honest_prepare_partition_recovers_with_byzantine_leader_offline ... ok
+
+thread 'tests::regional_bft::compact_consensus_carriage_cold_authenticates_complete_history_and_refuses_forgery' (7138269) panicked at src/bft_tests.rs:776:5:
+assertion failed: bytes.len() * 2 < serde_json::to_vec(&logical).unwrap().len()
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+test tests::regional_bft::compact_consensus_carriage_cold_authenticates_complete_history_and_refuses_forgery ... FAILED
+test tests::regional_bft::certified_prefix_proposals_and_cold_restart_match_complete_native_replay ... ok
+test tests::keystores::complete_backup_preserves_pending_inputs_keyless_retry_and_latest_head_refuses_old_backup ... ok
+test history::tests::native_block_limit_remains_a_real_refusal_in_paged_storage ... ok
+test history::tests::prefixes::exact_prefixes_at_snapshot_capacity_match_full_native_journal_and_restore has been running for over 60 seconds
+{"all_logical_native_bytes_equal":true,"block_capacity_unchanged":true,"fixture_only":true,"format":"RLD-NATIVE-HISTORY-PREFIX-SAMPLE-V1","fresh_image_restore_equal":true,"full_snapshot_object_bytes":1314957,"live_rld":false,"long_term_history_qualified":false,"native_implementation":"b1f706c7e963df18ab45600d6f94e88821ed1ef04688968770c8dadfd4a5eaa8","prefix_snapshot_object_bytes":149197,"snapshot_capacity_unchanged":true,"snapshots":64,"transport_prefix_compression_implemented":false}
+test history::tests::prefixes::exact_prefixes_at_snapshot_capacity_match_full_native_journal_and_restore ... ok
+
+failures:
+
+failures:
+    tests::regional_bft::compact_consensus_carriage_cold_authenticates_complete_history_and_refuses_forgery
+
+test result: FAILED. 121 passed; 1 failed; 0 ignored; 0 measured; 0 filtered out; finished in 126.27s
+
+error: test failed, to rerun pass `--lib`

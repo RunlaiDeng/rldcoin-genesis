@@ -1,0 +1,312 @@
+"""Discovery, custody, hostile input and restart checks for the mesh prototype."""
+import copy
+import json
+from pathlib import Path
+import tempfile
+import unittest
+from unittest.mock import patch
+
+import interstellar_mesh as mesh
+import interstellar_transfer as evidence
+
+NETWORK = 'a' * 64
+
+
+class Fixture:
+    def __init__(self, root):
+        self.root = Path(root).resolve()
+        self.names = ['earth', 'proxima', 'andromeda']
+        self.identities = {name: mesh.initialize(self.root / name, NETWORK, str(i + 1) * 64, name)
+                           for i, name in enumerate(self.names)}
+        self.configs = {}
+        for i, name in enumerate(self.names):
+            contacts = []
+            for j, other in enumerate(self.names):
+                if abs(i - j) == 1:
+                    contacts.append({'peer': self.identities[other]['node_id'],
+                                     'inbox': str(self.root / 'links' / (other + '-' + name)),
+                                     'outbox': str(self.root / 'links' / (name + '-' + other))})
+            self.configs[name] = {'format': mesh.VERSION, 'state': str(self.root / name),
+                                  'network': NETWORK, 'contacts': contacts}
+
+    def node(self, name):
+        return mesh.Node(self.configs[name])
+
+    def rounds(self, count=6, names=None):
+        for _ in range(count):
+            for name in names or self.names:
+                with self.node(name) as node:
+                    result = node.tick()
+                    if result['errors']:
+                        raise ValueError(result['errors'])
+
+    def frame(self):
+        return evidence.make_frame('source-finality', '1' * 64, '3' * 64, '4' * 64,
+                                   b'{"ground_fixture":"requires separate ledger validation"}')
+
+
+class MeshTests(unittest.TestCase):
+    def setUp(self):
+        self.temporary = tempfile.TemporaryDirectory()
+        self.addCleanup(self.temporary.cleanup)
+        self.f = Fixture(self.temporary.name)
+
+    def test_automatic_neighbor_exchange_discovers_three_regions_and_two_hop_route(self):
+        self.f.rounds()
+        with self.f.node('earth') as node:
+            destination = self.f.identities['andromeda']['node_id']
+            self.assertEqual(len(node.state['adverts']), 3)
+            self.assertEqual(len(node.status()['regions']), 3)
+            self.assertEqual(node.route(destination), [self.f.identities[n]['node_id'] for n in self.f.names])
+            self.assertNotIn(destination, node.contacts)
+
+    def test_incremental_node_addition_supplies_an_alternate_route_after_preferred_relay_stops(self):
+        root = self.f.root/'diamond'
+        names = ['source', 'left', 'right', 'destination']
+        identities = {name: mesh.initialize(root/name, NETWORK, str(i+1)*64, name)
+            for i, name in enumerate(names)}
+        configs = {name: {'format': mesh.VERSION, 'state': str(root/name),
+            'network': NETWORK, 'contacts': []} for name in names}
+        def connect(a, b):
+            for source, target in [(a,b), (b,a)]:
+                configs[source]['contacts'].append({'peer': identities[target]['node_id'],
+                    'inbox': str(root/'links'/(target+'-'+source)),
+                    'outbox': str(root/'links'/(source+'-'+target))})
+        def rounds(active, count=6):
+            for _ in range(count):
+                for name in active:
+                    with mesh.Node(configs[name]) as node:
+                        self.assertFalse(node.tick()['errors'])
+        connect('source', 'left')
+        rounds(['source', 'left'])
+        with mesh.Node(configs['source']) as node:
+            self.assertEqual(len(node.state['adverts']), 2)
+            self.assertIsNone(node.route(identities['destination']['node_id']))
+        connect('left', 'destination')
+        rounds(['source', 'left', 'destination'])
+        with mesh.Node(configs['source']) as node:
+            self.assertEqual(len(node.state['adverts']), 3)
+            self.assertEqual(len(node.route(identities['destination']['node_id'])), 3)
+        connect('source', 'right')
+        connect('right', 'destination')
+        rounds(names)
+        with mesh.Node(configs['source']) as node:
+            self.assertEqual(len(node.state['adverts']), 4)
+            preferred = node.route(identities['destination']['node_id'])[1]
+            ident = node.enqueue(self.f.frame(), identities['destination']['node_id'])
+        stopped = next(name for name in ['left','right'] if identities[name]['node_id'] == preferred)
+        rounds([name for name in names if name != stopped], 8)
+        with mesh.Node(configs['destination']) as node:
+            self.assertIn(ident, node.state['receipts'])
+            self.assertEqual(len(node.state['messages'][ident]['hops']), 2)
+            visited = mesh.transit_check(node.state['messages'][ident], NETWORK)[2]
+            self.assertNotIn(preferred, visited)
+        with mesh.Node(configs['source']) as node:
+            self.assertIn(ident, node.state['receipts'])
+            self.assertEqual(len(node.state['messages']), 1)
+
+    def test_exact_multihop_delivery_return_receipt_and_restart(self):
+        self.f.rounds()
+        raw = self.f.frame()
+        with self.f.node('earth') as node:
+            ident = node.enqueue(raw, self.f.identities['andromeda']['node_id'])
+        self.f.rounds(5)
+        with self.f.node('andromeda') as node:
+            target = self.f.root / 'received.frame.json'
+            node.export_received(ident, target)
+            self.assertEqual(target.read_bytes(), raw)
+            self.assertEqual(len(node.state['messages'][ident]['hops']), 2)
+            self.assertFalse(node.status()['payment_authorized'])
+        with self.f.node('earth') as node:
+            self.assertEqual(node.status()['messages'][ident], 'EVIDENCE_STORED_NOT_LEDGER_ACCEPTED')
+            self.assertIn(ident, node.state['messages'])
+
+    def test_disconnected_relay_retains_then_delivers_without_global_timeout(self):
+        self.f.rounds()
+        with self.f.node('earth') as node:
+            ident = node.enqueue(self.f.frame(), self.f.identities['andromeda']['node_id'])
+        self.f.rounds(4, ['earth'])
+        with self.f.node('earth') as node:
+            self.assertEqual(node.status()['messages'][ident], 'QUEUED_WAITING_CONTACT_OR_ROUTE')
+        self.f.rounds(4)
+        with self.f.node('earth') as node:
+            self.assertIn(ident, node.state['receipts'])
+
+    def test_unknown_route_keeps_packet_without_inventing_connection(self):
+        with self.f.node('earth') as node:
+            ident = node.enqueue(self.f.frame(), 'b' * 64)
+            self.assertIsNone(node.route('b' * 64))
+            self.assertEqual(node.exchange(self.f.identities['proxima']['node_id'])['body']['transits'], [])
+            self.assertIn(ident, node.state['messages'])
+
+    def test_authenticated_malformed_advert_and_frame_raise_clean_rejections(self):
+        with self.f.node('earth') as node:
+            advert = node.state['adverts'][node.id]
+            malformed = mesh.sign(node.key, 'advert', {**advert['body'], 'neighbors': [{}]})
+            with self.assertRaisesRegex(ValueError, 'neighbor'):
+                mesh.advert_check(malformed, NETWORK)
+            for key, value in [('kind', {}), ('payload_b64', 42)]:
+                bad = json.loads(self.f.frame())
+                bad[key] = value
+                with self.assertRaises(ValueError):
+                    evidence.inspect_frame(evidence.canonical(bad))
+
+    def test_message_duplicate_is_idempotent_and_sender_keeps_original(self):
+        self.f.rounds()
+        peer = self.f.identities['proxima']['node_id']
+        with self.f.node('earth') as node:
+            ident = node.enqueue(self.f.frame(), self.f.identities['andromeda']['node_id'])
+            bundle = node.exchange(peer)
+        with self.f.node('proxima') as node:
+            node.receive(bundle, self.f.identities['earth']['node_id'])
+            node.receive(bundle, self.f.identities['earth']['node_id'])
+            self.assertEqual(list(node.state['messages']), [ident])
+        with self.f.node('earth') as node:
+            self.assertIn(ident, node.state['messages'])
+
+    def test_signed_tamper_wrong_network_and_wrong_contact_are_atomic_rejections(self):
+        with self.f.node('earth') as sender:
+            bundle = sender.exchange(self.f.identities['proxima']['node_id'])
+            tampered = copy.deepcopy(bundle)
+            tampered['body']['adverts'][0]['body']['label'] = 'forged'
+            foreign = mesh.sign(sender.key, 'exchange', {**bundle['body'], 'network': 'f' * 64})
+        with self.f.node('proxima') as receiver:
+            before = receiver.path.read_bytes()
+            for candidate, peer in [(tampered, self.f.identities['earth']['node_id']),
+                                    (foreign, self.f.identities['earth']['node_id']),
+                                    (bundle, self.f.identities['andromeda']['node_id'])]:
+                with self.assertRaises(ValueError):
+                    receiver.receive(candidate, peer)
+                self.assertEqual(receiver.path.read_bytes(), before)
+
+    def test_stale_advert_is_ignored_conflicting_same_revision_preserved(self):
+        with self.f.node('earth') as sender:
+            old = sender.state['adverts'][sender.id]
+            newer = mesh.sign(sender.key, 'advert', {**old['body'], 'sequence': 2, 'label': 'updated'})
+            conflict = mesh.sign(sender.key, 'advert', {**newer['body'], 'label': 'contradiction'})
+            def bundle(advert):
+                b = sender.exchange(self.f.identities['proxima']['node_id'])
+                return mesh.sign(sender.key, 'exchange', {**b['body'], 'adverts': [advert]})
+            new_bundle, old_bundle, conflict_bundle = bundle(newer), bundle(old), bundle(conflict)
+        with self.f.node('proxima') as receiver:
+            receiver.receive(new_bundle, self.f.identities['earth']['node_id'])
+            receiver.receive(old_bundle, self.f.identities['earth']['node_id'])
+            self.assertEqual(receiver.state['adverts'][self.f.identities['earth']['node_id']], newer)
+            before = receiver.path.read_bytes()
+            with self.assertRaisesRegex(ValueError, 'conflicting'):
+                receiver.receive(conflict_bundle, self.f.identities['earth']['node_id'])
+            self.assertEqual(receiver.path.read_bytes(), before)
+
+    def test_hop_limit_prevents_over_budget_forwarding(self):
+        self.f.rounds()
+        with self.f.node('earth') as node:
+            ident = node.enqueue(self.f.frame(), self.f.identities['andromeda']['node_id'], 1)
+            self.assertEqual(node.exchange(self.f.identities['proxima']['node_id'])['body']['transits'], [])
+            self.assertIn(ident, node.state['messages'])
+
+    def test_hop_chain_cannot_be_rewritten_or_shortened_by_next_relay(self):
+        self.f.rounds()
+        with self.f.node('earth') as source:
+            source.enqueue(self.f.frame(), self.f.identities['andromeda']['node_id'])
+            bundle = source.exchange(self.f.identities['proxima']['node_id'])
+        with self.f.node('proxima') as relay:
+            relay.receive(bundle, self.f.identities['earth']['node_id'])
+            onward = relay.exchange(self.f.identities['andromeda']['node_id'])
+            transit = copy.deepcopy(onward['body']['transits'][0])
+            transit['hops'].pop(0)
+            with self.assertRaisesRegex(ValueError, 'broken'):
+                mesh.transit_check(transit, NETWORK, self.f.identities['andromeda']['node_id'], relay.id)
+            transit = copy.deepcopy(onward['body']['transits'][0])
+            transit['hops'][0]['body']['to'] = self.f.identities['andromeda']['node_id']
+            with self.assertRaisesRegex(ValueError, 'signature'):
+                mesh.transit_check(transit, NETWORK)
+
+    def test_capacity_refusal_retains_original_and_does_not_consume_inbox(self):
+        self.f.rounds()
+        with self.f.node('earth') as source:
+            ident = source.enqueue(self.f.frame(), self.f.identities['andromeda']['node_id'])
+            with patch.object(mesh, 'MAX_MESSAGES', 1):
+                with self.assertRaisesRegex(ValueError, 'capacity'):
+                    source.enqueue(self.f.frame(), self.f.identities['andromeda']['node_id'])
+            self.assertIn(ident, source.state['messages'])
+            bundle = source.exchange(self.f.identities['proxima']['node_id'])
+        with self.f.node('proxima') as relay:
+            path = self.f.root / 'links' / 'earth-proxima' / (mesh.digest(bundle) + '.json')
+            evidence.write_new(path, evidence.canonical(bundle))
+            with patch.object(mesh, 'MAX_MESSAGES', 0):
+                self.assertTrue(relay.tick()['errors'])
+            self.assertTrue(path.exists())
+            self.assertEqual(relay.state['messages'], {})
+            for field in ['MAX_SPOOL_FILES', 'MAX_SPOOL_BYTES']:
+                with patch.object(mesh, field, 0):
+                    self.assertTrue(relay.tick()['errors'])
+                self.assertTrue(path.exists())
+                self.assertEqual(relay.state['messages'], {})
+
+    def test_fake_destination_receipt_cannot_mark_sender_delivered(self):
+        self.f.rounds()
+        with self.f.node('earth') as sender:
+            ident = sender.enqueue(self.f.frame(), self.f.identities['andromeda']['node_id'])
+        with self.f.node('proxima') as relay:
+            fake = mesh.sign(relay.key, 'receipt', {'format': mesh.VERSION, 'network': NETWORK,
+                'node_id': relay.id, 'packet_id': ident, 'frame_id': evidence.inspect_frame(self.f.frame())[0]['message_id'],
+                'outcome': 'EVIDENCE_STORED_NOT_LEDGER_ACCEPTED'})
+            body = relay.exchange(self.f.identities['earth']['node_id'])['body']
+            bundle = mesh.sign(relay.key, 'exchange', {**body, 'receipts': [fake]})
+        with self.f.node('earth') as sender:
+            with self.assertRaisesRegex(ValueError, 'wrong destination receipt'):
+                sender.receive(bundle, self.f.identities['proxima']['node_id'])
+            self.assertNotIn(ident, sender.state['receipts'])
+
+    def test_corrupt_state_symlink_and_duplicate_json_fail_closed(self):
+        with self.f.node('earth') as node:
+            path = node.path
+        state = json.loads(path.read_bytes())
+        state['network'] = 'f' * 64
+        path.write_bytes(evidence.canonical(state))
+        with self.assertRaisesRegex(ValueError, 'corrupt'):
+            self.f.node('earth')
+        linked = self.f.root / 'alias'
+        linked.symlink_to(self.f.root / 'proxima', target_is_directory=True)
+        with self.assertRaisesRegex(ValueError, 'symlink'):
+            mesh.safe_dir(linked)
+        path.write_bytes(b'{"format":1,"format":2}')
+        with self.assertRaisesRegex(ValueError, 'duplicate'):
+            mesh.load(path, 8192)
+
+    def test_cyclic_advertisements_do_not_loop_or_refund(self):
+        self.f.rounds()
+        with self.f.node('earth') as node:
+            self.assertIsNone(node.route('f' * 64))
+            self.assertIsNone(node.route(self.f.identities['andromeda']['node_id'], [self.f.identities['proxima']['node_id']]))
+            self.assertFalse(node.status()['payment_authorized'])
+
+    def test_serialized_batch_budget_and_rotation_do_not_starve_messages(self):
+        self.f.rounds()
+        with self.f.node('earth') as node:
+            for i in range(9):
+                node.enqueue(self.f.frame(), self.f.identities['andromeda']['node_id'])
+            expected = set(node.state['messages'])
+            seen = set()
+            peer = self.f.identities['proxima']['node_id']
+            full = node.exchange(peer)
+            first_size = len(evidence.canonical({**full['body'], 'transits': full['body']['transits'][:1]})) + 512
+            with patch.object(mesh, 'MAX_BATCH', first_size + 16):
+                for _ in range(9):
+                    batch = node.exchange(peer)
+                    self.assertLessEqual(len(evidence.canonical(batch)), mesh.MAX_BATCH)
+                    seen.update(mesh.digest(t['packet']) for t in batch['body']['transits'])
+                    node.state['cursor'] += 1
+            self.assertEqual(seen, expected)
+
+    def test_state_byte_limit_does_not_replace_existing_durable_state(self):
+        with self.f.node('earth') as node:
+            before = node.path.read_bytes()
+            with patch.object(mesh, 'MAX_STATE', len(before)):
+                with self.assertRaisesRegex(ValueError, 'capacity'):
+                    node.enqueue(self.f.frame(), self.f.identities['andromeda']['node_id'])
+            self.assertEqual(node.path.read_bytes(), before)
+
+
+if __name__ == '__main__':
+    unittest.main()

@@ -1,0 +1,43 @@
+{
+  "format": "RLD-FROZEN-GROUND-CHECKS-V1",
+  "fixture_only": true,
+  "live_rld": false,
+  "source_set_sha256": "daf6710c8170b994990bbcf96251023fd9d72ffc968de17a51a186c6e4c9843f",
+  "native_implementation": "7cfff8f8b25bbb0b7d3219c54bbea344022b01095f525dcc46e3360b35a392f5",
+  "checked_release_build_passed": true,
+  "rust_toolchain": "1.98.0",
+  "python": "3.14.7",
+  "cryptography": "50.0.1",
+  "native_rust_suite_rerun_for_python_changes": false,
+  "unchanged_native_rust_tests_retained_from_prior_revision": 81,
+  "transport_tests": 84,
+  "transport_modules": [
+    "test_interstellar_mesh",
+    "test_interstellar_tcp",
+    "test_interstellar_transfer",
+    "test_interstellar_route_budget"
+  ],
+  "process_controller_tests": 34,
+  "process_controller_modules": [
+    "test_regional_contact_node",
+    "test_regional_bft_node",
+    "test_regional_wallet_app",
+    "test_regional_bft_sustained_campaign"
+  ],
+  "test_log_sha256": {
+    "transport": "1da69e19abed975b23f62e9d5d06616d1279bbeb574c30866627c60e5c30bf76",
+    "process": "8876b406aeb260e6bc72e83148c3fcb7de06cdc4285668cc3ac68bc00a149f6d"
+  },
+  "fresh_fault_exit_code": 0,
+  "separate_cold_verifier_exit_code": 0,
+  "retained_payment_recovery_exit_code": 0,
+  "completed_recovery_refused_by_fresh_verifier": true,
+  "fresh_fault_report_sha256": "09b6f002e85a0d5d7642eca00650e2f36fd17b278f99b63d3552146329430454",
+  "cold_verification_report_sha256": "e702049a25fe591c99ae09cce46e0720cd6043d282d1e943a5027fbbbc073661",
+  "recovery_report_sha256": "a16b44ac806bf50350a0a508818d15e8feb622df63dd1c17540272599a881f54",
+  "private_state_published": false,
+  "sustained_BFT_liveness_qualified": false,
+  "cross_host_qualified": false,
+  "independent_operators_qualified": false,
+  "physical_route_qualified": false
+}

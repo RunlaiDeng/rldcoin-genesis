@@ -1,0 +1,77 @@
+{
+  "consensus_authority": false,
+  "date": "2026-09-30",
+  "files": [
+    {
+      "bytes": 11308,
+      "path": "LICENSE",
+      "sha256": "cf864ad8ef64dcd9b68e4ad698eb946c3a92375bb57f229dbfde63b723ad01c3"
+    },
+    {
+      "bytes": 3456,
+      "path": "README.md",
+      "sha256": "3c0da2c85e7318d061851d9cd526f1e2182f12ecfedd53b7a92ad2fd63369e19"
+    },
+    {
+      "bytes": 7690,
+      "path": "docs/operations/INTERSTELLAR_EVIDENCE_TRANSPORT.md",
+      "sha256": "c4226e91b6772e5e2f370d446adfd4fa5e3ca00d7af4c7beab9ccdd47ac2899e"
+    },
+    {
+      "bytes": 5503,
+      "path": "docs/operations/INTERSTELLAR_NODE_MESH.md",
+      "sha256": "2ee4e619156f78ed5d2c68726ea388ad44b3e95acbe0f5f83fb39ce845699854"
+    },
+    {
+      "bytes": 857,
+      "path": "docs/operations/evidence/interstellar-mesh-20260930.json",
+      "sha256": "e18c42e7b8f2d6e2c87e0c3da66fb35991dcabcc54f562e278eb30ba968422b7"
+    },
+    {
+      "bytes": 6664,
+      "path": "docs/research/INTERSTELLAR_NODE_MESH_REQUIREMENTS.md",
+      "sha256": "edc3c6aff8d0ad722778315827df9cd9eba9103779bc04bdc82991e14f3fd9ed"
+    },
+    {
+      "bytes": 21,
+      "path": "tools/interstellar-mesh-requirements.txt",
+      "sha256": "4026896996503d662ae0d9b5db045d1d5ff511c681dbfc09f5d5a11ee06b28c5"
+    },
+    {
+      "bytes": 25550,
+      "path": "tools/interstellar_mesh.py",
+      "sha256": "634e44afd85aceab420dc81adf51e6452bfbfc97738241bcce912b604c7705ee"
+    },
+    {
+      "bytes": 5404,
+      "path": "tools/interstellar_mesh_drill.py",
+      "sha256": "5c99172f4098a67ceee2f355131fc8bca2ccb77a62d7c582563eca1c3ddbc633"
+    },
+    {
+      "bytes": 5160,
+      "path": "tools/interstellar_route_budget.py",
+      "sha256": "6ea2167eb92a400e1698044064fd4cb2afd93eae76a9f4d643b50d85b5b00732"
+    },
+    {
+      "bytes": 24065,
+      "path": "tools/interstellar_transfer.py",
+      "sha256": "799ec3b5bbcb94950b1f4cc09bbc0711f859cbf196e6f29593ee7a610f6bb7da"
+    },
+    {
+      "bytes": 14216,
+      "path": "tools/test_interstellar_mesh.py",
+      "sha256": "b9d5d9950978bb73ffff9bd1740524241f32f69d4d48b01be42e91e820eca6c4"
+    },
+    {
+      "bytes": 3671,
+      "path": "tools/test_interstellar_route_budget.py",
+      "sha256": "d16a10a5aa9213803ff8fb104293b9787dacf219fb79c457c0f44eed6b6f7f7d"
+    },
+    {
+      "bytes": 9424,
+      "path": "tools/test_interstellar_transfer.py",
+      "sha256": "5e8d963d681800aca7f327e8781e5e902a1dac95f94b0c3c26c005f980940373"
+    }
+  ],
+  "format": "RLD-SUPPLEMENTAL-MESH-SOURCE-V1"
+}

@@ -1,0 +1,43 @@
+name: Fresh testnet protocol and wallet
+on:
+  push:
+    branches: [main]
+    paths:
+      - earth/testnet-20260930/**
+      - .github/workflows/fresh-testnet.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  qualification:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - name: Verify exact protocol and supplemental package
+        run: |
+          set -euo pipefail
+          cd earth/testnet-20260930
+          sha256sum --check SHA256SUMS
+          mkdir "$RUNNER_TEMP/source" "$RUNNER_TEMP/evidence"
+          tar -xzf source.tar.gz -C "$RUNNER_TEMP/source"
+          python3 tools/prepare-source.py --root "$RUNNER_TEMP/source" --manifest source-manifest.json
+          rustup toolchain install 1.98.0 --profile minimal --component clippy --component rustfmt
+      - name: Test exact protocol and fresh wallet
+        working-directory: ${{ runner.temp }}/source
+        run: |
+          set -euo pipefail
+          export CARGO_BUILD_JOBS=2
+          export CARGO_TARGET_DIR="$RUNNER_TEMP/target"
+          cargo test --release --locked -p rld-pow -p rld-value-successor --lib --test runtime --test migrated_runtime -- --test-threads=2 2>&1 | tee "$RUNNER_TEMP/evidence/protocol-tests.log"
+          cargo test --release --locked --manifest-path tools/earth-wallet/Cargo.toml -- --test-threads=2 2>&1 | tee "$RUNNER_TEMP/evidence/wallet-tests.log"
+          cargo clippy --release --locked --manifest-path tools/earth-wallet/Cargo.toml --all-targets -- -D warnings 2>&1 | tee "$RUNNER_TEMP/evidence/wallet-clippy.log"
+          cargo clippy --release --locked --manifest-path tools/earth-testnet/Cargo.toml --all-targets -- -D warnings 2>&1 | tee "$RUNNER_TEMP/evidence/bootstrap-clippy.log"
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always()
+        with:
+          name: fresh-testnet-qualification
+          path: ${{ runner.temp }}/evidence
+          retention-days: 3

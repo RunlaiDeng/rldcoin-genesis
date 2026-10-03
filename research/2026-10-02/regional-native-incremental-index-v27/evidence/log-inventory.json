@@ -1,0 +1,52 @@
+[
+  {
+    "path": "historical/initial-checked-build.log",
+    "original_local_sha256": "0d2f7776a601c4d7d74111fbe6c9b5e780b69ca20b8195a5dd73ae8bf6790974",
+    "sanitized_sha256": "8ab1f2eae71ff6a2853d3e12d517037c2cd52ca13a2573224f8cddbc13e1ea19",
+    "status": "passed",
+    "path_redaction": "workspace prefix replaced with /LOCAL_WORKSPACE"
+  },
+  {
+    "path": "historical/initial-clippy.log",
+    "original_local_sha256": "1799aa9a5f5e7fde98668d8012ab4f62b20bb6fe50ea626bb608857233664f9a",
+    "sanitized_sha256": "7e67477c28c0e6cf136800d6c5e51a0c325fa236ea535529a977f213c53d49ae",
+    "status": "passed",
+    "path_redaction": "workspace prefix replaced with /LOCAL_WORKSPACE"
+  },
+  {
+    "path": "historical/initial-native-tests.log",
+    "original_local_sha256": "fe661a7d3272dce7b137bb29230631500db624c4335588b94b73ddcd58c0af94",
+    "sanitized_sha256": "6f328054e9f0f372304470944509bc579ce50fc60ef4c5f37f04242c9adf4229",
+    "status": "intentionally interrupted compilation; no full test pass",
+    "path_redaction": "workspace prefix replaced with /LOCAL_WORKSPACE"
+  },
+  {
+    "path": "evidence/final-checked-build.log",
+    "original_local_sha256": "abe5976208624c2dd0adfed183d818229b499096a750c2a7c181d2ee66d1c3ee",
+    "sanitized_sha256": "81cdca87f5377bf4a2b8097c5d2ca78b310839c107f3a3fee5cf9d994f6ef774",
+    "status": "passed",
+    "path_redaction": "workspace prefix replaced with /LOCAL_WORKSPACE"
+  },
+  {
+    "path": "evidence/final-clippy.log",
+    "original_local_sha256": "46d8d516a9390ffe1c4da17c26c468b29b5f892ecdb8b7e7c6d27c78c7f4b30c",
+    "sanitized_sha256": "8fc921c7aa0697970a77122eba58f15e69a6039e438bd10c9b67e18d98bc74d5",
+    "status": "passed",
+    "path_redaction": "workspace prefix replaced with /LOCAL_WORKSPACE"
+  },
+  {
+    "path": "evidence/final-native-tests.log",
+    "original_local_sha256": "61547bb6968a9f77ec293cd7dc40bcd2ecae896be8961994334d3408f804ade5",
+    "sanitized_sha256": "06ed8f073a292f25f6d029bde735345398391d0fa20c7dfaf39633e1a1bc91f1",
+    "status": "passed",
+    "path_redaction": "workspace prefix replaced with /LOCAL_WORKSPACE",
+    "trailing_blank_line_normalized": true
+  },
+  {
+    "path": "evidence/final-process-tests.log",
+    "original_local_sha256": "bab2189cbdefdcd136e906d32debe7aebac287c2fdf1d9cb3983e5f9d2f884f5",
+    "sanitized_sha256": "bab2189cbdefdcd136e906d32debe7aebac287c2fdf1d9cb3983e5f9d2f884f5",
+    "status": "passed",
+    "path_redaction": "workspace prefix replaced with /LOCAL_WORKSPACE"
+  }
+]

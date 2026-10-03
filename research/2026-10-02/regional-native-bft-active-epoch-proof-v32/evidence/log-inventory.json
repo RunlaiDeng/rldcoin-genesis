@@ -1,0 +1,62 @@
+[
+  {
+    "path": "evidence/build.log",
+    "original_local_sha256": "a87e85f60e73349703d1eb70343262e1eb1d164484dac9f8af2a063463b4b914",
+    "public_sha256": "74fbf79f0691d2a778909bda7c2b4a127bed0c3ff33d87cc8c6a1af41e3a3828",
+    "sanitization": "workspace prefix redacted; trailing blank lines normalized"
+  },
+  {
+    "path": "evidence/fmt.log",
+    "original_local_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "sanitization": "workspace prefix redacted; trailing blank lines normalized"
+  },
+  {
+    "path": "evidence/native-tests.log",
+    "original_local_sha256": "1d9add6d0ad26ffed4afbc7c16bbf8f94dfa8bc27fbf384491a2d5b38a128f83",
+    "public_sha256": "bee48e17bf5978aa663315a18a8fd34955684763d00b344f2e8faf9141b9a219",
+    "sanitization": "workspace prefix redacted; trailing blank lines normalized"
+  },
+  {
+    "path": "evidence/strict.log",
+    "original_local_sha256": "8880a1e845d3b7d0e9a5d49cc07c640a7fbb4a06fe7c95c9640ec99d912f5640",
+    "public_sha256": "e12ebe657648253efee7ce8bb18c7ce79a887049352b74772a15f706ff0a4e00",
+    "sanitization": "workspace prefix redacted; trailing blank lines normalized"
+  },
+  {
+    "path": "evidence/process-tests.log",
+    "original_local_sha256": "23cba93ce7dbef891473adf3b54dddc34c2f4aed4e872e66a6b3ac846db01aeb",
+    "public_sha256": "23cba93ce7dbef891473adf3b54dddc34c2f4aed4e872e66a6b3ac846db01aeb",
+    "sanitization": "workspace prefix redacted; trailing blank lines normalized"
+  },
+  {
+    "path": "evidence/cycle.log",
+    "original_local_sha256": "15f38c6ed85175cdfb1884fd030a413bbcd630c70481c86e4937343dea0535fd",
+    "public_sha256": "15f38c6ed85175cdfb1884fd030a413bbcd630c70481c86e4937343dea0535fd",
+    "sanitization": "workspace prefix redacted; trailing blank lines normalized"
+  },
+  {
+    "path": "evidence/cycle-cold.log",
+    "original_local_sha256": "4ba0beba5f7bcb2b4383ea0c8fcfa4a4af42dc3764d377aebb19ef0d12e2bd01",
+    "public_sha256": "4ba0beba5f7bcb2b4383ea0c8fcfa4a4af42dc3764d377aebb19ef0d12e2bd01",
+    "sanitization": "workspace prefix redacted; trailing blank lines normalized"
+  },
+  {
+    "path": "evidence/fresh-fault.log",
+    "original_local_sha256": "8c37853aac18f697590b14b8ec4ed8c176ef0f360bed052fb9bbdde5ad73a4c4",
+    "public_sha256": "bf2837e9e3597f0d09602dd684496020edad7813bbab2b7c4b72dc2e1b956326",
+    "sanitization": "workspace prefix redacted; trailing blank lines normalized"
+  },
+  {
+    "path": "evidence/failed-lock-fault.log",
+    "original_local_sha256": "240e2ffd065e50841a2347ca4007cdaac350db2504fa612aebfb56e33371dfc3",
+    "public_sha256": "08d90c019189a7a8d61ace9b539e06b21b970d595da8174c651ad34ef7d90335",
+    "sanitization": "workspace prefix redacted; trailing blank lines normalized"
+  },
+  {
+    "path": "evidence/failed-maturity-fault.log",
+    "original_local_sha256": "902cf1d9cb2cab51cfdf9aced65c7d748c4954e5a098d32e0c0613d597cf1abc",
+    "public_sha256": "8a0733f32bd87f9576fa97a1f71df221a43af895335a7f5a7bb3438e1988bfe4",
+    "sanitization": "workspace prefix redacted; trailing blank lines normalized"
+  }
+]

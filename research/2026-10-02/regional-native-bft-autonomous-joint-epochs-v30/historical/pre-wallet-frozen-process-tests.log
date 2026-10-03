@@ -1,0 +1,6 @@
+......................................................................
+----------------------------------------------------------------------
+Ran 70 tests in 267.818s
+
+OK
+{"format": "RLD-NATIVE-PAGED-EVENTS-ORDINARY-STORE-SAMPLE-V1", "fixture_only": true, "live_rld": false, "native_implementation": "9dfe3967f635af8f5c8b43210214e64c4b356377a214c7c40987695f186a4e47", "height": 361, "actual_signed_local_payments": 353, "return_net": "98", "cold_private_restore_equal": true, "sealed_event_pages": 23, "retained_tail_events": 0, "legacy_event_bounds_unchanged": true, "snapshot_and_archive_bounds_unchanged": true, "full_long_history_qualified": false}

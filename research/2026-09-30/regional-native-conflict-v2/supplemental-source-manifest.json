@@ -1,0 +1,55 @@
+{
+  "format": "RLD-REGIONAL-CONFLICT-SUPPLEMENTAL-SOURCE-V1",
+  "files": [
+    {
+      "path": "tools/regional-ledger/Cargo.toml",
+      "bytes": 450,
+      "sha256": "baffd5d1a03b04253f32f5d4ae5ffae8d7db8161e50dee2ed256e79f7a1a6607"
+    },
+    {
+      "path": "tools/regional-ledger/Cargo.lock",
+      "bytes": 15359,
+      "sha256": "a14c44d34d066955c06ed9cfff2fb1d410b3a53378caf0f3c023ccfead32e22e"
+    },
+    {
+      "path": "tools/regional-ledger/build.rs",
+      "bytes": 1322,
+      "sha256": "0dfa707932e52dd116add44b14d4837cdeb771972290d37981d65ee6e2115cfa"
+    },
+    {
+      "path": "tools/regional-ledger/README.md",
+      "bytes": 6020,
+      "sha256": "f78561e826d3b548316076d9ef981f768f3a3f9669fa6c79a37b84a3e4815f44"
+    },
+    {
+      "path": "tools/regional-ledger/src/bin/fixture-campaign.rs",
+      "bytes": 22204,
+      "sha256": "7ebf85e0073da887b563acb0d93efeb53e832217ea0d0e53af061cafba95fb4e"
+    },
+    {
+      "path": "tools/regional-ledger/src/conflict.rs",
+      "bytes": 7684,
+      "sha256": "53e4d7a6c0076e7df9e2fe159f37de8aac3b5075ab898085d5b138419f91e0e2"
+    },
+    {
+      "path": "tools/regional-ledger/src/lib.rs",
+      "bytes": 28672,
+      "sha256": "2a2ae387c1d3f2ac0da12258c3f191ac9e129577a7acd55780605e99eabe7065"
+    },
+    {
+      "path": "tools/regional-ledger/src/main.rs",
+      "bytes": 4927,
+      "sha256": "256742568546fd6159c1c196e5f2026fc6d4f3ea6185a9a5d2a74ddba70969f2"
+    },
+    {
+      "path": "tools/regional-ledger/src/storage.rs",
+      "bytes": 17910,
+      "sha256": "659a80f7a9e1fe96f24dfd9bb3ed18e0865f18588401b9802e8ad2bfeedf0d32"
+    },
+    {
+      "path": "tools/regional-ledger/src/tests.rs",
+      "bytes": 36063,
+      "sha256": "c3e98874e0d811cfd05e745dce1d49edc36b1f8fc632ba3de5599f8fe97fb44f"
+    }
+  ]
+}

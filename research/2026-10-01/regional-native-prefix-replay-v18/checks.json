@@ -1,0 +1,30 @@
+{
+  "format": "RLD-NATIVE-PREFIX-FROZEN-CHECKS-V1",
+  "source_set_sha256": "47b07d586f58914881c98e32dd7abc93b8cdbfb449b7d6f15538594dd95ecd62",
+  "native_implementation": "d268bd83be7f87afa2db26603ae4597d711aa85eaaf265bccdce8d1426b2e971",
+  "fixture_only": true,
+  "live_rld": false,
+  "checked_release_build_passed": true,
+  "native_tests": 86,
+  "clippy_strict_passed": true,
+  "transport_tests": 84,
+  "process_controller_tests": 34,
+  "binary_sha256": "66073c511660e0100aa3a8c9cce911ea8db1fa6f9a78d6a510e1a22a2786e0f7",
+  "source_unchanged": true,
+  "full_fresh_cycle_completed": true,
+  "full_fault_profile_completed": false,
+  "long_term_history_qualified": false,
+  "full_fresh_cycle_cold_verified": true,
+  "full_fault_profile_terminal_exit_code": 1,
+  "full_fault_profile_failure": "recipient maturity observation deadline; repeated-evidence BFT state capacity observed",
+  "failed_fixture_retained": true,
+  "log_sha256": {
+    "build": "177ea2c611406d2a857f4818bd620394daa615bea8b8fd0988141edf8d166c90",
+    "native-tests": "dfcc2f1325c9bc5de3e8be0269a668e8ef0ec1683d9c903c81f1555908af871a",
+    "clippy": "88819541dfe7d1a7138e37c282bd5bb8f2ab248a39abe3c22c62df4e39f2d967",
+    "transport-tests": "660a85b3f446db2de1c792e54df1aee332f4efab6fbc02ab0d6ddbb6e46c3931",
+    "process-tests": "3a0221ff2ec602083329790b559d33891b065f3e0388d203e4dc2623e1583646"
+  },
+  "cycle_verifier_sha256": "171dc1c93a9f3feb507fe95c57af0e92afc9db7c147c99a3d04b0a6697477e2b",
+  "cycle_verifier_separate_from_runtime_manifest": true
+}

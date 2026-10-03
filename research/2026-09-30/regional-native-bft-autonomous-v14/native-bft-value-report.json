@@ -1,0 +1,182 @@
+{
+  "format": "RLD-REGIONAL-BFT-GROUND-CAMPAIGN-V1",
+  "fixture_only": true,
+  "live_rld": false,
+  "implementation": "d014d57619a0c7d7d72213fe04ff16e0c3887cbccca4714bffcafd1a85ec231e",
+  "currency": "304d2677fafc3a4f400b83936f3df4dd25adbd47992869906ebf81d4636cfa54",
+  "profile": "RLD-REGIONAL-BFT-FIXTURE-V1",
+  "replicas_per_region": 4,
+  "online_voters_per_region": 3,
+  "offline_initial_leader_progressed": true,
+  "offline_replica_caught_up": true,
+  "old_signer_backup_latest_head_rejected": true,
+  "transport_alone_did_not_credit": true,
+  "duplicate_import_rejected": true,
+  "remote_execution_earth_calls": 0,
+  "first_recipient": {
+    "format": "RLD-REGIONAL-WALLET-RECEIPT-V1",
+    "expected": {
+      "currency": "304d2677fafc3a4f400b83936f3df4dd25adbd47992869906ebf81d4636cfa54",
+      "source": "367fb806deccdcc6429f172deb1725a74d45318781211c7a7852de671e092370",
+      "destination": "563a1770ef0920cc70ef3257b651fdb9af6ac9fa239718e460caf2673b425991",
+      "export": "acc442d61a8f1f4186dfbba342acad064928fdcea721372bb666f9b52804de46",
+      "recipient": "66be7e332c7a453332bd9d0a7f7db055f5c5ef1a06ada66d98b39fb6810c473a",
+      "net_amount": "95"
+    },
+    "pin": {
+      "currency": "304d2677fafc3a4f400b83936f3df4dd25adbd47992869906ebf81d4636cfa54",
+      "region": "563a1770ef0920cc70ef3257b651fdb9af6ac9fa239718e460caf2673b425991",
+      "height": 3,
+      "tip": "00004516a13f0618aa6581a14fa40d9ed60aa45b953925557c779992907f33a7",
+      "state": "271827b2ae0a31080d27c1d888c401f563dfef7f1fbb767f883b5217257a4ac1",
+      "epoch": "b4f7409083b2ba5e5e6a6090c4cb5df3b2de4cc89d38cc1436d8029384b23dec",
+      "finality": "ce6c703bec92073476cd88070de1737a321a6f7ddc0c0059deedfdcb981ca166",
+      "local_journal_and_incidents": "0e2bdcf0d6b58d5f2b994f8e740567a528eea4cfffa4d749c82cd2bde87f3a5c"
+    },
+    "verified_source_checkpoint": "2b8a9a1ddfad90b06622c1f4e656be1edc13f138b8d06b4a96823245ed2919c1",
+    "evidence_verified": true,
+    "import_accepted": true,
+    "import_height": 1,
+    "mature_height": 3,
+    "maturity_reached": true,
+    "original_output_remaining": "95",
+    "original_output_spendable_now": true,
+    "local_finality_covers_import": true,
+    "quarantined": false,
+    "state": "ORIGINAL_OUTPUT_SPENDABLE",
+    "transport_receipt_checked": false,
+    "remote_current_state_known": false,
+    "live_rld": false
+  },
+  "onward_recipient": {
+    "format": "RLD-REGIONAL-WALLET-RECEIPT-V1",
+    "expected": {
+      "currency": "304d2677fafc3a4f400b83936f3df4dd25adbd47992869906ebf81d4636cfa54",
+      "source": "563a1770ef0920cc70ef3257b651fdb9af6ac9fa239718e460caf2673b425991",
+      "destination": "345658cca4ef7781bbb4849a9ca624ae0a7b768f755f4f9583bac0721a548492",
+      "export": "16ef0252e90ed49946f918272d6679028850d20d472041a2e2f7b1d887a7706c",
+      "recipient": "0b513ad9b4924015ca0902ed079044d3ac5dbec2306f06948c10da8eb6e39f2d",
+      "net_amount": "93"
+    },
+    "pin": {
+      "currency": "304d2677fafc3a4f400b83936f3df4dd25adbd47992869906ebf81d4636cfa54",
+      "region": "345658cca4ef7781bbb4849a9ca624ae0a7b768f755f4f9583bac0721a548492",
+      "height": 3,
+      "tip": "00f79e3ac26daed01e9e927f3808f6472026949c46c85c0d304f267a69c13101",
+      "state": "963e1d916654fd3a50c7a0d2fcb992e8ea728058f5ed54f456b842c9bc730c37",
+      "epoch": "70e02ad6f08d9ee53f280dc498a9395802cb9a6a9df8abcbcd63d4e6bd424dde",
+      "finality": "cf34b57d0e52a5fbd466aae32dcebc28656adda12df52484a80038345b6cd9e2",
+      "local_journal_and_incidents": "41d2d685d1c8e2938fd36e385c0fe480c33d0b1fb0bbbbdb1b10f7c019fe662b"
+    },
+    "verified_source_checkpoint": "064a94a4c018c2b9767a7c0c0159e50d5a1f18b6ff7638a0a0688144e7d211c0",
+    "evidence_verified": true,
+    "import_accepted": true,
+    "import_height": 1,
+    "mature_height": 3,
+    "maturity_reached": true,
+    "original_output_remaining": "93",
+    "original_output_spendable_now": true,
+    "local_finality_covers_import": true,
+    "quarantined": false,
+    "state": "ORIGINAL_OUTPUT_SPENDABLE",
+    "transport_receipt_checked": false,
+    "remote_current_state_known": false,
+    "live_rld": false
+  },
+  "conservation_checks": [
+    {
+      "phase": "earth: certified height 1",
+      "issued": "100",
+      "liquid": "100",
+      "pending_exports": "0",
+      "conserved": true
+    },
+    {
+      "phase": "earth: certified height 2",
+      "issued": "200",
+      "liquid": "200",
+      "pending_exports": "0",
+      "conserved": true
+    },
+    {
+      "phase": "earth: certified height 3",
+      "issued": "300",
+      "liquid": "300",
+      "pending_exports": "0",
+      "conserved": true
+    },
+    {
+      "phase": "earth: certified height 4",
+      "issued": "300",
+      "liquid": "203",
+      "pending_exports": "97",
+      "conserved": true
+    },
+    {
+      "phase": "proxima: certified height 1",
+      "issued": "300",
+      "liquid": "300",
+      "pending_exports": "0",
+      "conserved": true
+    },
+    {
+      "phase": "proxima: certified height 2",
+      "issued": "300",
+      "liquid": "300",
+      "pending_exports": "0",
+      "conserved": true
+    },
+    {
+      "phase": "proxima: certified height 3",
+      "issued": "300",
+      "liquid": "300",
+      "pending_exports": "0",
+      "conserved": true
+    },
+    {
+      "phase": "proxima: certified height 4",
+      "issued": "300",
+      "liquid": "206",
+      "pending_exports": "94",
+      "conserved": true
+    },
+    {
+      "phase": "andromeda: certified height 1",
+      "issued": "300",
+      "liquid": "300",
+      "pending_exports": "0",
+      "conserved": true
+    },
+    {
+      "phase": "andromeda: certified height 2",
+      "issued": "300",
+      "liquid": "300",
+      "pending_exports": "0",
+      "conserved": true
+    },
+    {
+      "phase": "andromeda: certified height 3",
+      "issued": "300",
+      "liquid": "300",
+      "pending_exports": "0",
+      "conserved": true
+    },
+    {
+      "phase": "certified onward payment complete with no Earth calls during remote execution",
+      "issued": "300",
+      "liquid": "300",
+      "pending_exports": "0",
+      "conserved": true
+    }
+  ],
+  "native_cli_calls": 341,
+  "helper_calls": 1,
+  "expected_rejections": 7,
+  "message_bus": "same-host controller-carried files",
+  "independent_operators_qualified": false,
+  "autonomous_pacemaker_qualified": false,
+  "validator_network_qualified": false,
+  "bft_reconfiguration_implemented": false,
+  "external_monotonic_custody_qualified": false,
+  "physical_interstellar_route_qualified": false
+}

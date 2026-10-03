@@ -1,0 +1,39 @@
+   Compiling rld-regional-ledger-candidate v0.1.0 (<WORKSPACE>/tools/regional-ledger)
+error: large size difference between variants
+   --> src/state_proof.rs:109:1
+    |
+109 | /   pub enum Witness {
+110 | | /     Present {
+111 | | |         member: Member,
+112 | | |     },
+    | | |_____- the second-largest variant contains at least 256 bytes
+113 | | /     Absent {
+114 | | |         lower: Option<Member>,
+115 | | |         upper: Option<Member>,
+116 | | |     },
+    | | |_____- the largest variant contains at least 512 bytes
+117 | |   }
+    | |___^ the entire enum is at least 512 bytes
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.98.0/index.html#large_enum_variant
+    = note: `-D clippy::large-enum-variant` implied by `-D warnings`
+    = help: to override `-D warnings` add `#[allow(clippy::large_enum_variant)]`
+help: consider boxing the large fields or introducing indirection in some other way to reduce the total size of the enum
+    |
+115 -         upper: Option<Member>,
+115 +         upper: Box<Option<Member>>,
+    |
+
+error: manual implementation of `.is_multiple_of()`
+   --> src/state_proof.rs:318:19
+    |
+318 |         hash = if cursor % 2 == 0 {
+    |                   ^^^^^^^^^^^^^^^ help: replace with: `cursor.is_multiple_of(2)`
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.98.0/index.html#manual_is_multiple_of
+    = note: `-D clippy::manual-is-multiple-of` implied by `-D warnings`
+    = help: to override `-D warnings` add `#[allow(clippy::manual_is_multiple_of)]`
+
+error: could not compile `rld-regional-ledger-candidate` (lib) due to 2 previous errors
+warning: build failed, waiting for other jobs to finish...
+error: could not compile `rld-regional-ledger-candidate` (lib test) due to 2 previous errors

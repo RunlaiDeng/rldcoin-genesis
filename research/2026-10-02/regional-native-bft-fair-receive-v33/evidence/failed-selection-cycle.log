@@ -1,0 +1,48 @@
+{"phase": "initialized twelve independent native stores"}
+{"phase": "waiting: node startup earth-0"}
+{"phase": "verified: node startup earth-0"}
+{"phase": "waiting: node startup earth-1"}
+{"phase": "verified: node startup earth-1"}
+{"phase": "waiting: node startup earth-2"}
+{"phase": "verified: node startup earth-2"}
+{"phase": "waiting: node startup earth-3"}
+{"phase": "verified: node startup earth-3"}
+{"phase": "waiting: node startup proxima-0"}
+{"phase": "verified: node startup proxima-0"}
+{"phase": "waiting: node startup proxima-1"}
+{"phase": "verified: node startup proxima-1"}
+{"phase": "waiting: node startup proxima-2"}
+{"phase": "verified: node startup proxima-2"}
+{"phase": "waiting: node startup proxima-3"}
+{"phase": "verified: node startup proxima-3"}
+{"phase": "waiting: node startup andromeda-0"}
+{"phase": "verified: node startup andromeda-0"}
+{"phase": "waiting: node startup andromeda-1"}
+{"phase": "verified: node startup andromeda-1"}
+{"phase": "waiting: node startup andromeda-2"}
+{"phase": "verified: node startup andromeda-2"}
+{"phase": "waiting: node startup andromeda-3"}
+{"phase": "verified: node startup andromeda-3"}
+{"phase": "waiting: Earth issuance matures under autonomous local BFT"}
+{"phase": "verified: Earth issuance matures under autonomous local BFT"}
+{"phase": "waiting: all twelve nodes discover three regions through adjacent contacts"}
+{"phase": "verified: all twelve nodes discover three regions through adjacent contacts"}
+{"phase": "waiting: node startup earth-0"}
+{"phase": "verified: node startup earth-0"}
+{"phase": "waiting: node startup earth-1"}
+{"phase": "verified: node startup earth-1"}
+{"phase": "waiting: node startup earth-2"}
+{"phase": "verified: node startup earth-2"}
+{"phase": "waiting: node startup earth-3"}
+{"phase": "verified: node startup earth-3"}
+{"phase": "waiting: earth autonomous certified height 7"}
+{"phase": "verified: earth autonomous certified height 7"}
+{"completed": false, "failure": "ordinary old consensus never selected exact joint intent"}
+Traceback (most recent call last):
+  File "/LOCAL_WORKSPACE/tmp/default-relay-20260930/native-bft-fair-receive-reviewed-source-20261002/tools/regional_bft_joint_cycle_campaign.py", line 153, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "/LOCAL_WORKSPACE/tmp/default-relay-20260930/native-bft-fair-receive-reviewed-source-20261002/tools/regional_bft_joint_cycle_campaign.py", line 151, in main
+    if failure is not None:raise ValueError(failure)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: ordinary old consensus never selected exact joint intent

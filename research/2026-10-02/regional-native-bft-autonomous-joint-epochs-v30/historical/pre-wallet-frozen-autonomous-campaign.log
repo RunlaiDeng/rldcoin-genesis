@@ -1,0 +1,26 @@
+Traceback (most recent call last):
+  File "/LOCAL_WORKSPACE/tmp/default-relay-20260930/native-bft-autonomous-epoch-reviewed-source-20261002/tools/regional_bft_autonomous_epoch_campaign.py", line 138, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "/LOCAL_WORKSPACE/tmp/default-relay-20260930/native-bft-autonomous-epoch-reviewed-source-20261002/tools/regional_bft_autonomous_epoch_campaign.py", line 135, in main
+    result=c.run();mesh.atomic(a.report,result);print(json.dumps(result))
+  File "/LOCAL_WORKSPACE/tmp/default-relay-20260930/native-bft-autonomous-epoch-reviewed-source-20261002/tools/regional_bft_autonomous_epoch_campaign.py", line 82, in run
+    signed=self.cli('earth',1,'wallet-sign','--wallet-dir',wallet,'--expected-wallet-head',draft['wallet_head'],
+                    '--file',self.file('post-epoch-owner-review',draft),'--review',draft['review_commitment'],'--key-file',key)
+  File "/LOCAL_WORKSPACE/tmp/default-relay-20260930/native-bft-autonomous-epoch-reviewed-source-20261002/tools/regional_bft_campaign.py", line 79, in cli
+    return self.invoke([self.binary, '--dir', self.node(name, n), '--authority', public(1),
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        '--currency', self.currency, *args], success=success)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/LOCAL_WORKSPACE/tmp/default-relay-20260930/native-bft-autonomous-epoch-reviewed-source-20261002/tools/regional_bft_autonomous_epoch_campaign.py", line 24, in invoke
+    return super().invoke(command,success,helper)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/LOCAL_WORKSPACE/tmp/default-relay-20260930/native-bft-autonomous-epoch-reviewed-source-20261002/tools/regional_bft_network_campaign.py", line 63, in invoke
+    return super().invoke(command,success,helper)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/LOCAL_WORKSPACE/tmp/default-relay-20260930/native-bft-autonomous-epoch-reviewed-source-20261002/tools/regional_bft_campaign.py", line 71, in invoke
+    require((result.returncode == 0) == success, 'native BFT CLI result differs: '+result.stderr.decode(errors='replace')[:1024])
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/LOCAL_WORKSPACE/tmp/default-relay-20260930/native-bft-autonomous-epoch-reviewed-source-20261002/tools/regional_bft_campaign.py", line 22, in require
+    raise ValueError(reason)
+ValueError: native BFT CLI result differs: regional candidate rejected: ordinary joint chain needs explicit installed epoch event

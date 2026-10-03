@@ -1,0 +1,107 @@
+[
+  {
+    "path": "evidence/final-clippy.log",
+    "original_local_sha256": "683a3a284a2a79633e9baec4dcbaffef2caab3a75e5e38e9a9a613fda374b0c9",
+    "public_sha256": "f83ce9389916757a43070f5b5a324963a8a0616830fede9b7ce62c2da7ea7b49",
+    "status": "passed",
+    "sanitization": "workspace prefix redacted; trailing blank lines normalized"
+  },
+  {
+    "path": "evidence/final-checked-build.log",
+    "original_local_sha256": "48bfd4c75d305e31f6b5e80512a6c27c22cad718206720fc30faf3d6b79ac4f7",
+    "public_sha256": "76264db623df0c8cb831100b8a4ab4ed67517af1edb166d949d2f3dfcf427c06",
+    "status": "passed",
+    "sanitization": "workspace prefix redacted; trailing blank lines normalized"
+  },
+  {
+    "path": "evidence/final-native-tests.log",
+    "original_local_sha256": "897e0854f3a1ec48488510b04247ffb123dde8cc1434cbdadcac9350704e7b86",
+    "public_sha256": "6a39b35c78666482ec4655692177e07be7b6179189e45151801b36d5fdba0e6e",
+    "status": "passed",
+    "sanitization": "workspace prefix redacted; trailing blank lines normalized"
+  },
+  {
+    "path": "evidence/final-process-tests.log",
+    "original_local_sha256": "fce263c22e1ea444afce0efcef66ceabc8d7771829ab0d374e4991cdb8dbb1ba",
+    "public_sha256": "fce263c22e1ea444afce0efcef66ceabc8d7771829ab0d374e4991cdb8dbb1ba",
+    "status": "passed",
+    "sanitization": "workspace prefix redacted; trailing blank lines normalized"
+  },
+  {
+    "path": "evidence/final-autonomous-campaign.log",
+    "original_local_sha256": "d2beefa0f26f45776dd410c5822c100395410c37bcbff4506bebd78fb5a8928a",
+    "public_sha256": "d2beefa0f26f45776dd410c5822c100395410c37bcbff4506bebd78fb5a8928a",
+    "status": "passed",
+    "sanitization": "workspace prefix redacted; trailing blank lines normalized"
+  },
+  {
+    "path": "historical/initial-parse-refusal.log",
+    "original_local_sha256": "7a2f115713f965d9239b2dad6607a111bf06507f3f212ae2ce92530580707045",
+    "public_sha256": "80a206fe9832e74ac9fad48c24980770224db98289b828232696e5373769e6e4",
+    "status": "failed; never a replacement full-profile pass",
+    "sanitization": "workspace prefix redacted; trailing blank lines normalized"
+  },
+  {
+    "path": "historical/initial-campaign.log",
+    "original_local_sha256": "e75a6e6a4b37a026886da670179d1da75bb779f1ec4ef60655e7d43a92c6aa0f",
+    "public_sha256": "e2ff72a658f42b8167c100e79b9a39888ae8041c92c1b2768ade800e336f278e",
+    "status": "failed; never a replacement full-profile pass",
+    "sanitization": "workspace prefix redacted; trailing blank lines normalized"
+  },
+  {
+    "path": "historical/path-fixed-failed.log",
+    "original_local_sha256": "ecfaea4d8c593a903e24fce72d7d1c0756923f585fe353c5ef163acaef5d2a8c",
+    "public_sha256": "c6905b79bbc1e86f92a1176eba70cc237d200ec1cd9e4bcaff486890b087334c",
+    "status": "failed; never a replacement full-profile pass",
+    "sanitization": "workspace prefix redacted; trailing blank lines normalized"
+  },
+  {
+    "path": "historical/late-init-failed.log",
+    "original_local_sha256": "533f5d8bd7607e8c54e24ed11127f79829d0da7c78876d63f81b526b8f7fefbc",
+    "public_sha256": "4c807d28bb98c0a7c631b72b053f22c14b1b12c8cb9368f538dd48b23aeb28a2",
+    "status": "failed; never a replacement full-profile pass",
+    "sanitization": "workspace prefix redacted; trailing blank lines normalized"
+  },
+  {
+    "path": "historical/pre-wallet.log",
+    "original_local_sha256": "0941d9de314449fee6c273267a3a6bc1a70510587a913a26a90493b66d735d61",
+    "public_sha256": "bd13fe1416a2fe5a33d9a5c129a9d2db50edaf365eb939716cc06495d2283c33",
+    "status": "failed; never a replacement full-profile pass",
+    "sanitization": "workspace prefix redacted; trailing blank lines normalized"
+  },
+  {
+    "path": "historical/pre-wallet-frozen-clippy.log",
+    "original_local_sha256": "a27d0f1e2f0cf7045f37c1a53f1030580dc064c1d771b1c46ea29f6e5864a175",
+    "public_sha256": "a7677e82c4ef8acc1ffecd80100e7f16708d921bd34e594556648d8cbdc498ac",
+    "status": "158 native / 70 process passed but complete campaign failed; never final-source qualification",
+    "sanitization": "workspace prefix redacted; trailing blank lines normalized"
+  },
+  {
+    "path": "historical/pre-wallet-frozen-checked-build.log",
+    "original_local_sha256": "38783643ac8a48622814ca204865c0f2a23957551e0ba7bc4d497b0ea37bfe14",
+    "public_sha256": "52c1787203cf28a46bdd449eac7a93b760cccc17b9c86533f8557104aa50408c",
+    "status": "158 native / 70 process passed but complete campaign failed; never final-source qualification",
+    "sanitization": "workspace prefix redacted; trailing blank lines normalized"
+  },
+  {
+    "path": "historical/pre-wallet-frozen-native-tests.log",
+    "original_local_sha256": "7a4928634046f5751bca0ad89b07bd6fd902bc945953323956399d67756a8eb9",
+    "public_sha256": "5b893e568e24ec2c2a74c3020635bf0fa735a268aef3f89f3b76f169a8dd28bd",
+    "status": "158 native / 70 process passed but complete campaign failed; never final-source qualification",
+    "sanitization": "workspace prefix redacted; trailing blank lines normalized"
+  },
+  {
+    "path": "historical/pre-wallet-frozen-process-tests.log",
+    "original_local_sha256": "9f5b051231c4ef1b690be73487a6a8430e88cdfa26183a290acb31d88aba731d",
+    "public_sha256": "9f5b051231c4ef1b690be73487a6a8430e88cdfa26183a290acb31d88aba731d",
+    "status": "158 native / 70 process passed but complete campaign failed; never final-source qualification",
+    "sanitization": "workspace prefix redacted; trailing blank lines normalized"
+  },
+  {
+    "path": "historical/pre-wallet-frozen-autonomous-campaign.log",
+    "original_local_sha256": "0941d9de314449fee6c273267a3a6bc1a70510587a913a26a90493b66d735d61",
+    "public_sha256": "bd13fe1416a2fe5a33d9a5c129a9d2db50edaf365eb939716cc06495d2283c33",
+    "status": "158 native / 70 process passed but complete campaign failed; never final-source qualification",
+    "sanitization": "workspace prefix redacted; trailing blank lines normalized"
+  }
+]

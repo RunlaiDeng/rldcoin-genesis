@@ -1,0 +1,156 @@
+{"phase": "initialized twelve independent native stores"}
+{"phase": "waiting: node startup earth-0"}
+{"phase": "verified: node startup earth-0"}
+{"phase": "waiting: node startup earth-1"}
+{"phase": "verified: node startup earth-1"}
+{"phase": "waiting: node startup earth-2"}
+{"phase": "verified: node startup earth-2"}
+{"phase": "waiting: node startup earth-3"}
+{"phase": "verified: node startup earth-3"}
+{"phase": "waiting: node startup proxima-0"}
+{"phase": "verified: node startup proxima-0"}
+{"phase": "waiting: node startup proxima-1"}
+{"phase": "verified: node startup proxima-1"}
+{"phase": "waiting: node startup proxima-2"}
+{"phase": "verified: node startup proxima-2"}
+{"phase": "waiting: node startup proxima-3"}
+{"phase": "verified: node startup proxima-3"}
+{"phase": "waiting: node startup andromeda-0"}
+{"phase": "verified: node startup andromeda-0"}
+{"phase": "waiting: node startup andromeda-1"}
+{"phase": "verified: node startup andromeda-1"}
+{"phase": "waiting: node startup andromeda-2"}
+{"phase": "verified: node startup andromeda-2"}
+{"phase": "waiting: node startup andromeda-3"}
+{"phase": "verified: node startup andromeda-3"}
+{"phase": "waiting: Earth issuance matures under autonomous local BFT"}
+{"phase": "verified: Earth issuance matures under autonomous local BFT"}
+{"phase": "waiting: all twelve nodes discover three regions through adjacent contacts"}
+{"phase": "verified: all twelve nodes discover three regions through adjacent contacts"}
+{"phase": "waiting: node startup earth-0"}
+{"phase": "verified: node startup earth-0"}
+{"phase": "waiting: node startup earth-1"}
+{"phase": "verified: node startup earth-1"}
+{"phase": "waiting: node startup earth-2"}
+{"phase": "verified: node startup earth-2"}
+{"phase": "waiting: node startup earth-3"}
+{"phase": "verified: node startup earth-3"}
+{"phase": "waiting: earth autonomous certified height 7"}
+{"phase": "verified: earth autonomous certified height 7"}
+{"phase": "verified: autonomous selected joint epoch before first cross-region export"}
+{"phase": "waiting: earth native era-scoped actual signed export reaches all four carriers"}
+{"phase": "verified: earth native era-scoped actual signed export reaches all four carriers"}
+{"phase": "waiting: node startup earth-0"}
+{"phase": "verified: node startup earth-0"}
+{"phase": "waiting: node startup earth-1"}
+{"phase": "verified: node startup earth-1"}
+{"phase": "waiting: node startup earth-2"}
+{"phase": "verified: node startup earth-2"}
+{"phase": "waiting: node startup earth-3"}
+{"phase": "verified: node startup earth-3"}
+{"phase": "waiting: earth autonomous certified height 8"}
+{"phase": "verified: earth autonomous certified height 8"}
+{"phase": "waiting: Proxima keeps first proof while every Earth process stops"}
+{"phase": "verified: Proxima keeps first proof while every Earth process stops"}
+{"phase": "waiting: proxima authenticated evidence pending without ledger credit"}
+{"phase": "verified: proxima authenticated evidence pending without ledger credit"}
+{"phase": "waiting: node startup proxima-0"}
+{"phase": "verified: node startup proxima-0"}
+{"phase": "waiting: node startup proxima-1"}
+{"phase": "verified: node startup proxima-1"}
+{"phase": "waiting: node startup proxima-2"}
+{"phase": "verified: node startup proxima-2"}
+{"phase": "waiting: node startup proxima-3"}
+{"phase": "verified: node startup proxima-3"}
+{"phase": "waiting: proxima autonomous certified height 1"}
+{"phase": "verified: proxima autonomous certified height 1"}
+{"phase": "waiting: node startup proxima-0"}
+{"phase": "verified: node startup proxima-0"}
+{"phase": "waiting: node startup proxima-1"}
+{"phase": "verified: node startup proxima-1"}
+{"phase": "waiting: node startup proxima-2"}
+{"phase": "verified: node startup proxima-2"}
+{"phase": "waiting: node startup proxima-3"}
+{"phase": "verified: node startup proxima-3"}
+{"phase": "waiting: proxima autonomous certified height 3"}
+{"phase": "verified: proxima autonomous certified height 3"}
+{"phase": "waiting: proxima native era-scoped actual signed export reaches all four carriers"}
+{"phase": "verified: proxima native era-scoped actual signed export reaches all four carriers"}
+{"phase": "waiting: node startup proxima-0"}
+{"phase": "verified: node startup proxima-0"}
+{"phase": "waiting: node startup proxima-1"}
+{"phase": "verified: node startup proxima-1"}
+{"phase": "waiting: node startup proxima-2"}
+{"phase": "verified: node startup proxima-2"}
+{"phase": "waiting: node startup proxima-3"}
+{"phase": "verified: node startup proxima-3"}
+{"phase": "waiting: proxima autonomous certified height 4"}
+{"phase": "verified: proxima autonomous certified height 4"}
+{"phase": "waiting: andromeda authenticated evidence pending without ledger credit"}
+{"phase": "verified: andromeda authenticated evidence pending without ledger credit"}
+{"phase": "waiting: node startup andromeda-0"}
+{"phase": "verified: node startup andromeda-0"}
+{"phase": "waiting: node startup andromeda-1"}
+{"phase": "verified: node startup andromeda-1"}
+{"phase": "waiting: node startup andromeda-2"}
+{"phase": "verified: node startup andromeda-2"}
+{"phase": "waiting: node startup andromeda-3"}
+{"phase": "verified: node startup andromeda-3"}
+{"phase": "waiting: andromeda autonomous certified height 1"}
+{"phase": "verified: andromeda autonomous certified height 1"}
+{"phase": "waiting: node startup andromeda-0"}
+{"phase": "verified: node startup andromeda-0"}
+{"phase": "waiting: node startup andromeda-1"}
+{"phase": "verified: node startup andromeda-1"}
+{"phase": "waiting: node startup andromeda-2"}
+{"phase": "verified: node startup andromeda-2"}
+{"phase": "waiting: node startup andromeda-3"}
+{"phase": "verified: node startup andromeda-3"}
+{"phase": "waiting: andromeda autonomous certified height 3"}
+{"phase": "verified: andromeda autonomous certified height 3"}
+{"phase": "waiting: andromeda native era-scoped actual signed export reaches all four carriers"}
+{"phase": "verified: andromeda native era-scoped actual signed export reaches all four carriers"}
+{"phase": "waiting: node startup andromeda-0"}
+{"phase": "verified: node startup andromeda-0"}
+{"phase": "waiting: node startup andromeda-1"}
+{"phase": "verified: node startup andromeda-1"}
+{"phase": "waiting: node startup andromeda-2"}
+{"phase": "verified: node startup andromeda-2"}
+{"phase": "waiting: node startup andromeda-3"}
+{"phase": "verified: node startup andromeda-3"}
+{"phase": "waiting: andromeda autonomous certified height 4"}
+{"phase": "verified: andromeda autonomous certified height 4"}
+{"phase": "waiting: new return export remains queued while Earth is unreachable"}
+{"phase": "verified: new return export remains queued while Earth is unreachable"}
+{"phase": "waiting: node startup earth-0"}
+{"phase": "verified: node startup earth-0"}
+{"phase": "waiting: node startup earth-1"}
+{"phase": "verified: node startup earth-1"}
+{"phase": "waiting: node startup earth-2"}
+{"phase": "verified: node startup earth-2"}
+{"phase": "waiting: node startup earth-3"}
+{"phase": "verified: node startup earth-3"}
+{"phase": "waiting: earth authenticated evidence pending without ledger credit"}
+{"phase": "verified: earth authenticated evidence pending without ledger credit"}
+{"phase": "waiting: node startup earth-0"}
+{"phase": "verified: node startup earth-0"}
+{"phase": "waiting: node startup earth-1"}
+{"phase": "verified: node startup earth-1"}
+{"phase": "waiting: node startup earth-2"}
+{"phase": "verified: node startup earth-2"}
+{"phase": "waiting: node startup earth-3"}
+{"phase": "verified: node startup earth-3"}
+{"phase": "waiting: earth autonomous certified height 9"}
+{"phase": "verified: earth autonomous certified height 9"}
+{"phase": "waiting: node startup earth-0"}
+{"phase": "verified: node startup earth-0"}
+{"phase": "waiting: node startup earth-1"}
+{"phase": "verified: node startup earth-1"}
+{"phase": "waiting: node startup earth-2"}
+{"phase": "verified: node startup earth-2"}
+{"phase": "waiting: node startup earth-3"}
+{"phase": "verified: node startup earth-3"}
+{"phase": "waiting: earth autonomous certified height 11"}
+{"phase": "verified: earth autonomous certified height 11"}
+{"phase": "verified: autonomous three-region value cycle"}
+{"completed": true, "failure": null}

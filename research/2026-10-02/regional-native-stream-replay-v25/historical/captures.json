@@ -1,0 +1,24 @@
+[
+  {
+    "label": "compiler",
+    "scope": "Native src only; not a full workspace freeze",
+    "captured_at_diagnosis": true,
+    "full_workspace_freeze": false,
+    "rust_files": 34,
+    "raw_local_log_sha256": "379107a032cd5c9ce7b127607f7c0e3e2e3b21e9594d139ffedcb20610a596db",
+    "public_log_redaction": "workspace path only; all other whitespace/bytes retained",
+    "public_log_sha256": "74a0b8f84b628b61e81978ee6393fc9f08dbb3541b6b5deebfb0df704834723d",
+    "capture_json_sha256": "930908f729fc700a10f19ab5dedd479ef8dc6b1abef40065e20d8ba44f4a9247"
+  },
+  {
+    "label": "clippy",
+    "scope": "Native src only; not a full workspace freeze",
+    "captured_at_diagnosis": true,
+    "full_workspace_freeze": false,
+    "rust_files": 34,
+    "raw_local_log_sha256": "0cdcae9ca0fad18e78fb5e99662624c657beea306b4b17c18a92df3ea65e3557",
+    "public_log_redaction": "workspace path only; all other whitespace/bytes retained",
+    "public_log_sha256": "64d357b15f5cba586bcff71aa6d4fe39e6410e3a79946e895645d8efc6f549a2",
+    "capture_json_sha256": "98a2c64c3e1eaf537a894d69bf1f9413acd540152268c9d2a9e6d47b638168d9"
+  }
+]

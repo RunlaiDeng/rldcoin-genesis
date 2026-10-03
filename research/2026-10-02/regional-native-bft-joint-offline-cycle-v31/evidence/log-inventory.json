@@ -1,0 +1,32 @@
+[
+  {
+    "path": "evidence/build.log",
+    "original_local_sha256": "16a6c89ca15a50e9fb8988a1944925cd097329bf400832f53e4b47df349410a3",
+    "public_sha256": "6a5bbb8ff7b9eda85d3b8ad640f6927c19586e0559380e261c54ff9a433824b8",
+    "sanitization": "workspace prefix redacted; trailing blank lines normalized"
+  },
+  {
+    "path": "evidence/process-checks.log",
+    "original_local_sha256": "635db528c30dbcbf6039896ba8ea1d69c0212951f071035a488d8e0b7a26bdef",
+    "public_sha256": "635db528c30dbcbf6039896ba8ea1d69c0212951f071035a488d8e0b7a26bdef",
+    "sanitization": "workspace prefix redacted; trailing blank lines normalized"
+  },
+  {
+    "path": "evidence/campaign.log",
+    "original_local_sha256": "15f38c6ed85175cdfb1884fd030a413bbcd630c70481c86e4937343dea0535fd",
+    "public_sha256": "15f38c6ed85175cdfb1884fd030a413bbcd630c70481c86e4937343dea0535fd",
+    "sanitization": "workspace prefix redacted; trailing blank lines normalized"
+  },
+  {
+    "path": "evidence/cold.log",
+    "original_local_sha256": "0016c13549d42b93a0130be7e4d5e401ce3da3d7669a3d89a5e305657172bc15",
+    "public_sha256": "0016c13549d42b93a0130be7e4d5e401ce3da3d7669a3d89a5e305657172bc15",
+    "sanitization": "workspace prefix redacted; trailing blank lines normalized"
+  },
+  {
+    "path": "evidence/final-build.log",
+    "original_local_sha256": "c1502d00149b204e80636a8f97231f7202e076bb06a4f5e546ce55022ac170cb",
+    "public_sha256": "e2fd7cf82c936e206e79ebb9b6313775ac8c290789ddc52d954b6560f373a387",
+    "sanitization": "workspace prefix redacted; trailing blank lines normalized"
+  }
+]

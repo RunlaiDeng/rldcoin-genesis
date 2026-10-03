@@ -1,0 +1,3 @@
+   Compiling rld-regional-ledger-candidate v0.1.0 (/LOCAL_WORKSPACE/tmp/default-relay-20260930/native-incremental-index-final-reviewed-source-20261002/tools/regional-ledger)
+   Compiling rld-core v0.2.0 (/LOCAL_WORKSPACE/tmp/default-relay-20260930/native-incremental-index-final-reviewed-source-20261002/crates/rld-core)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 14.11s

@@ -1,0 +1,50 @@
+[
+  {
+    "path": "evidence/native-build.log",
+    "original_local_sha256": "4dd0387640aa51dd3b9523032904e9e5eb7a2bba58edeb4a9767e65c007e6586",
+    "public_sha256": "0bcf3624ce638978d4d214308890446a3355d751e3ded3b87dec80d53781f29e",
+    "sanitization": "workspace prefix redacted; trailing blank lines normalized"
+  },
+  {
+    "path": "evidence/earlier-process-tests.log",
+    "original_local_sha256": "cb058c19c47d9c2e5fbb3e94bc07d424acccba3d94c17c82c583097aab5e113a",
+    "public_sha256": "cb058c19c47d9c2e5fbb3e94bc07d424acccba3d94c17c82c583097aab5e113a",
+    "sanitization": "workspace prefix redacted; trailing blank lines normalized"
+  },
+  {
+    "path": "evidence/failed-selection-cycle.log",
+    "original_local_sha256": "800ed6c6cdd5ea1351db98de099fe8657e2c82116f4b5aa59d53382604d5f23b",
+    "public_sha256": "a93796280aad283e8ba46c9cad956a997762b485d1fc52e77eb1ab1fa4f1d8a4",
+    "sanitization": "workspace prefix redacted; trailing blank lines normalized"
+  },
+  {
+    "path": "evidence/process-tests.log",
+    "original_local_sha256": "bcee34d54a9d1da6051f95d1cabc29ec3faa954abdb6f40e45be97ee2f795228",
+    "public_sha256": "bcee34d54a9d1da6051f95d1cabc29ec3faa954abdb6f40e45be97ee2f795228",
+    "sanitization": "workspace prefix redacted; trailing blank lines normalized"
+  },
+  {
+    "path": "evidence/cycle.log",
+    "original_local_sha256": "15f38c6ed85175cdfb1884fd030a413bbcd630c70481c86e4937343dea0535fd",
+    "public_sha256": "15f38c6ed85175cdfb1884fd030a413bbcd630c70481c86e4937343dea0535fd",
+    "sanitization": "workspace prefix redacted; trailing blank lines normalized"
+  },
+  {
+    "path": "evidence/cycle-cold.log",
+    "original_local_sha256": "3495d9d7542631bc2cc0f9ae01d2ffad63104162785691af1eef70c8ae6ac1e9",
+    "public_sha256": "3495d9d7542631bc2cc0f9ae01d2ffad63104162785691af1eef70c8ae6ac1e9",
+    "sanitization": "workspace prefix redacted; trailing blank lines normalized"
+  },
+  {
+    "path": "evidence/fresh-fault.log",
+    "original_local_sha256": "145398d39f35158951049cb26da7be23bb6ddcb75ef50a976d50c62498881228",
+    "public_sha256": "145398d39f35158951049cb26da7be23bb6ddcb75ef50a976d50c62498881228",
+    "sanitization": "workspace prefix redacted; trailing blank lines normalized"
+  },
+  {
+    "path": "evidence/fault-cold.log",
+    "original_local_sha256": "6a7d08e737a31d44213cd201132e91c8392c63d3e3b35da2978523b5730056e3",
+    "public_sha256": "6a7d08e737a31d44213cd201132e91c8392c63d3e3b35da2978523b5730056e3",
+    "sanitization": "workspace prefix redacted; trailing blank lines normalized"
+  }
+]

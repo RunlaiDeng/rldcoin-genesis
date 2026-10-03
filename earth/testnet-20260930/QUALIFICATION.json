@@ -1,0 +1,29 @@
+{
+  "test_only": true,
+  "has_monetary_value": false,
+  "mainnet_authorized": false,
+  "new_mainnet_launched": false,
+  "old_balances_migrate": false,
+  "implementation_source": "d4fdaf6dbb05d00e1820f585dc7ddeb5f0d10f927b003d4551c0429a92d66b54",
+  "source_chain_id": "e8a8dd66eac5a8fe70816901c6b06035fc92b2193213d8fa0f00d2f10a32438e",
+  "destination_chain_id": "6f952ed6eff0aa16d27bd18ab6c760357a21770a954952fffeb4852537c5363a",
+  "macos_protocol": {
+    "passed": 104,
+    "failed": 0,
+    "ignored": 2
+  },
+  "linux_protocol": {
+    "passed": 104,
+    "failed": 0,
+    "ignored": 2
+  },
+  "macos_wallet": {
+    "passed": 23,
+    "failed": 0,
+    "ignored": 1
+  },
+  "twohost_restart_height": "964",
+  "browser_test_transfer_selected": true,
+  "operator_independence": false,
+  "master_plan_complete": false
+}

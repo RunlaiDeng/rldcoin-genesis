@@ -1,0 +1,31 @@
+   Compiling rld-regional-ledger-candidate v0.1.0 (/Users/galaxy/GitHub/星际货币/tools/regional-ledger)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 2.79s
+     Running unittests src/lib.rs (tmp/default-relay-20260930/native-history-archive-workspace-target-20261001/debug/deps/rld_regional_ledger_candidate-90e75562266a8bf8)
+
+running 10 tests
+test tests::history_archives::source_or_archive_lock_pending_guard_and_unpublished_archive_refuse ... ok
+test tests::history_archives::fully_rehashed_forged_finality_still_requires_complete_native_authority ... FAILED
+test tests::history_archives::existing_target_and_caller_wallet_state_never_overwrite_or_merge ... ok
+test tests::history_archives::latest_external_head_refuses_old_valid_archive_and_wrong_native_authority_before_target_creation ... ok
+test tests::history_archives::interrupted_restore_keeps_marker_and_refuses_even_a_subsequently_complete_image ... ok
+test tests::history_archives::immutable_tail_orphans_and_damaged_incident_residue_are_carried_without_value_rights ... ok
+test tests::history_archives::authenticated_incidents_quarantine_and_import_tombstones_survive_restoration ... ok
+test tests::history_archives::archive_link_permissions_and_source_manifest_residue_are_not_repaired ... ok
+test tests::history_archives::missing_corrupt_extra_and_traversal_entries_refuse_without_creating_target ... ok
+test tests::history_archives::full_native_pages_finality_real_payment_and_private_scopes_restore_exactly ... ok
+
+failures:
+
+---- tests::history_archives::fully_rehashed_forged_finality_still_requires_complete_native_authority stdout ----
+
+thread 'tests::history_archives::fully_rehashed_forged_finality_still_requires_complete_native_authority' (6722564) panicked at src/history_archive_tests.rs:342:5:
+expected 64 bytes
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+
+failures:
+    tests::history_archives::fully_rehashed_forged_finality_still_requires_complete_native_authority
+
+test result: FAILED. 9 passed; 1 failed; 0 ignored; 0 measured; 99 filtered out; finished in 3.70s
+
+error: test failed, to rerun pass `--lib`

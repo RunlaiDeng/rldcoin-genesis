@@ -1,0 +1,65 @@
+[
+  {
+    "path": "evidence/final-clippy.log",
+    "original_local_sha256": "ea1bc8bb431fe973f19639c4733790d96001e2371437da3a4da29c7b8eea02bb",
+    "public_sha256": "5d01528230b548fac8177562b8eb9460d1d45fc9baeadb34bd699e931a426d6d",
+    "status": "passed",
+    "sanitization": "workspace prefix redacted; trailing blank lines normalized"
+  },
+  {
+    "path": "evidence/final-checked-build.log",
+    "original_local_sha256": "3665d88e7c8bcd04f3ee757cd6efa1ce399c7c8f08d01d7ed967d265750da7ab",
+    "public_sha256": "b16f77905a6bc3bd467a1ce134847f6c5c1623d81d10a0192d201417a2af5d99",
+    "status": "passed",
+    "sanitization": "workspace prefix redacted; trailing blank lines normalized"
+  },
+  {
+    "path": "evidence/final-native-tests.log",
+    "original_local_sha256": "db01e8a86a7444350bd1bae68f897c101c0784c652c904831228d75bfaead401",
+    "public_sha256": "f6da65b58ecf4be47d116e3d1563dc0e78aa9913cadd109c4609967ec1477a73",
+    "status": "passed",
+    "sanitization": "workspace prefix redacted; trailing blank lines normalized"
+  },
+  {
+    "path": "evidence/final-process-tests.log",
+    "original_local_sha256": "0e75e09bce5d886de7415579a67afa4f8e214c8797290a63d4aa3a81e39a51de",
+    "public_sha256": "0e75e09bce5d886de7415579a67afa4f8e214c8797290a63d4aa3a81e39a51de",
+    "status": "passed",
+    "sanitization": "workspace prefix redacted; trailing blank lines normalized"
+  },
+  {
+    "path": "evidence/final-epoch-cli-campaign.log",
+    "original_local_sha256": "9e770737bac8518d3ada8148165bfb0f268f68c28e23dcd0ebdffa076ceecb05",
+    "public_sha256": "9e770737bac8518d3ada8148165bfb0f268f68c28e23dcd0ebdffa076ceecb05",
+    "status": "passed",
+    "sanitization": "workspace prefix redacted; trailing blank lines normalized"
+  },
+  {
+    "path": "historical/initial-test-compilation.log",
+    "original_local_sha256": "028b512e47990b76eb330c4cc50eb4bda6ef8275080cf8c0b13d520d019d3908",
+    "public_sha256": "8183db09270523b8846c34b46ec8fc49061883e784719c0672d6e942044e3953",
+    "status": "refused; not inherited as a pass",
+    "sanitization": "workspace prefix redacted; trailing blank lines normalized"
+  },
+  {
+    "path": "historical/initial-focused-refusal.log",
+    "original_local_sha256": "69e6a3069e6b239cb8ca16b7636e7629c58117ea5b9b509f3d6cea4d4b670ac9",
+    "public_sha256": "af7e2da3cf728290c4179eae8b1bc05c11f56caadcb178441e8795c863d32f40",
+    "status": "refused; not inherited as a pass",
+    "sanitization": "workspace prefix redacted; trailing blank lines normalized"
+  },
+  {
+    "path": "historical/initial-strict-refusal.log",
+    "original_local_sha256": "454a09ea3952a0142cb8a15a865b6fb1152576e4556eca3a1fb2e57e13adc3ed",
+    "public_sha256": "8ba208421c00c08c1c60b9d7eb4f684614780733d70e8eb271e60732abf3e7ad",
+    "status": "refused; not inherited as a pass",
+    "sanitization": "workspace prefix redacted; trailing blank lines normalized"
+  },
+  {
+    "path": "historical/initial-cli-refusal.log",
+    "original_local_sha256": "e53be6d4bcda9c1f5d1a21bc0900b2947f31b438eb4569c8c53cce05aa81a67c",
+    "public_sha256": "cf0540c76c79d2c99359df4beea7c1d2c79a23964b9a5fda0b257d025ef9804f",
+    "status": "refused; not inherited as a pass",
+    "sanitization": "workspace prefix redacted; trailing blank lines normalized"
+  }
+]

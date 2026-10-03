@@ -1,0 +1,31 @@
+{
+  "format": "RLD-V26-HISTORICAL-SOURCE-CAPTURES-V1",
+  "captures": [
+    {
+      "archive": "segmented-expiry-native-source-only.tar.gz",
+      "sha256": "b980f9d5dd7b3e6cf444ea3a650a45ac8289c227c4009a4b335aa71e1032c20a",
+      "native_source_only": true,
+      "full_workspace_freeze": false,
+      "current_qualification_inherited": false,
+      "generated_private_state_included": false
+    },
+    {
+      "archive": "paged-compiler-native-source-only.tar.gz",
+      "sha256": "95147bc7c04a0d687e14531e9812065f2f51d2aa9a6ff84da7af4de8c5889a1b",
+      "native_source_only": true,
+      "full_workspace_freeze": false,
+      "current_qualification_inherited": false,
+      "generated_private_state_included": false
+    },
+    {
+      "archive": "paged-wallet-scan-native-source-only.tar.gz",
+      "sha256": "f46fc43d39648c4f80027046d8cc3b28ced32920b24082d844e09cf6088e86a4",
+      "native_source_only": true,
+      "full_workspace_freeze": false,
+      "current_qualification_inherited": false,
+      "generated_private_state_included": false
+    }
+  ],
+  "failed_private_stores_retained_locally": true,
+  "failed_private_stores_published": false
+}

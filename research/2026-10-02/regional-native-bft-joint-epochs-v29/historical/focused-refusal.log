@@ -1,0 +1,34 @@
+   Compiling rld-regional-ledger-candidate v0.1.0 (/LOCAL_WORKSPACE/tools/regional-ledger)
+warning: variable does not need to be mutable
+   --> src/joint_epoch_tests.rs:276:9
+    |
+276 |     let mut h = Harness::with_rules(bft::JOINT_RULES);
+    |         ----^
+    |         |
+    |         help: remove this `mut`
+    |
+    = note: `#[warn(unused_mut)]` (part of `#[warn(unused)]`) on by default
+
+warning: `rld-regional-ledger-candidate` (lib test) generated 1 warning (run `cargo fix --lib -p rld-regional-ledger-candidate --tests` to apply 1 suggestion)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 1.91s
+     Running unittests src/lib.rs (tmp/default-relay-20260930/native-bft-joint-target-20261002/debug/deps/rld_regional_ledger_candidate-90e75562266a8bf8)
+
+running 4 tests
+test tests::regional_bft::joint_activation::joint_selection_blocks_unfenced_old_timeout_and_wrong_plan_fence ... ok
+
+thread 'tests::regional_bft::joint_activation::joint_plan_is_separately_admitted_and_invalid_plans_do_not_debit' (176304) panicked at src/bft_tests.rs:51:85:
+called `Result::unwrap()` on an `Err` value: "region has not authorized the BFT profile"
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+test tests::regional_bft::joint_activation::joint_plan_is_separately_admitted_and_invalid_plans_do_not_debit ... FAILED
+test tests::regional_bft::joint_activation::joint_unselected_changed_or_undersigned_activation_never_advances_native_state ... ok
+{"autonomous_reconfiguration":false,"fixture_only":true,"format":"RLD-BFT-JOINT-EPOCH-NATIVE-SAMPLE-V1","full_cold_replay":true,"height":5,"independent_custody_qualified":false,"live_rld":false,"minted":"300","missing_local_epoch_event_refused":true,"native_implementation":"5e3ee912785059aef55e52396d339580bdfd20426d68924cabdaf8afe8a73c34","new_approvals":3,"old_exact_response_keyless_recovery":true,"old_fences":3,"old_selection_prepare_commit_votes":3,"one_old_and_one_new_absent":true,"selection_round":1,"signed_owner_payment_preserved":true,"stale_backup_refused_with_retained_head":true}
+test tests::regional_bft::joint_activation::joint_selected_plan_completes_with_missing_old_new_and_real_owner_value ... ok
+
+failures:
+
+failures:
+    tests::regional_bft::joint_activation::joint_plan_is_separately_admitted_and_invalid_plans_do_not_debit
+
+test result: FAILED. 3 passed; 1 failed; 0 ignored; 0 measured; 149 filtered out; finished in 5.38s
+
+error: test failed, to rerun pass `--lib`

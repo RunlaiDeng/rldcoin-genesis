@@ -1,0 +1,70 @@
+{
+  "format": "RLD-REGIONAL-EPOCHS-SUPPLEMENTAL-SOURCE-V1",
+  "files": [
+    {
+      "path": "tools/regional-ledger/Cargo.toml",
+      "bytes": 469,
+      "sha256": "09dc8932398ee4620d2ec43fab77c1235d22bf6b7e65a455bcc9c4706df35eae"
+    },
+    {
+      "path": "tools/regional-ledger/Cargo.lock",
+      "bytes": 15371,
+      "sha256": "43fa18bb85462e131bb30675220396ec08e2b482026f1349e3f5e736c4ca6919"
+    },
+    {
+      "path": "tools/regional-ledger/build.rs",
+      "bytes": 1322,
+      "sha256": "0dfa707932e52dd116add44b14d4837cdeb771972290d37981d65ee6e2115cfa"
+    },
+    {
+      "path": "tools/regional-ledger/README.md",
+      "bytes": 7494,
+      "sha256": "976bf4fadbb5c082a050f7bbe12a15f2a126b564d2ab277f5f285cbd29fdddff"
+    },
+    {
+      "path": "tools/regional-ledger/src/bin/fixture-campaign.rs",
+      "bytes": 29476,
+      "sha256": "e8bb475ab89a29fd9ebf75bdc7bd67f4b1525d46f36041fc084482dd5dff43fe"
+    },
+    {
+      "path": "tools/regional-ledger/src/conflict.rs",
+      "bytes": 8407,
+      "sha256": "2f755e8f4f39884d5b5bcea9d778c972a523761a2768057b6fcb182da08fb4e0"
+    },
+    {
+      "path": "tools/regional-ledger/src/epoch.rs",
+      "bytes": 8721,
+      "sha256": "39256fe8376226bbc1b6d2cbe68d94ce0f49abb0e49828c699979aa3c884fd57"
+    },
+    {
+      "path": "tools/regional-ledger/src/epoch_tests.rs",
+      "bytes": 15669,
+      "sha256": "f5053ffc302f123efff0f2d0d6d1185eb86540e5aa4050d7c38479a6c1b523dd"
+    },
+    {
+      "path": "tools/regional-ledger/src/lib.rs",
+      "bytes": 30464,
+      "sha256": "54b4f10deac8edbd35d19962f47e67f52edc2d9047af3e41f914b09b6b5759a8"
+    },
+    {
+      "path": "tools/regional-ledger/src/main.rs",
+      "bytes": 7862,
+      "sha256": "1e21b04600c22dfa0dcd4f5b214031289377d7441bfc190930d364bc860f361d"
+    },
+    {
+      "path": "tools/regional-ledger/src/signer.rs",
+      "bytes": 18394,
+      "sha256": "fca17776dcbbab48081a3fdd9b37b1a1129ffcf664f428ac7890d585327392f8"
+    },
+    {
+      "path": "tools/regional-ledger/src/storage.rs",
+      "bytes": 24113,
+      "sha256": "7827e89c35543ab7ebd96390a305da8de45ee25f982c64d50d468169518f0f36"
+    },
+    {
+      "path": "tools/regional-ledger/src/tests.rs",
+      "bytes": 36127,
+      "sha256": "c0674f42bb4d7697506a1fff1d995c4db5d716947e893d65e71886afc8ae1fcc"
+    }
+  ]
+}

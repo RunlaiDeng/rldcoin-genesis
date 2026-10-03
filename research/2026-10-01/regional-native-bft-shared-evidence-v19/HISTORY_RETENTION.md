@@ -1,0 +1,109 @@
+# Regional native history retention: implementation obligations
+
+The current native candidate is not a long-history ledger. `MAX_BLOCKS=256`,
+`MAX_SNAPSHOTS=64`, `MAX_BYTES=8 MiB`, and 4,096 coin/export/import entries are
+explicit refusal boundaries. Every snapshot carries the complete regional block
+prefix; incoming export evidence carries verified predecessor/dependency closure.
+Raising these numbers alone does not satisfy master-plan I2 or I10.
+
+## Current native groundwork
+
+The published revision-18 prefix candidate reuses an exact predecessor's completely
+replayed ledger inside one process, bound to the full currency/admission trust
+set. It compares the carried block prefix, authenticates incoming certificates
+and epochs, and executes every new block through normal native rules. Cold
+verification derives the starting ledgers from genesis; no cached ledger is
+deserialized as value authority. Block acceptance validates prospective finality
+and the complete new ledger before changing either. A failed tail cannot install
+an anchor. Preparing epoch authority changes copies only the registry.
+
+This removes duplicate work within the current bounded representation. It does
+not provide durable paged history, compact remote value proofs, rollback roots,
+history beyond 256 blocks, or a 200,000-block-era acceptance result. A changed
+native implementation requires fresh fixture genesis/currency. Retired, adopted
+and earlier candidate records retain their exact original source commitments.
+
+## Required storage and proof boundary
+
+The next native representation must separate immutable durable history from its
+bounded active replay state. Each history page needs a domain/version, exact
+currency and region, ordered height range, predecessor commitment and canonical
+record bytes. A manifest must commit to all retained pages, finality/era proofs,
+authenticated incidents and permanent import identity commitments. Restoring
+from a manifest alone cannot make an unsigned ledger snapshot trustworthy.
+
+Initial verification must replay from the signed zero-allocation genesis or from
+a previously fully verified exact prefix protected by a surviving latest-state
+anchor. New checkpoint extensions must bind the predecessor's complete state,
+history and import commitments. They may execute only their suffix after exact
+parent verification; an unverified sender-supplied balance cannot become that
+parent. Full owner consent, source issuance/conservation, local maturity, regional
+finality, export debit, import uniqueness and transitive incidents remain native
+rules. Legacy unanimous regions cannot silently lower their threshold, and a
+new storage dialect does not grant BFT reconfiguration or recovery authority.
+
+Remote proof carriage also needs bounded verified dependency access. Splitting
+the same unbounded prefix into transport pages without authenticated closure,
+resource admission and native reconstruction is insufficient. Missing pages or
+unknown delayed cryptographic/era authority must preserve pending value and
+refuse acceptance; a receipt or deadline never releases the source export.
+
+## Durable publication and recovery obligations
+
+1. Write and synchronize immutable payloads before making a manifest/head visible.
+   Retain interruption residue; do not treat an unverified orphan as an accepted
+   page. A response acknowledging custody requires actual retained bytes and
+   synchronized file/directory durability.
+2. Protect an exact latest native state observation outside the rollback domain.
+   Detect missing history, old manifests, disappearance of import tombstones,
+   finality/era regression and vanished authenticated incidents. If every archive
+   and anchor can roll back together, independent rollback protection is absent.
+3. Restore into a fresh private target with an interruption marker, reconstruct
+   value and authority, and compare complete roots before opening it. Never
+   overwrite an existing caller head, signer reservation or wallet pending review.
+4. Quantify bounded active memory, immutable archive bytes/files, source and
+   destination proof work, refusal at disk/capacity limits and complete recovery
+   costs. Retention may compress exact bytes; it cannot discard unresolved value,
+   signer locks, permanent import identities or required historical authority.
+
+## Acceptance still required
+
+Run an actual native history beyond the first declared 200,000-block issuance era
+under the applicable issuance rules, with local payments, delayed original
+exports/imports, onward/return value and all I=U+T checks. Recover from separately
+retained archives; corrupt, omit, reorder and substitute pages, roots, old heads,
+finality/era evidence and import commitments. Exercise interrupted writes,
+full storage and stale backups. These faults must not create spendable assets or
+refund included exports. A fast empty fixture loop alone does not meet this gate.
+
+Same-host testing is local evidence. Independent archive operators, custody,
+security review, power-loss storage assumptions and actual physical routes remain
+separate prerequisites. No second host or independent operator is currently
+available; continue native implementation without claiming those qualifications.
+
+## Supplemental exact shared evidence storage candidate
+
+The companion now stores immutable canonical bytes for distinct complete
+evidence snapshots, indexed by their full byte SHA-256. Each original envelope
+retains the ordered reference list (including repeated entries), full body,
+value/local flag and original canonical digest/size. Reconstruction returns new
+objects; the process holds no mutable trusted proof. Before expansion, exact
+encoded size must match and remain at most 3 MiB. The combined storage wrapper
+still refuses above 32 MiB and at 512 messages; snapshots are not pruned.
+
+`RLD-REGIONAL-BFT-RETENTION-V2` is supplemental storage, not a signed rule or
+proof format. Legacy private state refuses unchanged. Every new envelope is
+fully authenticated by Rust before retention, and cold startup/verifiers fully
+reconstruct and authenticate every retained envelope. Failed disk persistence
+keeps exact already-signed responses in the separate caller-head outbox;
+restart recovery cannot first-sign. Missing/substituted/orphan bytes, changed
+metadata, expansion overflow and forged certificates refuse.
+
+A byte-only diagnostic round-tripped all 2,259 envelopes in the twelve stopped
+revision-18 failed stores, preserving bodies, complete evidence, values and
+local flags. Maximum inline state was 33,529,748 bytes; prospective exact shared
+state was at most 1,628,727 bytes. Private files were unchanged and were not
+migrated. This accounting does not prove native authentication, repair the
+failed run, qualify the full fault profile or meet the long-history gates.
+Fresh source freezing, lifecycle value/fault runs and stopped-state native
+authentication remain separate required evidence.

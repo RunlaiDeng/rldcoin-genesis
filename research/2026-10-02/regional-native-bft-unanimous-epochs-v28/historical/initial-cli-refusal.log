@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "/LOCAL_WORKSPACE/tmp/default-relay-20260930/native-bft-epoch-final-reviewed-source-20261002/tools/regional_bft_epoch_campaign.py", line 91, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "/LOCAL_WORKSPACE/tmp/default-relay-20260930/native-bft-epoch-final-reviewed-source-20261002/tools/regional_bft_epoch_campaign.py", line 89, in main
+    print(json.dumps(campaign(a.binary,a.root,a.report)))
+                     ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/LOCAL_WORKSPACE/tmp/default-relay-20260930/native-bft-epoch-final-reviewed-source-20261002/tools/regional_bft_epoch_campaign.py", line 68, in campaign
+    before=append(payment(),old);ledger=before['ledger'];context=natives[0].call('bft-context')['context']
+                  ~~~~~~~^^
+  File "/LOCAL_WORKSPACE/tmp/default-relay-20260930/native-bft-epoch-final-reviewed-source-20261002/tools/regional_bft_epoch_campaign.py", line 66, in payment
+    draft=natives[0].call('wallet-prepare','--wallet-dir',wallet,'--expected-wallet-head',wallet_head,'--file',file(f'owner-intent-{count}',{'owner':public(10),'inputs':inputs,'outputs':[{'owner':public(10),'amount':'100'}],'fee':'0','valid_for_blocks':8,'remote':None}))
+  File "/LOCAL_WORKSPACE/tmp/default-relay-20260930/native-bft-epoch-final-reviewed-source-20261002/tools/regional_contact_node.py", line 47, in call
+    mesh.require(result.returncode == 0, 'native rejected: ' + errors.read(2048).decode('utf-8', errors='replace').strip())
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/LOCAL_WORKSPACE/tmp/default-relay-20260930/native-bft-epoch-final-reviewed-source-20261002/tools/interstellar_mesh.py", line 54, in require
+    raise ValueError(message)
+ValueError: native rejected: regional candidate rejected: wallet input is not owned, mature, finalized or safe

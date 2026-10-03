@@ -1,0 +1,28 @@
+{
+  "adoption_id": "1a3eff46128d54504102a60a65559f61998e0ffb3375befe4e26b1f047fa8eb5",
+  "destination_authorization_id": "38da90fbbfa330684bee71affe53a510302d13ce5ad4f768a8552f6cdd2da107",
+  "destination_chain_id": "6f952ed6eff0aa16d27bd18ab6c760357a21770a954952fffeb4852537c5363a",
+  "destination_signer": "70df9e2279adbec6d12bf2921184c9222eb24ed852005bf640139f52e59cd9ae",
+  "earth_adoption_id": "816c334ccfbb9f36d8e28bf7905f2d986808888ff350d0db876f5a646a025940",
+  "format": "RLD-EARTH-FRESH-TESTNET-V1",
+  "has_monetary_value": false,
+  "implementation_source": "d4fdaf6dbb05d00e1820f585dc7ddeb5f0d10f927b003d4551c0429a92d66b54",
+  "initial_source_height": "0",
+  "initial_source_issued": "0",
+  "mainnet_authorized": false,
+  "manifest_pin": "a8bb9ebc1d3246725325ce93974b0efde21d76ee1494091978314b46e7014118",
+  "miner": "5526f742941711b3bc530ba44ff6f6dab0f0ab71af832f41a7fe3b9fdaed9c60",
+  "old_balances_migrate": false,
+  "preview_id": "7e35a41673f254d338fa4fedfcc0d82240bed1eac378f12a81eaf1a23d5e081e",
+  "production_interval_selected": false,
+  "public_fixture_miner_seed": 60,
+  "public_fixture_validator_seeds": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "qualification_target_seconds": 600,
+  "source_chain_id": "e8a8dd66eac5a8fe70816901c6b06035fc92b2193213d8fa0f00d2f10a32438e",
+  "test_only": true
+}

@@ -1,0 +1,43 @@
+{"phase": "waiting: node startup earth-1"}
+{"phase": "verified: node startup earth-1"}
+{"phase": "waiting: node startup earth-2"}
+{"phase": "verified: node startup earth-2"}
+{"phase": "waiting: node startup earth-3"}
+{"phase": "verified: node startup earth-3"}
+{"phase": "waiting: node startup proxima-0"}
+{"phase": "verified: node startup proxima-0"}
+{"phase": "waiting: node startup proxima-1"}
+{"phase": "verified: node startup proxima-1"}
+{"phase": "waiting: node startup proxima-2"}
+{"phase": "verified: node startup proxima-2"}
+{"phase": "waiting: node startup proxima-3"}
+{"phase": "verified: node startup proxima-3"}
+{"phase": "waiting: node startup andromeda-0"}
+{"phase": "verified: node startup andromeda-0"}
+{"phase": "waiting: node startup andromeda-1"}
+{"phase": "verified: node startup andromeda-1"}
+{"phase": "waiting: node startup andromeda-2"}
+{"phase": "verified: node startup andromeda-2"}
+{"phase": "waiting: node startup andromeda-3"}
+{"phase": "verified: node startup andromeda-3"}
+{"phase": "waiting: three voters progress past offline parent-12 leader"}
+{"phase": "verified: three voters progress past offline parent-12 leader"}
+{"phase": "waiting: both isolated remote regions continue local certified progress"}
+{"phase": "verified: both isolated remote regions continue local certified progress"}
+{"phase": "waiting: node startup earth-0"}
+{"phase": "verified: node startup earth-0"}
+{"phase": "waiting: offline validator catches up through pinned TLS"}
+{"phase": "verified: offline validator catches up through pinned TLS"}
+{"phase": "waiting: retained new export imports uniquely and matures after contact restoration"}
+{"completed": false, "failure": "bounded ground observation deadline: retained new export imports uniquely and matures after contact restoration {\"('earth', 1)\": [], \"('earth', 2)\": [\"[Errno 35] Resource temporarily unavailable\", \"[Errno 35] Resource temporarily unavailable\"], \"('earth', 3)\": [\"TCP peer refused custody; retain queued evidence\"], \"('proxima', 0)\": [], \"('proxima', 1)\": [\"[Errno 35] Resource temporarily unavailable\", \"TCP peer refused custody; retain queued evidence\", \"[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)\", \"native rejected: regional candidate rejected: lock acquisition failed because the operation would block\", \"native rejected: regional candidate rejected: lock acquisition failed because the operation would block\", \"native rejected: regional candidate rejected: lock acquisition failed because the operation would block\", \"native rejected: regional candidate rejected: lock acquisition failed because the operation would block\"], \"('proxima', 2)\": [\"TCP peer refused custody; retain queued evidence\"], \"('proxima', 3)\": [\"TCP peer refused custody; retain queued evidence\"], \"('andromeda', 0)\": [], \"('andromeda', 1)\": [\"[Errno 35] Resource temporarily unavailable\", \"[Errno 35] Resource temporarily unavailable\", \"[Errno 35] Resource temporarily unavailable\", \"archive capacity reached; retain active evidence\"], \"('andromeda', 2)\": [\"archive capacity reached; retain active evidence\"], \"('andromeda', 3)\": [\"TCP peer refused custody; retain queued evidence\"], \"('earth', 0)\": []}", "sealed_source_unchanged": true}
+Traceback (most recent call last):
+  File "/LOCAL_WORKSPACE/tmp/default-relay-20260930/native-bft-autonomous-epoch-joint-fault-retry-complete-source-20261002/tools/regional_bft_sustained_campaign.py", line 618, in <module>
+    if __name__ == '__main__': main()
+                               ~~~~^^
+  File "/LOCAL_WORKSPACE/tmp/default-relay-20260930/native-bft-autonomous-epoch-joint-fault-retry-complete-source-20261002/tools/regional_bft_sustained_campaign.py", line 615, in main
+    execute(args, joint=args.joint_cycle)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/LOCAL_WORKSPACE/tmp/default-relay-20260930/native-bft-autonomous-epoch-joint-fault-retry-complete-source-20261002/tools/regional_bft_sustained_campaign.py", line 591, in execute
+    if failure is not None: raise ValueError(failure)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: bounded ground observation deadline: retained new export imports uniquely and matures after contact restoration {"('earth', 1)": [], "('earth', 2)": ["[Errno 35] Resource temporarily unavailable", "[Errno 35] Resource temporarily unavailable"], "('earth', 3)": ["TCP peer refused custody; retain queued evidence"], "('proxima', 0)": [], "('proxima', 1)": ["[Errno 35] Resource temporarily unavailable", "TCP peer refused custody; retain queued evidence", "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)", "native rejected: regional candidate rejected: lock acquisition failed because the operation would block", "native rejected: regional candidate rejected: lock acquisition failed because the operation would block", "native rejected: regional candidate rejected: lock acquisition failed because the operation would block", "native rejected: regional candidate rejected: lock acquisition failed because the operation would block"], "('proxima', 2)": ["TCP peer refused custody; retain queued evidence"], "('proxima', 3)": ["TCP peer refused custody; retain queued evidence"], "('andromeda', 0)": [], "('andromeda', 1)": ["[Errno 35] Resource temporarily unavailable", "[Errno 35] Resource temporarily unavailable", "[Errno 35] Resource temporarily unavailable", "archive capacity reached; retain active evidence"], "('andromeda', 2)": ["archive capacity reached; retain active evidence"], "('andromeda', 3)": ["TCP peer refused custody; retain queued evidence"], "('earth', 0)": []}
